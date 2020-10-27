@@ -1,0 +1,36 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\usepackage[dvipsnames]{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage[numbers]{natbib}
+
+\begin{document}
+\begin{titlepage}
+	\centering
+	{\includegraphics[width=0.8\textwidth]{logo}\par}
+	\vspace{1cm}
+	{\Large Facultad de Ingeniería Informática \par}
+	\vspace{3cm}
+	{\scshape\Huge Trabajo de  fin de grado de aplicación web APs \par}
+	\vspace{3cm}
+	{\Large Daniela Nicoleta \par}
+	{\Large Jesus Sanchez Granado \par}
+	{\Large Victoria Gnatiuk Romaniuk \par}
+\end{titlepage}
+%Sección de resumen
+\begin{abstract}
+\end{abstract}
+%Otras secciones
+\section{Introducción}
+\section{Pruebas de robustez}
+Lo primero que hicimos al ponernos a trabajar en el TFG fue realizar una prueba de robustez a la aplicación web de David desplegada en Herouku.\\
+Al hacerlo identificamos varios problemas, algunos más graves que otros. Todos estos problemas los fuimos anotando para poder arreglarlos posteriormente en la etapa de desarrollo.\\
+Uno de los problemas más graves que encontramos fue el bloqueo de la página web causada por varios acontecimientos como la subida de un fichero a un partenariado o proyecto existentes, la subida y posterior eliminación de una foto de perfil o la subida de una imagen a una iniciativa. Nos percatamos de que todos estos problemas tienen en común la tabla de base de datos llamada "uploads". Esto lo tendremos en cuenta a la hora de corregir los problemas 
+posteriormente.
+\section{Diseño de la base de datos}
+La base de datos se va a cambiar a una base de datos SQL ya que nos damos cuenta que la estructura de la base de datos es una base de datos relacional.
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
