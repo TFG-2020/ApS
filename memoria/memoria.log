@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  9 NOV 2020 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  7 DEC 2020 21:04
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -240,7 +240,10 @@ tex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count197
 \l__pdf_internal_box=\box47
-) (memoria.aux)
+) (memoria.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+)
 \openout1 = `memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -312,7 +315,7 @@ LaTeX Info: Redefining \nameref on input line 13.
 
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
-<logo.jpg, id=23, 410.53375pt x 107.40125pt>
+<logo.jpg, id=27, 410.53375pt x 107.40125pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 18.
@@ -321,10 +324,12 @@ Package pdftex.def Info: logo.jpg  used on input line 18.
 
 {C:/Users/vikto/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./logo.jpg>] (m
 emoria.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 4.
+(Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 4.
+(Font)              <5> on input line 5.
 )
 \tf@toc=\write4
 \openout4 = `memoria.toc'.
@@ -343,13 +348,13 @@ LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: EF0B9D6C19B26ED894604926ACC1555F;281.
+(rerunfilecheck)             Checksum: EA128D74688B34E32258ECA20087919D;339.
  ) 
 Here is how much of TeX's memory you used:
- 6811 strings out of 480235
- 104878 string characters out of 2880541
- 419025 words of memory out of 3000000
- 23252 multiletter control sequences out of 15000+200000
+ 6814 strings out of 480235
+ 104913 string characters out of 2880541
+ 423026 words of memory out of 3000000
+ 23254 multiletter control sequences out of 15000+200000
  537208 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,5n,66p,536b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -359,9 +364,9 @@ fonts/cm/cmbx12.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vikto/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on memoria.pdf (5 pages, 116607 bytes).
+Output written on memoria.pdf (5 pages, 120463 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
