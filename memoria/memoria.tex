@@ -66,14 +66,14 @@ La base de datos se va a cambiar a una base de datos SQL ya que nos damos cuenta
 
 \subsection{Objetivos}
 Realizamos nuestro TFG en base al trabajo de David Jiménez.
-Nuestro principales objetivos fueron rediseñar la aplicación, la BD, crear un DAO e implementar la funcionalidad de casamiento de ofertas y demandas.
+Nuestro principales objetivos fueron rediseñar la aplicación, la BD, crear un DAO e implementar la funcionalidad de emparejamiento de ofertas y demandas.
 A continuación, se detallan estas tareas:
 \begin{itemize}
-\item \textbf{Pruebas de robustez:} se realizaron pruebas de robustez al código de David detectando fallos existentes y posteriormente arreglando dichos fallos.
-\item \textbf{Diseño del modelo de dominio:} se volvió a rediseñar la aplicación desde cero teniendo en cuenta su futura implementación en un sistema real. Este diseño fue reflejado en un modelo de dominio y un modelo de datos.
-\item \textbf{Diseño de la BD:} David había cambiado la BD de MySQL a MongoDb alegando que así podría tener acceso a más documentación. Junto con nuestros tutores consideramos que la estructura de la aplicación se adapta mejor a una BD relacional y por ello hemos rediseñado la aplicación a una base de datos SQL.
-\item \textbf{Creación de un DAO:} usando la librería knex de Node.js hemos implementado un DAO para suministrar una interfaz común entre la aplicación y la base de datos.
-\item \textbf{Implementación de un sistema de casamiento de ofertas y demandas:} hemos implementado un sistema capaz de emparejar las ofertas de los profesores con las demandas de las entidades colaboradoras. Usando... %TO DO 
+\item \textbf{Pruebas de robustez:} se realizaron pruebas de depuración al código de David. Se observó que el sistema era muy robusto y estable, pero a pesar de ello se detectaron unos pocos fallos menores que fueron arreglados posteriormente.
+\item \textbf{Diseño del modelo de dominio:} se observó que el diseño de David no estaba preparado para un entorno de ejecución real y por ello se volvió a rediseñar la aplicación teniendo en cuenta su futura integración en un sistema real. Este diseño fue reflejado en un modelo de dominio que permitió reflejar todos los temas relacionados con la aplicación, sus entidades, atributos, relaciones y las restricciones que rigen el dominio del problema.
+\item \textbf{Diseño de la BD:} David había cambiado la BD de MySQL a MongoDb alegando que así podría tener acceso a más documentación. Junto con nuestros tutores, consideramos que la estructura de la aplicación se adapta mejor a una BD relacional y por ello se ha rediseñado la base de datos del sistema a una base de datos SQL.
+\item \textbf{Creación de un DAO:} usando la librería knex de Node.js se ha implementado el patrón DAO para suministrar una interfaz común entre la aplicación y la base de datos separando de esta manera la lógica de acceso a datos de la lógica de negocio.
+\item \textbf{Implementación de un sistema de emparejamiento:} se ha implementado la lógica de emparejamiento de las ofertas de servicio ofertadas por los profesores y las demandas de servicio solicitadas por las entidades beneficiarias resolviendo de esta manera el principal problema de esta aplicación.
 \end{itemize}
 
 
