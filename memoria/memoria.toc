@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Resumen}{2}{section.1}%
+\contentsline {section}{\numberline {2}Abstract}{3}{section.2}%
+\contentsline {section}{\numberline {3}Introducción}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Pruebas de robustez}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Diseño de la base de datos}{4}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Plan de investigación}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fase 0: Documentación sobre el ApS}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Fase 1: Revisión y evolución del proyecto}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Fase 2: Implementación y Documentación}{4}{subsection.4.3}%
