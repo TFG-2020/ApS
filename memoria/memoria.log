@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  8 DEC 2020 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  11 DEC 2020 20:30
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -347,8 +347,14 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: EA128D74688B34E32258ECA20087919D;339.
+
+Package rerunfilecheck Warning: File `memoria.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `memoria.out':
+(rerunfilecheck)             Before: 1647051E85DD20B92C048CA4B1D50284;345
+(rerunfilecheck)             After:  EA128D74688B34E32258ECA20087919D;339.
  ) 
 Here is how much of TeX's memory you used:
  6814 strings out of 480235
@@ -364,7 +370,7 @@ fonts/cm/cmbx12.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vikto/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on memoria.pdf (5 pages, 121487 bytes).
+Output written on memoria.pdf (5 pages, 121517 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)
