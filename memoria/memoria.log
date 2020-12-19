@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  9 DEC 2020 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  19 DEC 2020 15:34
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -339,23 +339,23 @@ LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 6B5EEE85024DB40E8DAEBBDAF1A2AC46;615.
+(rerunfilecheck)             Checksum: 462B433F917B861642BA73CB25C8AFF1;659.
  ) 
 Here is how much of TeX's memory you used:
  6823 strings out of 480236
- 102004 string characters out of 2890412
- 425029 words of memory out of 3000000
+ 102044 string characters out of 2890412
+ 425034 words of memory out of 3000000
  23259 multiletter control sequences out of 15000+200000
  537208 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,5n,66p,610b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,5n,66p,581b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
 7.pfb>
-Output written on memoria.pdf (5 pages, 131170 bytes).
+Output written on memoria.pdf (5 pages, 131254 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
