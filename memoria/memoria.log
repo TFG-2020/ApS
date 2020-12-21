@@ -1,5 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  21 DEC 2020 19:09
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  21 DEC 2020 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  21 DEC 2020 19:22
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -315,7 +314,7 @@ LaTeX Info: Redefining \nameref on input line 12.
 
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
-<logo.jpg, id=39, 410.53375pt x 107.40125pt>
+<logo.jpg, id=43, 410.53375pt x 107.40125pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 17.
@@ -339,22 +338,22 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.36 \newpage
-              [1] [2] [3] (memoria.bbl
+              [1] [2] [3] [4] (memoria.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [4] (memoria.aux
+) [5] (memoria.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 462B433F917B861642BA73CB25C8AFF1;659.
+(rerunfilecheck)             Checksum: 2E920DD226634704236CEBA9E097A986;718.
  ) 
 Here is how much of TeX's memory you used:
- 6819 strings out of 480235
- 105028 string characters out of 2880541
- 425037 words of memory out of 3000000
- 23256 multiletter control sequences out of 15000+200000
+ 6823 strings out of 480235
+ 105069 string characters out of 2880541
+ 427037 words of memory out of 3000000
+ 23258 multiletter control sequences out of 15000+200000
  537208 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,5n,66p,581b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -364,9 +363,9 @@ fonts/cm/cmbx12.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vikto/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on memoria.pdf (5 pages, 123466 bytes).
+Output written on memoria.pdf (6 pages, 128178 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
