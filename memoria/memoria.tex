@@ -1,5 +1,4 @@
 \documentclass{article}
-\usepackage[utf8]{inputenc}
 
 \usepackage{graphicx}
 \usepackage[dvipsnames]{color}
@@ -9,7 +8,7 @@
 \usepackage{vmargin}
 %Para usar el español
 \usepackage[spanish]{babel}
-
+\usepackage[utf8]{inputenc}
 \begin{document}
 %Portada
 \setpapersize{A4}
@@ -63,6 +62,17 @@ posteriormente.
 %TO DO
 \subsection{Diseño de la base de datos}
 La base de datos se va a cambiar a una base de datos SQL ya que nos damos cuenta que la estructura de la base de datos es una base de datos relacional.
+
+\subsection{Plan de investigación}
+\subsubsection{Fase 0: Documentación sobre el ApS}
+Principalmente durante la fase inicial del proyecto, se ha realizado un esfuerzo por comprender el funcionamiento del ApS, para poder entender mejor el diseño de la aplicación y juzgar si había lugares en los que era necesario un enfoque distinto al que se les había otorgado. 
+\subsubsection{Fase 1: Revisión y evolución del proyecto}
+Durante esta primera fase se ha llevado a cabo un estudio de la memoria proporcionada por David Jiménez en su entrega del TFG, así como de la aplicación tanto en local como en servidor para detectar posibles bugs, de los cuales se hablará en la sección ``Prueba de Robustez''.
+Se realiza también un análisis de la base de datos y de las tecnologías escogidas para su realización.
+\subsubsection{Fase 2: Implementación y Documentación}
+Lo primero que se ha hecho ha sido arreglar diversos bugs de menor o mayor importancia que han sido encontrados durante la fase de prueba de robustez, tras lo que se ha procedido a un rediseño de la BD en SQL, dado que la gran mayoría de los datos guardados por la aplicación son estructurados, nos ha parecido una tecnología más adecuada que la de MongoDB.\\
+Durante este proceso ha surgido la necesidad de rediseñar algunas partes importantes de la base de datos, como la división de la tabla de ``Iniciativa'' en dos partes. Por un lado, tendríamos la ``oferta de servicio'' propuesta por un profesor y por otro lado la ``demanda de servicio''   solicitada por una entidad. Esta separación ha sido necesaria porque las necesidades de una organización difieren bastante de lo que puede considerar adecuado ofrecer un profesor y por tanto no podemos almacenar todos estos requerimientos en una única tabla.\\
+Tanto esta fase de diseño como la posterior implementación del sistema de emparejamiento de ofertas y demandas han constituido uno de los pilares de este proyecto.
 \bibliographystyle{plain}
 \bibliography{references}
 \end{document}
