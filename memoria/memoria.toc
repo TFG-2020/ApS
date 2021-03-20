@@ -3,9 +3,9 @@
 \contentsline {section}{\numberline {2}Abstract}{3}{section.2}%
 \contentsline {section}{\numberline {3}Introducción}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Pruebas de robustez}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Diseño de la base de datos}{4}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Objetivos}{4}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Plan de investigación}{4}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Fase 0: Documentación sobre el ApS}{4}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Fase 1: Revisión y evolución del proyecto}{5}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Fase 2: Implementación y Documentación}{5}{subsubsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.2}Diseño de una nueva base de datos}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Objetivos}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Plan de investigación}{6}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Fase 0: Documentación sobre el ApS}{6}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Fase 1: Revisión y evolución del proyecto}{6}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Fase 2: Implementación y Documentación}{6}{subsubsection.3.4.3}%

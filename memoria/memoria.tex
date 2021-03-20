@@ -60,9 +60,56 @@ Uno de los problemas más graves que encontramos fue el bloqueo de la página we
 posteriormente.
 
 %TO DO
-\subsection{Diseño de la base de datos}
-La base de datos se va a cambiar a una base de datos SQL ya que nos damos cuenta que la estructura de la base de datos es una base de datos relacional.
+\subsection{Diseño de una nueva base de datos}
+Tras analizar la base de datos de David, nos damos cuenta que la estructura de la base de datos será más eficiente siendo una base de datos relacional. Ademas, los profes nos indicaron que el proyecto no estaba bién definido por parte de David, asi que la estructura de la base de datos se tendría que cambiar igualmente.
+La base de datos de David, era una base de datos en MongoDB compuesta por 7 documentos. Que representaban el corazón de la aplicación, documentos como: usuarios, proyectos, iniciativas y partenariados.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.25]{bdmongo}
+	\caption{Base de datos MongoDB}
+	\label{fig:universe}
+\end{figure}
 
+Tras un exhausto análisis de las necesidades reales de la aplicación, nuestra base de datos en SQL acabó con 43 tablas las cuales, se pueden observar en el siguiente diagrama de entidad relación.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.15]{bdsql}
+	\caption{Base de datos SQL}
+	\label{fig:universe}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.35]{anuncio}
+	\caption{Bloque ``Anuncios de servicio''}
+	\label{fig:universe}
+\end{figure}
+Las tablas que se encuentran en la esquina superior izquierda son tablas relacionadas con lo que David llamaba Iniciativa, que ahora se divide en dos tablas distintas. Una es la demanda de servicio, aquella iniciativa que ha sido creada por una entidad y la cual tiene como propósito solicitar un servicio.
+La otra tabla es la oferta de servicio, que es aquella iniciativa que ha sido propuesta por un profesor y que tiene como objetivo ofrecer sus conocimientos. 
+Después tenemos una tabla llamada "iniciativa" que es aquella iniciativa que ha sido propuesta por un alumno, esta es un tipo especial de iniciativa que tiene que ser acogida por una entidad para poder aparecer en el aplicativo.
+Cuando una oferta y una demanda son casadas y sus respectivos creadores están de acuerdo en cooperar, se crea el partenariado.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.4]{colaboracion}
+	\caption{Bloque ``Colaboración''}
+	\label{fig:universe}
+\end{figure}
+Las tablas relacionadas con el partenariado las encontramos en la esquina inferior derecha. 
+En esta parte del esquema podemos observar las tablas que se generar a partir de una colaboración. Tanto el partenariado como el proyecto son especificaciones de una tabla llamada colaboración, aunque el proyecto no puede existir sin que antes se haya creado un partenariado.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.4]{usuarios}
+	\caption{Bloque ``Usuarios''}
+	\label{fig:universe}
+\end{figure}
+En el bloque de abajo a la izquierda nos encontramos con todas las tablas relacionadas con el usuario. Debido a que la plataforma permite el acceso con cuentas internas de las universidades, hemos tenido que duplicar las tablas que recogen los datos de los estudiantes y los profesores. Las tablas de los internos pertenecerían a los usuarios que entran a la plataforma con sus cuentas universitarias y los usuarios externos son aquellos que pertenecen a una universidad que no colabora con la plataforma.
+\begin{figure}[p]
+	\centering
+	\includegraphics[scale=0.4]{comunicacion}
+	\caption{Bloque ``Comunicación''}
+	\label{fig:universe}
+\end{figure}
+En el bloque de arriba a la derecha se encuentran las tablas más independientes, aquellas que están relacionadas con la comunicación.
+  
 \subsection{Objetivos}
 Realizamos nuestro TFG en base al trabajo de David Jiménez.
 Nuestros principales objetivos fueron rediseñar la aplicación, para que en el futuro se pueda adaptar a un entorno de ejecución real, e implementar una funcionalidad esencial que es el emparejamiento de ofertas y demandas.
