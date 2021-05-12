@@ -21,10 +21,10 @@
 	{\scshape\Huge Aplicación web de soporte al Aprendizaje-Servicio \par}
 	\vspace{5cm}
 	{\textbf\Large Autores \par}
-	{\Large Daniela Nicoleta \par}
-	{\Large Jesus Sanchez Granado \par}
-	{\Large Victoria Gnatiuk Romaniuk \par}
-	\vspace{2cm}
+	{\Large Daniela-Nicoleta Boldureanu (Grado en Ingeniería del Software)\par}
+	{\Large Victoria Gnatiuk Romaniuk (Grado en Ingeniería Informática)\par}
+	{\Large Jesús Sánchez Granado (Grado en Ingeniería Informática\par}
+	\vspace{1cm}
 	{\textbf\Large Tutores \par}
 	{\Large Simon Pickin \par}
 	{\Large Manuel Montenegro Montes \par}
@@ -34,104 +34,80 @@
 %Indice
 \tableofcontents
 \newpage
-
-\section{Resumen}
-Este trabajo de fin de grado es una continuación del trabajo de fin de grado de David Jiménez del Rey en el que se fundamentan las bases de nuestro proyecto. 
-Esta es la cuarta parte de un proyecto de desarrollo de una comunidad web de Aprendizaje-Servicio.\\
-En este proyecto abarca las fases de analisis, diseño y desarrollo de una aplicación web capaz de gestionar las demandas de servicios sociales de las entidades y las ofertas de servicio de los profesores de las universidades.
-Este tipo de asociación entre entidades y centros educativos es una metodología de aprendizaje innovadora llamada Aprendizaje-Servicio o APS.\\
-El APS consiste en combinar los conocimientos obtenidos en los centros educativos con los servicios proporcionados por a la comunidad.\\
-Aunque una de las ventajas de estos proyectos es la obtención de competencias profesionales, en realidad su principal objetivo es la reflexión, el pensamiento crítico y la responsabilidad social de los alumnos.\\
-REVISAR-->
-El principal problema de una plataforma orientada para el APS es casar las demandas de las entidades con las ofertas de los profesores. Las entidades suelen ser muy genéricas a la hora de definir requisitos para un proyecto de este estilo y los profesores suelen ofrecer conocimientos más técnicos. Nuestro reto consistía en que la aplicación fuera capaz de casar estas ofertas y demandas y convertirlas en partenariados para posteriormente poder desarrollar un proyecto con dichas características.
-TO DO (Describir todo lo que se ha hecho).
-\newpage
-
-%Resumen en ingles
-\section{Abstract}
-\newpage
-\section{Introducción}
-
-%TO DO
-\subsection{Pruebas de robustez}
-Lo primero que hicimos al ponernos a trabajar en el TFG fue realizar una prueba de robustez a la aplicación web de David desplegada en Herouku.\\
-Al hacerlo identificamos varios problemas, algunos más graves que otros. Todos estos problemas los fuimos anotando para poder arreglarlos posteriormente en la etapa de desarrollo.\\
-Uno de los problemas más graves que encontramos fue el bloqueo de la página web causada por varios acontecimientos como la subida de un fichero a un partenariado o proyecto existentes, la subida y posterior eliminación de una foto de perfil o la subida de una imagen a una iniciativa. Nos percatamos de que todos estos problemas tienen en común la tabla de base de datos llamada "uploads". Esto lo tendremos en cuenta a la hora de corregir los problemas 
-posteriormente.
-
-%TO DO
-\subsection{Diseño de una nueva base de datos}
-Tras analizar la base de datos de David, nos damos cuenta que la estructura de la base de datos será más eficiente siendo una base de datos relacional. Ademas, los profes nos indicaron que el proyecto no estaba bién definido por parte de David, asi que la estructura de la base de datos se tendría que cambiar igualmente.
-La base de datos de David, era una base de datos en MongoDB compuesta por 7 documentos. Que representaban el corazón de la aplicación, documentos como: usuarios, proyectos, iniciativas y partenariados.
-\begin{figure}[h!]
-	\centering
-	\includegraphics[scale=0.25]{bdmongo}
-	\caption{Base de datos MongoDB}
-	\label{fig:universe}
-\end{figure}
-
-Tras un exhausto análisis de las necesidades reales de la aplicación, nuestra base de datos en SQL acabó con 43 tablas las cuales, se pueden observar en el siguiente diagrama de entidad relación.
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.15]{bdsql}
-	\caption{Base de datos SQL}
-	\label{fig:universe}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.35]{anuncio}
-	\caption{Bloque ``Anuncios de servicio''}
-	\label{fig:universe}
-\end{figure}
-Las tablas que se encuentran en la esquina superior izquierda son tablas relacionadas con lo que David llamaba Iniciativa, que ahora se divide en dos tablas distintas. Una es la demanda de servicio, aquella iniciativa que ha sido creada por una entidad y la cual tiene como propósito solicitar un servicio.
-La otra tabla es la oferta de servicio, que es aquella iniciativa que ha sido propuesta por un profesor y que tiene como objetivo ofrecer sus conocimientos. 
-Después tenemos una tabla llamada "iniciativa" que es aquella iniciativa que ha sido propuesta por un alumno, esta es un tipo especial de iniciativa que tiene que ser acogida por una entidad para poder aparecer en el aplicativo.
-Cuando una oferta y una demanda son casadas y sus respectivos creadores están de acuerdo en cooperar, se crea el partenariado.
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.4]{colaboracion}
-	\caption{Bloque ``Colaboración''}
-	\label{fig:universe}
-\end{figure}
-Las tablas relacionadas con el partenariado las encontramos en la esquina inferior derecha. 
-En esta parte del esquema podemos observar las tablas que se generar a partir de una colaboración. Tanto el partenariado como el proyecto son especificaciones de una tabla llamada colaboración, aunque el proyecto no puede existir sin que antes se haya creado un partenariado.
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.4]{usuarios}
-	\caption{Bloque ``Usuarios''}
-	\label{fig:universe}
-\end{figure}
-En el bloque de abajo a la izquierda nos encontramos con todas las tablas relacionadas con el usuario. Debido a que la plataforma permite el acceso con cuentas internas de las universidades, hemos tenido que duplicar las tablas que recogen los datos de los estudiantes y los profesores. Las tablas de los internos pertenecerían a los usuarios que entran a la plataforma con sus cuentas universitarias y los usuarios externos son aquellos que pertenecen a una universidad que no colabora con la plataforma.
-\begin{figure}[p]
-	\centering
-	\includegraphics[scale=0.4]{comunicacion}
-	\caption{Bloque ``Comunicación''}
-	\label{fig:universe}
-\end{figure}
-En el bloque de arriba a la derecha se encuentran las tablas más independientes, aquellas que están relacionadas con la comunicación.
-  
-\subsection{Objetivos}
-Realizamos nuestro TFG en base al trabajo de David Jiménez.
-Nuestros principales objetivos fueron rediseñar la aplicación, para que en el futuro se pueda adaptar a un entorno de ejecución real, e implementar una funcionalidad esencial que es el emparejamiento de ofertas y demandas.
-A continuación, se detallan estas tareas:
-\begin{itemize}
-\item \textbf{Pruebas de robustez:} se realizaron pruebas de depuración al código de David. Se observó que el sistema era muy robusto y estable, pero a pesar de ello se detectaron unos pocos fallos menores que fueron arreglados posteriormente.
-\item \textbf{Diseño del modelo de dominio:} se observó que el diseño de David no estaba preparado para un entorno de ejecución real y por ello se volvió a rediseñar la aplicación teniendo en cuenta su futura integración en un sistema real. Este diseño fue reflejado en un modelo de dominio que permitió reflejar las entidades, los atributos, las relaciones y las restricciones que gobiernan el ámbito de la aplicación.
-\item \textbf{Diseño de la BD:} David había cambiado la BD de MySQL a MongoDb alegando que así podría tener acceso a más documentación. Junto con nuestros tutores, consideramos que la estructura de la aplicación se adapta mejor a una BD relacional y por ello se ha rediseñado la base de datos del sistema a una base de datos SQL.
-\item \textbf{Creación de un DAO:} usando la librería knex de Node.js se ha implementado el patrón DAO para ofrecer una interfaz común entre la aplicación y la base de datos, separando de esta manera la lógica de acceso a datos de la lógica de negocio.
-\item \textbf{Implementación de un sistema de emparejamiento:} se ha implementado la lógica de emparejamiento de las ofertas de servicio, ofertadas por los profesores, y las demandas de servicio, solicitadas por las entidades beneficiarias resolviendo de esta manera el principal problema de esta aplicación.
+\section{Contexto de la propuesta}
+\subsection{Introducción}
+El aprendizaje-servicio es una propuesta educativa que combina aprendizaje y servicios a la comunidad.  Estos proyectos permiten a los alumnos aprender de una forma más práctica, aplicando sus conocimientos adquiridos en clase mediante la realización de tareas útiles para la comunidad. \\
+Además de darles la oportunidad de aplicar sus conocimientos en un entorno real, les impulsa a comprender el funcionamiento de la sociedad y las responsabilidades sociales que estos tienen por forma parte de una sociedad.\\
+Todo proyecto ApS empieza por una iniciativa con una necesidad social real que implica la ejecución de un servicio para solventarla y tiene como objetivo el aprendizaje y la reflexión del alumno.\\
+\subsection{Elementos que intervienen en un proyecto ApS}
+\begin{itemize} 
+	\item El alumno es el individuo que aplica sus conocimientos teóricos en un entorno físico beneficiando a su comunidad. Además de adquirir habilidades prácticas relacionadas con su formación es importante que se incite al alumno a reflexionar sobre sus actos y el impacto positivo que tienen estos sobre los demás. Esto permite al alumno adquirir compromiso social y desarrollar pensamiento ético, cultivando un ciudadano responsable capaz de mejorar la sociedad de la que forma parte.
+	\item El profesor es el individuo que se encarga de guiar al alumno en todo el proceso del proyecto, evaluando sus tareas e incitando al alumno a la reflexión. Además de guiar al alumno en su formación y gestionar el proyecto, ofrece su formación y conocimientos a la entidad. El profesor se encarga de acordar y organizar los proyectos con la entidad, estableciendo todos los requisitos necesarios para la correcta formación del alumno y el cumplimiento de la entidad con los principios del ApS.
+	\item La entidad es una empresa pública o privada que colabora con la institución educativa para resolver un determinado problema social. La entidad suele tener en mente un problema muy concreto, pero no lo suficientemente detallado para la creación de un proyecto real. Es por eso que es necesario el partenariado. Es importante que la universidad haga entender a la entidad que el ApS no es voluntariado por tanto, bajo ningún concepto se puede usar al alumno para la generación de beneficios propios de la empresa o la competencia desleal. El principal objetivo del ApS es formar al alumno introduciendo lo en un entorno real para que este establezca una relación entre lo aprendido en el aula con lo realizado en el proyecto ApS.
+	\item El partenariado es una colaboración entre el profesor y la entidad. Partiendo de un problema social real y los conocimientos dispuestos por el profesor, el profesor y la entidad realizan reuniones para determinar las características y particularidades del problema. Una vez definidos los términos y condiciones del futuro proyecto, la entidad y el profesor abren el proyecto a los alumnos.
+	\item El proyecto consiste en la ejecución de ciertas tareas realizadas por el alumno que están relacionadas con su formación. Estas tareas permiten al alumno establecer una relación entre lo aprendido en clase y el mundo real. Gracias a estar tareas o servicios, el alumno beneficia a su comunidad otorgándole, una satisfacción personal. El alumno es evaluado de forma continua por el profesor.
 \end{itemize}
+\subsection{Motivación}
+El principal problema de los proyectos ApS es que son difíciles de definir y aún más difíciles de acordar.\\
+La entidad suele tener un problema concreto en mente, pero no lo suficientemente especifico ni definido como para crear un proyecto. El profesor por su parte tiene una serie de conocimientos que quiere ofrecer para la resolución de un problema genérico.
+Este inconveniente anima a Simon Pickin y otros profesores de la UNED a desarrollar una solución. \\
+Nuestro TFG es la cuarta parte de un proyecto destinado a ser una plataforma real para ayudar a universidades y entidades a establecer contacto y definir proyectos ApS en pro de una educación más práctica e inclusiva a la sociedad.\\
+La parte previa a la nuestra fue desarrollada por David Jiménez el año pasado. Él creó el esqueleto del aplicativo sobre el que nosotros hemos desarrollado nuestro TFG.
 
-\subsection{Plan de investigación}
-\subsubsection{Fase 0: Documentación sobre el ApS}
-Principalmente durante la fase inicial del proyecto, se ha realizado un esfuerzo por comprender el funcionamiento del ApS, para poder entender mejor el diseño de la aplicación y juzgar si había lugares en los que era necesario un enfoque distinto al que se les había otorgado. 
-\subsubsection{Fase 1: Revisión y evolución del proyecto}
-Durante esta primera fase se ha llevado a cabo un estudio de la memoria proporcionada por David Jiménez en su entrega del TFG, así como de la aplicación tanto en local como en servidor para detectar posibles bugs, de los cuales se hablará en la sección ``Prueba de Robustez''.
-Se realiza también un análisis de la base de datos y de las tecnologías escogidas para su realización.
-\subsubsection{Fase 2: Implementación y Documentación}
-Lo primero que se ha hecho ha sido arreglar diversos bugs de menor o mayor importancia que han sido encontrados durante la fase de prueba de robustez, tras lo que se ha procedido a un rediseño de la BD en SQL, dado que la gran mayoría de los datos guardados por la aplicación son estructurados, nos ha parecido una tecnología más adecuada que la de MongoDB.\\
-Durante este proceso ha surgido la necesidad de rediseñar algunas partes importantes de la base de datos, como la división de la tabla de ``Iniciativa'' en dos partes. Por un lado, tendríamos la ``oferta de servicio'' propuesta por un profesor y por otro lado la ``demanda de servicio''   solicitada por una entidad. Esta separación ha sido necesaria porque las necesidades de una organización difieren bastante de lo que puede considerar adecuado ofrecer un profesor y por tanto no podemos almacenar todos estos requerimientos en una única tabla.\\
-Tanto esta fase de diseño como la posterior implementación del sistema de emparejamiento de ofertas y demandas han constituido uno de los pilares de este proyecto.
+\subsection{El TFG de David}
+El TFG de David presentaba un esqueleto a partir del cual hemos partido para desarrollar nuestra parte de este proyecto. Partiendo del TFG anterior que estaba desarrollado en Angular y Node, David siguió desarrollando la aplicación hasta conseguir un prototipo del futuro aplicativo.\\
+Él implementó las páginas, de registro, login, perfil, iniciativa y partenariado. También incluyó diferentes perfiles como el admin, la entidad, el profesor y el alumno.\\
+Por razones de comodidad y familiarización con la tecnología, cambió la base de datos que estaba construida en SQL a Mondo DB, esto no gustó mucho a nuestros tutores los cuales nos pidieron que la volviéramos a  cambiar a SQL.\\
+El problema del proyecto de David residía en que él, no tuvo mucha comunicación con los profesores durante la realización de su TFG debido a problemas de salud ocasionados por el COVID-19. Esto derivó en que no entendiera bien los requisitos deseados para el proyecto y que tuviera una confusión sobre los conceptos y el objetivo que se intentaba conseguir con la plataforma ApS. Por ello nosotros hemos tenido que redefinir las bases del aplicativo creando un modelo de dominio y de datos que representa todos los elementos del problema y como se relacionan entre si. Diseñamos una base de datos nueva más compleja y rica en detalles que servirá como cimientos para nuestros sucesores, ya que esperamos que llegue el día en que esta plataforma sirva a usuarios reales, los cuales ayudaran a que la educación sea más eficaz y enriquecedora.
+\subsection{Nuestro objetivo}
+A continuación se explican los objetivos que hemos tenido en este TFG.
+\begin{itemize} 
+	\item Construir unas bases solidas del proyecto, creando un modelo de dominio y un modelo de datos que ilustran el objetivo y el funcionamiento de la plataforma.
+	\item Creando una base de datos relacional compleja y rica en detalles pasando de 7 documentos a 46 tablas relacionales.
+	\item Crear un modelo relacional que muestre la estructura de la base de datos facilitando su entendimiento y manejo a los futuros desarrolladores del proyecto.
+	\item Implementar 4 daos que realicen la lógica de acceso y gestión de datos, encapsulando el acceso a la base de datos.
+	\item Creación de transfers que permiten estructurar y manejar de forma sencilla los datos de la BD.
+	\item Implementar un sistema de casa de ofertas y demandas que determina que porcentaje tienen de encajar una oferta creada por un profesor y una demanda creada por una entidad.
+	\item Adaptación del registro y el perfil del usuario al nuevo sistema.
+	\item Implementación de formularios para la creación de ofertas, demandas y partenariados.
+	\item Corrección de bugs del proyecto de David.
+\end{itemize}
+ 
+
+\subsection{Decisiones tecnológicas}
+Todas las tecnologías utilizadas en este TFG, excepto la base de datos SQL, han sido elegidas por David en su TFG.\\
+Debido a que ninguno conociamias antes ni Node
+
+\section{Modelos (nombre provisional)}
+\subsection{Introducción}
+Al empezar con el proyecto, junto con nuestros tutores, nos hemos dado cuenta de que la aplicación necesitaba ser definida de una forma más profesional y robusta. David entendió que los profesores y las entidades definían los proyectos de la misma forma, pero esto no es así.\\
+Las entidades no conocen todos los detalles del problema en cuestión que quieren resolver, porque no suelen dedicarle el suficiente tiempo a la especificación.\\
+Los profesores por su parte tienen una idea muy vaga del problema que quieren resolver. Normalmente tienen ciertos conocimientos académicos los cuales quieren aplicar para mejorar el mundo, pero la necesidad social en cuestión no suele estar muy clara.\\
+David creó un elemento llamado Iniciativa que almacenaba algunas de las características generales que comparten las dos propuestas y derivaba en un formulario que se les ofrecía a las entidades y a los profesores. Pero debido a que las entidades y los profesores no plantean los problemas de la misma manera, no es apropiado presentarles el mismo formulario.\\
+Para definir con precisión el funcionamiento correcto y completo de la aplicación, se ha creado un modelo de dominio y un modelo de datos.\\
+Estos modelos nos permitirán entender acertadamente el funcionamiento del aplicativo, pero lo que es más importante, permitirán transmitir dicho funcionamiento e idea general a otras personas que trabajarán en este proyecto después de nosotros.\\
+Gracias al modelo de dominio podemos entender que elementos intervienen y cómo interactúan entre sí, además de las restricciones que se presentan en sus interacciones.\\
+Con el modelo de datos podemos conocer información detallada de cada elemento que interviene en la resolución del problema.\\
+Como se ha rediseñado la base de datos, no solo porque ha cambiado su tipo, que ahora es relacional, si no también porque los conceptos no estaban claros en el anterior TFG. Se ha decidido crear un modelo relacional que muestra todas las tablas de la nueva base de datos y sus relaciones. De esta manera podemos representar sus especificaciones técnicas para comprender su estructura y funcionamiento. 
+\subsection{Modelo de dominio}
+El modelo de dominio es un mapa conceptual del aplicativo que permite a cualquier individuo entender su funcionamiento.\\
+Si empezamos mirando nuestro modelo desde arriba podemos observar que hay una clase padre llamada usuario y de ella se ramifican otras 5 clases que representan los 5 grupos de usuarios que tiene la aplicación.\\
+Los estudiantes se dividen en internos y externos. Los internos representan a aquellos estudiantes que pertenecen a la UNED y los externos pertenecen a otras universidades.\\
+El grupo de usuarios promotor se divide en externos e internos por el mismo motivo que los estudiantes. \\
+En promotor externo representaríamos al profesor externo, que es aquel profesor que no forma parte de la UNED pero, puede participar en un proyecto o partenariado evaluando y guiando a un estudiante externo. \\
+El colaborador por otra parte, es un experto en algún tema en concreto que puede participar en un proyecto o partenariado ofreciendo sus conocimientos o habilidades.\\
+El promotor interno puede ser un profesor o un tutor de la UNED. Este profesor es el que más cargos de responsabilidad tiene, él es el que puede crear las ofertas de servicio y es el responsable de los partenariados y los proyectos.\\
+Todo proyecto tiene que empezar siendo un partenariado y este partenariado se origina en la unión de una oferta creada por un profesor, y una demanda creada por una entidad. La creación de la oferta y la demanda se realiza mediante unos formularios en la web.\\
+Una demanda se puede llegar a crear gracias a un estudiante, este previamente ha tenido que crear una iniciativa. Una iniciativa es una propuesta de proyecto de un estudiante, la cual es acogida posteriormente por una entidad. Cuando la entidad acoge dicha iniciativa esta se convierte en una demanda de servicio.\\ 
+Debido a que los proyectos definidos por los profesores y los definidos por las entidades comparten ciertas características, podemos ver en el diagrama que ambos cuelgan de un elemento padre llamado Anuncio de servicio que posee las características comunes de ambos.
+Lo mismo ocurre con partenariado y proyecto que cuelgan de Colaboración Uni-Ent.\\
+Queremos destacar, que los atributos de Necesidad social y Area de implementación, tan importantes para caza de ofertas y demandas, han sido obtenidos de la página web www.eoslhe.eu/resources/
+Los partenariados y los proyectos presentan ciertas restricciones relacionadas con la participación de alumnos y promotores externos.\\
+En los proyectos solo pueden participar estudiantes externos si el responsable del proyecto acepta estudiantes externos.  Ademas de esto, tiene que participar un profesor externos de la misma universidad que el estudiante, para que este pueda ser evaluado por su profesor.
+Los profesores externos solo pueden participar en aquellos partenariados y proyectos que los acepten y de la misma manera, el proyecto tendrá que admitir estudiantes de la misma universidad que el profesor para que puedan ser evaluados por el mismo.\\
+\subsection{Modelo de datos}
+\subsection{Modelo relacional}
+
 \bibliographystyle{plain}
 \bibliography{references}
 \end{document}

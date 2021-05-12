@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  20 MAR 2021 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  12 MAY 2021 19:14
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -242,22 +242,6 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 ) (memoria.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
-
-
-LaTeX Warning: Label `fig:universe' multiply defined.
-
-
-LaTeX Warning: Label `fig:universe' multiply defined.
-
-
-LaTeX Warning: Label `fig:universe' multiply defined.
-
-
-LaTeX Warning: Label `fig:universe' multiply defined.
-
-
-LaTeX Warning: Label `fig:universe' multiply defined.
-
 )
 \openout1 = `memoria.aux'.
 
@@ -330,7 +314,7 @@ LaTeX Info: Redefining \nameref on input line 12.
 
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
-<logo.jpg, id=43, 410.53375pt x 107.40125pt>
+<logo.jpg, id=51, 410.53375pt x 107.40125pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 17.
@@ -342,9 +326,9 @@ emoria.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
+(Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
+(Font)              <5> on input line 3.
 )
 \tf@toc=\write4
 \openout4 = `memoria.toc'.
@@ -354,93 +338,44 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.36 \newpage
-              [1] [2] [3]
-<bdmongo.jpg, id=76, 1567.35562pt x 885.3075pt>
-File: bdmongo.jpg Graphic file (type jpg)
-<use bdmongo.jpg>
-Package pdftex.def Info: bdmongo.jpg  used on input line 68.
-(pdftex.def)             Requested size: 391.83795pt x 221.32632pt.
-<bdsql.png, id=77, 2818.53pt x 1855.93375pt>
-File: bdsql.png Graphic file (type png)
-<use bdsql.png>
-Package pdftex.def Info: bdsql.png  used on input line 76.
-(pdftex.def)             Requested size: 422.76126pt x 278.37805pt.
-<anuncio.jpg, id=78, 1257.94969pt x 625.58719pt>
-File: anuncio.jpg Graphic file (type jpg)
-<use anuncio.jpg>
-Package pdftex.def Info: anuncio.jpg  used on input line 82.
-(pdftex.def)             Requested size: 440.28899pt x 218.95879pt.
+              [1]
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
 
-Overfull \hbox (12.85745pt too wide) in paragraph at lines 82--83
- [][] 
  []
 
-<colaboracion.jpg, id=79, 913.91437pt x 572.1375pt>
-File: colaboracion.jpg Graphic file (type jpg)
-<use colaboracion.jpg>
-Package pdftex.def Info: colaboracion.jpg  used on input line 92.
-(pdftex.def)             Requested size: 365.55927pt x 228.85094pt.
-<usuarios.jpg, id=80, 1076.52188pt x 751.30687pt>
-File: usuarios.jpg Graphic file (type jpg)
-<use usuarios.jpg>
-Package pdftex.def Info: usuarios.jpg  used on input line 100.
-(pdftex.def)             Requested size: 430.60112pt x 300.51741pt.
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 93--108
 
-Overfull \hbox (3.16959pt too wide) in paragraph at lines 100--101
- [][] 
  []
 
-<comunicacion.jpg, id=81, 692.5875pt x 450.18187pt>
-File: comunicacion.jpg Graphic file (type jpg)
-<use comunicacion.jpg>
-Package pdftex.def Info: comunicacion.jpg  used on input line 107.
-(pdftex.def)             Requested size: 277.03009pt x 180.06955pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./bdmongo.jpg>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./bdsql.png>] (memoria.bbl [6 <./anuncio.jpg>]
+[4] (memoria.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [7 <./colaboracion.jpg>] [8 <./usuarios.jpg> <./comunicacion.jpg>]
-(memoria.aux
+) [5] (memoria.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 021AE371F9DD829592A6D43B64AB3A54;725.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: BC03EA2351E219AB7C5E779B37DF47FB;810.
  ) 
 Here is how much of TeX's memory you used:
- 6882 strings out of 480235
- 105880 string characters out of 2880541
- 425122 words of memory out of 3000000
- 23308 multiletter control sequences out of 15000+200000
+ 6818 strings out of 480235
+ 104988 string characters out of 2880541
+ 431032 words of memory out of 3000000
+ 23251 multiletter control sequences out of 15000+200000
  537208 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,66p,581b,407s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,5n,66p,878b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vikto/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on memoria.pdf (9 pages, 1488472 bytes).
+Output written on memoria.pdf (6 pages, 134030 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 118 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
