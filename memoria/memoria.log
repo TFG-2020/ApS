@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  14 MAY 2021 19:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  15 MAY 2021 15:45
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -343,27 +343,203 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--42
 
  []
 
-[2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 140--155
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
 
  []
 
-[5] (memoria.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
+
+ []
+
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 147--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--170
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 172--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--183
+
+ []
+
+[7] (memoria.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [6] (memoria.aux
+) [8] (memoria.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 7A93EC9E8C17CE9839B83E53D3BB57A5;798.
+
+Package rerunfilecheck Warning: File `memoria.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `memoria.out':
+(rerunfilecheck)             Before: 7A93EC9E8C17CE9839B83E53D3BB57A5;798
+(rerunfilecheck)             After:  69640D94FDCFCEB105717C0DD04711E8;968.
  ) 
 Here is how much of TeX's memory you used:
- 6829 strings out of 480235
- 105055 string characters out of 2880541
- 432032 words of memory out of 3000000
- 23251 multiletter control sequences out of 15000+200000
+ 6836 strings out of 480235
+ 105138 string characters out of 2880541
+ 429032 words of memory out of 3000000
+ 23253 multiletter control sequences out of 15000+200000
  537208 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,5n,66p,878b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -373,9 +549,9 @@ fonts/cm/cmbx12.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vikto/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on memoria.pdf (7 pages, 140518 bytes).
+Output written on memoria.pdf (9 pages, 147692 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 147 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
  102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
