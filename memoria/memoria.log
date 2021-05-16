@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  15 MAY 2021 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  16 MAY 2021 21:22
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -314,7 +314,7 @@ LaTeX Info: Redefining \nameref on input line 12.
 
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
-<logo.jpg, id=51, 410.53375pt x 107.40125pt>
+<logo.jpg, id=67, 410.53375pt x 107.40125pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 17.
@@ -338,220 +338,238 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.36 \newpage
-              [1]
-Underfull \hbox (badness 10000) in paragraph at lines 39--42
+              [1] (memoria.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lof=\write5
+\openout5 = `memoria.lof'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--56
+Underfull \hbox (badness 10000) in paragraph at lines 40--43
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 58--62
+Underfull \hbox (badness 10000) in paragraph at lines 52--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--62
+Underfull \hbox (badness 10000) in paragraph at lines 52--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--62
+Underfull \hbox (badness 10000) in paragraph at lines 52--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
 
  []
 
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 136--145
+Underfull \hbox (badness 10000) in paragraph at lines 137--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--145
+Underfull \hbox (badness 10000) in paragraph at lines 137--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--145
+Underfull \hbox (badness 10000) in paragraph at lines 137--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--145
+Underfull \hbox (badness 10000) in paragraph at lines 137--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--145
+Underfull \hbox (badness 10000) in paragraph at lines 137--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--145
+Underfull \hbox (badness 10000) in paragraph at lines 137--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--145
+Underfull \hbox (badness 10000) in paragraph at lines 137--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--145
+Underfull \hbox (badness 10000) in paragraph at lines 137--146
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 147--162
+<mdominio.png, id=141, 1821.80624pt x 1125.20375pt>
+File: mdominio.png Graphic file (type png)
+<use mdominio.png>
+Package pdftex.def Info: mdominio.png  used on input line 165.
+(pdftex.def)             Requested size: 419.00662pt x 258.79141pt.
+<mdatos.png, id=142, 1821.80624pt x 1391.1975pt>
+File: mdatos.png Graphic file (type png)
+<use mdatos.png>
+Package pdftex.def Info: mdatos.png  used on input line 170.
+(pdftex.def)             Requested size: 419.00662pt x 319.96869pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--162
+Underfull \hbox (badness 10000) in paragraph at lines 148--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--162
+Underfull \hbox (badness 10000) in paragraph at lines 148--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--170
+Underfull \hbox (badness 10000) in paragraph at lines 148--173
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 172--177
+Underfull \hbox (badness 10000) in paragraph at lines 174--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--177
+Underfull \hbox (badness 10000) in paragraph at lines 174--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--177
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--183
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--183
+Overfull \hbox (8.68579pt too wide) in paragraph at lines 180--182
+[]\OT1/cmr/m/n/10 En el ca-so del pro-yec-to te-ne-mos los es-ta-dos EN[]CREACI
+ON, ABIER-TO[]PROFESORES, ABIER-
+ []
+
+[7 <./mdominio.png (PNG copy)>] [8 <./mdatos.png (PNG copy)>]
+<er.png, id=156, 2818.53pt x 1855.93375pt>
+File: er.png Graphic file (type png)
+<use er.png>
+Package pdftex.def Info: er.png  used on input line 192.
+(pdftex.def)             Requested size: 422.76126pt x 278.37805pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--195
+
+ []
+
+<usuarios.jpg, id=157, 1108.14pt x 770.88pt>
+File: usuarios.jpg Graphic file (type jpg)
+<use usuarios.jpg>
+Package pdftex.def Info: usuarios.jpg  used on input line 203.
+(pdftex.def)             Requested size: 443.24815pt x 308.34654pt.
+
+Overfull \hbox (15.81662pt too wide) in paragraph at lines 203--204
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--206
+
+ []
+
+[9 <./er.png>]
+<anuncios.jpg, id=162, 1270.7475pt x 624.83438pt>
+File: anuncios.jpg Graphic file (type jpg)
+<use anuncios.jpg>
+Package pdftex.def Info: anuncios.jpg  used on input line 217.
+(pdftex.def)             Requested size: 444.7683pt x 218.69531pt.
+
+Overfull \hbox (17.33676pt too wide) in paragraph at lines 217--218
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--183
+Underfull \hbox (badness 10000) in paragraph at lines 207--220
 
  []
 
-[7] (memoria.bbl
+[10 <./usuarios.jpg>]
+<colaboracion.jpg, id=167, 930.47626pt x 581.17125pt>
+File: colaboracion.jpg Graphic file (type jpg)
+<use colaboracion.jpg>
+Package pdftex.def Info: colaboracion.jpg  used on input line 226.
+(pdftex.def)             Requested size: 372.18391pt x 232.46437pt.
+<comunicacion.jpg, id=168, 773.89125pt x 520.94624pt>
+File: comunicacion.jpg Graphic file (type jpg)
+<use comunicacion.jpg>
+Package pdftex.def Info: comunicacion.jpg  used on input line 236.
+(pdftex.def)             Requested size: 309.55101pt x 208.3748pt.
+ (memoria.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [8] (memoria.aux
+) [11 <./anuncios.jpg>] [12 <./colaboracion.jpg> <./comunicacion.jpg>]
+(memoria.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-
-Package rerunfilecheck Warning: File `memoria.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `memoria.out':
-(rerunfilecheck)             Before: 7A93EC9E8C17CE9839B83E53D3BB57A5;798
-(rerunfilecheck)             After:  69640D94FDCFCEB105717C0DD04711E8;968.
+Package rerunfilecheck Info: File `memoria.out' has not changed.
+(rerunfilecheck)             Checksum: 3888A148ADDEED370AA9E500BC4B2DF9;1096.
  ) 
 Here is how much of TeX's memory you used:
- 6836 strings out of 480235
- 105138 string characters out of 2880541
- 429032 words of memory out of 3000000
- 23253 multiletter control sequences out of 15000+200000
- 537208 words of font info for 36 fonts, out of 3000000 for 9000
+ 6916 strings out of 480235
+ 106279 string characters out of 2880541
+ 430043 words of memory out of 3000000
+ 23315 multiletter control sequences out of 15000+200000
+ 537554 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,5n,66p,878b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,8n,66p,878b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vikto/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on memoria.pdf (9 pages, 147692 bytes).
+KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/vikto/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on memoria.pdf (13 pages, 1353499 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 213 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

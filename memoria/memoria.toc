@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1}Contexto de la propuesta}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Introducción}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Elementos que intervienen en un proyecto ApS}{2}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Motivación}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.3}Motivación}{3}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}El TFG de David}{3}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Nuestro objetivo}{3}{subsection.1.5}%
 \contentsline {subsection}{\numberline {1.6}Tecnologías}{4}{subsection.1.6}%
@@ -10,6 +10,8 @@
 \contentsline {subsection}{\numberline {2.1}Introducción}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Modelo de dominio}{6}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Modelo de datos}{7}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Modelo relacional}{7}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Sección Usuarios}{7}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Sección Anuncios de servicio}{8}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4}Modelo relacional}{9}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Usuarios}{9}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Anuncios de servicio}{10}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Colaboración}{11}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Comunicación}{11}{subsubsection.2.4.4}%
