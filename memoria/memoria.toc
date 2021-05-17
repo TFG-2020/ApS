@@ -7,13 +7,26 @@
 \contentsline {subsection}{\numberline {1.5}Nuestro objetivo}{4}{subsection.1.5}%
 \contentsline {subsection}{\numberline {1.6}Estudio tecnológico}{4}{subsection.1.6}%
 \contentsline {section}{\numberline {2}Tecnologías utilizadas}{6}{section.2}%
-\contentsline {section}{\numberline {3}Modelos (nombre provisional)}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Introducción}{8}{subsection.3.1}%
+\contentsline {section}{\numberline {3}Modelos (nombre provisional)}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Introducción}{9}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Modelo de dominio}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Modelo de datos}{12}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Modelo de datos}{10}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Modelo relacional}{12}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}Usuarios}{12}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Anuncios de servicio}{13}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}Colaboración}{14}{subsubsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4}Comunicación}{15}{subsubsection.3.4.4}%
-\contentsline {section}{\numberline {4}DAO}{15}{section.4}%
+\contentsline {subsubsection}{\numberline {3.4.4}Comunicación}{14}{subsubsection.3.4.4}%
+\contentsline {section}{\numberline {4}DAO}{16}{section.4}%
+\contentsline {section}{\numberline {5}Creación de formularios}{17}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Formulario de registro de usuarios}{17}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Formulario para editar los datos de un usuario}{20}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Formulario creación demanda de servicio}{20}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Formulario creación oferta de servicio}{21}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Formulario creación de partenariado profesor}{23}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Matching entre oferta de servicio y demanda de servicio}{27}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Definición del matching }{27}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Criterios de matching y anti matching}{27}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Criterios de matching }{27}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Criterios de anti matching }{28}{subsubsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.3}Matching definitivo}{29}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Ejemplo de matching}{30}{subsection.6.4}%
