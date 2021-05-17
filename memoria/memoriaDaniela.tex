@@ -18,11 +18,11 @@
 \newpage
 
 \section{Creación de formularios}
-Una vez adaptada la base de datos de no relacional a relacional y creados los correspondientes correspondientes operaciones CRUD de las tablas, hemos pasado a la creación o a la adaptación de los formularios con los nuevos datos que les corresponde a cada uno de ellos. Para ello, tuvimos que aprender y experimentar con Angular JS, framework de javascript, que requiere un vasto conocimiento para el desarrollo de los formularios y de los archivos para el correcto funcionamiento de estos. 
+Una vez adaptada la base de datos de no relacional a relacional y creados los correspondientes operaciones CRUD de las tablas, hemos pasado a la creación o a la adaptación de los formularios con los nuevos datos que les corresponde a cada uno de ellos. Para ello, tuvimos que aprender y experimentar con Angular JS, framework de javascript, que requiere un vasto conocimiento para el desarrollo de los formularios y de los archivos para el correcto funcionamiento de estos. 
 \subsection{Formulario de registro de usuarios}
 El primer formulario que tuvimos que tratar fue el registro de usuarios, siendo este el punto de inicio para los posteriores formularios a crear.\\\\
-En el TFG de David ya venía un registro implementado con sus correspondientes campos, pero al probar la aplicación habíamos encontrado algunos errores que tuvimos que corregir. Uno de los errores que encontramos era que permitía introducir una contraseña no robusta de cualquier longitud y sin ninguna restricción. De manera que la hemos hecho más robusta con una longitud mínima de 8 caracteres, mínimo una mayúscula, mínimo una minúscula y mínimo un carácter especial. También el campo email no verificaba si era un email correcto, de modo que tuvimos que crear las validaciones correspondientes por si no contenía el “@” o el “.” .\\\\
- En el formulario de David existían dos campos para la contraseña: contraseña y repetir contraseña, donde ambos campos deben contener el mismo contenido para que se pueda permitir la validación del formulario y la creación del usuario, en cambio al pedir la contraseña repetida si se introducía una contraseña distinta al campo de “contraseña “ lo aceptaba y se procedía a proceso de registro. Por eso tuvimos que añadir la validación y los mensajes de error correspondientes para que no se permita el registro si los dos campos no son iguales.\\\\
+En el TFG de David ya venía un registro implementado con sus correspondientes campos, pero al probar la aplicación habíamos encontrado algunos errores que tuvimos que corregir. Uno de los errores que encontramos era que permitía introducir una contraseña no robusta de cualquier longitud y sin ninguna restricción. De manera que la hemos hecho más robusta con una longitud mínima de 8 caracteres, mínimo una mayúscula, mínimo una minúscula y mínimo un carácter especial. También el campo email no verificaba si era uno  correcto, de modo que tuvimos que crear las validaciones correspondientes por si no contenía el “@” o el “.” .\\\\
+ En el formulario de David existían dos campos para la contraseña: contraseña y repetir contraseña, donde ambos campos deben contener el mismo contenido para que se pueda permitir la validación del formulario y la creación del usuario, en cambio al pedir la contraseña repetida si se introducía una contraseña distinta al campo de “contraseña “ lo aceptaba y se procedía al proceso de registro. Por eso tuvimos que añadir la validación y los mensajes de error correspondientes para que no se permita el registro si los dos campos no son iguales.\\\\
 Una vez arreglados los errores, añadido las mejoras y las nuevas validaciones del registro tuvimos que añadir los campos nuevos correspondientes a cada tipo de usuario de la base de datos. \\\\
 En el formulario de registro se permite la elección de tres tipos de usuarios externos: profesor externo, estudiante externo, entidad.\\\\
 Para la entidad aparte de los campos ya existentes en el formulario se añadió un nuevo campo “nombre entidad” que representa el nombre de la entidad principal que creará el formulario.\\\\
@@ -74,8 +74,7 @@ Una vez rellenos todos los campos del formulario se procede a su validación, en
 
 \includegraphics[width=\textwidth]{oferta}
 \\\\
-
-\subsection{ Formulario creación de partenariado profesor}
+\subsection{Formulario creación de partenariado profesor}
 Una vez creados los formularios de oferta de servicio y demanda de servicio hemos procedido al desarrollo del formulario para la creación del partenariado de un profesor.
 El formulario para la creación del partenariado del profesor no existía en el anterior TFG, así que se procedió a su creación desde cero. Para ello, tuvimos que crear los archivos y el modelo necesarios para el formulario. El formulario aparece con unos campos ya rellenos, algunos de los cuales son editables. Se necesitan los datos de la oferta y la demanda en cuestión para poder realizar la creación del formulario.\\\\
 En la creación del formulario de partenariado del profesor los datos de la demanda de servicio de la entidad beneficiaria vienen ya completados y sin posibilidad de editarlos En cambio, los datos de la oferta hechos por el profesor responsable que procede a la creación del formulario si tiene la posibilidad de cambiar los datos. Estos datos vienen rellenados con los datos de la demanda de servicio.\\\\
@@ -146,13 +145,13 @@ En el formulario el título y la descripción son una  combinación de los títu
    A continuación se muestra un ejemplo válido de matching con una oferta y una demanda dada, con un porcentaje de matching mayor del 50\%. Se expondrá la aplicación de cada uno de los criterios de matching y anti matching, y cómo se llegó al resultado final del algoritmo, de modo que se irá paso a paso por cada etapa del algoritmo que hemos creado.\\\\
   Dada una oferta con los datos más significativos para el matching:\\
   \begin{itemize} 
-  	\item descripción: “ Proyecto de investigacion en biologia y tecnologia”
+  	\item descripción: “Proyecto de investigacion en biologia y tecnologia”
   	\item observaciones temporales : “Me interesa que se empiece en septiembre”
   	\item área servicio: “Biologia, Tecnologia digital, inteligencia artificial”
   	\item  area conocimiento: “Biologia celular”
   	\item titulaciones: “Grado en Ciencias Ambientales”
   	\item cuatrimestre : Primer cuatrimestre
-  	\item  fecha límite: 2022/03/ 04
+  	\item  fecha límite: 2022/03/04
   	\\
   \end{itemize}
   Y una demanda con los datos:\\
@@ -168,9 +167,9 @@ En el formulario el título y la descripción son una  combinación de los títu
     \item fecha fin: 2022/03/04
   \end{itemize}
 
-  Empezamos a buscar las coincidencias mediante NLP entre las dos descripciones, quitamos las palabras comunes de ambas y nos quedamos con las no comunes. La descripción de la oferta se queda en “Proyecto,investigacion,biologia,tecnologia” y la de la demanda se queda en “proyecto,investigacion,biologia”. Sacamos el porcentaje resultante entre el número de coincidencias que es tres y la longitud total de la descripción con menos valores que es tres, por lo que se consigue el máximo de coincidencias entre las dos descripciones. El mismo procedimiento se aplica también para las observaciones temporales, donde el número de coincidencias resultante es 1 y el total de valores de la menor de las observaciones es 2, por lo que el resultado tras ello es 50\% de coincidencias. Se buscan las coincidencias entre ambas áreas de servicios, entre ambas  titulaciones y entre las áreas de servicio y las áreas de conocimiento donde tras ello resulta un porcentaje alto para el matching, dado que comparten áreas de servicio, titulaciones y hay un número elevado de coincidencias entre las áreas de servicio y las áreas de conocimiento.\\\\
-  Tras ello se comprueban las observaciones temporales para saber si se produce un ati matching.\\\\
-  Primero se verifica si la fecha de inicio de definición del periodo es mayor que la fecha límite definida en la oferta, en este caso se pasa al siguiente comprobación ya que la fecha límite de la oferta es superior. También se verifican si las otras fechas cuadran entre ellas, para así poder verificar si se podrán ejecutar ambas en el primer cuatrimestre. \\\\
+  Empezamos a buscar las coincidencias mediante NLP entre las dos descripciones, quitamos las palabras comunes de ambas y nos quedamos con las no comunes. La descripción de la oferta se queda en “Proyecto,investigacion,biologia,tecnologia” y la de la demanda se queda en “proyecto,investigacion,biologia”. Sacamos el porcentaje resultante entre el número de coincidencias que es tres y la longitud total de la descripción con menos valores que es tres, por lo que se consigue el máximo de coincidencias entre las dos descripciones. El mismo procedimiento se aplica también para las observaciones temporales, donde el número de coincidencias resultante es uno y el total de valores de la menor de las observaciones es dos, por lo que el resultado tras ello es 50\% de coincidencias. Se buscan las coincidencias entre ambas áreas de servicios, entre ambas  titulaciones y entre las áreas de servicio y las áreas de conocimiento donde tras ello resulta un porcentaje alto para el matching, dado que comparten áreas de servicio, titulaciones y hay un número elevado de coincidencias entre las áreas de servicio y las áreas de conocimiento.\\\\
+  Tras ello se comprueban las observaciones temporales para saber si se produce un anti matching.\\\\
+  Primero se verifica si la fecha de inicio de definición del periodo es mayor que la fecha límite definida en la oferta, en este caso se pasa a la siguiente comprobación ya que la fecha límite de la oferta es superior. También se verifican si las otras fechas cuadran entre ellas, para así poder verificar si se podrán ejecutar ambas en el primer cuatrimestre. \\\\
   Tras ello, una vez obtenidos todos los resultados, cada una se multiplica por su correspondiente peso para ver si se produce el matching. Como se puede observar, tras el número elevado de coincidencias, se produce el matching entre la oferta y la demanda y por lo consecuente se inserta la relación en la tabla “matching”.\\\\
   
 
