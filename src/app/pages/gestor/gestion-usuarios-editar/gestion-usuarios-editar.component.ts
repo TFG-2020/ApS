@@ -29,8 +29,8 @@ export class GestionUsuariosEditarComponent extends ProfileComponent {
   async actualizarInformacionOrigenDeUsuario() {
     await this.activatedRoute.params.pipe(first()).toPromise().then( (params) => { this.uid = params.uid; });
     await this.usuarioService.cargarUsuario(this.uid).pipe(first()).toPromise().then( (usuario: Usuario) => {
-      const { uid, rol, email, nombre, apellidos, origin_login, origin_img, universidad, titulacion, sector, terminos_aceptados } = usuario;
-      this.usuario = new Usuario( uid, rol, email, nombre, apellidos, origin_login, origin_img || '', universidad || '', titulacion || '', sector || '', terminos_aceptados || false);
+      const { uid, rol, email, nombre, apellidos, origin_login, origin_img, universidad, titulacion, sector, nombreEntidad, terminos_aceptados } = usuario;
+      this.usuario = new Usuario( uid, rol, email, nombre, apellidos, origin_login, origin_img || '', universidad || '', titulacion || '', sector || '',  nombreEntidad || '',terminos_aceptados || false);
     });
   }
 

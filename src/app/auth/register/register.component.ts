@@ -1,9 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, Validators, FormGroup } from '@angular/forms';
+import { FormBuilder, Validators, FormGroup, FormControl, AbstractControl, ValidationErrors, ValidatorFn } from '@angular/forms';
 import { ROL_ENTIDAD, ROL_PROFESOR, ROL_ESTUDIANTE } from './../../../../server/models/rol.model';
 import { UsuarioService } from '../../services/usuario.service';
+import { HomeService } from "../../services/home.service";
 import Swal from 'sweetalert2'
 import { Router } from '@angular/router';
+import { SobreApsUnedContactaComponent } from 'src/app/pages/sobre-aps-uned-contacta/sobre-aps-uned-contacta.component';
+
 
 @Component({
   selector: 'app-register',
@@ -12,51 +15,107 @@ import { Router } from '@angular/router';
 })
 export class RegisterComponent implements OnInit {
 
+
   public formSubmitted = false;
+  public codeList: any ;
+  
+  constructor(private fb: FormBuilder, private usuarioService: UsuarioService, private registerService: HomeService, private router: Router) { 
+    
+  }
 
   public registerForm = this.fb.group({
-    rol: ['', Validators.required ],
-    email: ['', [Validators.required, Validators.email] ],
-    password: ['', Validators.required ],
-    password_2: ['', Validators.required ],
-    nombre: ['', Validators.required ],
-    apellidos: ['', Validators.required ],
-    universidad: ['' ],
-    titulacion: ['' ],
-    sector: ['' ],
-    terminos_aceptados: [false, Validators.requiredTrue ],
+    email: new FormControl('', [
+      Validators.required,
+      Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$")]),
+    rol: new FormControl('', Validators.required),
+    password: new FormControl('', [
+      Validators.required,
+      Validators.pattern("^(?=.*[A-Z])(?=.*[!@#$&*<>()-])(?=.*[0-9])(?=.*[a-z]).{8,15}$")
+    ]),
+    password_2: new FormControl('',
+      Validators.required
+    ),
+
+    nombre: new FormControl('', Validators.required),
+    apellidos: new FormControl('', Validators.required),
+    universidad: new FormControl(''),
+    titulacion: new FormControl(''),
+    sector: new FormControl(''),
+    nombreEntidad: new FormControl(''),
+    terminos_aceptados: new FormControl(false, Validators.requiredTrue),
+
   }, {
     validators: [
-      this.validacionPasswordsVacias(),
-      this.validacionPasswordsNoCoinciden(),
       this.validarUniversidad(),
       this.validarTitulacion(),
       this.validarSector(),
+      this.validarNombreEntidad(),
+      this.match('password', 'password_2', 'password-mismatch'),
     ]
   });
 
-  public roles = this.getRoles();
-
-  constructor( private fb: FormBuilder, private usuarioService: UsuarioService, private router: Router) {}
 
   ngOnInit(): void {
+    this.obtenerUniversidades();
   }
 
+
+  async  obtenerUniversidades() {
+     return this.registerService.obtenerUniversidades()
+        .subscribe( (resp: any) => {
+          console.log(resp)
+          this.codeList =resp.codeList
+          return this.codeList;
+        });
+  }
+
+  get primEmail() {
+    return this.registerForm.get('email')
+  }
+
+  get GetPassword() {
+    return this.registerForm.get('password')
+  }
+
+  get GetPasswordConfirm() {
+    return this.registerForm.get('password_2')
+  }
+  get getUniveridad() {
+    return this.registerForm.get('universidad')
+  }
+  get getSector() {
+    return this.registerForm.get('sector')
+  }
+  get getNombreEntidad() {
+    return this.registerForm.get('nombreEntidad')
+  }
+
+  get getTitulacion() {
+    return this.registerForm.get('titulacion')
+  }
+  get getNombre() {
+    return this.registerForm.get('nombre')
+  }
+  get getApellidos() {
+    return this.registerForm.get('apellidos')
+  }
+  public roles = this.getRoles();
+  
 
   register(): void {
     this.formSubmitted = true;
 
-    if(this.registerForm.invalid) {
+    if (this.registerForm.invalid) {
       return;
     }
 
     this.usuarioService
-          .crearUsuario( this.registerForm.value )
-          .subscribe( resp => {
-            this.router.navigate(['/']);
-          }, err => {
-            Swal.fire('Error', err.error.msg, 'error');
-          });
+      .crearUsuario(this.registerForm.value)
+      .subscribe(resp => {
+        this.router.navigate(['/']);
+      }, err => {
+        Swal.fire('Error', err.error.msg, 'error');
+      });
   }
 
 
@@ -68,14 +127,33 @@ export class RegisterComponent implements OnInit {
     ];
   }
 
+  match(firstControlName: string | (string | number)[], secondControlName: string | (string | number)[], customError = 'mismatch') {
+    return (fg: FormGroup) => {
+      console.log(fg.get(firstControlName).value === fg.get(secondControlName).value ? null : { [customError]: true });
+      
+      return fg.get(firstControlName).value === fg.get(secondControlName).value ? null : { [customError]: true };
+    };
+
+  }
+
+   noListMatch() {
+    let accept=true;
+          for (let v of this.codeList) {
+            if (v.nombre === this.registerForm.get('universidad').value || this.registerForm.get('universidad').value === '')
+              accept = false;
+          }
+          return accept;
+
+  } 
+
   passwordsNoCoinciden(): Boolean {
     return this.formSubmitted && (this.registerForm.get('password').value !== this.registerForm.get('password_2').value);
   }
 
   validacionPasswordsNoCoinciden() {
-    return ( formGroup: FormGroup ) => {
-      if(this.passwordsNoCoinciden()) {
-        formGroup.get('password').setErrors({ required: true});
+    return (formGroup: FormGroup) => {
+      if (this.passwordsNoCoinciden()) {
+        formGroup.get('password').setErrors({ required: true });
       } else {
         formGroup.get('password').setErrors(null);
       }
@@ -87,63 +165,22 @@ export class RegisterComponent implements OnInit {
   }
 
   validacionPasswordsVacias() {
-    return ( formGroup: FormGroup ) => {
-      if(this.passwordsVacias()) {
-        formGroup.get('password_2').setErrors({ required: true});
+    return (formGroup: FormGroup) => {
+      if (this.passwordsVacias()) {
+        formGroup.get('password_2').setErrors({ required: true });
       } else {
         formGroup.get('password_2').setErrors(null);
       }
     }
   }
 
-
-
-
-  campoNoValido(campo): String {
-
-    // para mostrar diferentes nombres en el mensaje de error
-    let campo_real = campo === 'facultad' ? 'titulacion' : campo;
-
-    let invalido = this.formSubmitted && this.registerForm.get(campo_real) && this.registerForm.get(campo_real).invalid;
-
-    if(invalido) {
-      switch (campo) {
-        case 'rol':
-          return 'Debe elegir un tipo de perfil con el que será registrado en la aplicación: Estudiante, Profesor o Entidad';
-          break;
-
-        case 'email':
-          return 'El campo correo electrónico es obligatorio y debe ser un correo válido';
-          break;
-
-        case 'titulacion':
-          return `El campo titulación es obligatorio`;
-          break;
-
-        case 'facultad':
-          return `El campo facultad/escuela es obligatorio`;
-          break;
-
-        case 'terminos_aceptados':
-          return 'Es obligatorio aceptar las condiciones de uso';
-          break;
-
-        default:
-          return `El campo ${ campo } es obligatorio`;
-          break;
-      }
-    }
-
-    return '';
-  }
-
-  validarCampoSegunPerfil(campo, roles) {
-    return ( formGroup: FormGroup ) => {
+  validarCampoSegunPerfil(campo: string | (string | number)[], roles: string | any[]) {
+    return (formGroup: FormGroup) => {
       const control_rol = formGroup.get('rol');
       const campo_bajo_validacion = formGroup.get(campo);
 
-      if(campo_bajo_validacion.value === '' && roles.includes(control_rol.value)) {
-        campo_bajo_validacion.setErrors({ required: true});
+      if (campo_bajo_validacion.value === '' && roles.includes(control_rol.value)) {
+        campo_bajo_validacion.setErrors({ required: true });
       } else {
         campo_bajo_validacion.setErrors(null);
       }
@@ -162,5 +199,7 @@ export class RegisterComponent implements OnInit {
     return this.validarCampoSegunPerfil('sector', [ROL_ENTIDAD]);
   }
 
-
+  validarNombreEntidad() {
+    return this.validarCampoSegunPerfil('nombreEntidad', [ROL_ENTIDAD]);
+  }
 }

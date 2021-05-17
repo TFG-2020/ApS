@@ -9,5 +9,6 @@ export interface RegisterForm {
     universidad: string;
     titulacion: string;
     sector: string;
+    nombreEntidad: String;
     terminos_aceptados: boolean;
 }
