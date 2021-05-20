@@ -113,7 +113,7 @@ A continuación se explican los objetivos que hemos tenido en este TFG.
 	\end{itemize}
 	\item Herramientas UML: 
 	\begin{itemize} 
-		\item Diagrams.net es una herramienta \textit{online} de dibujo sencilla que empezamos a usar para la creación de los modelos de datos y de dominio.
+		\item Diagrams.net es una herramienta de diseño de diagramas \textit{online} la cual permite diseñar varios tipos de diagramas entre los cuales se encuentran diagramas de clases, de flujos, de entidades, etc.
 		\item Modelio es una aplicación de escritorio que permite crear modelos UML complejos, indicando los atributos, los métodos y las relaciones que tienen los elementos entre sí. Debido a que es una herramienta completa y que es una herramienta que ya conociamos, la hemos elegido para la creación de nuestros modelos.
 	\end{itemize}
 	\item Herramienta para el modelo relacional: 
@@ -133,50 +133,57 @@ A continuación se explican los objetivos que hemos tenido en este TFG.
 \end{enumerate}
 
 \section{Tecnologías utilizadas}
-\begin{itemize}
-	\item Node.js: Es un entorno de ejecución asíncrono dirigido por eventos, funciona a base de promesas, es decir, funciones que devolverán un resultado en algún momento del futuro, las promesas se pueden encadenar una tras otra si es que necesitamos los datos producidos por la anterior promesa. Si durante la ejecución de un programa no hay nada que hacer, node.js se “dormirá”. 
+A continuación se hablará sobre las tecnologías utilizadas explicando brevemente que son y los motivos por los que han sido seleccionadas.
+
+	\subsection{Node.js} 
+Node.js es un entorno de ejecución asíncrono dirigido por eventos, funciona a base de promesas, es decir, funciones que devolverán un resultado en algún momento del futuro, las promesas se pueden encadenar una tras otra si es que necesitamos los datos producidos por la anterior promesa. Si durante la ejecución de un programa no hay nada que hacer, node.js se “dormirá”. 
 	Dado que node no utiliza candados es imposible que se bloqueen los procesos, lo que lo hace bastante adecuado para desarrollar sistemas escalables. Además Daniela ya tenía conocimiento previo de este entorno y es una tecnología que venía impuesta por el proyecto.
-	
-	\item Angular: Es un \emph{framework} para la construcción de aplicaciones de página única(SPA a partir de ahora) que utiliza HTML y Typescript. Angular sigue el patrón modelo-vista-controlador, el cual consiste en separar la aplicación en tres partes:
+
+	\subsection{Angular}
+Angular es un \emph{framework} para la construcción de aplicaciones de página única (SPA a partir de ahora) que utiliza HTML y Typescript. Angular sigue el patrón modelo-vista-controlador, el cual consiste en separar la aplicación en tres partes:
 	\begin{itemize}
-		\item El modelo: Es la piedra angular del patrón, se encarga de manejar los datos y la lógica de la aplicación.
-		\item La vista: Es la parte que se le muestra al usuario.
-		\item El controlador: Es la parte que se encarga de comunicar a la vista y al modelo, el controlador recibe el input del usuario a través de la vista y se lo pasa al controlador el cual hace las operaciones necesarias y se lo devuelve al controlador, quien se lo pasa a la vista para mostrárselo al usuario.
+		\item Modelo: Es la piedra angular del patrón, se encarga de manejar los datos y la lógica de la aplicación.
+		\item Vista: Es la parte que se le muestra al usuario.
+		\item Controlador: Es la parte que se encarga de comunicar a la vista y al modelo. El controlador recibe los eventos de interacción del usuario a través de la vista y se lo pasa al controlador, el cual hace las operaciones necesarias y devuelve los resultados al controlador, quien se lo pasa a la vista para mostrárselo al usuario.
 	\end{itemize}
 	
 	
-	Angular venía impuesto por el trabajo realizado con anterioridad y, aunque es una tecnología con la que ningún miembro del equipo  estaba familiarizado, es cierto que el diseño de aplicación de página única hace mucho más liviano la ejecución de la aplicación por parte del usuario al no tener unos tiempos de espera tan grandes como los que tendría al cargar de nuevo cada página, lo que la hace una buena elección para un trabajo de esta índole.
+El uso de Angular venía impuesto por el trabajo realizado con anterioridad y, aunque es una tecnología con la que ningún miembro del equipo  estaba familiarizado, es cierto que el diseño de aplicación de página única hace mucho más liviana la ejecución de la aplicación por parte del usuario, al no tener unos tiempos de espera tan grandes como los que tendría al cargar de nuevo cada página. Esto hace de Angular una buena elección para un trabajo de esta índole.
 	
-	\item Gitkraken: Es una herramienta de control de versiones la cual se puede conectar a distintas plataformas de git, haciendo de intermediario entre el usuario y el repositorio de git, el cual en este caso está alojado en github. Hemos escogido esta herramienta para nuestro control de versiones porque permite trabajar desde Windows sin necesidad de saberse los comandos, a diferencia de otras herramientas de control de versiones tiene una representación gráfica muy intuitiva que permite ver la distribución de las ramas, los commits y su evolución, y además permite resolver los conflictos generados al hacer merge dentro de la propia aplicación de una manera bastante sencilla. Esto sumado a la experiencia previa de Victoria con la aplicación ha hecho que sea seleccionada como herramienta de control de versiones.
+	\subsection{GitKraken}
+ Gitkraken es un cliente de Git con interfaz de usuario la cual se puede conectar a distintas plataformas de Git, haciendo de intermediario entre el usuario y el repositorio de Git, el cual en este caso está alojado en Github. Hemos escogido esta interfaz para nuestro control de versiones porque permite trabajar desde Windows sin necesidad de conocer los comandos de Git. A diferencia de otros clientes de Git, tiene una representación gráfica muy intuitiva que permite ver la distribución de las ramas, los \emph{commits} y su evolución como se puede observar en la figura \ref{Figura 1}, y además permite resolver los conflictos generados al mezclar las distintas ramas de desarrollo dentro de la propia aplicación de una manera bastante sencilla. Esto sumado a la experiencia previa de Victoria con la aplicación ha hecho que sea seleccionada como herramienta de control de versiones.
 	\begin{figure}
 		\centering
 		\includegraphics[scale=0.4]{gitkraken}
-		\caption{GitKraken}
+		\caption{GitKraken: Información de una rama de desarrollo}
+		\label{Figura 1}
 	\end{figure}
 	
-	\item Pivotal tracker: es una herramienta de \emph{product planning} y administración de tareas diseñada para equipos de desarrollo que siguen metodologías de diseño ágiles.
-	Esta herramienta permite crear historias de usuario y asignarles una puntuación del 1 al 5 indicando su dificultad y/o tiempo invertido en dichas tareas. Además permite cambiar el estado de las tareas(empezado, finalizado, en revisión...) y cualquier cambio en el estado de dichas tareas se informa por correo de manera automática a quien esté involucrado en ella.
-	También permite ver las tareas completadas y rechazadas y generar gráficos indicando el esfuerzo realizado. Esta tecnología fue sugerida por Victoria y nos ha facilitado mucho tanto la organización como el seguimiento de nuestros avances.
+	\subsection{Pivotal tracker}
+Pivotal tracker es una herramienta de \emph{product planning} y administración de tareas diseñada para equipos de desarrollo que siguen metodologías de diseño ágiles.
+	Esta herramienta permite crear historias de usuario y asignarles una puntuación del 1 al 5 indicando su dificultad y/o tiempo invertido en dichas tareas. Además, permite cambiar el estado de las tareas (empezado, finalizado, en revisión,etc) y cualquier cambio en el estado de dichas tareas se informa por correo de manera automática a quien esté involucrado en ella.
+	También permite ver las tareas completadas y rechazadas y generar gráficos indicando el esfuerzo realizado, como el que podemos ver en la figura \ref{Figura 2}. Esta tecnología fue sugerida por Victoria y nos ha facilitado mucho tanto la organización como el seguimiento de nuestros avances.
 	
 	\begin{figure}
 	\centering
 	\includegraphics[scale=0.6]{pivotal}
-	\caption{GitKraken}
+	\caption{Pivotal tracker: Estadísticas de historias}
+	\label{Figura 2}
 	\end{figure}
 	
-	\item LaTex: Es un lenguaje de maquetado utilizado comúnmente en el mundo académico, que es una de las principales razones por la que lo hemos escogido para redactar nuestra memoria, a pesar de que ningún integrante del grupo tuviera experiencia previa con ello. A diferencia de otros procesadores de texto, como Microsoft Word o LibreOffice Writer, se escribe el texto plano y se formatea dicho texto con etiquetas. 
+	\subsection{LaTeX}
+LaTeX es un lenguaje de creacion de documentos escritos utilizado comúnmente en el mundo académico, que es una de las principales razones por la que lo hemos escogido para redactar nuestra memoria, a pesar de que ningún integrante del grupo tuviera experiencia previa con ello. A diferencia de otros procesadores de texto, como Microsoft Word o LibreOffice Writer, se escribe el texto plano y se formatea dicho texto con etiquetas. 
 	
-	\item MySQL: Aunque nuestro proyecto continúa el trabajo realizado por David Jiménez del Rey y ya contaba con un sistema gestor de bases de datos, dicho sistema era MongoDB y como los datos que se iban a manejar en la aplicación eran en su mayoría relacionales se tomó la decisión de utilizar MySQL para la base de datos. Dado que todos los componentes del grupo tenían experiencia previa en bases de datos sql fue un cambio bien recibido.
-	
-	\item Modelio: Es un entorno de modelado \emph{open-source} el cual permite trabajar con un amplio rango de modelos y diagramas. Dado que ya se contaba con experiencia previa en esta herramienta por parte de todos los miembros del equipo, se ha escogido para realizar los modelos de datos necesarios para la aplicación.
-	
-	\item MySQL Workbench: Es una herramienta para diseño, desarrollo y administración de bases de datos relacionales. 
-	Cuenta con funcionalidades de validación de esquemas y modelos promueve las mejores prácticas de los estándares de modelado de datos. También promueve los estándares de diseño específicos de MySQL para evitar errores al generar esquemas relacionales o creando bases de datos MySQL. Por estos motivos junto con su relativa simplicidad es por lo que se ha elegido esta herramienta para hacer los diagramas de entidad-relacion
-	
-	\item Diagrams.net: Es una herramienta de diseño de diagramas de varios tipos entre los cuales se encuentran diagramas de clases, de flujos, de entidades...
-	Es una herramienta muy poderosa pero dado que ningún componente del grupo tenía experiencia previa con ella y para lo único que se necesitaba era para hacer el diagrama de entidad-relación, se descartó el uso de esta aplicación en pos de otra más simple.
-\end{itemize}
+	\subsection{MySQL}
+Aunque nuestro proyecto continúa el trabajo realizado por David Jiménez del Rey, el cual ya contaba con un sistema gestor de bases de datos, dicho sistema era MongoDB. Como los datos que se iban a manejar en la aplicación eran en su mayoría relacionales se tomó la decisión de utilizar MySQL para la base de datos. Dado que todos los componentes del grupo tenían experiencia previa en bases de datos SQL fue un cambio bien recibido.
 
+	\subsection{Modelio}	
+Modelio es un entorno de modelado \emph{open-source} el cual permite trabajar con un amplio rango de modelos y diagramas. Dado que ya se contaba con experiencia previa en esta herramienta por parte de todos los miembros del equipo, se ha escogido para realizar los modelos de datos necesarios para la aplicación.
+	
+	\subsection{MySQL Workbench}
+MySQL Workbench: Es una herramienta para diseño, desarrollo y administración de bases de datos relacionales. 
+Cuenta con funcionalidades de validación de esquemas y modelos y promueve las mejores prácticas de los estándares de modelado de datos. También promueve los estándares de diseño específicos de MySQL para evitar errores al generar esquemas relacionales o creando bases de datos MySQL. Por estos motivos, junto con su relativa simplicidad es por lo que se ha elegido esta herramienta para hacer los diagramas de entidad-relacion.
+	
 
 \section{Modelos (nombre provisional)}
 \subsection{Introducción}
@@ -283,37 +290,37 @@ La tabla \textit{mail} y \textit{newsletter} no han sido conectadas con nada por
 	\caption{Diagrama de entidad relación: Comunicación}
 \end{figure}
 
-\section{DAO}
+\section{Capa de acceso a datos}
 
-Tras cambiar la base de datos de mongo por una de SQL, también era necesario hacer la lógica de accesos a la base de datos, por lo que se crearon 4 \emph{Data Access Object} (DAO a partir de ahora) que se encargarían de las operaciones de cada una de las 4 áreas definidas en el modelo de entidad-relación.
+Tras cambiar la base de datos de MongoDB por una relacional, también era necesario hacer la lógica de accesos a la base de datos, por lo que se crearon cuatro \emph{Data Access Object} (DAO a partir de ahora) que se encargarían de las operaciones de cada una de las cuatro áreas definidas en el modelo de entidad-relación.
 
 El DAO es un patrón de diseño el trata de proporcionar una interfaz para la comunicación con una base de datos u otro sistema de persistencia de datos. Esta interfaz se encarga de llevar a cabo las operaciones CRUD, es decir creación, lectura, actualización y eliminación de datos y además asegura la independencia entre la lógica de la aplicación y la capa de negocio.
 
-Aunque no eran estrictamente necesarios dado que en javascript no hace falta declarar el tipo de los objetos, se decidió crear objetos transfer para así tener más documentados los campos de cada tipo de objeto.
-Un transfer o \emph{Data Transfer Object} es un objeto cuya única función es guardar la información de cierto objeto y permitir su acceso y manipulación.
+Aunque no eran estrictamente necesarios dado que en javascript no hace falta declarar el tipo de los objetos, se decidió crear objetos \emph{transfer} para así tener más documentados los campos de cada tipo de objeto.
+Un \emph{transfer} o \emph{Data Transfer Object} es un objeto cuya única función es guardar la información de cierto objeto y permitir su acceso y manipulación.
 De esta forma si hay algún problema, este se detectará cuanto antes y evitará que la aplicación falle repentinamente más avanzada su ejecución.
 
-Los objetos transfer contienen simplemente los atributos deseados de cada tipo de objeto además de las funciones get y set para poder acceder y actualizar la información de dichos atributos.
-En conjunto con los DAO, los transfer ayudan aún más a la separación de capas de negocio y lógica.
+Los objetos \emph{transfer} contienen simplemente los atributos deseados de cada tipo de objeto además de las funciones \emph{get} y \emph{set} para poder acceder y actualizar la información de dichos atributos.
+En conjunto con los DAO, los \emph{transfer} ayudan aún más a la separación de capas de negocio y lógica.
 
 Los cuatro DAO que se crearon a partir del diagrama entidad-relacion son:
 
 \begin{itemize}
-	\item DAOColaboracion: se encarga de manejar toda la información relacionada con los proyectos y los partenariados, desde sus participantes, ya sean profesores o alumnos hasta los mensajes y archivos asociados a estos proyectos o partenariados. Este DAO se llama así porque tiene con piedra angular la clase Colaboración.
-	Esta clase fue creada para hacer de padre de las clases partenariado y proyecto y así evitar la repetición de métodos y atributos similares. Utiliza los transfer TColaboracion, TPartenariado y TProyecto.
+	\item \texttt{DAOColaboracion}: Se encarga de manejar toda la información relacionada con los proyectos y los partenariados, desde sus participantes, ya sean profesores o alumnos hasta los mensajes y archivos asociados a estos proyectos o partenariados. Este DAO se llama así porque tiene como piedra angular la clase \texttt{Colaboración}.
+	Esta clase fue creada para hacer de padre de las clases \texttt{Partenariado} y \texttt{Proyecto} y así evitar la repetición de métodos y atributos similares. Utiliza los \emph{transfer} \texttt{TColaboracion}, \texttt{TPartenariado} y \texttt{TProyecto}.
 
-	\item DAOComunicacion: se encarga de manejar toda la información relacionada con todas las formas de comunicación disponibles, desde los mensajes y los uploads que se pueden intercambiar durante las distintas fases de un partenariado o proyecto hasta los emails o las newsletter a las que se pueden suscribir los 		usuarios. Por lo tanto utiliza los transfer TUpload, TMensajes, TMail y TNewsletter
+	\item \texttt{DAOComunicacion}: Se encarga de manejar toda la información relacionada con todas las formas de comunicación disponibles, desde los mensajes y los \emph{uploads} que se pueden intercambiar durante las distintas fases de un partenariado o proyecto hasta los \emph{emails} o las \emph{newsletter} a las que se pueden suscribir los usuarios. Por lo tanto utiliza los \emph{transfer} \texttt{TUpload}, \texttt{TMensajes}, \texttt{TMail} y \texttt{TNewsletter}
 
-	\item DAOTentativa: trata toda la información relacionada con ofertas y demandas y sus relaciones con la titulación local ofrecida por la universidad, las áreas de servicio y las necesidades sociales que pudiera tener la demanda. 
-	Al igual que antes se creó una clase padre llamada anuncio para evitar la repetición de atributos en las clases oferta y demanda y en sus derivadas. Este DAO también se encarga de las iniciativas, que son propuestas de proyecto realizadas por un alumno a la espera de que se le dé el visto bueno, y de los mensajes y 		uploads que pudieran tener tanto la oferta como la demanda. Para poder llevar a cabo esta función, utiliza los transfer TIniciativa, TOfertaServicio, TAnuncioServicio y TDemandaServicio.
+	\item \texttt{DAOTentativa}: Se encarga de manejar toda la información relacionada con ofertas y demandas y sus relaciones con la titulación local ofrecida por la universidad, las áreas de servicio y las necesidades sociales que pudiera tener la demanda. 
+	Al igual que antes, se creó una clase padre llamada \texttt{Anuncio} para evitar la repetición de atributos en las clases \texttt{Oferta} y \texttt{Demanda} y en sus derivadas. Este DAO también se encarga de las iniciativas, que son propuestas de proyecto realizadas por un alumno a la espera de que se le dé el visto bueno, y de los mensajes y \emph{uploads} que pudieran tener tanto la oferta como la demanda. Para poder llevar a cabo esta función, este DAO utiliza los \emph{transfer} \texttt{TIniciativa}, \texttt{TOfertaServicio}, \texttt{TAnuncioServicio} y \texttt{TDemandaServicio}.
 
-	\item DAOUsuario: se encarga de manejar los datos pertenecientes a las distintas clases de usuario, que son: profesor interno, profesor externo, estudiante interno, estudiante externo, admin, entidad y oficina APS.
+	\item \texttt{DAOUsuario}: Se encarga de manejar los datos pertenecientes a las distintas clases de usuario, que son: profesor interno, profesor externo, estudiante interno, estudiante externo, \emph{admin}, entidad y oficina APS.
 	Además de estas clases también interactúa con los respectivos padres de cada una de ellas y con las titulaciones locales, áreas de conocimiento y universidades que son necesarias para completar los atributos de los profesores.
-	Para ello utiliza los transfer TAdmin, TEntidad, TUsuario, TProfesor, TOficinaAPS, TEstudiante, TProfesorExterno, TProfesorInterno, TEstudianteInterno y TEstudianteExterno
+	Para ello utiliza los \emph{transfer} \texttt{TAdmin}, \texttt{TEntidad}, \texttt{TUsuario}, \texttt{TProfesor}, \texttt{TOficinaAPS}, \texttt{TEstudiante}, \texttt{TProfesorExterno}, \texttt{TProfesorInterno}, \texttt{TEstudianteInterno} y \texttt{TEstudianteExterno}.
 
 	
 	\end{itemize}
-	Se ha intentado que los DAO tengan todas las funcionalidades necesarias para que la aplicación pudiera seguir funcionando tras sufrir cambios sin necesidad de actualizar los DAO con frecuencia, pero resulta imposible saber qué nuevas funcionalidades puede adquirir la aplicación o que cambios podría sufrir el modelo de datos así que aunque cuenta con bastantes funcionalidades será necesario actualizarlo sobre la marcha si en un futuro la aplicación sufre cambios
+	Se ha intentado que los DAO tengan todas las funcionalidades necesarias para que la aplicación pudiera seguir funcionando tras sufrir cambios sin necesidad de actualizar los DAO con frecuencia, pero resulta imposible saber qué nuevas funcionalidades puede adquirir la aplicación o que cambios podría sufrir el modelo de datos así que, aunque cuenta con bastantes funcionalidades, será necesario actualizarlo sobre la marcha si en un futuro la aplicación sufre cambios.
 
 \section{Creación de formularios}
 Una vez adaptada la base de datos de no relacional a relacional y creados los correspondientes operaciones CRUD de las tablas, hemos pasado a la creación o a la adaptación de los formularios con los nuevos datos que les corresponde a cada uno de ellos. Para ello, tuvimos que aprender y experimentar con Angular JS, framework de javascript, que requiere un vasto conocimiento para el desarrollo de los formularios y de los archivos para el correcto funcionamiento de estos. 
