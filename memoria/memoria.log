@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  17 MAY 2021 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  21 MAY 2021 21:44
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -245,22 +245,22 @@ LaTeX Info: Redefining \% on input line 25.
 )
 \openout1 = `memoria.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (C:\Users\vikto\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -291,7 +291,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 )
-Package hyperref Info: Link coloring OFF on input line 13.
+Package hyperref Info: Link coloring OFF on input line 14.
 
 (C:\Users\vikto\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -305,19 +305,19 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count270
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
  (memoria.out) (memoria.out)
 \@outlinefile=\write3
 \openout3 = `memoria.out'.
 
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
 <logo.jpg, id=127, 410.53375pt x 107.40125pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 18.
+Package pdftex.def Info: logo.jpg  used on input line 19.
 (pdftex.def)             Requested size: 341.94652pt x 89.45764pt.
  [1
 
@@ -339,7 +339,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 \newpage
+l.38 \newpage
               [1] (memoria.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -348,549 +348,542 @@ LaTeX Info: Redefining \% on input line 1.
 \openout5 = `memoria.lof'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--44
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--44
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 53--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--64
+Underfull \hbox (badness 10000) in paragraph at lines 65--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--64
+Underfull \hbox (badness 10000) in paragraph at lines 65--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--64
+Underfull \hbox (badness 10000) in paragraph at lines 65--69
 
  []
 
-[3] [4] [5]
-<gitkraken.png, id=227, 1156.32pt x 602.25pt>
+[3] [4] [5] [6]
+<gitkraken.png, id=236, 1156.32pt x 602.25pt>
 File: gitkraken.png Graphic file (type png)
 <use gitkraken.png>
-Package pdftex.def Info: gitkraken.png  used on input line 153.
+Package pdftex.def Info: gitkraken.png  used on input line 156.
 (pdftex.def)             Requested size: 462.5198pt x 240.89572pt.
 
-Overfull \hbox (35.08827pt too wide) in paragraph at lines 153--154
+Overfull \hbox (35.08827pt too wide) in paragraph at lines 156--157
  [][] 
  []
 
-[6]
 <pivotal.png, id=238, 766.062pt x 417.9615pt>
 File: pivotal.png Graphic file (type png)
 <use pivotal.png>
-Package pdftex.def Info: pivotal.png  used on input line 163.
+Package pdftex.def Info: pivotal.png  used on input line 166.
 (pdftex.def)             Requested size: 459.64075pt x 250.77882pt.
 
-Overfull \hbox (32.20921pt too wide) in paragraph at lines 163--164
+Overfull \hbox (32.20921pt too wide) in paragraph at lines 166--167
  [][] 
  []
 
-[7 <./gitkraken.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 183--192
+[7 <./gitkraken.png>] [8 <./pivotal.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 186--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--192
+Underfull \hbox (badness 10000) in paragraph at lines 186--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--192
+Underfull \hbox (badness 10000) in paragraph at lines 186--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--192
+Underfull \hbox (badness 10000) in paragraph at lines 186--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--192
+Underfull \hbox (badness 10000) in paragraph at lines 186--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--192
+Underfull \hbox (badness 10000) in paragraph at lines 186--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--192
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--192
-
- []
-
-[8 <./pivotal.png>]
-<mdominio.png, id=249, 1821.80624pt x 1125.20375pt>
-File: mdominio.png Graphic file (type png)
-<use mdominio.png>
-Package pdftex.def Info: mdominio.png  used on input line 211.
-(pdftex.def)             Requested size: 419.00662pt x 258.79141pt.
-<mdatos.png, id=250, 1821.80624pt x 1391.1975pt>
-File: mdatos.png Graphic file (type png)
-<use mdatos.png>
-Package pdftex.def Info: mdatos.png  used on input line 216.
-(pdftex.def)             Requested size: 419.00662pt x 319.96869pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--219
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
 
-Overfull \hbox (29.83803pt too wide) in paragraph at lines 223--225
-[]\OT1/cmr/m/n/10.95 En par-ti-cu-lar po-de-mos ver que el par-te-na-ria-do pue
--de en-con-trar-se en es-ta-dos EN[]CREACION,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-[10] [11 <./mdominio.png (PNG copy)> <./mdatos.png (PNG copy)>]
-Overfull \hbox (9.1729pt too wide) in paragraph at lines 226--228
-[]\OT1/cmr/m/n/10.95 En el ca-so del pro-yec-to te-ne-mos los es-ta-dos EN[]CRE
-ACION, ABIER-TO[]PROFESORES,
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
  []
 
-<er.png, id=263, 2818.53pt x 1855.93375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+<mdominio.png, id=255, 1821.80624pt x 1125.20375pt>
+File: mdominio.png Graphic file (type png)
+<use mdominio.png>
+Package pdftex.def Info: mdominio.png  used on input line 215.
+(pdftex.def)             Requested size: 419.00662pt x 258.79141pt.
+<mdatos.png, id=256, 1821.80624pt x 1391.1975pt>
+File: mdatos.png Graphic file (type png)
+<use mdatos.png>
+Package pdftex.def Info: mdatos.png  used on input line 221.
+(pdftex.def)             Requested size: 419.00662pt x 319.96869pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--225
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+
+Overfull \hbox (20.1543pt too wide) in paragraph at lines 230--232
+[]\OT1/cmr/m/n/10.95 El pro-yec-to to-ma los es-ta-dos \OT1/cmtt/m/n/10.95 EN[]
+CREACION\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 ABIERTO[]PROFESORES\OT1/cmr/m/
+n/10.95 , \OT1/cmtt/m/n/10.95 ABIERTO[]ESTUDIANTES\OT1/cmr/m/n/10.95 ,
+ []
+
+[11 <./mdominio.png (PNG copy)>] [12 <./mdatos.png (PNG copy)>]
+<er.png, id=273, 2818.53pt x 1855.93375pt>
 File: er.png Graphic file (type png)
 <use er.png>
-Package pdftex.def Info: er.png  used on input line 238.
+Package pdftex.def Info: er.png  used on input line 244.
 (pdftex.def)             Requested size: 422.76126pt x 278.37805pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--241
-
- []
-
-<usuarios.jpg, id=264, 1108.14pt x 770.88pt>
+<usuarios.jpg, id=275, 1108.14pt x 770.88pt>
 File: usuarios.jpg Graphic file (type jpg)
 <use usuarios.jpg>
-Package pdftex.def Info: usuarios.jpg  used on input line 249.
+Package pdftex.def Info: usuarios.jpg  used on input line 256.
 (pdftex.def)             Requested size: 443.24815pt x 308.34654pt.
 
-Overfull \hbox (15.81662pt too wide) in paragraph at lines 249--250
+Overfull \hbox (15.81662pt too wide) in paragraph at lines 256--257
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--252
-
- []
-
-[12]
-<anuncios.jpg, id=270, 1270.7475pt x 624.83438pt>
-File: anuncios.jpg Graphic file (type jpg)
-<use anuncios.jpg>
-Package pdftex.def Info: anuncios.jpg  used on input line 263.
-(pdftex.def)             Requested size: 444.7683pt x 218.69531pt.
-
-Overfull \hbox (17.33676pt too wide) in paragraph at lines 263--264
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--266
+Underfull \hbox (badness 10000) in paragraph at lines 249--260
 
  []
 
 [13 <./er.png>]
-<colaboracion.jpg, id=275, 930.47626pt x 581.17125pt>
-File: colaboracion.jpg Graphic file (type jpg)
-<use colaboracion.jpg>
-Package pdftex.def Info: colaboracion.jpg  used on input line 272.
-(pdftex.def)             Requested size: 372.18391pt x 232.46437pt.
-<comunicacion.jpg, id=276, 773.89125pt x 520.94624pt>
-File: comunicacion.jpg Graphic file (type jpg)
-<use comunicacion.jpg>
-Package pdftex.def Info: comunicacion.jpg  used on input line 282.
-(pdftex.def)             Requested size: 309.55101pt x 208.3748pt.
- [14 <./usuarios.jpg>] [15 <./anuncios.jpg> <./colaboracion.jpg>] [16 <./comuni
-cacion.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 321--329
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--329
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--329
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--329
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--329
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--329
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--329
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--329
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--329
-
- []
-
-[17]
-<registro.jpg, id=293, 609.477pt x 608.87476pt>
-File: registro.jpg Graphic file (type jpg)
-<use registro.jpg>
-Package pdftex.def Info: registro.jpg  used on input line 332.
-(pdftex.def)             Requested size: 426.631pt x 426.20941pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--342
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--342
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--342
-
- []
-
-[18] [19 <./registro.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 345--350
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--350
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--350
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--350
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
-
- []
-
-<demanda.jpg, id=308, 445.665pt x 598.6365pt>
-File: demanda.jpg Graphic file (type jpg)
-<use demanda.jpg>
-Package pdftex.def Info: demanda.jpg  used on input line 359.
-(pdftex.def)             Requested size: 401.09479pt x 538.76787pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--368
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--368
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--368
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--368
-
- []
-
-[21] [22 <./demanda.jpg>]
-<oferta.jpg, id=318, 445.665pt x 513.71925pt>
-File: oferta.jpg Graphic file (type jpg)
-<use oferta.jpg>
-Package pdftex.def Info: oferta.jpg  used on input line 379.
-(pdftex.def)             Requested size: 401.09479pt x 462.34305pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--390
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--390
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--390
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--390
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--390
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--390
-
- []
-
-<partenariado1.jpg, id=319, 480.5955pt x 570.933pt>
-File: partenariado1.jpg Graphic file (type jpg)
-<use partenariado1.jpg>
-Package pdftex.def Info: partenariado1.jpg  used on input line 393.
-(pdftex.def)             Requested size: 432.53195pt x 513.83495pt.
-
-Overfull \hbox (5.10042pt too wide) in paragraph at lines 393--394
+<anuncios.jpg, id=281, 1270.7475pt x 624.83438pt>
+File: anuncios.jpg Graphic file (type jpg)
+<use anuncios.jpg>
+Package pdftex.def Info: anuncios.jpg  used on input line 271.
+(pdftex.def)             Requested size: 444.7683pt x 218.69531pt.
+
+Overfull \hbox (17.33676pt too wide) in paragraph at lines 271--272
  [][] 
  []
 
-<partenariado2.jpg, id=320, 413.1435pt x 623.32875pt>
+<colaboracion.jpg, id=283, 930.47626pt x 581.17125pt>
+File: colaboracion.jpg Graphic file (type jpg)
+<use colaboracion.jpg>
+Package pdftex.def Info: colaboracion.jpg  used on input line 281.
+(pdftex.def)             Requested size: 372.18391pt x 232.46437pt.
+[14] [15 <./usuarios.jpg> <./anuncios.jpg>]
+<comunicacion.jpg, id=293, 773.89125pt x 520.94624pt>
+File: comunicacion.jpg Graphic file (type jpg)
+<use comunicacion.jpg>
+Package pdftex.def Info: comunicacion.jpg  used on input line 294.
+(pdftex.def)             Requested size: 309.55101pt x 208.3748pt.
+ [16 <./colaboracion.jpg>] [17 <./comunicacion.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 334--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--342
+
+ []
+
+[18]
+<registro.jpg, id=307, 609.477pt x 608.87476pt>
+File: registro.jpg Graphic file (type jpg)
+<use registro.jpg>
+Package pdftex.def Info: registro.jpg  used on input line 345.
+(pdftex.def)             Requested size: 426.631pt x 426.20941pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--355
+
+ []
+
+[19] [20 <./registro.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 358--363
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--363
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--363
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--363
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+
+ []
+
+<demanda.jpg, id=321, 445.665pt x 598.6365pt>
+File: demanda.jpg Graphic file (type jpg)
+<use demanda.jpg>
+Package pdftex.def Info: demanda.jpg  used on input line 372.
+(pdftex.def)             Requested size: 401.09479pt x 538.76787pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--381
+
+ []
+
+[22] [23 <./demanda.jpg>]
+<oferta.jpg, id=331, 445.665pt x 513.71925pt>
+File: oferta.jpg Graphic file (type jpg)
+<use oferta.jpg>
+Package pdftex.def Info: oferta.jpg  used on input line 392.
+(pdftex.def)             Requested size: 401.09479pt x 462.34305pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--403
+
+ []
+
+<partenariado1.jpg, id=332, 480.5955pt x 570.933pt>
+File: partenariado1.jpg Graphic file (type jpg)
+<use partenariado1.jpg>
+Package pdftex.def Info: partenariado1.jpg  used on input line 406.
+(pdftex.def)             Requested size: 432.53195pt x 513.83495pt.
+
+Overfull \hbox (5.10042pt too wide) in paragraph at lines 406--407
+ [][] 
+ []
+
+<partenariado2.jpg, id=333, 413.1435pt x 623.32875pt>
 File: partenariado2.jpg Graphic file (type jpg)
 <use partenariado2.jpg>
-Package pdftex.def Info: partenariado2.jpg  used on input line 400.
+Package pdftex.def Info: partenariado2.jpg  used on input line 413.
 (pdftex.def)             Requested size: 371.8257pt x 560.99069pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
 
  []
 
-[23] [24 <./oferta.jpg>] [25 <./partenariado1.jpg>] [26 <./partenariado2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 410--412
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--412
-
- []
-
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 436--438
+[24] [25 <./oferta.jpg>] [26 <./partenariado1.jpg>] [27 <./partenariado2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 423--425
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--438
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 436--438
+Underfull \hbox (badness 10000) in paragraph at lines 423--425
 
  []
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 449--451
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 449--451
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
+Underfull \hbox (badness 10000) in paragraph at lines 449--451
 
  []
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 454--456
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--456
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 463--465
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--483
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--483
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--483
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--483
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--483
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
 
  []
 
-[30] (memoria.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--469
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 476--478
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--496
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--496
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--496
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--496
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--496
+
+ []
+
+[31] (memoria.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [31] (memoria.aux
+) [32] (memoria.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: AFBE6E1999CD5628FEA7EE69B37835B9;2288.
+(rerunfilecheck)             Checksum: 69D6282C6060D228A7FA44A6C38D04F3;2283.
  ) 
 Here is how much of TeX's memory you used:
- 7061 strings out of 480235
- 108166 string characters out of 2880541
- 432200 words of memory out of 3000000
- 23410 multiletter control sequences out of 15000+200000
- 540634 words of font info for 47 fonts, out of 3000000 for 9000
+ 7074 strings out of 480235
+ 108341 string characters out of 2880541
+ 431610 words of memory out of 3000000
+ 23421 multiletter control sequences out of 15000+200000
+ 540802 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,66p,1196b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,8n,66p,1196b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\vikto\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1095.pk><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -900,10 +893,12 @@ eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vikto/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/vikto/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/vikto/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/vik
-to/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on memoria.pdf (32 pages, 2074964 bytes).
+to/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
+Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb>
+Output written on memoria.pdf (33 pages, 2092113 bytes).
 PDF statistics:
- 412 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
  324 words of extra memory for PDF output out of 10000 (max. 10000000)
 

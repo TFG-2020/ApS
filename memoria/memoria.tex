@@ -9,6 +9,7 @@
 %Para usar el español
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage{hyperref}
 
 \begin{document}
 %Portada
@@ -24,7 +25,7 @@
 	{\textbf\Large Autores \par}
 	{\Large Daniela-Nicoleta Boldureanu (Grado en Ingeniería del Software)\par}
 	{\Large Victoria Gnatiuk Romaniuk (Grado en Ingeniería Informática)\par}
-	{\Large Jesús Sánchez Granado (Grado en Ingeniería Informática\par}
+	{\Large Jesús Sánchez Granado (Grado en Ingeniería Informática)\par}
 	\vspace{1cm}
 	{\textbf\Large Tutores \par}
 	{\Large Simon Pickin \par}
@@ -38,41 +39,43 @@
 \listoffigures
 \section{Contexto de la propuesta}
 \subsection{Introducción}
-El aprendizaje-servicio es una propuesta educativa que combina aprendizaje y servicios a la comunidad.  Estos proyectos permiten a los alumnos aprender de una forma más práctica, aplicando sus conocimientos adquiridos en clase mediante la realización de tareas útiles para la comunidad. \\\\
-Además de darles la oportunidad de aplicar sus conocimientos en un entorno real, les impulsa a comprender el funcionamiento de la sociedad y las responsabilidades sociales que estos tienen por forma parte de una sociedad.\\\\
-Todo proyecto ApS empieza por una iniciativa con una necesidad social real que implica la ejecución de un servicio para solventarla y tiene como objetivo el aprendizaje y la reflexión del alumno.
+El \emph{Aprendizaje-Servicio}(ApS) es una propuesta educativa que combina aprendizaje y servicios a la comunidad. Los proyectos  ApS permiten a los alumnos aprender de una forma más práctica, aplicando sus conocimientos adquiridos en clase mediante la realización de tareas útiles para la comunidad. \\\\
+Además de dar a los estudiantes la oportunidad de aplicar sus conocimientos en un entorno real, el ApS les impulsa a comprender el funcionamiento de la sociedad y las responsabilidades sociales que estos tienen por formar parte de una sociedad.\\\\
+Todo proyecto ApS empieza por una iniciativa relacionada con una necesidad social real que implica la ejecución de un servicio para solventarla y tiene como objetivo el aprendizaje y la reflexión del alumno.
 \subsection{Elementos que intervienen en un proyecto ApS}
+En un proyecto ApS intervienen los siguientes elementos:
 \begin{itemize} 
-	\item El alumno es el individuo que aplica sus conocimientos teóricos en un entorno físico beneficiando a su comunidad. Además de adquirir habilidades prácticas relacionadas con su formación es importante que se incite al alumno a reflexionar sobre sus actos y el impacto positivo que tienen estos sobre los demás. Esto permite al alumno adquirir compromiso social y desarrollar pensamiento ético, cultivando un ciudadano responsable capaz de mejorar la sociedad de la que forma parte.
-	\item El profesor es el individuo que se encarga de guiar al alumno en todo el proceso del proyecto, evaluando sus tareas e incitando al alumno a la reflexión. Además de guiar al alumno en su formación y gestionar el proyecto, ofrece su formación y conocimientos a la entidad. El profesor se encarga de acordar y organizar los proyectos con la entidad, estableciendo todos los requisitos necesarios para la correcta formación del alumno y el cumplimiento de la entidad con los principios del ApS.
-	\item La entidad es una empresa pública o privada que colabora con la institución educativa para resolver un determinado problema social. La entidad suele tener en mente un problema muy concreto, pero no lo suficientemente detallado para la creación de un proyecto real. Es por eso que es necesario el partenariado. Es importante que la universidad haga entender a la entidad que el ApS no es voluntariado por tanto, bajo ningún concepto se puede usar al alumno para la generación de beneficios propios de la empresa o la competencia desleal. El principal objetivo del ApS es formar al alumno introduciendo lo en un entorno real para que este establezca una relación entre lo aprendido en el aula con lo realizado en el proyecto ApS.
-	\item El partenariado es una colaboración entre el profesor y la entidad. Partiendo de un problema social real y los conocimientos dispuestos por el profesor, el profesor y la entidad realizan reuniones para determinar las características y particularidades del problema. Una vez definidos los términos y condiciones del futuro proyecto, la entidad y el profesor abren el proyecto a los alumnos.
-	\item El proyecto consiste en la ejecución de ciertas tareas realizadas por el alumno que están relacionadas con su formación. Estas tareas permiten al alumno establecer una relación entre lo aprendido en clase y el mundo real. Gracias a estar tareas o servicios, el alumno beneficia a su comunidad otorgándole, una satisfacción personal. El alumno es evaluado de forma continua por el profesor.
+	\item El \emph{alumno} es el individuo que aplica sus conocimientos teóricos en un entorno físico beneficiando a su comunidad. Además de adquirir habilidades prácticas relacionadas con su formación, es importante que se incite al alumno a reflexionar sobre sus actos y el impacto positivo que tienen estos sobre los demás. Esto permite al alumno adquirir compromiso social y desarrollar pensamiento ético, cultivando un ciudadano responsable capaz de mejorar la sociedad de la que forma parte.
+	
+	\item El \emph{socio comunitario} es una empresa pública o de tercer sector que colabora con la institución educativa para resolver un determinado problema social. El socio comunitario suele tener en mente un problema muy concreto, pero no lo suficientemente detallado para la creación de un proyecto educativo. Es por eso que es necesario el partenariado. Es importante que la universidad haga entender al socio comunitario que el ApS no es voluntariado. Por tanto, bajo ningún concepto se puede usar al alumno para la generación de beneficios propios de la empresa o la competencia desleal. El principal objetivo del ApS es formar al alumno introduciéndo lo en un entorno real para que este establezca una relación entre lo aprendido en el aula con lo realizado en el proyecto ApS.
+	
+	\item El \emph{profesor} es el individuo que se encarga de guiar al alumno en todo el proceso del proyecto, evaluando sus tareas e incitando al alumno a la reflexión. Además de guiar al alumno en su formación y gestionar el proyecto, ofrece su formación y conocimientos al socio comunitario con la que se colaborará en el proyecto. El profesor se encarga de acordar y organizar los proyectos con el socio comunitario, estableciendo todos los requisitos necesarios para la correcta formación del alumno y el cumplimiento de el socio comunitario con los principios del ApS.
+	
+	\item El \emph{partenariado} es una colaboración entre un profesor, o un equipo de profesores, y el socio comunitario. Partiendo de un problema social real y los conocimientos dispuestos por el profesor, el profesor y el socio comunitario realizan reuniones para determinar las características y particularidades del problema. Una vez definidos los términos y condiciones del futuro proyecto, el socio comunitario y el profesor abren el proyecto a los alumnos.
+	\item El \emph{proyecto} consiste en la ejecución de ciertas tareas realizadas por el alumno que están relacionadas con su formación. Estas tareas permiten al alumno establecer una relación entre lo aprendido en clase y el mundo real. Gracias a estas tareas o servicios, el alumno beneficia a su comunidad, otorgándole una satisfacción personal. El alumno es evaluado de forma continua por el equipo docente.
 \end{itemize}
 \subsection{Motivación}
 El principal problema de los proyectos ApS es que son difíciles de definir y aún más difíciles de acordar.\\\\
-La entidad suele tener un problema concreto en mente, pero no lo suficientemente especifico ni definido como para crear un proyecto. El profesor por su parte tiene una serie de conocimientos que quiere ofrecer para la resolución de un problema genérico.
+El socio comunitario suele tener un problema concreto en mente, pero no lo suficientemente definido para la creación de un proyecto educativo. El profesor, por su parte, tiene una serie de conocimientos que quiere ofrecer para la resolución de un problema genérico.
 Este inconveniente anima a Simon Pickin y otros profesores de la UNED a desarrollar una solución. \\\\
 Nuestro TFG es la cuarta parte de un proyecto destinado a ser una plataforma real para ayudar a universidades y entidades a establecer contacto y definir proyectos ApS en pro de una educación más práctica e inclusiva a la sociedad.\\\\
-La parte previa a la nuestra fue desarrollada por David Jiménez el año pasado. Él creó el esqueleto del aplicativo sobre el que nosotros hemos desarrollado nuestro TFG.
+La parte del proyecto previa a la nuestra fue desarrollada por David Jiménez el año pasado. Él creó el esqueleto de la aplicación sobre el que nosotros hemos desarrollado nuestro TFG.
 
-\subsection{El TFG de David}
-El TFG de David presentaba un esqueleto a partir del cual hemos partido para desarrollar nuestra parte de este proyecto. Partiendo del TFG anterior que estaba desarrollado en Angular y Node, David siguió desarrollando la aplicación hasta conseguir un prototipo del futuro aplicativo.\\\\
-Él implementó las páginas, de registro, \textit{login}, perfil, iniciativa y partenariado. También incluyó diferentes perfiles como el \textit{admin}, la entidad, el profesor y el alumno.\\\\
-Por razones de comodidad y familiarización con la tecnología, cambió la base de datos que estaba construida en SQL a Mondo DB, esto no gustó mucho a nuestros tutores los cuales nos pidieron que la volviéramos a  cambiar a SQL.\\\\
-El problema del proyecto de David residía en que él, no tuvo mucha comunicación con los profesores durante la realización de su TFG debido a problemas de salud ocasionados por el COVID-19. Esto derivó en que no entendiera bien los requisitos deseados para el proyecto y que tuviera una confusión sobre los conceptos y el objetivo que se intentaba conseguir con la plataforma ApS. Por ello nosotros hemos tenido que redefinir las bases del aplicativo creando un modelo de dominio y de datos que representa todos los elementos del problema y como se relacionan entre si. Diseñamos una base de datos nueva más compleja y rica en detalles que servirá como cimientos para nuestros sucesores, ya que esperamos que llegue el día en que esta plataforma sirva a usuarios reales, los cuales ayudaran a que la educación sea más eficaz y enriquecedora.
+\subsection{TFG de partida}
+El TFG de David Jiménez presentaba una base a partir de la cual hemos partido para desarrollar nuestra parte de este proyecto. Partiendo del TFG anterior que estaba desarrollado en Angular y Node.js, David Jiménez siguió desarrollando la aplicación hasta conseguir un prototipo de la futura aplicación.\\\\
+David Jiménez implementó las páginas de registro, \textit{login}, perfil, iniciativa y partenariado. También incluyó diferentes perfiles como el \textit{admin}, el socio comunitario, el profesor y el alumno.\\\\
+ Por razones de comodidad y familiarización con la tecnología, en el TFG anterior se construyó la base de datos en MongoDB. Debido a que los datos de la aplicación son claramente estructurados y muy relacionados entre si, no había razones suficientes para seguir desarrollando la aplicación sobre MongoDB, así que juntos con nuestros tutores decidimos cambiar la base de datos a SQL.\\\\
+Debido a las dificultades provocadas por la pandemia del COVID-19, las bases de la aplicación no quedaron del todo definidas y por esta razón hemos tenido que redefinirlas creando un modelo de dominio y de datos que representa todos los elementos del problema y como se relacionan entre si. Diseñamos una base de datos nueva más compleja y rica en detalles que servirá como cimientos para nuestros sucesores, ya que esperamos que llegue el día en que esta plataforma sirva a usuarios reales, los cuales ayudaran a que la educación sea más eficaz y enriquecedora.
 \subsection{Nuestro objetivo}
 A continuación se explican los objetivos que hemos tenido en este TFG.
 \begin{itemize} 
-	\item Construir unas bases solidas del proyecto, creando un modelo de dominio y un modelo de datos que ilustran el objetivo y el funcionamiento de la plataforma.
-	\item Creando una base de datos relacional compleja y rica en detalles pasando de 7 documentos a 46 tablas relacionales.
-	\item Crear un modelo relacional que muestre la estructura de la base de datos facilitando su entendimiento y manejo a los futuros desarrolladores del proyecto.
-	\item Implementar 4 daos que realicen la lógica de acceso y gestión de datos, encapsulando el acceso a la base de datos.
-	\item Creación de \textit{transfers} que permiten estructurar y manejar de forma sencilla los datos de la BD.
-	\item Implementar un sistema de casa de ofertas y demandas que determina que porcentaje tienen de encajar una oferta creada por un profesor y una demanda creada por una entidad.
-	\item Adaptación del registro y el perfil del usuario al nuevo sistema.
-	\item Implementación de formularios para la creación de ofertas, demandas y partenariados.
-	\item Corrección de \textit{bugs} del proyecto de David.
+	\item Construir unas bases solidas del proyecto, creando un modelo de dominio que aclara los conceptos implicados en la aplicación y un modelo de datos que enriquece el modelo de dominio y plasma como la aplicación gestiona la información.
+	\item Crear un modelo relacional que muestre la estructura de la base de datos, facilitando su entendimiento y manejo a los futuros desarrolladores del proyecto.
+	\item Crear una base de datos relacional compleja y rica en detalles.
+	\item Implementar 4 \emph{Objetos de Acceso a Datos}(DAOs) que realicen la lógica de acceso y gestión de datos, encapsulando el acceso a la base de datos. Crear \textit{transfers} que permiten estructurar y manejar de forma sencilla los datos de la BD.
+	\item Implementar un sistema de \textit{matching} de ofertas y demandas que determina qué porcentaje de encaje tienen una oferta creada por un profesor y una demanda creada por un socio comunitario.
+	\item Adaptar las páginas de registro y de perfil del usuario al nuevo sistema, e implementar formularios para la creación de ofertas, demandas y partenariados.
+	\item Corregir \textit{bugs} encontrados en el proyecto precedente.
 \end{itemize}
  
 
@@ -81,34 +84,34 @@ A continuación se explican los objetivos que hemos tenido en este TFG.
 \begin{enumerate} 
 	\item Servidor web:
 	\begin{itemize} 
-		\item ExpressJS es un \textit{framework} basado en NodeJS que permite gestionar el servidor de una forma sencilla. Este \textit{framework} fue utilizado por David y se ha mantenido.
+		\item ExpressJS es un \textit{framework} basado en NodeJS que permite gestionar el servidor de una forma sencilla. Este \textit{framework} fue utilizado por David Jiménez en el TFG precursor y se ha mantenido.
 	\end{itemize}
-	\item Backend: 
+	\item \emph{Backend}: 
 	\begin{itemize} 
-		\item NodeJS es entorno basado en JavaScript muy popular. Este entorno fue usado por David y se ha mantenido.
+		\item NodeJS es entorno basado en JavaScript muy popular. Este entorno fue usado en el anterior TFG y se ha mantenido.
 	\end{itemize}
-	\item Frontend
+	\item \emph{Frontend}
 	\begin{itemize} 
-		\item Angular es un \textit{framework} utilizado en el \textit{Frontend} que David utilizaba ya en el proyecto y se ha decidido mantener.
+		\item Angular es un \textit{framework} utilizado en el \textit{frontend} del TFG anterior y se ha decidido mantener.
 	\end{itemize}
 	\item Base de datos: 
 	\begin{itemize} 
-		\item MongoDB: es un sistema de base de datos estructurado. Este sistema es el que se estaba usando en el proyecto.
-		\item SQL: es un sistema de base de datos relacional muy potente. Decidimos utilizar este sistema en nuestro TFG.
+		\item MongoDB es un sistema de base de datos no estructurado. Este sistema es el que se estaba usando en el proyecto.
+		\item MySQL: es un sistema de base de datos relacional. Decidimos utilizar este sistema en nuestro TFG.
 	\end{itemize}
 	\item Software de control de versiones:
 	\begin{itemize} 
-		\item GIT es el controlador de versiones más conocido y eficaz así que desde el principio supimos que es el software que íbamos a usar. 
+		\item Git es el controlador de versiones más conocido y eficaz así que desde el principio supimos que es el software que íbamos a usar. 
 	\end{itemize}
 	\item Repositorio: 
 	\begin{itemize} 
 		\item GitHub es un repositorio gratuito que permite almacenar todos los archivos relacionados con un proyecto y mantenerlos de forma colaborativa con otros usuarios. Se ha decidido utilizar GitHub por su integración con Git.
-		\item Google Drive: es un contenedor gratuito que permite almacenar cualquier fichero y compartirlo con los demás. En un principio se estudió utilizar para guardar los \textit{Backups} pero se acabó descartando. Al final se ha utilizado para almacenar todo tipo de ficheros menos el código.
+		\item Google Drive: es un contenedor gratuito que permite almacenar cualquier fichero y compartirlo con los demás. En un principio se estudió utilizar para guardar los \textit{Backups} pero se acabó descartando. Al final se ha utilizado para almacenar todo tipo de documentos relacionados con el TFG, excepto el código fuente de la aplicación.
 	\end{itemize}
 	\item Herramientas de organización: 
 	\begin{itemize} 
 		\item GitHub Projects es una herramienta que ofrece GitHub que permite crear una organización de proyecto tipo Kanban.
-		\item Es una herramienta sencilla estilo Kanban para organizar los proyectos pero tiene muchas limitaciones de pago.
+		\item Trello es una herramienta sencilla estilo Kanban para organizar los proyectos, pero tiene muchas limitaciones en su versión gratuita.
 		\item PivotalTracker es una herramienta de gestión de proyectos basada en Scrum que permite crear \textit{Stories}, asignarles un peso en función de lo compleja que sea la \textit{Story} y ofrece analíticas que permiten analizar el progreso del proyecto. Hemos decidido utilizar esta herramienta para organizarnos porque es una herramienta completa.
 	\end{itemize}
 	\item Herramientas UML: 
@@ -116,7 +119,7 @@ A continuación se explican los objetivos que hemos tenido en este TFG.
 		\item Diagrams.net es una herramienta \textit{online} de dibujo sencilla que empezamos a usar para la creación de los modelos de datos y de dominio.
 		\item Modelio es una aplicación de escritorio que permite crear modelos UML complejos, indicando los atributos, los métodos y las relaciones que tienen los elementos entre sí. Debido a que es una herramienta completa y que es una herramienta que ya conociamos, la hemos elegido para la creación de nuestros modelos.
 	\end{itemize}
-	\item Herramienta para el modelo relacional: 
+	\item Herramientas para el diseño del modelo relacional de la base de datos: 
 	\begin{itemize} 
 		\item phpMyAdmin es una herramienta web que permite gestionar una base de datos SQL. Esta herramienta muestra un modelo relacional de la base de datos muy simple.
 		\item MySQL Workbench es una herramienta de gestión de diseño de base de datos visual que permite crear modelos relacionales complejos. Esta es la aplicación que se ha decidido utilizar.
@@ -134,7 +137,7 @@ A continuación se explican los objetivos que hemos tenido en este TFG.
 
 \section{Tecnologías utilizadas}
 \begin{itemize}
-	\item Node.js: Es un entorno de ejecución asíncrono dirigido por eventos, funciona a base de promesas, es decir, funciones que devolverán un resultado en algún momento del futuro, las promesas se pueden encadenar una tras otra si es que necesitamos los datos producidos por la anterior promesa. Si durante la ejecución de un programa no hay nada que hacer, node.js se “dormirá”. 
+	\item Node.js: Es un entorno de ejecución asíncrono dirigido por eventos, funciona a base de promesas, es decir, funciones que devolverán un resultado en algún momento del futuro, las promesas se pueden encadenar una tras otra si es que necesitamos los datos producidos por la anterior promesa. Si durante la ejecución de un programa no hay nada que hacer, Node.js se “dormirá”. 
 	Dado que node no utiliza candados es imposible que se bloqueen los procesos, lo que lo hace bastante adecuado para desarrollar sistemas escalables. Además Daniela ya tenía conocimiento previo de este entorno y es una tecnología que venía impuesta por el proyecto.
 	
 	\item Angular: Es un \emph{framework} para la construcción de aplicaciones de página única(SPA a partir de ahora) que utiliza HTML y Typescript. Angular sigue el patrón modelo-vista-controlador, el cual consiste en separar la aplicación en tres partes:
@@ -178,109 +181,119 @@ A continuación se explican los objetivos que hemos tenido en este TFG.
 \end{itemize}
 
 
-\section{Modelos (nombre provisional)}
+\section{Modelos de dominio y datos}
 \subsection{Introducción}
-Al empezar con el proyecto, junto con nuestros tutores, nos hemos dado cuenta de que la aplicación necesitaba ser definida de una forma más profesional y robusta. David entendió que los profesores y las entidades definían los proyectos de la misma forma, pero esto no es así.\\\\
-Las entidades no conocen todos los detalles del problema en cuestión que quieren resolver, porque no suelen dedicarle el suficiente tiempo a la especificación.\\\\
-Los profesores por su parte tienen una idea muy vaga del problema que quieren resolver. Normalmente tienen ciertos conocimientos académicos los cuales quieren aplicar para mejorar el mundo, pero la necesidad social en cuestión no suele estar muy clara.\\\\
-David creó un elemento llamado Iniciativa que almacenaba algunas de las características generales que comparten las dos propuestas y derivaba en un formulario que se les ofrecía a las entidades y a los profesores. Pero debido a que las entidades y los profesores no plantean los problemas de la misma manera, no es apropiado presentarles el mismo formulario.\\\\
-Para definir con precisión el funcionamiento correcto y completo de la aplicación, se ha creado un modelo de dominio y un modelo de datos.\\\\
-Estos modelos nos permitirán entender acertadamente el funcionamiento del aplicativo, pero lo que es más importante, permitirán transmitir dicho funcionamiento e idea general a otras personas que trabajarán en este proyecto después de nosotros.\\\\
-Gracias al modelo de dominio podemos entender que elementos intervienen y cómo interactúan entre sí, además de las restricciones que se presentan en sus interacciones.\\\\
-Con el modelo de datos podemos conocer información detallada de cada elemento que interviene en la resolución del problema.\\\\
-Como se ha rediseñado la base de datos, no solo porque ha cambiado su tipo, que ahora es relacional, si no también porque los conceptos no estaban claros en el anterior TFG. Se ha decidido crear un modelo relacional que muestra todas las tablas de la nueva base de datos y sus relaciones. De esta manera podemos representar sus especificaciones técnicas para comprender su estructura y funcionamiento. 
+Al empezar con el proyecto, junto con nuestros tutores, nos hemos dado cuenta de que la aplicación necesitaba ser definida de una forma más detallada. En TFGs anteriores se entendía que los profesores y las entidades definían los proyectos de la misma forma, pero esto no es así. Las entidades no conocen todos los detalles del problema en cuestión que quieren resolver, dentro del marco de los proyectos ApS.\\\\
+Los profesores, por su parte, tienen una idea muy vaga del problema que quieren resolver. Normalmente tienen ciertos conocimientos académicos los cuales quieren aplicar para mejorar el mundo, pero la necesidad social en cuestión no suele estar muy clara.\\\\
+En el TFG precedente se creó un elemento llamado \emph{Iniciativa} que almacenaba algunas de las características generales que comparten las propuestas del profesor y el socio comunitario.La \emph{Iniciativa} derivaba en un formulario que se les ofrecía a las entidades y a los profesores, pero las entidades y los profesores no plantean los problemas de la misma manera. Las entidades tienen una idea de proyecto clara pero no saben como orientarlo al mundo académico y los profesores tienen una idea de proyecto abstracta y lo plantean con el objetivo de encajar en un plan académico, es por esto que no es apropiado utilizar el mismo formulario para ambos.\\\\
+Para definir con precisión el funcionamiento correcto y completo de la aplicación, se ha creado un modelo de dominio y un modelo de datos.
+Estos modelos nos permitirán entender acertadamente el funcionamiento de la aplicación, pero lo que es más importante, permitirán transmitir dicho funcionamiento e idea general a otras personas que trabajarán en este proyecto después de nosotros.\\\\
+Gracias al modelo de dominio podemos entender qué elementos intervienen y cómo interactúan entre sí, además de las restricciones que se presentan en sus interacciones.\\\\
+Con el modelo de datos podemos conocer información detallada de cada elemento que interviene en la resolución del problema, como los atributos que posee.\\\\
+Como se ha rediseñado la base de datos, no solo porque ha cambiado su tipo, que ahora es relacional, si no también porque los conceptos no estaban claros en el anterior TFG, se ha decidido crear un modelo relacional que muestra todas las tablas de la nueva base de datos y sus relaciones. De esta manera, podemos representar sus especificaciones técnicas para comprender su estructura y funcionamiento. 
 
 \subsection{Modelo de dominio}
-El modelo de dominio es un mapa conceptual del aplicativo que permite a cualquier individuo entender su funcionamiento.\\\\
-Si empezamos mirando nuestro modelo desde arriba podemos observar que hay una clase padre llamada usuario y de ella se ramifican otras 5 clases que representan los 5 grupos de usuarios que tiene la aplicación.\\
-Los estudiantes se dividen en internos y externos. Los internos representan a aquellos estudiantes que pertenecen a la UNED y los externos pertenecen a otras universidades.\\
-El grupo de usuarios promotor se divide en externos e internos por el mismo motivo que los estudiantes. \\
-En promotor externo representaríamos al profesor externo, que es aquel profesor que no forma parte de la UNED pero, puede participar en un proyecto o partenariado evaluando y guiando a un estudiante externo. \\
-El colaborador por otra parte, es un experto en algún tema en concreto que puede participar en un proyecto o partenariado ofreciendo sus conocimientos o habilidades.\\
-El promotor interno puede ser un profesor o un tutor de la UNED. Este profesor es el que más cargos de responsabilidad tiene, él es el que puede crear las ofertas de servicio y es el responsable de los partenariados y los proyectos.\\\\
-Todo proyecto tiene que empezar siendo un partenariado y este partenariado se origina en la unión de una oferta creada por un profesor, y una demanda creada por una entidad. La creación de la oferta y la demanda se realiza mediante unos formularios en la web.\\
-Una demanda se puede llegar a crear gracias a un estudiante, este previamente ha tenido que crear una iniciativa. Una iniciativa es una propuesta de proyecto de un estudiante, la cual es acogida posteriormente por una entidad. Cuando la entidad acoge dicha iniciativa esta se convierte en una demanda de servicio.\\
+El modelo de dominio es un mapa conceptual de la aplicación que permite a cualquier individuo entender su funcionamiento. El modelo de dominio de esta aplicación se puede observar en la Figura ~\ref{fig:dominio}.\\\\
+Si empezamos mirando nuestro modelo desde arriba podemos observar que hay una clase madre, llamada Usuario y de ella se ramifican otras cinco clases que representan los cinco grupos de usuarios que tiene la aplicación.\\
+\begin{itemize} 
+	\item Los estudiantes se dividen en internos y externos. Los internos representan a aquellos estudiantes que pertenecen a la UNED y los externos pertenecen a otras universidades.\\
+	\item El grupo de usuarios promotor se divide en externos e internos por el mismo motivo que los estudiantes. \\
+	\item En promotor externo representaríamos al profesor externo, que es aquel profesor que no forma parte de la UNED pero, puede participar en un proyecto o partenariado evaluando y guiando a un estudiante externo. \\
+	\item El colaborador, por otra parte, es un experto en algún tema en concreto que puede participar en un proyecto o partenariado ofreciendo sus conocimientos o habilidades.\\
+	\item El promotor interno puede ser un profesor o un tutor de la UNED. Este profesor es el que más cargos de responsabilidad tiene. Él es el que puede crear las ofertas de servicio y es el responsable de crear los partenariados y los proyectos.\\\\
+\end{itemize}
+Todo proyecto tiene que empezar siendo un partenariado y este partenariado se origina en la unión de una oferta creada por un profesor, y una demanda creada por un socio comunitario. La creación de la oferta y la demanda se realiza mediante unos formularios en la web.\\
+En general una demanda de servicio es creada por una socio comunitario, pero puede llegar a crearse gracias a un estudiante, el cual previamente ha tenido que crear una iniciativa. Una iniciativa es una propuesta de proyecto de un estudiante, la cual es acogida posteriormente por un socio comunitario. Cuando el socio comunitario acoge dicha iniciativa, esta se convierte en una demanda de servicio.\\
 Debido a que los proyectos definidos por los profesores y los definidos por las entidades comparten ciertas características, podemos ver en el diagrama que ambos cuelgan de un elemento padre llamado Anuncio de servicio que posee las características comunes de ambos.
 Lo mismo ocurre con partenariado y proyecto que cuelgan de Colaboración Uni-Ent.\\
-Queremos destacar, que los atributos de Necesidad social y Area de implementación, tan importantes para caza de ofertas y demandas, han sido obtenidos de la página web www.eoslhe.eu/resources/
+Queremos destacar, que los atributos de Necesidad social y Area de implementación, tan importantes para caza de ofertas y demandas, han sido obtenidos de la página web \url{www.eoslhe.eu/resources/}
 Los partenariados y los proyectos presentan ciertas restricciones relacionadas con la participación de alumnos y promotores externos.\\\\
 En los proyectos solo pueden participar estudiantes externos si el responsable del proyecto acepta estudiantes externos. 
-Los profesores externos solo pueden participar en aquellos partenariados y proyectos que los acepten, ademas el proyecto tendrá que admitir estudiantes de la misma universidad que el profesor para que puedan ser evaluados por este.\\\\
+Los profesores externos solo pueden participar en aquellos partenariados y proyectos que los acepten. Ademas, el proyecto tendrá que admitir estudiantes de la misma universidad que el profesor, para que puedan ser evaluados por este.\\\\
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.23]{mdominio}
 	\caption{Modelo de dominio}
+	\label{fig:dominio}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.23]{mdatos}
 	\caption{Modelo de datos}
+	\label{fig:datos}
 \end{figure}
 \subsection{Modelo de datos}
 El modelo de datos describe con más precisión el dominio de la aplicación.
-Además de algunos atributos importantes como el interuniversitario que indica si el partenariado o el proyecto está abierto a externos, podemos observar los estados que pueden tener el partenariado y el proyecto representados por dos enumerados.\\\\
-
-En particular podemos ver que el partenariado puede encontrarse en estados EN\_CREACION, EN\_NEGOCIACION, ACORDADO y SUSPENDIDO.\\ 
-El partenariado toma el estado de EN\_CREACIÓN cuando el profesor se pone en contacto con la entidad, si la entidad contesta y acepta aliarse con el profesor el estado del partenariado pasará a EN\_NEGOCIACION. Cuando el profesor y la entidad terminan de establecer los términos y condiciones del partenariado y ambos están de acuerdo el partenariado pasá a estar ACORDADO. Si ocurre cualquier discrepancia durante la fase de EN\_CREACION, EN\_NEGOCIACION o ACORDADO el partenariado puede pasar al estado de SUSPENDIDO.\\\\
-
-En el caso del proyecto tenemos los estados EN\_CREACION, ABIERTO\_PROFESORES, ABIERTO\_ESTUDIANTES, EN\_CURSO, FINALIZADO y CERRADO.
-Cuando el profesor decide seguir con el proyecto debe rellenar un formulario, al rellenar dicho formulario el estado del proyecto pasa a estar EN\_CREACION. La entidad recibe dicha solicitud de continuación y debe rellenar otro formulario, una vez rellenado y enviado el proyecto pasa al estado de ABIERTO\_PROFESORES. Una vez que el proyecto ha sido definido se abre a los alumnos y es allí cuando el proyecto pasa al estado de ABIERTO\_ESTUDIANTES. Si el proyecto finaliza correctamente pasará al estado de FINALIZADO. Si sucede cualquier imprevisto durante las 4 fases anteriores el proyecto puede pasar al estado CERRADO.
-
+Además de algunos atributos importantes como el interuniversitario, que indica si el partenariado o el proyecto está abierto a externos, podemos observar los estados que pueden tener el partenariado y el proyecto, representados por dos enumerados. En particular podemos ver que el partenariado puede encontrarse en estados \texttt{EN\_CREACION}, \texttt{EN\_NEGOCIACION}, \texttt{ACORDADO} y \texttt{SUSPENDIDO}. El modelo de datos se puede observar en la Figura ~\ref{fig:datos}.\\
+\begin{itemize} 
+	\item El partenariado toma el estado de \texttt{EN\_CREACIÓN} cuando el profesor se pone en contacto con el socio comunitario. Si el socio comunitario contesta y acepta colaborar con el profesor, el estado del partenariado pasará a \texttt{EN\_NEGOCIACION}. Cuando el profesor y el socio comunitario terminan de establecer los términos y condiciones del partenariado y ambos están de acuerdo con dichos terminos, el partenariado pasá a estar \texttt{ACORDADO}. Si ocurre cualquier discrepancia durante la fase de \texttt{EN\_CREACION}, \texttt{EN\_NEGOCIACION} o \texttt{ACORDADO} el partenariado puede pasar al estado de \texttt{SUSPENDIDO}.\\\\
+	\item El proyecto toma los estados \texttt{EN\_CREACION}, \texttt{ABIERTO\_PROFESORES}, \texttt{ABIERTO\_ESTUDIANTES}, \texttt{EN\_CURSO}, \texttt{FINALIZADO} y \texttt{CERRADO}.
+	Cuando el profesor decide seguir con el proyecto, debe rellenar un formulario. Al rellenar dicho formulario el estado del proyecto pasa a estar \texttt{EN\_CREACION}. El socio comunitario recibe dicha solicitud de continuación y debe rellenar otro formulario. Una vez rellenado y enviado el proyecto pasa al estado de \texttt{ABIERTO\_PROFESORES}. Una vez que el proyecto ha sido definido se abre a los alumnos y es allí cuando el proyecto pasa al estado de \texttt{ABIERTO\_ESTUDIANTES}. Si el proyecto finaliza correctamente, pasará al estado de FINALIZADO. Si sucede cualquier imprevisto durante las 4 fases anteriores el proyecto puede pasar al estado \texttt{CERRADO}.
+\end{itemize} 
 \subsection{Modelo relacional}
 
- Debido a la complejidad de la nueva base de datos compuesta por 46 tablas relacionales, se ha decidido crear un diagrama que sirva como mapa en la gestión de la base de datos.\\\\
-Este modelo relacional se divide en 4 secciones claramente diferenciadas.\\
-La sección de los usuarios que contiene tablas relacionadas con información de los usuarios. La sección del Anuncio de servicio que contiene todas las tablas que representan información de la oferta de servicio, la demanda de servicio y la iniciativa.
-La sección de Colaboración contiene la información relacionada con el partenariado y el proyecto.
-Y la última es la sección que tiene menos complejidad, la sección de Comunicación que contiene las tablas de \textit{mail}, mensaje, \textit{upload} y \textit{newsletter}, estas creadas por David que se han mantenido intactas.
+ Debido a la complejidad de la nueva base de datos compuesta por 46 tablas relacionales, se ha decidido crear un diagrama que sirva como mapa en la gestión de la base de datos. Este modelo relacional se divide en 4 secciones claramente diferenciadas.
+ \begin{itemize} 
+ 	\item La sección de los usuarios que contiene tablas relacionadas con información de los usuarios. La sección del Anuncio de servicio que contiene todas las tablas que representan información de la oferta de servicio, la demanda de servicio y la iniciativa.
+	\item La sección de Colaboración contiene la información relacionada con el partenariado y el proyecto.
+	\item La sección de Comunicación que contiene las tablas de \textit{mail}, mensaje, \textit{upload} y \textit{newsletter}, estas creadas por David Jiménez que se han mantenido intactas.
+	En la Figura ~\ref{fig:relacional} se puede observar el modelo relacional y sus 4 secciones separadas por colores.
+\end{itemize}
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.15]{er}
-	\caption{Diagrama de entidad relación}
+	\caption{Diagrama de entidad-relación}
+	\label{fig:relacional}
 \end{figure}
 \subsubsection{Usuarios}
-Esta sección es la más compleja debido a la separación que hay que realizar de los usuarios externos e internos.\\
-Un usuario interno es aquel profesor, tutor, colaborador, estudiante o representante de la oficina ApS que forma parte de la universidad en la que se despliega la plataforma y por tanto tiene sus datos personales dentro de ella. Debido a que estos tienen parte de los datos que necesitamos para la aplicación en el sistema interno de la universidad hay que tratarlos de manera diferente a los usuarios externos, que son aquellos que no pertenecen a la universidad. Los colaboradores y tutores que aquí mencionamos se pueden ver representados en el modelo de datos y de dominio, pero no se observan aquí porque no nos dio tiempo a integrarlos en la base de datos.\\\\
-Debido a esta separación, todos los usuarios comparten una tabla común llamada usuario que contiene datos exclusivos de la cuenta de la plataforma. Después tenemos tablas que contienen datos particulares de cada tipo de usuario, estas son las tablas de entidad, estudiante interno, estudiante externo, \textit{admin}, profesor interno, profesor externo y oficina ApS.\\
-Cada uno de estos usuarios poseen una tabla que almacena sus datos personales haciendo diferenciación entre internos y externos. La tabla de datos\_personales\_internos es una tabla creada para la simulación de la aplicación, una vez la aplicación sea desplegada en un entorno real esta tabla será eliminada y los datos personales se obtendrán haciendo consultas a la base de datos de la universidad.\\
-Después podemos observar tablas secundarias que representan características de los usuarios como es, la universidad del profesor y estudiante interno, las Áreas de Conocimiento UNESCO de los profesores y las titulaciones que imparten los profesores o cursan los alumnos.
+Esta sección es la más compleja debido a la separación que hay que realizar de los usuarios externos e internos. Ver Figura ~\ref{fig:usuarios}.\\
+Un usuario interno es aquel profesor, tutor, colaborador, estudiante o representante de la oficina ApS que forma parte de la universidad en la que se despliega la plataforma y por tanto tiene sus datos personales dentro de ella. Debido a que estos tienen parte de los datos que necesitamos para la aplicación en el sistema interno de la universidad, hay que tratarlos de manera diferente a los usuarios externos, que son aquellos que no pertenecen a la universidad. Los colaboradores y tutores que aquí mencionamos se pueden ver representados en el modelo de datos y de dominio, pero no se observan aquí porque no nos dio tiempo a integrarlos en la base de datos.\\\\
+Debido a esta separación, todos los usuarios comparten una tabla común, llamada usuario, que contiene datos exclusivos de la cuenta de la plataforma. Después tenemos tablas que contienen datos particulares de cada tipo de usuario. Estas son las tablas de entidad (renombrado posteriormente a \textit{socio comunitario}), estudiante interno, estudiante externo, \textit{admin}, profesor interno, profesor externo y oficina ApS.\\
+Cada uno de estos usuarios poseen una tabla que almacena sus datos personales, haciendo diferenciación entre internos y externos. La tabla de datos\_personales\_internos es una tabla creada para la simulación de la aplicación. Una vez la aplicación sea desplegada en un entorno real esta tabla será eliminada y los datos personales se obtendrán haciendo consultas a la base de datos de la universidad.\\
+Por otra parte podemos observar tablas secundarias que representan características de los usuarios como por ejemplo, la universidad del profesor y estudiante interno, las áreas de conocimiento UNESCO de los profesores y las titulaciones que imparten los profesores o cursan los alumnos.
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.4]{usuarios}
-	\caption{Diagrama de entidad relación: Usuarios}
+	\caption{Diagrama de entidad-relación - Usuarios}
+	\label{fig:usuarios}
 \end{figure}
 \subsubsection{Anuncios de servicio}
-En este conjunto de tablas podemos encontrar las pertenecientes a la demanda de servicio, la oferta de servicio y la iniciativa.\\
-La iniciativa es una propuesta de proyecto realizada por un estudiante. Esta propuesta debe ser validada por un administrador y posteriormente adoptada por una entidad que desee realizar el proyecto.\\\\
-La demanda de servicio es creada por una entidad y define una necesidad especifica que quiere cubrir. Esta necesidad social es representada por un enumerado alojado en la tabla de necesidad\_social.
-Estos enumerados han sido obtenidos del campo Service areas hallado en la página www.eoslhe.eu/resources/ .
-Los enumerados alojados en la tabla area\_servicio también se obtuvieron de esta página, del campo llamado Disciplines.\\\\
-La oferta de servicio es creada por un profesor interno y tiene menos detalles que la demanda porque es una propuesta más genérica.\\
-Cuando una oferta y una demanda son procesadas por el sistema de \textit{matching} se crea una entrada en la tabla \textit{matching} almacenando los \textit{ids} de ambos elementos y el porcentaje de emparejamiento que tienen.\\
-Tanto demanda de servicio como oferta de servicio están conectadas a mensajes y \textit{uploads} porque estos permiten la comunicación con las personas interesadas en las propuestas.
+En este conjunto de tablas podemos encontrar las pertenecientes a la demanda de servicio, la oferta de servicio y la iniciativa. Ver figura ~\ref{fig:anuncios}.
+\begin{itemize} 
+	\item La iniciativa es una propuesta de proyecto realizada por un estudiante. Esta propuesta debe ser validada por un administrador y posteriormente adoptada por un socio comunitario que desee realizar el proyecto.
+	\item La demanda de servicio es creada por un socio comunitario y define una necesidad especifica que quiere cubrir. Esta necesidad social es representada por un enumerado alojado en la tabla de necesidad\_social.
+	\item La oferta de servicio es creada por un profesor interno y tiene menos detalles que la demanda porque es una propuesta más genérica.\\
+	Cuando una oferta y una demanda son procesadas por el sistema de \textit{matching} se crea una entrada en la tabla \textit{matching} almacenando los \textit{ids} de ambos elementos y el porcentaje de emparejamiento que tienen.\\
+	Tanto demanda de servicio como oferta de servicio están conectadas a mensajes y \textit{uploads} porque estos permiten la comunicación con las personas interesadas en las propuestas.
+\end{itemize}
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.35]{anuncios}
-	\caption{Diagrama de entidad relación: Anuncios de servicio}
+	\caption{Diagrama de entidad-relación - Anuncios de servicio}
+	\label{fig:anuncios}
 \end{figure}
 \subsubsection{Colaboración}
-El partenariado es el segundo paso en la creación de un proyecto, esta tabla contiene las \textit{ids} de la demanda y la oferta que la componen.\\
-El proyecto no puede existir sin un partenariado y es por eso por lo que tiene un id del partenariado que lo creó. El proyecto posee estudiantes y es por eso por lo que tiene una conexión con los mismos.\\
-Tanto proyecto como partenariado necesitan un sistema de comunicación y es por eso por lo que tienen tablas intermedias que los conectan a mensaje y \textit{uploads}.
+El partenariado es el segundo paso en la creación de un proyecto. Esta tabla contiene las \textit{ids} de la demanda y la oferta que la componen.\\
+Un proyecto ApS no puede existir sin un partenariado previo y es por eso por lo que tiene un identificador del partenariado a partir del cual se creó. El proyecto posee estudiantes y por ello tiene una conexión con los mismos.\\
+Tanto proyecto como partenariado necesitan un sistema de comunicación y es por eso por lo que tienen tablas intermedias que los conectan a mensaje y \textit{uploads}. Ver Figura ~\ref{fig:colaboracion}.
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.4]{colaboracion}
-	\caption{Diagrama de entidad relación: Colaboración}
+	\caption{Diagrama de entidad-relación - Colaboración}
+	\label{fig:colaboracion}
 \end{figure}
 \subsubsection{Comunicación}
-Esta parte se ha mantenido tal y como la había creado David, solo se ha adaptado al nuevo sistema.\\
-La tabla de mensajes conecta con las ofertas de servicio, las demandas de servicio, los partenariados y los proyectos porque todos estos necesitan de los mensajes para poder comunicarse.\\
-La tabla \textit{upload} almacena la información de los ficheros e imágenes subidos tanto en ofertas de servicio, como demandas de servicio, como partenariados y proyectos.\\
-La tabla \textit{mail} y \textit{newsletter} no han sido conectadas con nada porque no se han tenido en cuenta para el desarrollo de este TFG pero representan los correos electrónicos internos de la aplicación y las noticias periódicas enviadas a los usuarios.
+Esta parte se ha mantenido tal y como la había creado David Jiménez. Solo se ha adaptado al nuevo sistema. Ver Figura ~\ref{fig:comunicacion}.
+\begin{itemize} 
+	\item La tabla de mensajes conecta con las ofertas de servicio, las demandas de servicio, los partenariados y los proyectos porque todos estos necesitan de los mensajes para poder comunicarse.
+	\item La tabla \textit{upload} almacena la información de los ficheros e imágenes subidos tanto en ofertas de servicio, como demandas de servicio, como partenariados y proyectos.
+	\item La tabla \textit{mail} y \textit{newsletter} no han sido conectadas con nada porque no se han tenido en cuenta para el desarrollo de este TFG pero representan los correos electrónicos internos de la aplicación y las noticias periódicas enviadas a los usuarios.
+\end{itemize}
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.4]{comunicacion}
-	\caption{Diagrama de entidad relación: Comunicación}
+	\caption{Diagrama de entidad-relación - Comunicación}
+	\label{fig:comunicacion}
 \end{figure}
 
 \section{DAO}
@@ -296,7 +309,7 @@ De esta forma si hay algún problema, este se detectará cuanto antes y evitará
 Los objetos transfer contienen simplemente los atributos deseados de cada tipo de objeto además de las funciones get y set para poder acceder y actualizar la información de dichos atributos.
 En conjunto con los DAO, los transfer ayudan aún más a la separación de capas de negocio y lógica.
 
-Los cuatro DAO que se crearon a partir del diagrama entidad-relacion son:
+Los cuatro DAO que se crearon a partir del diagrama entidad-relación son:
 
 \begin{itemize}
 	\item DAOColaboracion: se encarga de manejar toda la información relacionada con los proyectos y los partenariados, desde sus participantes, ya sean profesores o alumnos hasta los mensajes y archivos asociados a estos proyectos o partenariados. Este DAO se llama así porque tiene con piedra angular la clase Colaboración.
@@ -319,11 +332,11 @@ Los cuatro DAO que se crearon a partir del diagrama entidad-relacion son:
 Una vez adaptada la base de datos de no relacional a relacional y creados los correspondientes operaciones CRUD de las tablas, hemos pasado a la creación o a la adaptación de los formularios con los nuevos datos que les corresponde a cada uno de ellos. Para ello, tuvimos que aprender y experimentar con Angular JS, framework de javascript, que requiere un vasto conocimiento para el desarrollo de los formularios y de los archivos para el correcto funcionamiento de estos. 
 \subsection{Formulario de registro de usuarios}
 El primer formulario que tuvimos que tratar fue el registro de usuarios, siendo este el punto de inicio para los posteriores formularios a crear.\\\\
-En el TFG de David ya venía un registro implementado con sus correspondientes campos, pero al probar la aplicación habíamos encontrado algunos errores que tuvimos que corregir. Uno de los errores que encontramos era que permitía introducir una contraseña no robusta de cualquier longitud y sin ninguna restricción. De manera que la hemos hecho más robusta con una longitud mínima de 8 caracteres, mínimo una mayúscula, mínimo una minúscula y mínimo un carácter especial. También el campo email no verificaba si era uno  correcto, de modo que tuvimos que crear las validaciones correspondientes por si no contenía el “@” o el “.” .\\\\
-En el formulario de David existían dos campos para la contraseña: contraseña y repetir contraseña, donde ambos campos deben contener el mismo contenido para que se pueda permitir la validación del formulario y la creación del usuario, en cambio al pedir la contraseña repetida si se introducía una contraseña distinta al campo de “contraseña “ lo aceptaba y se procedía al proceso de registro. Por eso tuvimos que añadir la validación y los mensajes de error correspondientes para que no se permita el registro si los dos campos no son iguales.\\\\
+En el TFG de David Jiménez ya venía un registro implementado con sus correspondientes campos, pero al probar la aplicación habíamos encontrado algunos errores que tuvimos que corregir. Uno de los errores que encontramos era que permitía introducir una contraseña no robusta de cualquier longitud y sin ninguna restricción. De manera que la hemos hecho más robusta con una longitud mínima de 8 caracteres, mínimo una mayúscula, mínimo una minúscula y mínimo un carácter especial. También el campo email no verificaba si era uno  correcto, de modo que tuvimos que crear las validaciones correspondientes por si no contenía el “@” o el “.” .\\\\
+En el formulario de David Jiménez existían dos campos para la contraseña: contraseña y repetir contraseña, donde ambos campos deben contener el mismo contenido para que se pueda permitir la validación del formulario y la creación del usuario, en cambio al pedir la contraseña repetida si se introducía una contraseña distinta al campo de “contraseña “ lo aceptaba y se procedía al proceso de registro. Por eso tuvimos que añadir la validación y los mensajes de error correspondientes para que no se permita el registro si los dos campos no son iguales.\\\\
 Una vez arreglados los errores, añadido las mejoras y las nuevas validaciones del registro tuvimos que añadir los campos nuevos correspondientes a cada tipo de usuario de la base de datos. \\\\
-En el formulario de registro se permite la elección de tres tipos de usuarios externos: profesor externo, estudiante externo, entidad.\\\\
-Para la entidad aparte de los campos ya existentes en el formulario se añadió un nuevo campo “nombre entidad” que representa el nombre de la entidad principal que creará el formulario.\\\\
+En el formulario de registro se permite la elección de tres tipos de usuarios externos: profesor externo, estudiante externo y entidad.\\\\
+Para la socio comunitario aparte de los campos ya existentes en el formulario se añadió un nuevo campo “nombre socio comunitario” que representa el nombre de la socio comunitario principal que creará el formulario.\\\\
 En el caso del estudiante externo no se han añadido nuevos campos en el formulario, pero si el cambio de funcionalidad del campo universidad. Antes en el campo universidad se permitía introducir un texto, pero como eso podía llegar a causar incoherencias en la base de datos puesto que cualquier usuario podría introducir una universidad que no existiese o con algún carácter incorrecto por lo cual se decidió cambiar. De modo que el campo universidad se convirtió en una lista desplegable que permite una única selección por el estudiante de entre ochenta y tres universidades a elegir.  No se permite la validación del registro si no se selecciona alguna universidad de la lista. \\\\
 Para el profesor externo se añadió un campo nuevo y se cambiaron las funcionalidades de algunos otros campos. El campo “universidad” tenía el mismo problema que en el caso anterior por lo que se produjo el mismo cambio. Además, tuvimos que introducir un nuevo campo "Área/s de conocimiento" que representa las áreas de conocimiento que tiene el profesor externo a registrar. Este campo es un desplegable que permite la selección múltiple de entre las ciento noventa áreas disponibles que guardamos en la base de datos en la tabla "area conocimiento". Se puede seleccionar entre una o varias áreas de conocimiento y en el caso de que se haya cometido un error al seleccionar un área se permite desmarcar la elección, pero no se permite la validación del registro en el caso de que no se haya seleccionado ningún área de conocimiento de la lista.\\\\
 
@@ -334,9 +347,9 @@ Para el profesor externo se añadió un campo nuevo y se cambiaron las funcional
 \end{figure}
 
 \subsection{Formulario para editar los datos de un usuario}
-En el TFG de David ya existía un formulario para la edición de los datos de un usuario con sus correspondientes campos, pero al cambiar el tipo de base de datos y al introducir nuevos datos en algunos de los tipos de usuarios tuvimos que adaptarlo. \\\\
+En el TFG de David Jiménez ya existía un formulario para la edición de los datos de un usuario con sus correspondientes campos, pero al cambiar el tipo de base de datos y al introducir nuevos datos en algunos de los tipos de usuarios tuvimos que adaptarlo. \\\\
 También añadimos validaciones para los campos como email, contraseña y repetir contraseña. Para el campo email se permitía emails incorrectos sin el “@” o sin el “.” , la contraseña se permitía no robusta y al introducir la contraseña repetida permitía que no fuera igual a lo introducido en el campo contraseña. Una vez añadidas las validaciones se introdujeron los campos necesarios para el formulario en función del tipo de usuario.
-Para la entidad a parte de los campos ya existentes en el formulario se añadió el campo “nombre entidad” que representa el nombre de la entidad principal que creará el formulario. Dicho campo viene con el valor ya rellenado, teniendo la posibilidad de cambiar su valor.\\\\
+Para la socio comunitario a parte de los campos ya existentes en el formulario se añadió el campo “nombre socio comunitario” que representa el nombre de la socio comunitario principal que creará el formulario. Dicho campo viene con el valor ya rellenado, teniendo la posibilidad de cambiar su valor.\\\\
 Para el estudiante externo no se han añadido nuevos campos en el formulario, pero si el cambio de funcionalidad del campo universidad, que se convirtió en un desplegable que permite una única selección por el estudiante de una lista de ochenta y tres universidades a elegir.  No se permite la validación de registro si no se selecciona alguna universidad de la lista. El campo  viene con el valor ya relleno, teniendo la posibilidad de cambiar su valor.\\\\
 En el caso del profesor externo se añadió un campo nuevo y cambiaron la funcionalidad de algunos otros campos más. El campo universidad cambió de ser un texto introducido por el usuario a ser una lista con las universidades para así no llegar a causar incoherencias en la base de datos. El campo ya viene relleno y se puede cambiar su valor por cualquiera de la lista disponible. Además tuvimos que introducir un nuevo campo “Área/s de conocimiento” que representa las áreas de conocimiento de un profesor. Se puede seleccionar al menos una área de servicio y el valor viene ya relleno con los valores del usuario ya creado.
 
@@ -344,7 +357,7 @@ En el caso del profesor externo se añadió un campo nuevo y cambiaron la funcio
 \subsection{Formulario creación demanda de servicio}
 Para poder crear una demanda de servicio en la base de datos que nos permita ejecutar el algoritmo de matching tuvimos que crear el formulario desde cero con sus correspondientes archivos puesto que en el anterior TFG no existía.\\\\
 Para ello se tuvo que crear su correspondiente modelo con los campos necesarios para la creación de la demanda:id, titulo, descripcion, imagen, ciudad, objetivo, área de servicio, inicio del periodo de definición, final del periodo de definición, inicio del periodo de ejecución, final del periodo de ejecución, fecha fin, observaciones temporales, necesidad social, titulación local, creador, comunidad beneficiaria, createdAt y updatedAt.\\\\
-El creador es la entidad que está conectada en la aplicación y la cual accede a la creación de la demanda de servicio.
+El creador es la socio comunitario que está conectada en la aplicación y la cual accede a la creación de la demanda de servicio.
 Para el formulario de la creación de la demanda de servicio se han creado las validaciones correspondientes para los campos a completar de manera que no se pueda permitir la creación de la demanda si alguno de ellos no es correcto y los mensajes correspondientes a los errores.\\\\
 En función del campo se permiten distintos valores acorde a los campos que les corresponden de la base de datos: \\
 \begin{itemize} 
@@ -382,9 +395,9 @@ Una vez rellenos todos los campos del formulario se procede a su validación, en
 \subsection{Formulario creación de partenariado profesor}
 Una vez creados los formularios de oferta de servicio y demanda de servicio hemos procedido al desarrollo del formulario para la creación del partenariado de un profesor.
 El formulario para la creación del partenariado del profesor no existía en el anterior TFG, así que se procedió a su creación desde cero. Para ello, tuvimos que crear los archivos y el modelo necesarios para el formulario. El formulario aparece con unos campos ya rellenos, algunos de los cuales son editables. Se necesitan los datos de la oferta y la demanda en cuestión para poder realizar la creación del formulario.\\\\
-En la creación del formulario de partenariado del profesor los datos de la demanda de servicio de la entidad beneficiaria vienen ya completados y sin posibilidad de editarlos En cambio, los datos de la oferta hechos por el profesor responsable que procede a la creación del formulario si tiene la posibilidad de cambiar los datos. Estos datos vienen rellenados con los datos de la demanda de servicio.\\\\
+En la creación del formulario de partenariado del profesor los datos de la demanda de servicio de la socio comunitario beneficiaria vienen ya completados y sin posibilidad de editarlos En cambio, los datos de la oferta hechos por el profesor responsable que procede a la creación del formulario si tiene la posibilidad de cambiar los datos. Estos datos vienen rellenados con los datos de la demanda de servicio.\\\\
 El formulario está dividido en tres partes para la distinción entre los datos generales del partenariado que serán la combinación de los datos en común o los datos más relevantes del formulario, los datos de la oferta y los datos de la demanda. También hemos creado validaciones para todos los campos del formulario, para que no se permitan campos vacíos.\\\\
-En el formulario el título y la descripción son una  combinación de los títulos y descripciones de la oferta y la demanda, estos campos son editables. Los datos de la demanda de servicio vienen rellenadas, pero no son editables:  las áreas de servicio,la entidad de la demanda, la localización de desarrollo del partenariado, la finalidad, la comunidad beneficiaria, las fechas, asignatura objetivo, titulaciones locales, cuatrimestre y año académico. Aparece como profesor responsable, el de la oferta, siendo un campo editable que se da a elegir entre una lista de todos los profesores internos de la base de datos.\\\\
+En el formulario el título y la descripción son una  combinación de los títulos y descripciones de la oferta y la demanda, estos campos son editables. Los datos de la demanda de servicio vienen rellenadas, pero no son editables:  las áreas de servicio,la socio comunitario de la demanda, la localización de desarrollo del partenariado, la finalidad, la comunidad beneficiaria, las fechas, asignatura objetivo, titulaciones locales, cuatrimestre y año académico. Aparece como profesor responsable, el de la oferta, siendo un campo editable que se da a elegir entre una lista de todos los profesores internos de la base de datos.\\\\
 El campo equipo de profesores es una lista que da la posibilidad de selección múltiple y viene ya rellenada con los valores de la oferta de servicio ya creada. El profesor que procede a la creación del formulario elige si se aceptan personas externas. El área de servicio de la oferta no es un campo editable. Para que se pueda validar el formulario no deben existir campos vacíos o mal completados, y se mostrarán los mensajes para que informe al usuario de los campos a cambiar o completar. Una vez completado correctamente, al aceptarlo se pasa del estado EN\_NEGOCIACION a EN\_CREACION. Si se rechaza pasa al estado SUSPENDIDO.
 \\\\
 
@@ -421,7 +434,7 @@ Hemos definido unos criterios en base a los datos proporcionados por los usuario
 	
 	\item Encontrar la similitud entre las áreas de servicio tanto de la oferta como de la demanda. Se dispone de setenta y ocho áreas de servicio en la base de datos para poder realizar esta comprobación. Para ello se comparan todas las áreas de servicio de ambas, y se devuelve el número de coincidencias. Cuanto mayor dicho número, mayor probabilidad de que se produzca el matching.
 	
-	\item Obtener las coincidencias entre las titulaciones elegidas por la entidad a la hora de introducir la demanda (si es que ha introducido algunas) con las titulaciones en las que imparten docencia los profesores asociados a la oferta. 
+	\item Obtener las coincidencias entre las titulaciones elegidas por la socio comunitario a la hora de introducir la demanda (si es que ha introducido algunas) con las titulaciones en las que imparten docencia los profesores asociados a la oferta. 
 	Se dispone de ciento nueve titulaciones locales en la base de datos para poder realizar esta comprobación. Tanto la oferta como la demanda pueden tener una o varias titulaciones, y en función de la cantidad de titulaciones de la demanda se calcula el resultado el cual será un porcentaje obtenido a partir de la división del número total de titulaciones que producen coincidencias entre el  número total de las titulaciones de la demanda.
 	
 	\item Obtener las coincidencias en las observaciones temporales de la oferta de servicio y de la demanda de servicio que hemos aplicado mediante Procesamiento del Lenguaje Natural (NLP). Una vez obtenidas las dos observaciones temporales tanto de la oferta como de la demanda, procedemos a aplicar el algoritmo para emparejar las palabras que coinciden de los dos lados y obtener un porcentaje. Para ello una vez más se quitan las palabras comunes de las descripciones y se guardan las palabras no comunes para cada una de las observaciones en una estructura de datos. Tras esto, se procesan cada una de las estructuras, resultando el número de observaciones temporales que coinciden. El porcentaje de coincidencias se obtiene mediante la división del número de palabras coincidentes entre el valor (observaciones temporales) que tiene el menor número de palabras.
@@ -447,7 +460,7 @@ Una vez obtenidos todos los porcentajes de los criterios de matching y los resul
 
 Si el valor obtenido es mayor que 0.5 se considerará un match definitivo y se almacenará en la base de datos en un tabla que contendrá el porcentaje final, el id de la oferta, el id de la demanda y un atributo booleano, “procesado”, que se pone a true indicando si paso por el proceso de verificación del match. La tabla de matching de la base de datos contendrá la información sobre los posibles match y no match de entre las demandas y ofertas procesadas, de esta manera la aplicación del algoritmo de matching se ejecuta una única vez por cada pareja oferta-demanda. \\\\
 
-A partir de un matching de una oferta de servicio y una demanda se crea un partenariado. Para ello primero, el profesor responsable de la oferta acepta el match y rellena el formulario que tiene  algunos campos rellenados automáticamente a partir de información contenida en la oferta o en la demanda, lo que conlleva la creación de un partenariado en estado “en creación” y el envío de una notificación a la entidad. Después, la entidad podría aceptar el match, rellenando un segundo formulario, teniendo algunos campos rellenados automáticamente a partir de información contenida en la oferta o en la demanda, lo que provocaría que el partenariado pasará al estado “en negociación” \\\\
+A partir de un matching de una oferta de servicio y una demanda se crea un partenariado. Para ello primero, el profesor responsable de la oferta acepta el match y rellena el formulario que tiene  algunos campos rellenados automáticamente a partir de información contenida en la oferta o en la demanda, lo que conlleva la creación de un partenariado en estado “en creación” y el envío de una notificación a la socio comunitario. Después, la socio comunitario podría aceptar el match, rellenando un segundo formulario, teniendo algunos campos rellenados automáticamente a partir de información contenida en la oferta o en la demanda, lo que provocaría que el partenariado pasará al estado “en negociación” \\\\
 
 \subsection{Ejemplo de matching}
 
