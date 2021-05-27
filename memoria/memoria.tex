@@ -489,6 +489,26 @@ Tras ello se comprueban las observaciones temporales para saber si se produce un
 Primero se verifica si la fecha de inicio de definición del periodo es mayor que la fecha límite definida en la oferta, en este caso se pasa a la siguiente comprobación ya que la fecha límite de la oferta es superior. También se verifican si las otras fechas cuadran entre ellas, para así poder verificar si se podrán ejecutar ambas en el primer cuatrimestre. \\\\
 Tras ello, una vez obtenidos todos los resultados, cada una se multiplica por su correspondiente peso para ver si se produce el matching. Como se puede observar, tras el número elevado de coincidencias, se produce el matching entre la oferta y la demanda y por lo consecuente se inserta la relación en la tabla “matching”.\\\\
 
+
+\section{Conclusiones y trabajo futuro}
+
+En esta última sección hablaremos sobre el estado actual del proyecto y sus objetivos, así como de las mejoras que se podrian realizar sobre el mismo en un futuro.\\\\
+
+Dado que nuestro TFG es una continuación del proyecto de David Jimenez del Rey, comenzaremos exponiendo las principales diferencias de nuestro proyecto con este útlimo.
+\begin{itemize}
+	\item La base de datos: Además de haber cambiado la base de datos de MongoDB a una base relacional, se han realizado varios cambios en el modelo 		como queda explicado en la sección 3.
+	\item La capa de acceso a datos: Siguiendo el cambio en la base de datos, se han creado DTO y DAO para llevar a cabo la lógica de accesos a la BD 			como queda explicado en la sección 4.
+	\item Implantación de un sistema de \emph{matching}: El proyecto del año pasado trataba las ofertas y las demandas como simétricas, es decir, teniendo los mismos atributos, pero esto no 	es así, por lo que se ha diseñado un sistema de matching como queda explicado en la sección 6.
+	\item Cambios en los formularios: Debido a los cambios registrados en el modelo de datos, ha sido necesario crear algunos formularios o adptar otros ya existentes. Esto queda mejor explicado en la sección 5.
+\end{itemize}
+
+A continuación repasaremos los objetivos de nuestro trabajo y su completitud:
+\begin{itemize}
+	\item 
+\end{itemize}
+
+
+
 \bibliographystyle{plain}
 \bibliography{references}
 \end{document}
