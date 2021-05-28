@@ -218,11 +218,13 @@ Los profesores externos solo pueden participar en aquellos partenariados y proye
 	\centering
 	\includegraphics[scale=0.23]{mdominio}
 	\caption{Modelo de dominio}
+	\label{Figura 4.1}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.23]{mdatos}
 	\caption{Modelo de datos}
+	\label{Figura 4.2}
 \end{figure}
 \subsection{Modelo de datos}
 El modelo de datos describe con más precisión el dominio de la aplicación.
@@ -245,6 +247,7 @@ Y la última es la sección que tiene menos complejidad, la sección de Comunica
 	\centering
 	\includegraphics[scale=0.15]{er}
 	\caption{Diagrama de entidad relación}
+	\label{Figura 4.3}
 \end{figure}
 \subsubsection{Usuarios}
 Esta sección es la más compleja debido a la separación que hay que realizar de los usuarios externos e internos.\\
@@ -496,15 +499,29 @@ En esta última sección hablaremos sobre el estado actual del proyecto y sus ob
 
 Dado que nuestro TFG es una continuación del proyecto de David Jimenez del Rey, comenzaremos exponiendo las principales diferencias de nuestro proyecto con este útlimo.
 \begin{itemize}
-	\item La base de datos: Además de haber cambiado la base de datos de MongoDB a una base relacional, se han realizado varios cambios en el modelo 		como queda explicado en la sección 3.
-	\item La capa de acceso a datos: Siguiendo el cambio en la base de datos, se han creado DTO y DAO para llevar a cabo la lógica de accesos a la BD 			como queda explicado en la sección 4.
-	\item Implantación de un sistema de \emph{matching}: El proyecto del año pasado trataba las ofertas y las demandas como simétricas, es decir, teniendo los mismos atributos, pero esto no 	es así, por lo que se ha diseñado un sistema de matching como queda explicado en la sección 6.
-	\item Cambios en los formularios: Debido a los cambios registrados en el modelo de datos, ha sido necesario crear algunos formularios o adptar otros ya existentes. Esto queda mejor explicado en la sección 5.
+	\item La base de datos: Además de haber cambiado la base de datos de MongoDB a una base relacional, se han realizado varios cambios en el modelo 		como queda explicado en la sección 5.
+	\item La capa de acceso a datos: Siguiendo el cambio en la base de datos, se han creado DTO y DAO para llevar a cabo la lógica de accesos a la BD 			como queda explicado en la sección 6.
+	\item Implantación de un sistema de \emph{matching}: El proyecto del año pasado trataba las ofertas y las demandas como simétricas, es decir, teniendo los mismos atributos, pero esto no 	es así, por lo que se ha diseñado un sistema de matching como queda explicado en la sección 7.
+	\item Cambios en los formularios: Debido a los cambios registrados en el modelo de datos, ha sido necesario crear algunos formularios o adptar otros ya existentes. Esto queda mejor explicado en la sección 8.
 \end{itemize}
 
 A continuación repasaremos los objetivos de nuestro trabajo y su completitud:
 \begin{itemize}
-	\item 
+	\item Construir unas bases sólidas del proyecto, creando un modelo de dominio que aclara los conceptos implicados en la aplicación y un modelo de datos que enriquece el modelo de dominio y plasma como la aplicación gestiona la información.\\\\
+Este objetivo ha sido cumplido y los diagramas de dominio y de datos se pueden ver en las figuras \ref{Figura 4.1} y \ref{Figura 4.2}, respectivamente.
+	\item Crear un modelo relacional que muestre la estructura de la base de datos, facilitando su entendimiento y manejo a los futuros desarrolladores del proyecto.\\
+Este objetivo también ha sido cumplido y el diagrama resultante se puede observar en la figura \ref{Figura 4.3}
+	\item Crear una base de datos relacional compleja y rica en detalles. \\
+Este objetivo ha sido completado en su mayoría, aunque debido a la terminología empleada es posible que haya que renombrar alguna tabla. Esto se explicará con más detalle en la sección Trabajo Futuro.
+	\item Implementar cuatro DAO que realicen la lógica de acceso y gestión de datos, encapsulando el acceso a la base de datos. Crear \emph{transfers} que permitan estructurar y manejar de forma sencilla los datos de la BD. \\
+Este objetivo también ha sido completado, aunque, como ya se ha dicho con anterioridad, es prácticamente imposible crear un DAO ``perfecto'' y es posible que se deban modificar en un futuro si se agregan funcionalidades nuevas a la aplicación.
+	\item Implementar un sistema de \emph{matching} de los proyectos planteados por un profesor y los planteados por un socio comunitario que determina que porcentaje de encaje tienen. \\
+Este objetivo también ha sido completado y el sistema de \emph{matching} queda explicado en la sección 7.
+	\item Adaptar las páginas de registro y perfil del usuario al nuevo sistema, e implementar formularios para la creación de ofertas, demandas y partenariados. \\
+Este objetivo no ha sido totalmente completado. Aunque las páginas de registro y perfil de usuario han sido actualizadas, y se han creado formularios para la creación de demandas y ofertas, en el caso de los partenariados, se plantean tres formas para poder crear un partenariado: \emph{match} entre una oferta y una demanda ya creadas, un profesor decide respaldar una demanda, y un socio comunitario decide respaldar una oferta. Cada una de estas formas requeriría dos formularios, uno para el profesor y otro para el socio comunitario. Se ha hecho el formulario de \emph{match} para el profesor y se ha empezado el desarrollo de la parte de \emph{back-end} para el formulario de la parte del socio comunitario. 
+	\item Corregir bugs encontrados en el proyecto precedente.\\
+Este objetivo se da como completado dado que la gran mayoría de bugs encontrados fueron arreglados al principio del proyecto, y aunque quedaban algunos, al modificar los formularios y tener que hacer cambios en las interfaces, los bugs pasan a carecer de importancia (aqui quiero decir que como hay que cambiar la interfaz, el bug ya da igual porque probablemente me lo cargue con el código nuevo).
+
 \end{itemize}
 
 
