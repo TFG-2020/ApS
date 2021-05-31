@@ -8,6 +8,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { Usuario } from '../../models/usuario.model';
 import { take, tap, first } from 'rxjs/operators';
 import { AuthService } from 'src/app/services/auth.service';
+//Para usar jQuery -> import * as $ from "jquery";
 
 @Component({
   selector: 'app-profile',
@@ -43,6 +44,7 @@ export class ProfileComponent {
         universidad: [this.usuario.universidad],
         titulacion: [this.usuario.titulacion],
         sector: [this.usuario.sector],
+        nombreEntidad: [this.usuario.nombreEntidad],
         terminos_aceptados: [this.usuario.terminos_aceptados, Validators.requiredTrue],
       }, {
         validators: [
@@ -50,6 +52,7 @@ export class ProfileComponent {
           this.validarUniversidad(),
           this.validarTitulacion(),
           this.validarSector(),
+          this.validarNombreEntidad(),
         ]
     });
   }
@@ -99,6 +102,9 @@ export class ProfileComponent {
     reader.onloadend = () => {
       this.imagenPreview = reader.result;
     }
+    var inputImage = document.getElementById("file-upload");
+  
+    
   }
 
   actualizarImagen() {
@@ -141,8 +147,10 @@ export class ProfileComponent {
             Swal.fire('Error', msg, 'error');
           }
         });
+        //En jQuery ->$("#file-upload").val("");
+        (<HTMLInputElement>document.getElementById("file-upload")).value="";
   }
-
+ 
 
 
   getRoles() {
@@ -194,10 +202,6 @@ export class ProfileComponent {
           return `El campo facultad/escuela es obligatorio`;
           break;
 
-        case 'terminos_aceptados':
-          return 'Es obligatorio aceptar las condiciones de uso';
-          break;
-
         default:
           return `El campo ${ campo } es obligatorio`;
           break;
@@ -231,5 +235,7 @@ export class ProfileComponent {
   validarSector() {
     return this.validarCampoSegunPerfil('sector', [ROL_ENTIDAD]);
   }
-
+  validarNombreEntidad() {
+    return this.validarCampoSegunPerfil('nombreEntidad', [ROL_ENTIDAD]);
+  }
 }

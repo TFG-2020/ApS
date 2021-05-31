@@ -16,6 +16,7 @@ export class Usuario {
         public universidad?: string,
         public titulacion?: string,
         public sector?: string,
+        public nombreEntidad?:String,
         public terminos_aceptados?: boolean,
     ) {}
 
@@ -43,6 +44,7 @@ export class Usuario {
 
         if(['ROL_ENTIDAD', 'ROL_GESTOR'].includes(this.rol)) {
             if(this.sector && this.sector !== '') { info.push(this.sector); }
+            if(this.nombreEntidad && this.nombreEntidad !== '') { info.push(this.nombreEntidad); }
         }
 
         return info;

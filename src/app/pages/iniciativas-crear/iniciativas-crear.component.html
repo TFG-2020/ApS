@@ -43,7 +43,7 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label for="ciudad">Rama de Conocimiento</label>
+                                    <label for="ciudad">Localización de desarrollo de la iniciativa</label>
                                     <select id="ciudad" name="ciudad" class="form-control" formControlName="ciudad">
                                         <option value="">Elije una ciudad de desarrollo de la iniciativa</option>
                                         <option *ngFor="let CIUDAD of CIUDADES" [selected]="this.iniciativa.ciudad == CIUDAD" value="{{ CIUDAD }}">{{ CIUDAD }}</option>
@@ -142,7 +142,7 @@
                             </div>
                           </div>
 
-                            <div class="col">
+                            <div class="col" *ngIf = "!this.iniciativa_id">
                                 <div class="form-check text-right m-4">
                                     <input type="checkbox" class="form-check-input" id="terminos_aceptados" formControlName="terminos_aceptados">
                                     <label class="form-check-label">Entiendo <a href="javascript:void(0)" target="_blank" [routerLink]="['/que-es-ApS']">Qué es un Proyecto ApS</a></label>

@@ -21,4 +21,10 @@ export class HomeService {
                       map( (resp) => resp )
                     );
   }
+  obtenerUniversidades(){
+    return this.http.get<{ ok: boolean, universidades: any}>(`${ base_url }/home/universidades`,this.usuarioService.headers)
+    .pipe(
+      map( (resp) => resp)
+    );
+  }
 }

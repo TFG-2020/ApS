@@ -108,6 +108,7 @@ export class PartenariadosVerComponent implements OnInit {
             Swal.fire('Error', msg, 'error');
           }
         });
+        (<HTMLInputElement>document.getElementById("file-upload-2")).value="";
   }
 
 }

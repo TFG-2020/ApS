@@ -42,6 +42,11 @@ const UsuarioSchema = new Schema({
     required: false
   },
 
+  nombreEntidad: {
+    type: String,
+    required: false
+  },
+
   terminos_aceptados: {
     type: Boolean,
     required: false

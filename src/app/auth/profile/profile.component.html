@@ -61,7 +61,7 @@
                                                             <label for="file-upload" class="custom-file-upload">
                                                                 <i class="fa fa-cloud-upload"></i> Subir imagen
                                                             </label>
-                                                            <input id="file-upload" type="file" (change)="cambiarImagen($event.target.files[0])"/>
+                                                            <input id="file-upload" type="file" (input)="cambiarImagen($event.target.files[0])"/>
                                                         </div>
 
                                                         <button type="button" class="btn btn-secondary btn-sm" [disabled]="!imagenSubir" (click)="actualizarImagen()">Actualizar Imagen</button>
@@ -93,12 +93,12 @@
                                     <div class="d-flex">
                                         <div class="form-group flex-fill mr-2">
                                             <label for="nombre">Nombre</label>
-                                            <input name="nombre" type="text" id="nombre" class="form-control" autocorrect="off" autocapitalize="none" spellcheck="false" placeholder="Introduzca su Usuario" formControlName="nombre">
+                                            <input name="nombre" type="text" id="nombre" class="form-control" autocorrect="off" autocapitalize="none" spellcheck="false" placeholder="Introduzca su Nombre" formControlName="nombre">
                                         </div>
 
                                         <div class="form-group flex-fill ml-2">
                                             <label for="apellidos">Apellidos</label>
-                                            <input name="apellidos" type="text" id="apellidos" class="form-control" autocorrect="off" autocapitalize="none" spellcheck="false" placeholder="Introduzca su Usuario" formControlName="apellidos">
+                                            <input name="apellidos" type="text" id="apellidos" class="form-control" autocorrect="off" autocapitalize="none" spellcheck="false" placeholder="Introduzca sus Apellidos" formControlName="apellidos">
                                         </div>
                                     </div>
 
@@ -128,17 +128,15 @@
                                         <label for="sector">Sector</label>
                                         <input name="sector" type="text" id="sector" class="form-control" autocorrect="off" autocapitalize="none" spellcheck="false" placeholder="Introduzca su sector" formControlName="sector">
                                     </div>
+
+                                    <div class="form-group" *ngIf="['ROL_GESTOR', 'ROL_ENTIDAD'].includes(usuario.rol)">
+                                        <label for="nombreEntidad">Nombre entidad</label>
+                                        <input name="nombreEntidad" type="text" id="nombreEntidad" class="form-control" autocorrect="off" autocapitalize="none" spellcheck="false" placeholder="Introduzca el nombre de la entidad" formControlName="nombreEntidad">
+                                    </div>
                                 </fieldset>
 
-
-
-                                <div class="form-check text-left ml-1 mb-2">
-                                    <input type="checkbox" class="form-check-input" id="terminos_aceptados" formControlName="terminos_aceptados">
-                                    <label class="form-check-label">Acepto las <a href="javascript:void(0)" target="_blank" [routerLink]="['/registro/condiciones-de-uso']">Condiciones de Uso</a></label>
-                                </div>
-
                                 <div class="d-flex">
-                                    <div class="flex-fill alert alert-danger mr-3" role="alert" *ngIf="this.profileForm.invalid">
+                                     <div class="flex-fill alert alert-danger mr-3" role="alert" *ngIf="this.profileForm.invalid">
                                         <div *ngIf="campoNoValido('rol')" class="col">{{ campoNoValido('rol') }}</div>
                                         <div *ngIf="campoNoValido('email')" class="col">{{ campoNoValido('email') }}</div>
                                         <div *ngIf="campoNoValido('password')" class="col">{{ campoNoValido('passwordsCoinciden') }}</div>
@@ -149,8 +147,8 @@
                                         <div *ngIf="campoNoValido('titulacion') && ['ROL_ESTUDIANTE'].includes(usuario.rol)" class="col">{{ campoNoValido('titulacion') }}</div>
                                         <div *ngIf="campoNoValido('facultad') && ['ROL_PROFESOR'].includes(usuario.rol)" class="col">{{ campoNoValido('facultad') }}</div>
                                         <div *ngIf="campoNoValido('sector')" class="col">{{ campoNoValido('sector') }}</div>
-                                        <div *ngIf="campoNoValido('terminos_aceptados')" class="col">{{ campoNoValido('terminos_aceptados') }}</div>
-                                    </div>
+                                        <div *ngIf="campoNoValido('nombreEntidad')" class="col">{{ campoNoValido('nombreEntidad') }}</div>
+                                    </div> 
 
                                     <div class="ml-auto mb-2">
                                          <input type="submit" value="Actualizar Perfil" class="btn btn-default btn-primary" [disabled]="profileForm.invalid">

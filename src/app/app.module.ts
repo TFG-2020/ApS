@@ -4,6 +4,16 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ValidateEqualModule } from 'ng-validate-equal';
+import { NgMultiSelectDropDownModule } from "ng-multiselect-dropdown";
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgxMatSelectSearchModule } from 'ngx-mat-select-search';
+
 
 // Routes
 import { AppRoutingModule } from './app-routing.module';
@@ -75,6 +85,7 @@ import { Code404Component } from './errors/code404/code404.component';
 
 
 
+
 // Go!
 @NgModule({
   declarations: [
@@ -141,6 +152,15 @@ import { Code404Component } from './errors/code404/code404.component';
     BrowserModule,
     CommonModule,
     RouterModule,
+    NgMultiSelectDropDownModule.forRoot(),
+    MatAutocompleteModule,
+    MatInputModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    BrowserAnimationsModule,
+    NgxMatSelectSearchModule,
+  
 
     FormsModule,
     ReactiveFormsModule,
@@ -151,6 +171,8 @@ import { Code404Component } from './errors/code404/code404.component';
 
     // app routing
     AppRoutingModule,
+    
+    ValidateEqualModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
