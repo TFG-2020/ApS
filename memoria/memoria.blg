@@ -5,51 +5,55 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: abbrvnat.bst
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 Database file #1: referencias.bib
-Warning--empty year in ref1
-Warning--empty year in ref2
-Warning--empty year in ref3
-Warning--empty year in ref4
-Warning--empty year in ref5
+Warning--to sort, need author or key in ref6
+Warning--empty author in ref6
 Warning--empty year in ref6
+Warning--empty year in ref6
+Warning--empty year in ref5
+Warning--empty year in ref4
+Warning--empty year in ref1
+Warning--empty year in ref1
+Warning--empty year in ref3
+Warning--empty year in ref2
 You've used 6 entries,
             2773 wiz_defined-function locations,
-            601 strings with 4801 characters,
-and the built_in function-call counts, 1776 in all, are:
-= -- 141
-> -- 60
-< -- 6
-+ -- 29
-- -- 18
-* -- 100
-:= -- 265
+            616 strings with 5826 characters,
+and the built_in function-call counts, 1714 in all, are:
+= -- 136
+> -- 50
+< -- 5
++ -- 21
+- -- 15
+* -- 94
+:= -- 245
 add.period$ -- 13
 call.type$ -- 6
-change.case$ -- 24
-chr.to.int$ -- 1
-cite$ -- 18
-duplicate$ -- 94
-empty$ -- 191
-format.name$ -- 24
-if$ -- 368
-int.to.chr$ -- 6
+change.case$ -- 23
+chr.to.int$ -- 6
+cite$ -- 23
+duplicate$ -- 98
+empty$ -- 192
+format.name$ -- 20
+if$ -- 359
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 1
+missing$ -- 2
 newline$ -- 33
-num.names$ -- 24
-pop$ -- 77
+num.names$ -- 20
+pop$ -- 83
 preamble$ -- 1
-purify$ -- 18
+purify$ -- 17
 quote$ -- 0
-skip$ -- 74
+skip$ -- 77
 stack$ -- 0
-substring$ -- 12
-swap$ -- 12
+substring$ -- 13
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 66
-warning$ -- 6
-while$ -- 18
+warning$ -- 10
+while$ -- 15
 width$ -- 0
-write$ -- 69
-(There were 6 warnings)
+write$ -- 63
+(There were 10 warnings)

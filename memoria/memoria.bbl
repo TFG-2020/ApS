@@ -5,36 +5,35 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Parmentier({\natexlab{a}})]{ref1}
+\bibitem[ref()]{ref6}
+Virtu@l-aps: Soporte tecnológico para el aprendizaje-servicio virtual.
+\newblock \emph{Revista Iboeroamericana de Educación a Distancia, Vol. 23,
+  Núm. 1, 2020}.
+
+\bibitem[del Rey()]{ref5}
+D.~J. del Rey.
+\newblock Desarrollo de una comunidad web para el soporte virtual del
+  aprendizaje-servicio iii.
+
+\bibitem[Meana()]{ref4}
+H.~A. Meana.
+\newblock Aplicación de soporte a una comunidad educativa interesada en el aps
+  virtual.
+
+\bibitem[Parmentier()]{ref1}
 E.~Parmentier.
 \newblock Diseño e implementación de un servicio de conexión de la oferta y
   la demanda de proyectos de fin de carrera de cooperación.
 \newblock \emph{Director: Carlos Mataix UPM Titulación: Ingeniería Industrial
-  de la UPM. 2004}, {\natexlab{a}}.
+  de la UPM. 2004}.
 
-\bibitem[Parmentier({\natexlab{b}})]{ref2}
-E.~Parmentier.
-\newblock Diseño e implementación de un servicio de conexión de la oferta y
-  la demanda de proyectos de fin de carrera de cooperación, {\natexlab{b}}.
+\bibitem[Rodriguez()]{ref3}
+N.~Rodriguez.
+\newblock Virtu@l-aps.
 
-\bibitem[Parmentier({\natexlab{c}})]{ref3}
-E.~Parmentier.
-\newblock Diseño e implementación de un servicio de conexión de la oferta y
-  la demanda de proyectos de fin de carrera de cooperación, {\natexlab{c}}.
-
-\bibitem[Parmentier({\natexlab{d}})]{ref4}
-E.~Parmentier.
-\newblock Diseño e implementación de un servicio de conexión de la oferta y
-  la demanda de proyectos de fin de carrera de cooperación, {\natexlab{d}}.
-
-\bibitem[Parmentier({\natexlab{e}})]{ref5}
-E.~Parmentier.
-\newblock Diseño e implementación de un servicio de conexión de la oferta y
-  la demanda de proyectos de fin de carrera de cooperación, {\natexlab{e}}.
-
-\bibitem[Parmentier({\natexlab{f}})]{ref6}
-E.~Parmentier.
-\newblock Diseño e implementación de un servicio de conexión de la oferta y
-  la demanda de proyectos de fin de carrera de cooperación, {\natexlab{f}}.
+\bibitem[Serrano()]{ref2}
+S.~L. Serrano.
+\newblock Desarrollo de una comunidad virtual de profesores en el Ámbito de la
+  educación para el desarrollo humano y sostenible.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  27 MAY 2021 19:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  31 MAY 2021 16:38
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -241,8 +241,8 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count198
 \l__pdf_internal_box=\box47
 ) (memoria.aux
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
 )
 \openout1 = `memoria.aux'.
 
@@ -1037,10 +1037,10 @@ Package rerunfilecheck Info: File `memoria.out' has not changed.
 (rerunfilecheck)             Checksum: F1CCEC83EA05A1BC28C969B62B546C20;2450.
  ) 
 Here is how much of TeX's memory you used:
- 7170 strings out of 480235
- 109297 string characters out of 2880541
- 433767 words of memory out of 3000000
- 23487 multiletter control sequences out of 15000+200000
+ 7174 strings out of 480235
+ 109357 string characters out of 2880541
+ 433750 words of memory out of 3000000
+ 23491 multiletter control sequences out of 15000+200000
  542367 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,66p,1196b,512s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1057,7 +1057,7 @@ to/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/
 Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10
 .pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmtt10.pfb>
-Output written on memoria.pdf (49 pages, 2389571 bytes).
+Output written on memoria.pdf (49 pages, 2391152 bytes).
 PDF statistics:
  559 PDF objects out of 1000 (max. 8388607)
  120 named destinations out of 1000 (max. 500000)
