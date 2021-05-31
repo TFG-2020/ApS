@@ -3,7 +3,15 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: memoria.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: abbrvnat.bst
+Illegal, another \bibstyle command---line 20 of file memoria.aux
+ : \bibstyle
+ :          {plain}
+I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 12 items.
+Illegal, another \bibdata command---line 153 of file memoria.aux
+ : \bibdata
+ :         {referencias}
+I'm skipping whatever remains of this command
 Database file #1: referencias.bib
 Warning--to sort, need author or key in ref6
 Warning--empty author in ref6
@@ -56,4 +64,4 @@ warning$ -- 10
 while$ -- 15
 width$ -- 0
 write$ -- 63
-(There were 10 warnings)
+(There were 2 error messages)

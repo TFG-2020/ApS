@@ -1,49 +1,56 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}Introducción}{7}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Antecedentes}{7}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Objetivos}{7}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Plan de trabajo}{8}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Contexto de la propuesta}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introducción}{11}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Elementos que intervienen en un proyecto ApS}{11}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Motivación}{12}{section.2.3}%
-\contentsline {section}{\numberline {2.4}TFG de partida}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Estudio tecnológico}{14}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Tecnologías utilizadas}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Node.js}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Angular}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}GitKraken}{18}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Pivotal tracker}{19}{section.3.4}%
-\contentsline {section}{\numberline {3.5}LaTeX}{19}{section.3.5}%
-\contentsline {section}{\numberline {3.6}MySQL}{19}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Modelio}{20}{section.3.7}%
-\contentsline {section}{\numberline {3.8}MySQL Workbench}{20}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Modelos de dominio, de datos y de relación}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introducción}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Modelo de dominio}{22}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Modelo de datos}{24}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Modelo relacional}{25}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Separación de datos}{25}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Usuarios}{25}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Anuncios de servicio}{26}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Colaboración}{27}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Comunicación}{28}{subsection.4.4.5}%
-\contentsline {chapter}{\numberline {5}DAO}{31}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Creación de formularios}{33}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Formulario de registro de usuarios}{33}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Formulario para editar los datos de un usuario}{34}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Formulario creación demanda de servicio}{35}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Formulario creación oferta de servicio}{36}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Formulario creación de partenariado profesor}{37}{section.6.5}%
-\contentsline {chapter}{\numberline {7}Matching entre oferta de servicio y demanda de servicio}{43}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Definición del matching }{43}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Criterios de matching y anti matching}{43}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Criterios de matching }{43}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Criterios de anti matching }{45}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Matching definitivo}{45}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Ejemplo de matching}{46}{section.7.4}%
-\contentsline {chapter}{\numberline {8}Conclusiones y trabajo futuro}{49}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Introducción}{49}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Objetivos cumplidos}{49}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Problemas Encontrados}{50}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Trabajo Futuro}{51}{section.8.4}%
+\contentsline {chapter}{Resumen}{7}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Introducción}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Antecedentes}{9}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos}{9}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Plan de trabajo}{10}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Contexto de la propuesta}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introducción}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Elementos que intervienen en un proyecto ApS}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Motivación}{14}{section.2.3}%
+\contentsline {section}{\numberline {2.4}TFG de partida}{15}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Estudio tecnológico}{16}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Tecnologías utilizadas}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Node.js}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Angular}{19}{section.3.2}%
+\contentsline {section}{\numberline {3.3}GitKraken}{20}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Pivotal tracker}{21}{section.3.4}%
+\contentsline {section}{\numberline {3.5}LaTeX}{21}{section.3.5}%
+\contentsline {section}{\numberline {3.6}MySQL}{21}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Modelio}{22}{section.3.7}%
+\contentsline {section}{\numberline {3.8}MySQL Workbench}{22}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Modelos de dominio, de datos y de relación}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introducción}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Modelo de dominio}{24}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Modelo de datos}{26}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Modelo relacional}{27}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Separación de datos}{27}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Usuarios}{27}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Anuncios de servicio}{28}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Colaboración}{29}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Comunicación}{30}{subsection.4.4.5}%
+\contentsline {chapter}{\numberline {5}DAO}{33}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Creación de formularios}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Formulario de registro de usuarios}{35}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Formulario para editar los datos de un usuario}{36}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Formulario creación demanda de servicio}{37}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Formulario creación oferta de servicio}{38}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Formulario creación de partenariado profesor}{39}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Matching entre oferta de servicio y demanda de servicio}{45}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Definición del matching }{45}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Criterios de matching y anti matching}{45}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Criterios de matching }{45}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Criterios de anti matching }{47}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}Matching definitivo}{47}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Ejemplo de matching}{48}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Conclusiones y trabajo futuro}{51}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introducción}{51}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Objetivos cumplidos}{51}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Problemas Encontrados}{52}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Trabajo Futuro}{53}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Definición del matching }{55}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Criterios de matching y anti matching}{56}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}Criterios de matching }{56}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}Criterios de anti matching }{57}{subsection.8.6.2}%
+\contentsline {section}{\numberline {8.7}Matching definitivo}{57}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Ejemplo de matching}{58}{section.8.8}%
