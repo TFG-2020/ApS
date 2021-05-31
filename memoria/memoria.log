@@ -329,9 +329,9 @@ Package pdftex.def Info: logo.jpg  used on input line 19.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
+(Font)              <10.95> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
  [3])
@@ -362,6 +362,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
+]
+Underfull \hbox (badness 10000) in paragraph at lines 42--51
 
 Overfull \hbox (11.1586pt too wide) in paragraph at lines 43--46
 \OT1/cmr/m/n/10.95 La pla-ta-for-ma web tie-ne co-mo ayu-dar a crear, ges-tio-n
@@ -416,8 +418,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--124
 
  []
 
+[7]
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
+ [8
 
 Underfull \hbox (badness 10000) in paragraph at lines 113--124
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--63
 
  []
 
@@ -579,6 +587,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--337
 
  []
 
+<demanda.jpg, id=141, 445.665pt x 598.6365pt>
+File: demanda.jpg Graphic file (type jpg)
+<use demanda.jpg>
+Package pdftex.def Info: demanda.jpg  used on input line 93.
+(pdftex.def)             Requested size: 401.09479pt x 538.76787pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 304--337
 
@@ -628,6 +641,14 @@ Overfull \hbox (15.81662pt too wide) in paragraph at lines 374--375
  [][] 
  []
 
+LaTeX Info: Redefining \. on input line 102.
+LaTeX Info: Redefining \% on input line 102.
+[12]
+<oferta.jpg, id=147, 445.665pt x 513.71925pt>
+File: oferta.jpg Graphic file (type jpg)
+<use oferta.jpg>
+Package pdftex.def Info: oferta.jpg  used on input line 113.
+(pdftex.def)             Requested size: 401.09479pt x 462.34305pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 367--378
 
@@ -709,8 +730,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 453--461
 
  []
 
+<partenariado2.jpg, id=154, 413.1435pt x 623.32875pt>
+File: partenariado2.jpg Graphic file (type jpg)
+<use partenariado2.jpg>
+Package pdftex.def Info: partenariado2.jpg  used on input line 134.
+(pdftex.def)             Requested size: 371.8257pt x 560.99069pt.
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
+[14]
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
+ [15 <./demanda.jpg>]
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
+ [16 <./oferta.jpg>]
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
+ [17 <./partenariado1.jpg>]
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
 
 Underfull \hbox (badness 10000) in paragraph at lines 453--461
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
@@ -889,9 +931,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 540--541
 
  []
 
+[19
 
 Underfull \hbox (badness 10000) in paragraph at lines 542--544
 
+Overfull \hbox (28.7332pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 20 \OT1/cmr/m/sl/10.95 CAP[]ITULO 2.  MATCHING ENTRE OFERTA 
+DE SERVICIO Y DEMANDA DE SERVICIO
  []
 
 
@@ -960,6 +1006,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
 Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
@@ -1050,10 +1100,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 619--620
 
  []
 
+[24
 
 Underfull \hbox (badness 10000) in paragraph at lines 619--620
 
- []
+Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
 [49]
 Underfull \hbox (badness 10000) in paragraph at lines 650--653
