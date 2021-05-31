@@ -10,6 +10,14 @@
 \contentsline {section}{\numberline {2.4}TFG de partida}{13}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Estudio tecnológico}{14}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Tecnologías utilizadas}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Node.js}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Angular}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}GitKraken}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Pivotal tracker}{19}{section.3.4}%
+\contentsline {section}{\numberline {3.5}LaTeX}{19}{section.3.5}%
+\contentsline {section}{\numberline {3.6}MySQL}{19}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Modelio}{20}{section.3.7}%
+\contentsline {section}{\numberline {3.8}MySQL Workbench}{20}{section.3.8}%
 \contentsline {chapter}{\numberline {4}Modelos de dominio, de datos y de relación}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introducción}{21}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Modelo de dominio}{22}{section.4.2}%
@@ -34,3 +42,8 @@
 \contentsline {subsection}{\numberline {7.2.2}Criterios de anti matching }{45}{subsection.7.2.2}%
 \contentsline {section}{\numberline {7.3}Matching definitivo}{45}{section.7.3}%
 \contentsline {section}{\numberline {7.4}Ejemplo de matching}{46}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Conclusiones y trabajo futuro}{49}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introducción}{49}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Objetivos cumplidos}{49}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Problemas Encontrados}{50}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Trabajo Futuro}{51}{section.8.4}%
