@@ -1,39 +1,45 @@
-\begin{thebibliography}{6}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{1}
 
-\bibitem[ref()]{ref6}
-Virtu@l-aps: Soporte tecnológico para el aprendizaje-servicio virtual.
-\newblock \emph{Revista Iboeroamericana de Educación a Distancia, Vol. 23,
+\bibitem{ref6}
+Natalia Rodriguez-Fernández Angeles Manjarrés~Riesco, Simon James Pickin y
+  Héctor Alonso~Meana.
+\newblock Virtu@l-aps: Soporte tecnológico para el aprendizaje-servicio
+  virtual.
+\newblock {\em Revista Iboeroamericana de Educación a Distancia, Vol. 23,
   Núm. 1, 2020}.
 
-\bibitem[del Rey()]{ref5}
-D.~J. del Rey.
+\bibitem{ref5}
+David~Jiménez del Rey.
 \newblock Desarrollo de una comunidad web para el soporte virtual del
-  aprendizaje-servicio iii.
+  aprendizaje-servicio 3.
+\newblock {\em Directores: Ángeles Manjarrés Riesco UNED, Simon Pickin UCM.
+  Titulación: Grado en Ingeniería Informática de la UNED. Octubre 2020}.
 
-\bibitem[Meana()]{ref4}
-H.~A. Meana.
+\bibitem{ref4}
+Héctor~Alonso Meana.
 \newblock Aplicación de soporte a una comunidad educativa interesada en el aps
   virtual.
+\newblock {\em Directores: Ángeles Manjarrés Riesco UNED, Simon Pickin UCM.
+  Titulación: Grado en Ingeniería Informática de la UNED. Junio 2018}.
 
-\bibitem[Parmentier()]{ref1}
-E.~Parmentier.
+\bibitem{ref1}
+Emmanuel Parmentier.
 \newblock Diseño e implementación de un servicio de conexión de la oferta y
   la demanda de proyectos de fin de carrera de cooperación.
-\newblock \emph{Director: Carlos Mataix UPM Titulación: Ingeniería Industrial
+\newblock {\em Director: Carlos Mataix UPM Titulación: Ingeniería Industrial
   de la UPM. 2004}.
 
-\bibitem[Rodriguez()]{ref3}
-N.~Rodriguez.
+\bibitem{ref3}
+Natalia Rodriguez.
 \newblock Virtu@l-aps.
+\newblock {\em Director: Juan García Gutierrez, UNED. Titulación: Grado en
+  Educación Social. 2017}.
 
-\bibitem[Serrano()]{ref2}
-S.~L. Serrano.
+\bibitem{ref2}
+Sol~Lozano Serrano.
 \newblock Desarrollo de una comunidad virtual de profesores en el Ámbito de la
   educación para el desarrollo humano y sostenible.
+\newblock {\em Directores: Ángeles Manjarrés Riesco UNED, Simon Pickin UCM.
+  Titulación: Ingeniería Informática de la UNED. Sept. 2015}.
 
 \end{thebibliography}

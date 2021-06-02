@@ -1,19 +1,16 @@
 \documentclass[11pt]{book}
-
 \usepackage{graphicx}
 \usepackage[dvipsnames]{color}
 \usepackage[hidelinks]{hyperref}
 \usepackage[square,numbers]{natbib}
-\usepackage[square,numbers]{natbib}
-\bibliographystyle{abbrvnat}
 %pPara poder modificar los margenes
 \usepackage{vmargin}
 %Para usar el español
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage{lscape}
 \usepackage{hyperref}
 \bibliographystyle{plain}
-\usepackage{hyperref}
 \begin{document}
 %Portada
 \setpapersize{A4}
@@ -21,7 +18,7 @@
 	\centering
 	{\includegraphics[width=0.8\textwidth]{logo}\par}
 	\vspace{1cm}
-	{\Large Facultad de Ingeniería Informática \par}
+	{\Large Facultad de Informática \par}
 	\vspace{3cm}
 	{\scshape\Huge Aplicación web de soporte al Aprendizaje-Servicio \par}
 	\vspace{5cm}
@@ -30,7 +27,7 @@
 	{\Large Victoria Gnatiuk Romaniuk (Grado en Ingeniería Informática)\par}
 	{\Large Jesús Sánchez Granado (Grado en Ingeniería Informática)\par}
 	\vspace{1cm}
-	{\textbf\Large Tutores \par}
+	{\textbf\Large Directores \par}
 	{\Large Simon Pickin \par}
 	{\Large Manuel Montenegro Montes \par}
 	
@@ -43,11 +40,11 @@
 \listoffigures
 
 \chapter{Introducción}
-El objetivo de este \textit{Trabajo de Fin de Grado} (TFG) es la continuación de un proyecto que se empezó a plantear en 2004 y a diseñar, y desarrollar en 2018. Este proyecto se detalla más adelante en el capítulo \ref{cap:cont-motidvacion}. El proyecto en cuestión consiste en la creación de una plataforma web que permita crear un entorno digital en el que las empresas, principalmente del sector público, y las universidades desarrollen actividades de labor social que ayuden a los alumnos a desarrollar de forma práctica lo aprendido en el aula y a moldearles como ciudadanos éticos y solidarios.
+El objetivo de este \textit{Trabajo de Fin de Grado} (TFG) es retomar la idea de creación de una comunidad web de proyectos ApS (\emph{Aprendizaje-Servicio}) empezada a nuestro saber, en el año 2004 por Emmanuel Parmentier en su (\emph{Proyecto Fin de Carrera}) PFC. Otros trabajos despues siguieron esta trayectoria y el último de ellos fue el TFG de David Jiménez del Rey, este es el proyecto que nosotros continuamos en nuestro TFG. Estos proyecto precedentes se detalla más adelante en el capítulo \ref{cap:cont-motidvacion}. El proyecto objetivo en cuestión consiste en la creación de una plataforma web que permita crear un entorno digital en el que las empresas, principalmente del sector público, y las universidades desarrollen actividades de labor social que ayuden a los alumnos a desarrollar de forma práctica lo aprendido en el aula y a moldearles como ciudadanos éticos y solidarios.
 
 \section{Antecedentes}
-Este trabajo parte del TFG de David Jiménez del Rey, que se desarrolló en la \emph{Universidad Nacional de Educación a Distancia} (UNED) bajo la tutela de Ángeles Manjarrés Riesco y Simon Pickin. El proyecto ha sido desarrollado con tecnologías como Node.js, Angular, Express y MySQL.\\
-La plataforma web desarrollada en estre proyecto tiene como objetivo ayudar a crear, gestionar y evaluar proyectos ApS (\emph{Aprendizaje-Servicio}). Un proyecto ApS es una práctica académica en la que el alumno aplica las habilidades teóricas aprendidas en las clases en el mundo real, ayudando a su comunidad con todo tipo de tareas. La actividad es planteada y gestionada por uno o varios profesores y un socio comunitario, que es una empresa que está interesada en desarrollar estos proyectos. Al acabar la actividad, el alumno es evaluado por los profesores y es motivado a reflexionar sobre los servicios prestados, con el objetivo de fortalecer la solidaridad y la ética del alumno. \\
+Este trabajo parte del TFG de David Jiménez del Rey, que se desarrolló en la \emph{Universidad Nacional de Educación a Distancia} (UNED) bajo la tutela de Ángeles Manjarrés Riesco y Simon Pickin. Todos los requisitos del TFG nos han sido dados por nuestros directores que actuaban como clientes del proyecto. Esto implica que el funcionamiento de todos los elementos que intervienen en el TFG han sido definidos por nuestros directos junto a colaboradores entendidos en la materia. El proyecto ha sido desarrollado con tecnologías como Node.js, Angular, Express y MySQL.\\
+La plataforma web desarrollada en este proyecto tiene como objetivo ayudar a crear, gestionar y evaluar proyectos ApS. Un proyecto ApS es una práctica académica en la que el alumno aplica las habilidades teóricas aprendidas en las clases en el mundo real, ayudando a su comunidad con todo tipo de tareas. La actividad es planteada y gestionada por uno o varios profesores y un socio comunitario, que es una empresa que está interesada en desarrollar estos proyectos. Al acabar la actividad, el alumno es evaluado por los profesores y es motivado a reflexionar sobre los servicios prestados, con el objetivo de fortalecer la solidaridad y la ética del alumno. \\
 El principal problema de los ApS es acordar los proyectos entre el socio comunitario y los profesores, ya que cada uno tiene una idea muy diferente del proyecto. Aunque el socio comunitario y el profesor quisieran desarrollar el mismo proyecto, lo plantean de formas muy diferentes y es por esto por lo que es difícil emparejarlos. Esta fue la principal motivación de los profesores que empezaron el planteamiento de este proyecto en el 2004. En el capítulo \ref{cap:contexto} se explica con más detalle que es un proyecto ApS.\\
 \section{Objetivos}
 Partiendo del TFG anterior, nuestros objetivos principales en este TFG fueron continuar el proyecto remodelando la base de datos, rediseñando la aplicación y creando un sistema de emparejamiento de los proyectos planteados por un profesor y los planteados por un socio comunitario.
@@ -62,7 +59,7 @@ A continuación, se listan los objetivos de este TFG.
 	\item Corregir \textit{bugs} encontrados en el proyecto precedente.
 \end{itemize}
 \section{Plan de trabajo}
-Establecidos los objetivos anteriores por nuestros tutores, lo primero que hicimos fue encontrar una herramienta de gestión de proyectos que nos permitiera organizar el trabajo. Esta herramienta es Pivotal Tracker, ver Figura \ref{fig:pivotal2}. Esta herramienta centrada en la gestión de proyectos de tipo SCRUM nos ha ayudado a crear las tareas, asignarles dificultad, clasificarlas y llevar un control general del trabajo realizado y por realizar. El trabajo realizado en este TFG se puede dividir principalmente en 5 grandes fases.
+Establecidos los objetivos anteriores por nuestros directores, lo primero que hicimos fue encontrar una herramienta de gestión de proyectos que nos permitiera organizar el trabajo. Esta herramienta es Pivotal Tracker, ver Figura \ref{fig:pivotal2}. Esta herramienta centrada en la gestión de proyectos de tipo SCRUM nos ha ayudado a crear las tareas, asignarles dificultad, clasificarlas y llevar un control general del trabajo realizado y por realizar. El trabajo realizado en este TFG se puede dividir principalmente en 5 grandes fases.
 \begin{itemize} 
 	\item En la primera fase hemos leído la memoria del TFG de David Jiménez para comprender las raíces del problema a resolver y conocer los detalles del proyecto en el que íbamos a trabajar. En paralelo hemos estado investigando por nuestra cuenta sobre los proyectos ApS y las tecnologías en las que estaba implementado el proyecto, sobre todo Node.js que no conocíamos antes de empezar el TFG. Esta fase ha comprendido desde el día 30 de septiembre hasta el día 6 de noviembre.
 	\item En la segunda fase, hemos explorado el código del anterior TFG para familiarizarnos con él y después hemos realizado pruebas manuales de la solución. Al realizar estas pruebas hemos descubierto algunos \textit{bugs} que posteriormente hemos corregido. Esta fase ha comprendido desde el día 7 de noviembre hasta el día 19 de noviembre.
@@ -92,10 +89,11 @@ En un proyecto ApS intervienen los siguientes elementos:
 	
 	\item El \emph{profesor} es el individuo que se encarga de guiar al alumno en todo el proceso del proyecto, evaluando sus tareas e incitando al alumno a la reflexión. Además de guiar al alumno en su formación y gestionar el proyecto, ofrece su formación y conocimientos al socio comunitario con la que se colaborará en el proyecto. El profesor se encarga de acordar y organizar los proyectos con el socio comunitario, estableciendo todos los requisitos necesarios para la correcta formación del alumno y el cumplimiento de el socio comunitario con los principios del ApS.
 	
-	\item El \emph{partenariado} es una colaboración entre un profesor, o un equipo de profesores, y el socio comunitario. Partiendo de un problema social real y los conocimientos dispuestos por el profesor, el profesor y el socio comunitario realizan reuniones para determinar las características y particularidades del problema. Una vez definidos los términos y condiciones del futuro proyecto, el socio comunitario y el profesor abren el proyecto a los alumnos.
+	\item El \emph{partenariado} es una colaboración entre un profesor, o un equipo de profesores, y el socio comunitario. Partiendo de un problema social real y los conocimientos dispuestos por el profesor, el profesor y el socio comunitario determinan las características y particularidades del problema. Una vez definidos los términos y condiciones del futuro proyecto, el profesor abre el proyecto a otros profesores que quieran colaborar en la propuestas y posteriormente el proyecto se abre a los alumnos.
 	\item El \emph{proyecto} consiste en la ejecución de ciertas tareas realizadas por el alumno que están relacionadas con su formación. Estas tareas permiten al alumno establecer una relación entre lo aprendido en clase y el mundo real. Gracias a estas tareas o servicios, el alumno beneficia a su comunidad, otorgándole una satisfacción personal. El alumno es evaluado de forma continua por el equipo docente.
 \end{itemize}
 \section{Motivación}\label{cap:cont-motidvacion}
+La motivación descrita a continuación ha sido extraída de nuestros directores los cuales conocen el histórico del proyecto:\\
 La experiencia de los profesores que han llevado a cabo, o intentado
 llevar a cabo, iniciativas de tipo ApS muestra
 que muchos proyectos potenciales no llegan a realizarse por la
@@ -123,7 +121,7 @@ proyectos de ApS se iniciaron en nuestro país apenas hace 15 años.  El
 escaso valor académico concedido hasta ahora a la práctica del ApS fuera
 del ámbito de los estudios pedagógicos, ha sido motivo de que los
 intentos de desarrollar la aplicación informática descrita hayan surgido
-siempre en el contexto de \emph{Proyecto Fin de Carrera} PFC/TFG. El desarrollo de una tal aplicación
+siempre en el contexto de PFC/TFG. El desarrollo de una tal aplicación
 requiere una alta dedicación y no tiene valor de investigación
 tecnológica, de modo que los profesores técnicamente cualificados no
 tienen disponibilidad para abordarlo.\\\\
@@ -171,7 +169,7 @@ pensada para dar servicio a toda la comunidad de ApS.
 \section{TFG de partida}
 El TFG de David Jiménez presentaba una base a partir de la cual hemos partido para desarrollar nuestra parte de este proyecto. Partiendo del TFG anterior que estaba desarrollado en Angular y Node.js, David Jiménez siguió desarrollando la aplicación hasta conseguir un prototipo de la futura aplicación.\\\\
 David Jiménez implementó las páginas de registro, \textit{login}, perfil, iniciativa y partenariado. También incluyó diferentes perfiles como el \textit{admin}, el socio comunitario, el profesor y el alumno.\\\\
- Por razones de comodidad y familiarización con la tecnología, en el TFG anterior se construyó la base de datos en MongoDB. Debido a que los datos de la aplicación son claramente estructurados y muy relacionados entre si, no había razones suficientes para seguir desarrollando la aplicación sobre MongoDB, así que junto con nuestros tutores decidimos cambiar la base de datos a SQL.\\\\
+ Por razones de comodidad y familiarización con la tecnología, en el TFG anterior se construyó la base de datos en MongoDB. Debido a que los datos de la aplicación son claramente estructurados y muy relacionados entre si, no había razones suficientes para seguir desarrollando la aplicación sobre MongoDB, así que junto con nuestros directores decidimos cambiar la base de datos a SQL.\\\\
 Debido a las dificultades provocadas por la pandemia del COVID-19, las bases de la aplicación no quedaron del todo definidas en el TFG anterior y por esta razón hemos tenido que redefinirlas creando un modelo de dominio y de datos que representa todos los elementos del problema y cómo se relacionan entre si. Diseñamos una base de datos nueva más compleja y rica en detalles que servirá como cimientos para nuestros sucesores, ya que esperamos que llegue el día en que esta plataforma sirva a usuarios reales, los cuales ayudaran a que la educación sea más eficaz y enriquecedora.
  
 \section{Estudio tecnológico}
@@ -233,13 +231,13 @@ Debido a las dificultades provocadas por la pandemia del COVID-19, las bases de 
 \chapter{Modelos de dominio, de datos y de relación}\label{cap:modelos}
 
 \section{Introducción}
-Al empezar con el proyecto, junto con nuestros tutores, nos hemos dado cuenta de que la aplicación necesitaba ser definida de una forma más detallada. En TFGs anteriores se entendía que los profesores y las entidades definían los proyectos de la misma forma, pero esto no es así. Las entidades no conocen todos los detalles del problema en cuestión que quieren resolver, dentro del marco de los proyectos ApS. Los profesores, por su parte, tienen una idea muy vaga del problema que quieren resolver. Normalmente tienen ciertos conocimientos académicos los cuales quieren aplicar para mejorar el mundo, pero la necesidad social en cuestión no suele estar muy clara.\\\\
+Al empezar con el proyecto, junto con nuestros directores, nos hemos dado cuenta de que la aplicación necesitaba ser definida de una forma más detallada. En TFGs anteriores se entendía que los profesores y las entidades definían los proyectos de la misma forma, pero esto no es así. Las entidades no conocen todos los detalles del problema en cuestión que quieren resolver, dentro del marco de los proyectos ApS. Los profesores, por su parte, tienen una idea muy vaga del problema que quieren resolver. Normalmente tienen ciertos conocimientos académicos los cuales quieren aplicar para mejorar el mundo, pero la necesidad social en cuestión no suele estar muy clara.\\\\
 En el TFG precedente se creó un elemento llamado \emph{Iniciativa} que almacenaba algunas de las características generales que comparten las propuestas del profesor y el socio comunitario. La \emph{Iniciativa} derivaba en un formulario que se les ofrecía a las entidades y a los profesores, pero las entidades y los profesores no plantean los problemas de la misma manera. Las entidades tienen una idea de proyecto clara pero no saben como orientarlo al mundo académico y los profesores tienen una idea de proyecto abstracta y lo plantean con el objetivo de encajar en un plan académico, es por esto que no es apropiado utilizar el mismo formulario para ambos.\\\\
 Para definir con precisión el funcionamiento correcto y completo de la aplicación, se ha creado un modelo de dominio y un modelo de datos.
 Estos modelos nos permitirán entender acertadamente el funcionamiento de la aplicación, pero lo que es más importante, permitirán transmitir dicho funcionamiento e idea general a otras personas que trabajarán en este proyecto después de nosotros.\\\\
 Gracias al modelo de dominio podemos entender qué elementos intervienen y cómo interactúan entre sí, además de las restricciones que se presentan en sus interacciones.\\\\
 Con el modelo de datos podemos conocer información detallada de cada elemento que interviene en la resolución del problema así como los atributos que posee.\\\\
-Como se ha rediseñado la base de datos, no solo porque ha cambiado su tipo, que ahora es relacional, sino también porque los conceptos no estaban claros en el anterior TFG, se ha decidido crear un modelo relacional que muestra todas las tablas de la nueva base de datos y sus relaciones. De esta manera, podemos representar sus especificaciones técnicas para comprender su estructura y funcionamiento. 
+Como se ha rediseñado la base de datos se ha decidido crear un modelo relacional que muestra todas las tablas de la nueva base de datos y sus relaciones. De esta manera, podemos representar sus especificaciones técnicas para comprender su estructura y funcionamiento. 
 
 \section{Modelo de dominio}
 El modelo de dominio es un mapa conceptual de la aplicación que permite a cualquier individuo entender su funcionamiento. El modelo de dominio de esta aplicación se puede observar en la Figura ~\ref{fig:dominio}.\\\\
@@ -274,18 +272,21 @@ perfil de profesor externo si también participan alumnos externos de su
 universidad, cuya participación tendrá que evaluar; en otro caso, tendrá
 el perfil de colaborador, independientemente del tipo de puesto que
 ocupa en su universidad.\\\\
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.23]{mdominio}
-	\caption{Modelo de dominio}
-	\label{fig:dominio}
-\end{figure}
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.23]{mdatos}
-	\caption{Modelo de datos}
-	\label{fig:datos}
-\end{figure}
+\begin{landscape}
+	\begin{figure}[p]
+		\includegraphics[scale=0.4]{mdominio}
+		\caption{Modelo de dominio}
+		\label{fig:dominio}
+	\end{figure}
+\end{landscape}
+\begin{landscape}
+	\begin{figure}[p]
+		\includegraphics[scale=0.35]{mdatos}
+		\caption{Modelo de datos}
+		\label{fig:datos}
+	\end{figure}
+\end{landscape}
+
 \section{Modelo de datos}
 El modelo de datos describe con más precisión el dominio de la aplicación.
 Además de algunos atributos importantes como el interuniversitario, que indica si el partenariado o el proyecto está abierto a externos, podemos observar los estados que pueden tener el partenariado y el proyecto, representados por dos enumerados. En particular podemos ver que el partenariado puede encontrarse en estados \texttt{EN\_CREACION}, \texttt{EN\_NEGOCIACION}, \texttt{ACORDADO} y \texttt{SUSPENDIDO}. El modelo de datos se puede observar en la Figura ~\ref{fig:datos}.\\
@@ -306,27 +307,33 @@ Además de algunos atributos importantes como el interuniversitario, que indica 
 	\item La sección de Comunicación que contiene las tablas de \textit{mail}, mensaje, \textit{upload} y \textit{newsletter}, estas fueron creadas por David Jiménez en los documentos de MongoDB cuya estructura se ha mantenido intacta.
 	En la Figura \ref{fig:relacional} se puede observar el modelo relacional y sus cuatro secciones separadas por colores.
 \end{itemize}
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.15]{er}
-	\caption{Diagrama de entidad-relación}
-	\label{fig:relacional}
-\end{figure}
+\begin{landscape}
+	\begin{figure}[p]
+		\centering
+		\includegraphics[scale=0.27]{er}
+		\caption{Diagrama de entidad-relación}
+		\label{fig:relacional}
+	\end{figure}
+\end{landscape}
+
 \subsection{Separación de datos}
 Una cosa importante a destacar es que, en un entorno real, la aplicación cogería parte de los datos de los usuarios de la base de datos de la universidad en la que se despliegue la aplicación. Es por esto que los datos de los usuarios se han separado en dos grupos; internos y externos. Los usuarios internos son aquellos que pertenecen a la universidad en la que se ha desplegado la aplicación y por ello utilizan SSO (Single Sign-On) para acceder a la aplicación. Esta separación de datos se ha hecho con el propósito de facilitar la transición entre la base de datos del prototipo y la base de datos de la aplicación real.\\
 En concreto, los datos que son afectados por esta separación son el correo electrónico, el nombre, los apellidos y la contraseña que deberían alojarse en la base de datos de la universidad.
 \subsection{Usuarios}
 Esta sección es la más compleja debido a la separación que hay que realizar de los usuarios externos e internos. Ver Figura \ref{fig:usuarios}.\\
-Un usuario interno es aquel profesor, tutor, estudiante, administrador o representante de la oficina ApS que forma parte de la universidad en la que se despliega la plataforma y por tanto tiene sus datos personales dentro de ella. Debido a que en un despliegue real, tendrían parte de los datos que necesitamos para la aplicación en el sistema interno de la universidad, hay que tratarlos de manera diferente a los usuarios externos, que son aquellos que no pertenecen a la universidad. Los colaboradores y tutores que aquí mencionamos se pueden ver representados en el modelo de datos y de dominio, pero no se observan aquí porque no nos dio tiempo a integrarlos en la base de datos.\\\\
+Un usuario interno es aquel profesor, tutor, estudiante, administrador o representante de la oficina ApS que forma parte de la universidad en la que se despliega la plataforma y por tanto tiene sus datos personales dentro de ella. Debido a que en un despliegue real, tendrían parte de los datos que necesitamos para la aplicación en el sistema interno de la universidad, hay que tratarlos de manera diferente a los usuarios externos, que son aquellos que no pertenecen a la universidad. Los colaboradores y directores que aquí mencionamos se pueden ver representados en el modelo de datos y de dominio, pero no se observan aquí porque no nos dio tiempo a integrarlos en la base de datos.\\\\
 Debido a esta separación, todos los usuarios comparten una tabla común, llamada usuario, que contiene datos exclusivos de la cuenta de la plataforma. Después tenemos tablas que contienen datos particulares de cada tipo de usuario. Estas son las tablas del \textit{socio comunitario}, estudiante interno, estudiante externo, \textit{admin}, profesor interno, profesor externo y oficina ApS.\\
 Cada uno de estos usuarios poseen una tabla que almacena sus datos personales, haciendo diferenciación entre internos y externos. La tabla de datos\_personales\_internos es una tabla creada para la simulación de la aplicación. Una vez la aplicación sea desplegada en un entorno real, esta tabla será eliminada y los datos personales se obtendrán haciendo consultas a la base de datos de la universidad.\\
 Por otra parte podemos observar tablas secundarias que representan características de los usuarios como por ejemplo, la universidad del profesor y estudiante interno, las áreas de conocimiento UNESCO de los profesores y las titulaciones que imparten los profesores o cursan los alumnos.
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.4]{usuarios}
-	\caption{Diagrama de entidad-relación - Usuarios}
-	\label{fig:usuarios}
-\end{figure}
+\begin{landscape}
+	\begin{figure}[p]
+		\centering
+		\includegraphics[scale=0.6]{usuarios}
+		\caption{Diagrama de entidad-relación - Usuarios}
+		\label{fig:usuarios}
+	\end{figure}
+\end{landscape}
+
 \subsection{Anuncios de servicio}
 En este conjunto de tablas podemos encontrar las pertenecientes a la demanda de servicio, la oferta de servicio y la iniciativa. Ver Figura \ref{fig:anuncios}.
 \begin{itemize} 
@@ -336,23 +343,25 @@ En este conjunto de tablas podemos encontrar las pertenecientes a la demanda de 
 	Cuando una oferta y una demanda son procesadas por el sistema de \textit{matching} se crea una entrada en la tabla \textit{matching} almacenando los \textit{ids} de ambos elementos y el porcentaje de emparejamiento que tienen.\\
 	Tanto demanda de servicio como oferta de servicio están conectadas a mensajes y \textit{uploads} porque estos permiten la comunicación con las personas interesadas en las propuestas.
 \end{itemize}
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.35]{anuncios}
-	\caption{Diagrama de entidad-relación - Anuncios de servicio}
-	\label{fig:anuncios}
-\end{figure}
+\begin{landscape}
+	\begin{figure}[p]
+		\includegraphics[scale=0.6]{anuncios}
+		\caption{Diagrama de entidad-relación - Anuncios de servicio}
+		\label{fig:anuncios}
+	\end{figure}
+\end{landscape}
 
 \subsection{Colaboración}
 El partenariado es el segundo paso en la creación de un proyecto. Esta tabla contiene los \textit{ids} de la demanda y la oferta que la componen.\\
 Un proyecto ApS no puede existir sin un partenariado previo y es por eso por lo que tiene un identificador del partenariado a partir del cual se creó. El proyecto posee estudiantes y por ello tiene una conexión con los mismos.\\
 Tanto proyecto como partenariado necesitan un sistema de comunicación y es por eso por lo que tienen tablas intermedias que los conectan a mensaje y \textit{uploads}. Ver Figura \ref{fig:colaboracion}.
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.4]{colaboracion}
-	\caption{Diagrama de entidad-relación - Colaboración}
-	\label{fig:colaboracion}
-\end{figure}
+\begin{landscape}
+	\begin{figure}[p]
+		\includegraphics[scale=0.6]{colaboracion}
+		\caption{Diagrama de entidad-relación - Colaboración}
+		\label{fig:colaboracion}
+	\end{figure}
+\end{landscape}
 \subsection{Comunicación}
 Las funcionalidades de estas tablas no han sido del todo definidas, ya que en un principio se pensó que podrían comunicar al equipo docente con los socios comunitarios en los partenariados y los proyectos, pero también se podrían usar para la comunicación con los creadores de las ofertas y las demandas. Debido a que el funcionamiento no ha sido estudiado aun y que no hemos trabajado con estas tablas en nuestro TFG, se ha mantenido la misma estructura que había definido David Jiménez en sus colecciones de MongoDB adaptándola al modelo relacional. Ver Figura \ref{fig:comunicacion}. 
 \begin{itemize} 
@@ -362,7 +371,7 @@ Las funcionalidades de estas tablas no han sido del todo definidas, ya que en un
 \end{itemize}
 \begin{figure}[t]
 	\centering
-	\includegraphics[scale=0.4]{comunicacion}
+	\includegraphics[scale=0.6]{comunicacion}
 	\caption{Diagrama de entidad-relación - Comunicación}
 	\label{fig:comunicacion}
 \end{figure}

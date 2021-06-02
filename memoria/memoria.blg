@@ -1,63 +1,55 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: memoria.aux
-Reallocating 'name_of_file' (item size: 1) to 9 items.
-The style file: abbrvnat.bst
-Illegal, another \bibstyle command---line 20 of file memoria.aux
- : \bibstyle
- :          {plain}
-I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 Database file #1: referencias.bib
-Warning--to sort, need author or key in ref6
-Warning--empty author in ref6
-Warning--empty year in ref6
 Warning--empty year in ref6
 Warning--empty year in ref5
 Warning--empty year in ref4
 Warning--empty year in ref1
-Warning--empty year in ref1
 Warning--empty year in ref3
 Warning--empty year in ref2
 You've used 6 entries,
-            2773 wiz_defined-function locations,
-            616 strings with 5826 characters,
-and the built_in function-call counts, 1714 in all, are:
-= -- 136
-> -- 50
-< -- 5
-+ -- 21
-- -- 15
-* -- 94
-:= -- 245
-add.period$ -- 13
+            2118 wiz_defined-function locations,
+            522 strings with 5367 characters,
+and the built_in function-call counts, 1250 in all, are:
+= -- 114
+> -- 42
+< -- 0
++ -- 18
+- -- 12
+* -- 62
+:= -- 237
+add.period$ -- 18
 call.type$ -- 6
-change.case$ -- 23
-chr.to.int$ -- 6
-cite$ -- 23
-duplicate$ -- 98
-empty$ -- 192
-format.name$ -- 20
-if$ -- 359
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 2
+change.case$ -- 24
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 60
+empty$ -- 103
+format.name$ -- 12
+if$ -- 241
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 6
 newline$ -- 33
-num.names$ -- 20
-pop$ -- 83
+num.names$ -- 12
+pop$ -- 36
 preamble$ -- 1
-purify$ -- 17
+purify$ -- 18
 quote$ -- 0
-skip$ -- 77
+skip$ -- 36
 stack$ -- 0
-substring$ -- 13
+substring$ -- 30
 swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 66
-warning$ -- 10
-while$ -- 15
-width$ -- 0
-write$ -- 63
-(There was 1 error message)
+type$ -- 24
+warning$ -- 6
+while$ -- 12
+width$ -- 7
+write$ -- 56
+(There were 6 warnings)
