@@ -4,7 +4,15 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage[square,numbers]{natbib}
 %pPara poder modificar los margenes
-\usepackage{vmargin}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=30mm,
+	right=30mm,
+	top=30mm,
+	bmargin=30mm,
+}
 %Para usar el español
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
@@ -13,15 +21,16 @@
 \bibliographystyle{plain}
 \begin{document}
 %Portada
-\setpapersize{A4}
 \begin{titlepage}
 	\centering
 	{\includegraphics[width=0.8\textwidth]{logo}\par}
 	\vspace{1cm}
 	{\Large Facultad de Informática \par}
-	\vspace{3cm}
-	{\scshape\Huge Aplicación web de soporte al Aprendizaje-Servicio \par}
-	\vspace{5cm}
+	\vspace{1cm}
+	{\Huge Aplicación web de soporte al Aprendizaje-Servicio: gestión de ofertas y demandas de servicio\par}
+	\vspace{1cm}
+	{\Huge Web application for supporting Service Learning: management of service offers and service requests \par}
+	\vspace{2cm}
 	{\textbf\Large Autores \par}
 	{\Large Daniela-Nicoleta Boldureanu (Grado en Ingeniería del Software)\par}
 	{\Large Victoria Gnatiuk Romaniuk (Grado en Ingeniería Informática)\par}
@@ -30,7 +39,8 @@
 	{\textbf\Large Directores \par}
 	{\Large Simon Pickin \par}
 	{\Large Manuel Montenegro Montes \par}
-	
+	\vspace{2cm}
+	{\Large Curso 2020/2021 \par}
 \end{titlepage}
 
 %Indice
@@ -64,8 +74,8 @@ Establecidos los objetivos anteriores por nuestros directores, lo primero que hi
 	\item En la primera fase hemos leído la memoria del TFG de David Jiménez para comprender las raíces del problema a resolver y conocer los detalles del proyecto en el que íbamos a trabajar. En paralelo hemos estado investigando por nuestra cuenta sobre los proyectos ApS y las tecnologías en las que estaba implementado el proyecto, sobre todo Node.js que no conocíamos antes de empezar el TFG. Esta fase ha comprendido desde el día 30 de septiembre hasta el día 6 de noviembre.
 	\item En la segunda fase, hemos explorado el código del anterior TFG para familiarizarnos con él y después hemos realizado pruebas manuales de la solución. Al realizar estas pruebas hemos descubierto algunos \textit{bugs} que posteriormente hemos corregido. Esta fase ha comprendido desde el día 7 de noviembre hasta el día 19 de noviembre.
 	\item La tercera fase ha consistido en el desarrollo de un modelo de dominio y un modelo de datos que ilustran la solución del problema de una forma más detallada y concisa. Por otro lado, hemos estado diseñando la nueva base de datos relacional teniendo en cuenta la nueva estructura de la aplicación. Esta fase se describe con más detalle en el capítulo \ref{cap:modelos}. Esta fase ha comprendido entre el día 20 de noviembre y el día 26 de febrero.
-	\item La cuarta fase ha comprendido entre el día 27 de febrero y  el día 26 de marzo. En esta fase hemos implementado los cuatro DAOs, los transfers y hemos adoptado los controladores al nuevo sistema. Esta fase se describe con más detalle en el capítulo \ref{cap:daos}.
-	\item La quinta fase ha consistido en la creación del sistema de matching. Para conocer más detalles sobre esta fase lea el capítulo \ref{cap:matching}. Esta fase ha comprendido entre el día 27 de marzo y el día 23 de abril.
+	\item La cuarta fase ha comprendido entre el día 27 de febrero y  el día 10 de marzo. En esta fase hemos implementado los cuatro DAOs, los transfers y hemos adoptado los controladores al nuevo sistema. Esta fase se describe con más detalle en el capítulo \ref{cap:daos}.
+	\item La quinta fase ha consistido en la creación del sistema de matching. Para conocer más detalles sobre esta fase lea el capítulo \ref{cap:matching}. Esta fase ha comprendido entre el día 11 de marzo y el día 23 de abril.
 	\item La sexta fase ha consistido en el aprendizaje de Angular, tecnología que desconocíamos antes de empezar el TFG y en la creación y adaptación de parte de la interfaz. En concreto la parte de la interfaz afectada se menciona en la sección de objetivos y se explica con más detalle en el capítulo \ref{cap:formularios}. Esta fase ha comprendido entre el día 24 de abril y el día 20 de mayo.
 
 \chapter{Introduction}
@@ -95,8 +105,8 @@ Having established the above objectives by our directors, the first thing we did
 	\item In the first phase we have read David Jiménez's FDP report to understand the roots of the problem to be solved and to know the details of the project we were going to work on. In parallel, we have been investigating on our own about the SL projects and the technologies in which the project was implemented, especially Node.js that we did not know before starting the FDP. This phase has ran from September 30th to November 6th.
 	\item In the second phase, we have explored the code of the previous FDP to become familiar with it and then we have carried out manual tests of the solution. During these tests we have discovered some bugs that we have subsequently corrected. This phase has ran from November 7th to November 19th.
 	\item The third phase consisted of developing a domain model and a data model that illustrate the solution of the problem in a more detailed and concise way. On the other hand, we have been designing the new relational database considering the new structure of the application. This phase is described in more detail in chapter \ref{cap:modelos}. This phase has been between November 20th and February 26th.
-	\item The fourth phase ran from February 27th to March 26th. In this phase we have implemented the four DAOs, the transfers and we have adopted the controllers to the new system. This phase is described in more detail in chapter \ref {cap:daos}.
-	\item The fifth phase consisted of creating the matching system. For more details on this phase, read the chapter \ref{cap:matching}. This phase has been between March 27th and April 23th.
+	\item The fourth phase ran from February 27th to March 10th. In this phase we have implemented the four DAOs, the transfers and we have adopted the controllers to the new system. This phase is described in more detail in chapter \ref {cap:daos}.
+	\item The fifth phase consisted of creating the matching system. For more details on this phase, read the chapter \ref{cap:matching}. This phase has been between March 11th and April 23th.
 	\item The sixth phase consisted of learning Angular, a technology that we were unaware of before starting the FDP, and creating and adapting part of the interface. Specifically, the part of the interface affected is mentioned in the objectives section and explained in more detail in the chapter \ref {cap:formularios}. This phase has been between April 24th and May 20th.
 	
 \end{itemize}
@@ -409,5 +419,21 @@ Las funcionalidades de estas tablas no han sido del todo definidas, ya que en un
 	\label{fig:comunicacion}
 \end{figure}
 
+\chapter{Contribución}
+A continuación se detallan las contribuciones de cada uno de los componentes del grupo ordenados por orden alfabético.
+\section{Daniela-Nicoleta Boldureanu}
+\section{Victoria Gnatiuk Romaniuk}
+La primera fase era una fase de investigación así que en está fase todos hemos investigado y no hay ninguna tarea individual que destacar.\\\\
+En la segunda fase del proyecto Victoria se ha encargado de arreglar algunos \textit{bugs} del trabajo anterior. Los \textit{bugs} eran fáciles de arreglar, uno de ellos era que en el formulario de registro en los campos correo, nombre y apellidos se pedía al usuario que introdujera lo mismo, que era el nombre. Otra cosa que no \textit{bug}, era que al editar el perfil de usuario se pedía volver a aceptar las condiciones de uso, cosa que veíamos innecesaria.\\\\
+En la tercera fase del TFG Victoria se ha encargado de continuar el modelo de dominio y el modelo de datos usando Modelio. En paralelo ha creado las tablas \textbf{profesor\_externo, iniciativa, anuncio\_servicio, demanda\_servicio, oferta\_servicio, partenariado, proyecto, colaboracion, newsletter y entidad\_demanda} en la base de datos. También ha creado las tablas que alojan los valores de los enumerados como la tabla \textbf{area\_implemetación, necesidad\_social, area\_conocimiento, universidad, titulacion\_local} y las tablas intermedias que permiten conectar las tablas de los enumerados con las tablas que las referencian. Con crear las tablas nos referimos a crear la estructura, definiendo los nombres de los campos y los tipos de datos, y creando restricciones entre las tablas.\\
+Una vez todos las tablas fueron creadas usando MySql Workbench 8.0 CE, Victoria creó el modelo relacional a partir del fichero SQL. Despues hubo que distribuir todas las tablas en los cuatro grupos explicados en el capitulo \ref{fig:relacional} para que todas las tablas fueran debidamente visibles.\\\\
+En la fase cuatro Victoria se ha encargado de desarrollar el DAO llamado \textit{Tentativa} que implementa el acceso a la base de datos del grupo de tablas llamado \textit{Anuncios de servicio} que se puede ver en la Figura \ref{fig:anuncios}. La creación de este DAO ha supuesto la necesidad de la creación de tres \textit{transfers} que alojan los datos del elemento Anuncio de servicio, Demanda de servicio y Oferta de servicio. Los daos han sido implementados usando Knex.js, una librería que facilita las consultas a la base de datos. En el DAO \textit{Tentativa} se crearon las funciones CRUD, 3 de cada tipo concretamente. Dos de ellas eran las de la oferta y la demanda y la tercera, la cual siempre se llama desde las otras dos, es la del anuncio de servicio. También se creo el método para obtener todas las iniciativas, todas las demandas y todas las ofertas. Ademas de estos métodos, se han creado otros necesarios para la creación de los formularios de crear oferta y demanda. \\
+Despues de finalizar la implementación del DAO \textit{Tentativa} Victoria desarrolló el los métodos CRUD del elemento \textit{Partenariado} perteneciente al DAO \textit{Colaboración}. Este DAO implementa las tablas pertenecientes al grupo \textit{Colaboración} que se puede ver en esta Figura \ref{fig:colaboracion}.
+Despues Victoria implementó en el DAO \textit{Usuarios} dos métodos para obtener cualquier tipo de usuario con el id y con el correo del usuario. Estos métodos eran necesarios para la adaptación de la página de registro y \textit{login} al nuevo sistema. Junto con Jesus, Victoria adaptó el \textit{login} al nuevo sistema.\\\\
+En la fase cinco Victoria se ha encargado de crear el método que determina la similitud que tiene los campos \textbf{area\_implementación}, perteneciente a la \textit{Oferta de servicio} y \textbf{area\_conocimiento}, perteneciente a la \textit{Demanda de servicio}. Para esto se ha tenido que crear un Excel donde los valores de los enumarados de \textbf{area\_implementación} se han colocado en la primera fila y los valores de los enumerados de  \textbf{area\_conocimiento} se han colocado en la primera columna. Despues se han colocado \textit{X} para marcar la similitud entre los valores, está similitud ha sido determinada por Victoria. Despues de crear el Excel se ha creado un \textit{script} con Python que leia este Excel e insertaba los emparejamientos en una tabla de la base de datos, de la cual se leera posteriormente para determinar si estos dos enumerados pueden ser emparejados. A continuación se creo el método que compraba estos enumerados. Se hizo este mismo proceso para determinar el emparejamiento entre \textbf{area\_implementación}, perteneciente a la \textit{Oferta de servicio} y \textbf{titulacion\_local}, perteneciente a la \textit{Demanda de servicio}.\\
+Ademas de estos métodos para determinar el \textit{matching}, Victoria implemento otros dos. Uno de ellos determinaba si las dos \textbf{areas\_implementación}, pertenecientes a Oferta de servicio y Demanda de servicio coinciden. El segundo método determinaba si coincidian las titulaciones de la \textit{Demanda de servicio} y las titulaciones que imparte el profesor que ha creado la \textit{Oferta de servicio}.\\\\
+En la fase cinco Victoria se ha encargado de implementar el formulario para crear la oferta de servicio y también ha desarrollado la parte back-end del formulario para crear el partenariado por parte del profesor y por parte de la entidad.
+Ademas de todo esto Victoria ha ido actualizando los modelos de dominio y de datos a medida que iban sufriendo cambios a causa de los cambios sugeridos por los directores del TFG. También ha mantenido actualizado el diagrama relacional a medida que la base de datos iba sufriendo cambios.
+\section{Jesús Sánchez Granado}
 \bibliography{referencias}
 \end{document}
