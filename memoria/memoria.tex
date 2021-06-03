@@ -47,7 +47,7 @@ Este trabajo parte del TFG de David Jiménez del Rey, que se desarrolló en la \
 La plataforma web desarrollada en este proyecto tiene como objetivo ayudar a crear, gestionar y evaluar proyectos ApS. Un proyecto ApS es una práctica académica en la que el alumno aplica las habilidades teóricas aprendidas en las clases en el mundo real, ayudando a su comunidad con todo tipo de tareas. La actividad es planteada y gestionada por uno o varios profesores y un socio comunitario, que es una empresa que está interesada en desarrollar estos proyectos. Al acabar la actividad, el alumno es evaluado por los profesores y es motivado a reflexionar sobre los servicios prestados, con el objetivo de fortalecer la solidaridad y la ética del alumno. \\
 El principal problema de los ApS es acordar los proyectos entre el socio comunitario y los profesores, ya que cada uno tiene una idea muy diferente del proyecto. Aunque el socio comunitario y el profesor quisieran desarrollar el mismo proyecto, lo plantean de formas muy diferentes y es por esto por lo que es difícil emparejarlos. Esta fue la principal motivación de los profesores que empezaron el planteamiento de este proyecto en el 2004. En el capítulo \ref{cap:contexto} se explica con más detalle que es un proyecto ApS.\\
 \section{Objetivos}
-Partiendo del TFG anterior, nuestros objetivos principales en este TFG fueron continuar el proyecto remodelando la base de datos, rediseñando la aplicación y creando un sistema de emparejamiento de los proyectos planteados por un profesor y los planteados por un socio comunitario.
+Partiendo del trabajo anterior, nuestros objetivos principales en este TFG fueron continuar el proyecto remodelando la base de datos, rediseñando la aplicación y creando un sistema de emparejamiento de los proyectos planteados por un profesor y los planteados por un socio comunitario.
 A continuación, se listan los objetivos de este TFG.
 \begin{itemize} 
 	\item Construir unas bases sólidas del proyecto, creando un modelo de dominio que aclare los conceptos implicados en la aplicación y un modelo de datos que enriquezca el modelo de dominio y plasme cómo la aplicación gestiona la información.
@@ -59,19 +59,52 @@ A continuación, se listan los objetivos de este TFG.
 	\item Corregir \textit{bugs} encontrados en el proyecto precedente.
 \end{itemize}
 \section{Plan de trabajo}
-Establecidos los objetivos anteriores por nuestros directores, lo primero que hicimos fue encontrar una herramienta de gestión de proyectos que nos permitiera organizar el trabajo. Esta herramienta es Pivotal Tracker, ver Figura \ref{fig:pivotal2}. Esta herramienta centrada en la gestión de proyectos de tipo SCRUM nos ha ayudado a crear las tareas, asignarles dificultad, clasificarlas y llevar un control general del trabajo realizado y por realizar. El trabajo realizado en este TFG se puede dividir principalmente en 5 grandes fases.
+Establecidos los objetivos anteriores por nuestros directores, lo primero que hicimos fue encontrar una herramienta de gestión de proyectos que nos permitiera organizar el trabajo. Esta herramienta es Pivotal Tracker, ver Figura \ref{fig:pivotal2}. Esta herramienta centrada en la gestión de proyectos de tipo SCRUM nos ha ayudado a crear las tareas, asignarles dificultad, clasificarlas y llevar un control general del trabajo realizado y por realizar. El trabajo realizado en este TFG se puede dividir principalmente en seis grandes fases.
 \begin{itemize} 
 	\item En la primera fase hemos leído la memoria del TFG de David Jiménez para comprender las raíces del problema a resolver y conocer los detalles del proyecto en el que íbamos a trabajar. En paralelo hemos estado investigando por nuestra cuenta sobre los proyectos ApS y las tecnologías en las que estaba implementado el proyecto, sobre todo Node.js que no conocíamos antes de empezar el TFG. Esta fase ha comprendido desde el día 30 de septiembre hasta el día 6 de noviembre.
 	\item En la segunda fase, hemos explorado el código del anterior TFG para familiarizarnos con él y después hemos realizado pruebas manuales de la solución. Al realizar estas pruebas hemos descubierto algunos \textit{bugs} que posteriormente hemos corregido. Esta fase ha comprendido desde el día 7 de noviembre hasta el día 19 de noviembre.
 	\item La tercera fase ha consistido en el desarrollo de un modelo de dominio y un modelo de datos que ilustran la solución del problema de una forma más detallada y concisa. Por otro lado, hemos estado diseñando la nueva base de datos relacional teniendo en cuenta la nueva estructura de la aplicación. Esta fase se describe con más detalle en el capítulo \ref{cap:modelos}. Esta fase ha comprendido entre el día 20 de noviembre y el día 26 de febrero.
 	\item La cuarta fase ha comprendido entre el día 27 de febrero y  el día 26 de marzo. En esta fase hemos implementado los cuatro DAOs, los transfers y hemos adoptado los controladores al nuevo sistema. Esta fase se describe con más detalle en el capítulo \ref{cap:daos}.
-	\item La cuarta fase ha consistido en la creación del sistema de matching. Para conocer más detalles sobre esta fase lea el capítulo \ref{cap:matching}. Esta fase ha comprendido entre el día 27 de marzo y el día 23 de abril.
-	\item La quinta fase ha consistido en el aprendizaje de Angular, tecnología que desconocíamos antes de empezar el TFG y en la creación y adaptación de parte de la interfaz. En concreto la parte de la interfaz afectada se menciona en la sección de objetivos y se explica con más detalle en el capítulo \ref{cap:formularios}. Esta fase ha comprendido entre el día 24 de abril y el día 20 de mayo.
+	\item La quinta fase ha consistido en la creación del sistema de matching. Para conocer más detalles sobre esta fase lea el capítulo \ref{cap:matching}. Esta fase ha comprendido entre el día 27 de marzo y el día 23 de abril.
+	\item La sexta fase ha consistido en el aprendizaje de Angular, tecnología que desconocíamos antes de empezar el TFG y en la creación y adaptación de parte de la interfaz. En concreto la parte de la interfaz afectada se menciona en la sección de objetivos y se explica con más detalle en el capítulo \ref{cap:formularios}. Esta fase ha comprendido entre el día 24 de abril y el día 20 de mayo.
+
+\chapter{Introduction}
+The objective of this (\textit{Final Degree Project} ) FDP is to take up the idea of creating a web community of (\emph{Service-Learning}) SL projects started to our knowledge, in 2004 by Emmanuel Parmentier in his FDP. Other works later followed this path and the last of them was David Jiménez del Rey's FDP, this is the project that we continued in our FDP. These preceding projects are detailed later in the chapter \ref{cap:cont-motidvacion}. The objective of the project consists in the creation of a web platform that allows creating a digital environment in which companies, mainly from the public sector, and universities develop social work activities that help students to develop in a practical way what they have learned in the classroom and to mold them as ethical and caring citizens.
+
+\section{Background}
+This work is based on David Jiménez del Rey's FDP, which was developed at the (\emph{National Distance Education University}) NDEU under the tutelage of Ángeles Manjarrés Riesco and Simon Pickin. All the requirements of the FDP have been given to us by our directors who acted as clients of the project. This implies that the functionality of all the elements that intervene in the FDP have been defined by our directors together with collaborators who are knowledgeable in the matter. The project has been developed with technologies such as Node.js, Angular, Express and MySQL. \\
+The web platform developed in this project aims to help create, manage and evaluate SL projects. An SL project is an academic methodology in which the student applies the theoretical skills learned in the classes in the real world, helping their community with all kinds of tasks. The activity is planned and managed by one or more teachers and a community partner, which is a company that is interested in developing these projects. At the end of the activity, the student is evaluated by the teachers and is motivated to reflect on the services provided, with the aim of strengthening the solidarity and ethics of the student. \\
+The main problem of SLs is to agree the projects between the community partner and the teachers since each has a very different idea of the project. Although the community partner and the teacher would like to develop the same project, they pose it in very different ways and that is why it is difficult to pair them. This was the main motivation of the teachers who started planning this project in 2004. Chapter \ref{cap:contexto} explains in more detail what a SL project is. \\
+
+\section{Objectives}
+Based on the previous work, our main objectives in this FDP were to continue the project by remodeling the database, redesigning the application and creating a matching system of the projects proposed by a teacher and those proposed by a community partner.
+The objectives of this FDP are listed below.
+\begin{itemize} 
+	\item Build a solid foundation for the project, creating a domain model that clarifies the concepts involved in the application and a data model that enriches the domain model and reflects how the application manages information.
+	\item Create a relational model that shows the structure of the database, facilitating its understanding and management by future project developers.
+	\item Create a complex and detailed relational database.
+	\item Implement four DAOs (\emph{Data Access Objects}) that perform the logic of access and data management, encapsulating the access to the database. Create transfers that allow the database data to be structured and managed in a simple way.
+	\item Implement a system of matching of the projects proposed by a teacher and those proposed by a community partner that determines what percentage of fit they have.
+	\item Adapt the registration and user profile pages to the new system, and implement forms for the creation of offers, demands and partnerships.
+	\item Correct bugs found in the previous project.	
+\end{itemize}
+
+\section{Workplan}
+Having established the above objectives by our directors, the first thing we did was find a project management tool that would allow us to organize the work. This tool is Pivotal Tracker, see Figure \ref {fig:pivotal2}. This tool focused on managing SCRUM-type projects has helped us to create tasks, assign them difficulty, classify them and keep a general control of the work done and to be done. The work carried out in this FDP can be divided mainly into six main phases.
+\begin{itemize} 
+	\item In the first phase we have read David Jiménez's FDP report to understand the roots of the problem to be solved and to know the details of the project we were going to work on. In parallel, we have been investigating on our own about the SL projects and the technologies in which the project was implemented, especially Node.js that we did not know before starting the FDP. This phase has ran from September 30th to November 6th.
+	\item In the second phase, we have explored the code of the previous FDP to become familiar with it and then we have carried out manual tests of the solution. During these tests we have discovered some bugs that we have subsequently corrected. This phase has ran from November 7th to November 19th.
+	\item The third phase consisted of developing a domain model and a data model that illustrate the solution of the problem in a more detailed and concise way. On the other hand, we have been designing the new relational database considering the new structure of the application. This phase is described in more detail in chapter \ref{cap:modelos}. This phase has been between November 20th and February 26th.
+	\item The fourth phase ran from February 27th to March 26th. In this phase we have implemented the four DAOs, the transfers and we have adopted the controllers to the new system. This phase is described in more detail in chapter \ref {cap:daos}.
+	\item The fifth phase consisted of creating the matching system. For more details on this phase, read the chapter \ref{cap:matching}. This phase has been between March 27th and April 23th.
+	\item The sixth phase consisted of learning Angular, a technology that we were unaware of before starting the FDP, and creating and adapting part of the interface. Specifically, the part of the interface affected is mentioned in the objectives section and explained in more detail in the chapter \ref {cap:formularios}. This phase has been between April 24th and May 20th.
+	
+\end{itemize}
 
 \end{itemize}
 \begin{figure}[t]
 	\centering
-	\includegraphics[scale=0.4]{pivotal2}
+	\includegraphics[scale=0.44]{pivotal2}
 	\caption{PivotalTracker: tareas}
 	\label{fig:pivotal2}
 \end{figure}

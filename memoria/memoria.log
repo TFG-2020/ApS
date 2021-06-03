@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  2 JUN 2021 22:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  3 JUN 2021 17:08
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -309,7 +309,7 @@ LaTeX Info: Redefining \nameref on input line 14.
 
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
-<logo.jpg, id=83, 410.53375pt x 107.40125pt>
+<logo.jpg, id=99, 410.53375pt x 107.40125pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 19.
@@ -371,315 +371,350 @@ LaTeX Warning: Reference `cap:matching' on page 9 undefined on input line 68.
 LaTeX Warning: Reference `cap:formularios' on page 9 undefined on input line 69
 .
 
-<pivotal2.jpg, id=167, 1027.58907pt x 474.27188pt>
-File: pivotal2.jpg Graphic file (type jpg)
-<use pivotal2.jpg>
-Package pdftex.def Info: pivotal2.jpg  used on input line 74.
-(pdftex.def)             Requested size: 411.02835pt x 189.70538pt.
-LaTeX Info: Redefining \. on input line 78.
-LaTeX Info: Redefining \% on input line 78.
-[9 <./pivotal2.jpg>]
-LaTeX Info: Redefining \. on input line 78.
-LaTeX Info: Redefining \% on input line 78.
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
+[9]
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
  [10
 
 ]
 Cap\'{\i }tulo 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--83
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 96--116
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
+ [12]
 
+LaTeX Warning: Reference `cap:daos' on page 13 undefined on input line 98.
+
+
+LaTeX Warning: Reference `cap:matching' on page 13 undefined on input line 99.
+
+
+LaTeX Warning: Reference `cap:formularios' on page 13 undefined on input line 1
+00.
+
+<pivotal2.jpg, id=208, 1027.58907pt x 474.27188pt>
+File: pivotal2.jpg Graphic file (type jpg)
+<use pivotal2.jpg>
+Package pdftex.def Info: pivotal2.jpg  used on input line 107.
+(pdftex.def)             Requested size: 452.1406pt x 208.68027pt.
+
+Overfull \hbox (24.70906pt too wide) in paragraph at lines 107--108
+ [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--128
-
- []
-
-LaTeX Info: Redefining \. on input line 128.
-LaTeX Info: Redefining \% on input line 128.
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 129--167
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--174
-
- []
-
-LaTeX Info: Redefining \. on input line 174.
-LaTeX Info: Redefining \% on input line 174.
-[13]
-LaTeX Info: Redefining \. on input line 206.
-LaTeX Info: Redefining \% on input line 206.
- [14]
-LaTeX Info: Redefining \. on input line 231.
-LaTeX Info: Redefining \% on input line 231.
- [15]
-LaTeX Info: Redefining \. on input line 231.
-LaTeX Info: Redefining \% on input line 231.
- [16
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+[13 <./pivotal2.jpg>]
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+ [14
 
 ]
 Cap\'{\i }tulo 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--241
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--241
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 129--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--241
+Underfull \hbox (badness 10000) in paragraph at lines 129--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--241
+Underfull \hbox (badness 10000) in paragraph at lines 150--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--241
+Underfull \hbox (badness 10000) in paragraph at lines 150--161
 
  []
 
+LaTeX Info: Redefining \. on input line 161.
+LaTeX Info: Redefining \% on input line 161.
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 162--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--207
+
+ []
+
+LaTeX Info: Redefining \. on input line 207.
+LaTeX Info: Redefining \% on input line 207.
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--275
-
- []
-
-LaTeX Info: Redefining \. on input line 275.
-LaTeX Info: Redefining \% on input line 275.
-[18]
-LaTeX Info: Redefining \. on input line 275.
-LaTeX Info: Redefining \% on input line 275.
+LaTeX Info: Redefining \. on input line 239.
+LaTeX Info: Redefining \% on input line 239.
+ [18]
+LaTeX Info: Redefining \. on input line 264.
+LaTeX Info: Redefining \% on input line 264.
  [19]
-<mdominio.png, id=250, 1821.80624pt x 1125.20375pt>
+LaTeX Info: Redefining \. on input line 264.
+LaTeX Info: Redefining \% on input line 264.
+ [20
+
+]
+Cap\'{\i }tulo 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--274
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 276--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--308
+
+ []
+
+LaTeX Info: Redefining \. on input line 308.
+LaTeX Info: Redefining \% on input line 308.
+[22]
+LaTeX Info: Redefining \. on input line 308.
+LaTeX Info: Redefining \% on input line 308.
+ [23]
+<mdominio.png, id=291, 1821.80624pt x 1125.20375pt>
 File: mdominio.png Graphic file (type png)
 <use mdominio.png>
-Package pdftex.def Info: mdominio.png  used on input line 277.
+Package pdftex.def Info: mdominio.png  used on input line 310.
 (pdftex.def)             Requested size: 728.7096pt x 450.07353pt.
 
-Overfull \hbox (56.98984pt too wide) in paragraph at lines 277--278
+Overfull \hbox (56.98984pt too wide) in paragraph at lines 310--311
 [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 48.37117pt on input line 280.
+LaTeX Warning: Float too large for page by 48.37117pt on input line 313.
 
-LaTeX Info: Redefining \. on input line 281.
-LaTeX Info: Redefining \% on input line 281.
-[20 <./mdominio.png (PNG copy)>]
-<mdatos.png, id=255, 1821.80624pt x 1391.1975pt>
+LaTeX Info: Redefining \. on input line 314.
+LaTeX Info: Redefining \% on input line 314.
+[24 <./mdominio.png (PNG copy)>]
+<mdatos.png, id=296, 1821.80624pt x 1391.1975pt>
 File: mdatos.png Graphic file (type png)
 <use mdatos.png>
-Package pdftex.def Info: mdatos.png  used on input line 284.
+Package pdftex.def Info: mdatos.png  used on input line 317.
 (pdftex.def)             Requested size: 637.64175pt x 486.92642pt.
 
 
-LaTeX Warning: Float too large for page by 85.22406pt on input line 287.
+LaTeX Warning: Float too large for page by 85.22406pt on input line 320.
 
-LaTeX Info: Redefining \. on input line 288.
-LaTeX Info: Redefining \% on input line 288.
-[21 <./mdatos.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 291--293
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+LaTeX Info: Redefining \. on input line 321.
+LaTeX Info: Redefining \% on input line 321.
+[25 <./mdatos.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
 
-Overfull \hbox (20.1543pt too wide) in paragraph at lines 295--300
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+
+Overfull \hbox (20.1543pt too wide) in paragraph at lines 328--333
 []\OT1/cmr/m/n/10.95 El pro-yec-to to-ma los es-ta-dos \OT1/cmtt/m/n/10.95 EN[]
 CREACION\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 ABIERTO[]PROFESORES\OT1/cmr/m/
 n/10.95 , \OT1/cmtt/m/n/10.95 ABIERTO[]ESTUDIANTES\OT1/cmr/m/n/10.95 ,
  []
 
-LaTeX Info: Redefining \. on input line 310.
-LaTeX Info: Redefining \% on input line 310.
-[22
+LaTeX Info: Redefining \. on input line 343.
+LaTeX Info: Redefining \% on input line 343.
+[26
 
 
 
 
 ]
-<er.png, id=266, 2818.53pt x 1855.93375pt>
+<er.png, id=308, 2818.53pt x 1855.93375pt>
 File: er.png Graphic file (type png)
 <use er.png>
-Package pdftex.def Info: er.png  used on input line 313.
+Package pdftex.def Info: er.png  used on input line 346.
 (pdftex.def)             Requested size: 761.01329pt x 501.10881pt.
 
-Overfull \hbox (89.29353pt too wide) in paragraph at lines 313--314
+Overfull \hbox (89.29353pt too wide) in paragraph at lines 346--347
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 99.40645pt on input line 316.
+LaTeX Warning: Float too large for page by 99.40645pt on input line 349.
 
-LaTeX Info: Redefining \. on input line 317.
-LaTeX Info: Redefining \% on input line 317.
-[23 <./er.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 323--328
+LaTeX Info: Redefining \. on input line 350.
+LaTeX Info: Redefining \% on input line 350.
+[27 <./er.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 356--361
 
  []
 
-LaTeX Info: Redefining \. on input line 328.
-LaTeX Info: Redefining \% on input line 328.
-[24
+LaTeX Info: Redefining \. on input line 361.
+LaTeX Info: Redefining \% on input line 361.
+[28
 
 
 ]
-<usuarios.jpg, id=276, 1108.14pt x 770.88pt>
+<usuarios.jpg, id=318, 1108.14pt x 770.88pt>
 File: usuarios.jpg Graphic file (type jpg)
 <use usuarios.jpg>
-Package pdftex.def Info: usuarios.jpg  used on input line 331.
+Package pdftex.def Info: usuarios.jpg  used on input line 364.
 (pdftex.def)             Requested size: 664.88913pt x 462.53157pt.
 
 
-LaTeX Warning: Float too large for page by 60.82921pt on input line 334.
+LaTeX Warning: Float too large for page by 60.82921pt on input line 367.
 
-LaTeX Info: Redefining \. on input line 335.
-LaTeX Info: Redefining \% on input line 335.
-[25 <./usuarios.jpg>]
-LaTeX Info: Redefining \. on input line 346.
-LaTeX Info: Redefining \% on input line 346.
- [26
+LaTeX Info: Redefining \. on input line 368.
+LaTeX Info: Redefining \% on input line 368.
+[29 <./usuarios.jpg>]
+LaTeX Info: Redefining \. on input line 379.
+LaTeX Info: Redefining \% on input line 379.
+ [30
 
 
 ]
-<anuncios.jpg, id=287, 1270.7475pt x 624.83438pt>
+<anuncios.jpg, id=328, 1270.7475pt x 624.83438pt>
 File: anuncios.jpg Graphic file (type jpg)
 <use anuncios.jpg>
-Package pdftex.def Info: anuncios.jpg  used on input line 348.
+Package pdftex.def Info: anuncios.jpg  used on input line 381.
 (pdftex.def)             Requested size: 762.45439pt x 374.90352pt.
 
-Overfull \hbox (90.73463pt too wide) in paragraph at lines 348--349
+Overfull \hbox (90.73463pt too wide) in paragraph at lines 381--382
 [][] 
  []
 
-LaTeX Info: Redefining \. on input line 352.
-LaTeX Info: Redefining \% on input line 352.
-[27 <./anuncios.jpg>]
-LaTeX Info: Redefining \. on input line 358.
-LaTeX Info: Redefining \% on input line 358.
- [28
+LaTeX Info: Redefining \. on input line 385.
+LaTeX Info: Redefining \% on input line 385.
+[31 <./anuncios.jpg>]
+LaTeX Info: Redefining \. on input line 391.
+LaTeX Info: Redefining \% on input line 391.
+ [32
 
 
 ]
-<colaboracion.jpg, id=297, 930.47626pt x 581.17125pt>
+<colaboracion.jpg, id=339, 930.47626pt x 581.17125pt>
 File: colaboracion.jpg Graphic file (type jpg)
 <use colaboracion.jpg>
-Package pdftex.def Info: colaboracion.jpg  used on input line 360.
+Package pdftex.def Info: colaboracion.jpg  used on input line 393.
 (pdftex.def)             Requested size: 558.29005pt x 348.70544pt.
-LaTeX Info: Redefining \. on input line 364.
-LaTeX Info: Redefining \% on input line 364.
- [29 <./colaboracion.jpg>]
-<comunicacion.jpg, id=303, 706.13812pt x 451.6875pt>
+LaTeX Info: Redefining \. on input line 397.
+LaTeX Info: Redefining \% on input line 397.
+ [33 <./colaboracion.jpg>]
+<comunicacion.jpg, id=345, 706.13812pt x 451.6875pt>
 File: comunicacion.jpg Graphic file (type jpg)
 <use comunicacion.jpg>
-Package pdftex.def Info: comunicacion.jpg  used on input line 374.
+Package pdftex.def Info: comunicacion.jpg  used on input line 407.
 (pdftex.def)             Requested size: 423.68614pt x 271.01459pt.
  (memoria.bbl
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [30
+ [34
 
 
- <./comunicacion.jpg>]) [31
+ <./comunicacion.jpg>]) [35
 
 ] (memoria.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 97779EE5CF9CE5239EC2D513E586DED5;1305.
+(rerunfilecheck)             Checksum: C419E71099435462529C67295F39E0AD;1522.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7042 strings out of 480235
- 107467 string characters out of 2880541
- 431008 words of memory out of 3000000
- 23401 multiletter control sequences out of 15000+200000
- 542026 words of font info for 52 fonts, out of 3000000 for 9000
+ 7057 strings out of 480235
+ 107626 string characters out of 2880541
+ 431012 words of memory out of 3000000
+ 23407 multiletter control sequences out of 15000+200000
+ 542367 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,66p,947b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vikto/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/vikto/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/vikto/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/vikto
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on memoria.pdf (31 pages, 1666406 bytes).
+ 60i,7n,66p,947b,535s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\vikto\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1095.pk><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vikto/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/vikto/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/vikto/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users
+/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+
+Output written on memoria.pdf (35 pages, 1680686 bytes).
 PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 
