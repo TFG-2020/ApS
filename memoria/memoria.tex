@@ -42,226 +42,28 @@
 \newpage
 \listoffigures
 
-\chapter*{Resumen} 
-Un proyecto ApS es una práctica académica que combina procesos de aprendizaje y servicio a la comunidad para ayudar al alumnado a implicarse en proyectos y actividades de su entorno. De esta manera el alumnado podrá adquirir nuevos conocimientos y progresar en su desarrollo de aprendizaje en la universidad.\\\\
-Este \textit{Trabajo de Fin de Grado} (TFG) es la continuación de un TFG,\textit{Desarrollo de una comunidad web para el soporte virtual del Aprendizaje-Servicio III}, realizado por David Jiménez Del Rey en la \emph{Universidad Nacional de Educación a Distancia} (UNED). Su TFG fue dirigido por Ángeles Manjarrés y codirigido por Simon Pickin. \\\\
-El proyecto se empezó a diseñar en 2004 y desarrollar en 2018, y fue concebido para servir al propósito de organizar e integrar el aprendizaje de contenidos, habilidades, valores y dar dicho servicio a la comunidad con el propósito de detectar y resolver las necesidades de esta.
-En concreto, consiste en la creación de una plataforma web donde puedan colaborar empresas y universidades para que ayuden al alumnado a desarrollar sus proyectos o actividades.\\\\
-Partiendo del TFG de David Jiménez Del Rey, los objetivos de nuestro \textit{Trabajo de Fin de Grado} fueron crear un modelo de dominio, un modelo de datos y un modelo relacional para la aplicación, cambiar de una base de datos no relacional, MongoDB, a una base de datos relacional, MySQL, implementar \emph{Objetos de Acceso a Datos}(DAOs) para encapsular el acceso a la base de datos, crear \emph{Objetos de Transferencia de Datos} (DTOs) para el transporte de los datos entre las diferentes capas de la aplicación, implementar un sistema de \textit{matching} entre las ofertas de los profesores y las demandas de los socios comunitarios, adaptación del código de los formularios ya creados en el anterior proyecto, tales como registro  y editar perfil de usuarios y la implementación de unos nuevos para la creación  de la oferta, la demanda y los partenariados y la corrección del TFG precedente.\\\\
-Nuestro TFG fue desarrollado usando tecnologías como Angular, Express, JavaScript, Node.js y MySQL, donde la mayoría de estas tecnologías ya se habían usado en el anterior TFG\\\\
-Partiendo de los objetivos anteriormente mencionados, hemos procedido a dividirlos en tareas, empezando con el desarrollo de un modelo de dominio y acabando con la realización de los formularios necesarios para la aplicación.
-
-\addcontentsline{toc}{chapter}{Resumen} 
-\markboth{RESUMEN}{RESUMEN} 
-
-\chapter{Introducción}
-El objetivo de este \textit{Trabajo de Fin de Grado} (TFG) es la continuación de un proyecto que se empezó a plantear en 2004 y a diseñar, y desarrollar en 2018. Estos proyectos se detallan más adelante en el capítulo \ref{cap:cont-motidvacion}. El proyecto en cuestión consiste en la creación de una plataforma web que permita crear un entorno digital en el que las empresas, principalmente del sector público, y las universidades desarrollen actividades de labor social que ayuden a los alumnos a desarrollar de forma práctica lo aprendido en el aula y a moldearles como ciudadanos éticos y solidarios.\\ 
-\section{Antecedentes}
-Este TFG parte del TFG de David Jiménez del Rey, que desarrolló el suyo en la \emph{Universidad Nacional de Educación a Distancia} (UNED) bajo la tutela de Ángeles Manjarrés Riesco y Simon Pickin. El proyecto ha sido desarrollado con tecnologías como Node.js, Angular, Express y MySQL.\\
-La plataforma web tiene como ayudar a crear, gestionar y evaluar proyectos ApS(\emph{Aprendizaje-Servicio}). Un proyecto ApS es una práctica académica en la que el alumno aplica las habilidades teóricas aprendidas en las clases en el mundo real, ayudando a su comunidad con todo tipo de tareas. La actividad es planteada y gestionada por uno o varios profesores y un socio comunitario, que es una empresa que está interesada en desarrollar estos proyectos. Al acabar la actividad el alumno es evaluado por los profesores y es motivado a reflexionar sobre los servicios prestados, con el objetivo de que fortalecer la solidaridad y la ética del alumno. \\
-El principal problema de los ApS es acordar los proyectos entre el socio comunitario y los profesores, ya que cada uno tiene una idea muy diferente del proyecto. Aunque el socio comunitario y el profesor quisieran desarrollar el mismo proyecto, lo plantean de formas muy diferentes y es por esto por lo que es difícil emparejarlos. Esta fue la principal motivación de los profesores que empezaron el planteamiento de este proyecto en el 2004. En el capítulo \ref{cap:contexto} se explica con más detalle que es un proyecto ApS.\\
-\section{Objetivos}
-Partiendo del TFG anterior, nuestros objetivos principales en este TFG fueron continuar el proyecto remodelando la base de datos, rediseñar la aplicación y creando un sistema de emparejamiento de los proyectos planteados por un profesor y los planteados por un socio comunitario.
-A continuación, se listan los objetivos.
-\begin{itemize} 
-	\item Construir unas bases sólidas del proyecto, creando un modelo de dominio que aclara los conceptos implicados en la aplicación y un modelo de datos que enriquece el modelo de dominio y plasma como la aplicación gestiona la información.
-	\item Crear un modelo relacional que muestre la estructura de la base de datos, facilitando su entendimiento y manejo a los futuros desarrolladores del proyecto.
-	\item Crear una base de datos relacional compleja y rica en detalles.
-	\item Implementar cuatro \emph{Objetos de Acceso a Datos}(DAOs) que realicen la lógica de acceso y gestión de datos, encapsulando el acceso a la base de datos. Crear \textit{transfers} que permiten estructurar y manejar de forma sencilla los datos de la BD.
-	\item Implementar un sistema de \textit{matching} de los proyectos planteados por un profesor y los planteados por un socio comunitario que determina qué porcentaje de encaje tienen.
-	\item Adaptar las páginas de registro y de perfil del usuario al nuevo sistema, e implementar formularios para la creación de ofertas, demandas y partenariados.
-	\item Corregir \textit{bugs} encontrados en el proyecto precedente.
-\end{itemize}
-\section{Plan de trabajo}
-Establecidos los objetivos anteriores por nuestros tutores, lo primero que hicimos fue encontrar una herramienta de gestión de proyectos que nos permitiera organizar el trabajo. Esta herramienta es Pivotal Tracker, ver Figura \ref{fig:pivotal2}. Esta herramienta centrada en la gestión de proyectos de tipo SCRUM nos ha ayudado a crear las tareas, asignarles dificultad, clasificarlas y llevar un control general del trabajo realizado y por realizar. El trabajo realizado en este TFG se puede dividir principalmente en 5 grandes fases.
-\begin{itemize} 
-	\item En esta primera fase hemos leído la memoria del TFG de David Jiménez para comprender las raíces del problema a resolver y conocer los detalles del proyecto en el que íbamos a trabajar. En paralelo hemos estado investigando por nuestra cuenta sobre los proyectos ApS y las tecnologías en las que estaba implementado el proyecto, sobre todo Node.js que no conocíamos antes de empezar el TFG. Esta fase ha comprendido desde el día treinta de septiembre hasta el día seis de noviembre.
-	\item En la segunda fase, hemos explorado el código del anterior TFG para familiarizarnos con él y después hemos realizado pruebas manuales de la solución. Al realizar estas pruebas hemos descubierto algunos \textit{bugs} que posteriormente hemos corregido. Esta fase ha comprendido desde el día siete de noviembre hasta el día diecinueve de noviembre.
-	\item La tercera fase ha consistido en el desarrollo de un modelo de dominio y un modelo de datos que ilustran la solución del problema de una forma más detallada y concisa. Por otro lado, hemos estado diseñando la nueva base de datos relacional teniendo en cuenta la nueva estructura de la aplicación. Esta fase se describe con más detalle en el capítulo \ref{cap:modelos}. Esta fase ha comprendido entre el día veinte de noviembre y el día veintiséis de febrero.
-	\item La cuarta fase ha comprendido entre el día veintisiete de febrero y  el día veintiséis de marzo. En esta fase hemos implementado los cuatro DAOs, los transfers y hemos adoptado los controladores al nuevo sistema. Esta fase se describe con más detalle en el capítulo \ref{cap:daos}.
-	\item La cuarta fase ha consistido en la creación del sistema de matching. Para conocer más detalles sobre esta fase lea el capítulo \ref{cap:matching}. Esta fase ha comprendido entre el día veintisiete de marzo y el día veintitrés de abril.
-	\item La quinta fase ha consistido en el aprendizaje de Angular, tecnología que desconocíamos antes de empezar el TFG y la creación y adaptación de parte de la interfaz. En concreto los mencionados en la sección de objetivos y explicados con más detalle en el capítulo \ref{cap:formularios}. Esta fase ha comprendido entre el día veinticuatro de abril y el día veinte de mayo.
-
-\end{itemize}
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.4]{pivotal2}
-	\caption{PivotalTracker: tareas}
-	\label{fig:pivotal2}
-\end{figure}
-\chapter{Contexto de la propuesta}\label{cap:contexto}
-\section{Introducción}
-El ApS es una propuesta educativa que combina aprendizaje y servicios a la comunidad. Los proyectos  ApS permiten a los alumnos aprender de una forma más práctica, aplicando sus conocimientos adquiridos en clase mediante la realización de tareas útiles para la comunidad. \\\\
-Además de dar a los estudiantes la oportunidad de aplicar sus conocimientos en un entorno real, el ApS les impulsa a comprender el funcionamiento de la sociedad y las responsabilidades sociales que estos tienen por formar parte de una sociedad.\\\\
-Todo proyecto ApS empieza por una iniciativa relacionada con una necesidad social real que implica la ejecución de un servicio para solventarla y tiene como objetivo el aprendizaje y la reflexión del alumno.
-\section{Elementos que intervienen en un proyecto ApS}
-En un proyecto ApS intervienen los siguientes elementos:
-\begin{itemize} 
-	\item El \emph{alumno} es el individuo que aplica sus conocimientos teóricos en un entorno físico beneficiando a su comunidad. Además de adquirir habilidades prácticas relacionadas con su formación, es importante que se incite al alumno a reflexionar sobre sus actos y el impacto positivo que tienen estos sobre los demás. Esto permite al alumno adquirir compromiso social y desarrollar pensamiento ético, cultivando un ciudadano responsable capaz de mejorar la sociedad de la que forma parte.
-	
-	\item El \emph{socio comunitario} es una empresa pública o de tercer sector que colabora con la institución educativa para resolver un determinado problema social. El socio comunitario suele tener en mente un problema muy concreto, pero no lo suficientemente detallado para la creación de un proyecto educativo. Es por eso que es necesario el partenariado. Es importante que la universidad haga entender al socio comunitario que el ApS no es voluntariado. Por tanto, bajo ningún concepto se puede usar al alumno para la generación de beneficios propios de la empresa o la competencia desleal. El principal objetivo del ApS es formar al alumno introduciéndo lo en un entorno real para que este establezca una relación entre lo aprendido en el aula con lo realizado en el proyecto ApS.
-	
-	\item El \emph{profesor} es el individuo que se encarga de guiar al alumno en todo el proceso del proyecto, evaluando sus tareas e incitando al alumno a la reflexión. Además de guiar al alumno en su formación y gestionar el proyecto, ofrece su formación y conocimientos al socio comunitario con la que se colaborará en el proyecto. El profesor se encarga de acordar y organizar los proyectos con el socio comunitario, estableciendo todos los requisitos necesarios para la correcta formación del alumno y el cumplimiento de el socio comunitario con los principios del ApS.
-	
-	\item El \emph{partenariado} es una colaboración entre un profesor, o un equipo de profesores, y el socio comunitario. Partiendo de un problema social real y los conocimientos dispuestos por el profesor, el profesor y el socio comunitario realizan reuniones para determinar las características y particularidades del problema. Una vez definidos los términos y condiciones del futuro proyecto, el socio comunitario y el profesor abren el proyecto a los alumnos.
-	\item El \emph{proyecto} consiste en la ejecución de ciertas tareas realizadas por el alumno que están relacionadas con su formación. Estas tareas permiten al alumno establecer una relación entre lo aprendido en clase y el mundo real. Gracias a estas tareas o servicios, el alumno beneficia a su comunidad, otorgándole una satisfacción personal. El alumno es evaluado de forma continua por el equipo docente.
-\end{itemize}
-\section{Motivación}\label{cap:cont-motidvacion}
-La experiencia de los profesores que han llevado a cabo, o intentado
-llevar a cabo, iniciativas de tipo ApS muestra
-que muchos proyectos potenciales no llegan a realizarse por la
-dificultad en casar la oferta con la demanda, es decir, cuadrar las
-necesidades didácticas, organizativas, etc. de la institución educativa
-que quiere prestar un servicio, con las necesidades y disponibilidad de
-la organización o comunidad que quiere recibir un servicio. El
-establecimiento de relaciones de partenariado en el ApS requiere tiempo
-y energía, siendo el análisis de compatibilidad entre la oferta y la
-demanda de servicios un aspecto clave. Los profesores con experiencia en
-iniciativas de tipo ApS, tanto de carácter local como en el contexto de
-proyectos de cooperación internacional para el desarrollo, se dieron
-cuenta hace tiempo de que un buen soporte informático podría ser de gran
-ayuda en la difícil tarea de casar la oferta y la demanda de ApS.
-Gracias a este soporte se facilitarían la identificación de potenciales
-partenariados, así como la colaboración entre el prestador y el receptor
-potenciales del servicio en la tarea de refinar una idea inicial y
-convertirla en una propuesta de proyecto realista que cumple las
-necesidades de las dos partes.\\\\
-
-Los programas de ApS, ya consolidados en el continente americano, tan
-solo recientemente empiezan a cobrar fuerza en las instituciones
-educativas europeas, y en particular en las españolas. Los primeros
-proyectos de ApS se iniciaron en nuestro país apenas hace 15 años.  El
-escaso valor académico concedido hasta ahora a la práctica del ApS fuera
-del ámbito de los estudios pedagógicos, ha sido motivo de que los
-intentos de desarrollar la aplicación informática descrita hayan surgido
-siempre en el contexto de PFC/TFG. El desarrollo de una tal aplicación
-requiere una alta dedicación y no tiene valor de investigación
-tecnológica, de modo que los profesores técnicamente cualificados no
-tienen disponibilidad para abordarlo.\\\\
-
-El \emph{Proyecto Fin de Carrera} (PFC) de Ingeniería Industrial de la
-\emph{Universidad Politécnica de Madrid} (UPM) \cite{ref1} fue el primer intento, según
-nuestro conocimiento, de desarrollar una aplicación para el soporte de
-la definición de PFC de cooperación (y del previo establecimiento de un
-partenariado Universidad-ONG) y dio como resultado una aplicación basada
-en el \emph{sistema de gestión de contenidos} (CMS) Plone. Sin embargo, su
-naturaleza de prototipo, junto con la falta de recursos humanos para su
-despliegue y administración, hizo que nunca llegara a utilizarse.
-Ángeles Manjarrés, profesora de la UNED, y Simon Pickin, uno de los directores del presente
-trabajo, retomaron la idea de \cite{ref1} en el TFG del grado en Informática de
-la UNED \cite{ref2}, en el que se desarrolló una aplicación web basada en el
-popular \emph{framework de gestión de contenidos} (CMF) Drupal. El prototipo
-desarrollado fue bastante básico e incompleto y tenía restricciones
-técnicas que limitaban su funcionalidad, pero constituyó un pequeño
-avance hacia el objetivo. Aunque el propósito del PFC \cite{ref1} y del TFG \cite{ref2}
-fue el soporte de la definición de PFC/TFG de cooperación, este objetivo
-puede verse como un caso particular del soporte de proyectos ApS y la
-plataforma informática necesaria es prácticamente idéntica en los dos casos.
-\\\\
-Se retomó la iniciativa de \cite{ref2} en el contexto de una colaboración entre
-la UCM y el grupo de investigación en innovación docente COETIC (“Grupo
-de Innovación Docente de la UNED para el Desarrollo de la Competencia
-Ética y Cívica y las metodologías basadas en la Comunidad en la
-educación superior”) con el TFG del grado en Educación Social de la UNED
-\cite{ref3}, centrado en la especificación de una aplicación para el soporte del
-ApS virtual, y los TFG del grado en Informática de la UNED \cite{ref4} y \cite{ref5},
-centrados en el desarrollo de tal aplicación, los dos últimos
-codirigidos por Ángeles Manjarrés y Simon Pickin. En \cite{ref4}, después de un
-intento fallido de continuar con el desarrollo en Drupal empezado en
-\cite{ref3}, debido a que Drupal resultó ser mucho más cerrado de lo esperado,
-se desarrolló una nueva aplicación desde cero basada en el stack MyEAN
-(\emph{MySQL-Express-Angular-Node}). Esta aplicación se describe brevemente en
-\cite{ref6}. En \cite{ref5}, se continuó el desarrollo de la aplicación de \cite{ref4} pero esta
-vez con el stack MEAN (\emph{MongoDB-Express-Angular-Node}); la substitución de
-MySQL por MongoDB no se debía a razones técnicas sino a razones de
-conveniencia y familiaridad del desarrollador. Aunque los títulos de \cite{ref4}
-y \cite{ref5} hacen referencia al ApS "Virtual", la aplicación desarrollada está
-pensada para dar servicio a toda la comunidad de ApS.
-
-
-\section{TFG de partida}
-El TFG de David Jiménez presentaba una base a partir de la cual hemos partido para desarrollar nuestra parte de este proyecto. Partiendo del TFG anterior que estaba desarrollado en Angular y Node.js, David Jiménez siguió desarrollando la aplicación hasta conseguir un prototipo de la futura aplicación.\\\\
-David Jiménez implementó las páginas de registro, \textit{login}, perfil, iniciativa y partenariado. También incluyó diferentes perfiles como el \textit{admin}, el socio comunitario, el profesor y el alumno.\\\\
- Por razones de comodidad y familiarización con la tecnología, en el TFG anterior se construyó la base de datos en MongoDB. Debido a que los datos de la aplicación son claramente estructurados y muy relacionados entre si, no había razones suficientes para seguir desarrollando la aplicación sobre MongoDB, así que juntos con nuestros tutores decidimos cambiar la base de datos a SQL.\\\\
-Debido a las dificultades provocadas por la pandemia del COVID-19, las bases de la aplicación no quedaron del todo definidas y por esta razón hemos tenido que redefinirlas creando un modelo de dominio y de datos que representa todos los elementos del problema y como se relacionan entre si. Diseñamos una base de datos nueva más compleja y rica en detalles que servirá como cimientos para nuestros sucesores, ya que esperamos que llegue el día en que esta plataforma sirva a usuarios reales, los cuales ayudaran a que la educación sea más eficaz y enriquecedora.
- 
-\section{Estudio tecnológico}
- A continuación, se explicarán que tecnologías tienen el potencial para desarrollar este proyecto y cuales hemos elegido finalmente. Las razones de las decisiones tomadas sobre el uso de estas tecnologías se detallan en la sección 4.
-\begin{enumerate} 
-	\item Servidor web:
-	\begin{itemize} 
-		\item ExpressJS es un \textit{framework} basado en NodeJS que permite gestionar el servidor de una forma sencilla. Este \textit{framework} fue utilizado por David Jiménez en el TFG precursor y se ha mantenido.
-	\end{itemize}
-	\item \emph{Backend}: 
-	\begin{itemize} 
-		\item NodeJS es entorno basado en JavaScript muy popular. Este entorno fue usado en el anterior TFG y se ha mantenido.
-	\end{itemize}
-	\item \emph{Frontend}
-	\begin{itemize} 
-		\item Angular es un \textit{framework} utilizado en el \textit{frontend} del TFG anterior y se ha decidido mantener.
-	\end{itemize}
-	\item Base de datos: 
-	\begin{itemize} 
-		\item MongoDB es un sistema de base de datos no estructurado. Este sistema es el que se estaba usando en el proyecto.
-		\item MySQL: es un sistema de base de datos relacional. Decidimos utilizar este sistema en nuestro TFG.
-	\end{itemize}
-	\item Software de control de versiones:
-	\begin{itemize} 
-		\item Git es el controlador de versiones más conocido y eficaz así que desde el principio supimos que es el software que íbamos a usar. 
-	\end{itemize}
-	\item Repositorio: 
-	\begin{itemize} 
-		\item GitHub es un repositorio gratuito que permite almacenar todos los archivos relacionados con un proyecto y mantenerlos de forma colaborativa con otros usuarios. Se ha decidido utilizar GitHub por su integración con Git.
-		\item Google Drive: es un contenedor gratuito que permite almacenar cualquier fichero y compartirlo con los demás. En un principio se estudió utilizar para guardar los \textit{Backups} pero se acabó descartando. Al final se ha utilizado para almacenar todo tipo de documentos relacionados con el TFG, excepto el código fuente de la aplicación.
-	\end{itemize}
-	\item Herramientas de organización: 
-	\begin{itemize} 
-		\item GitHub Projects es una herramienta que ofrece GitHub que permite crear una organización de proyecto tipo Kanban.
-		\item Trello es una herramienta sencilla estilo Kanban para organizar los proyectos, pero tiene muchas limitaciones en su versión gratuita.
-		\item PivotalTracker es una herramienta de gestión de proyectos basada en Scrum que permite crear \textit{Stories}, asignarles un peso en función de lo compleja que sea la \textit{Story} y ofrece analíticas que permiten analizar el progreso del proyecto. Hemos decidido utilizar esta herramienta para organizarnos porque es una herramienta completa.
-	\end{itemize}
-	\item Herramientas UML: 
-	\begin{itemize} 
-		\item Diagrams.net es una herramienta de diseño de diagramas \textit{online} la cual permite diseñar varios tipos de diagramas entre los cuales se encuentran diagramas de clases, de flujos, de entidades, etc.
-		\item Modelio es una aplicación de escritorio que permite crear modelos UML complejos, indicando los atributos, los métodos y las relaciones que tienen los elementos entre sí. Debido a que es una herramienta completa y que es una herramienta que ya conociamos, la hemos elegido para la creación de nuestros modelos.
-	\end{itemize}
-	\item Herramientas para el diseño del modelo relacional de la base de datos: 
-	\begin{itemize} 
-		\item phpMyAdmin es una herramienta web que permite gestionar una base de datos SQL. Esta herramienta muestra un modelo relacional de la base de datos muy simple.
-		\item MySQL Workbench es una herramienta de gestión de diseño de base de datos visual que permite crear modelos relacionales complejos. Esta es la aplicación que se ha decidido utilizar.
-	\end{itemize}
-	\item Herramientas para la redacción de la memoria:
-	\begin{itemize} 
-		\item Microsoft Word siendo una herramienta popular y muy conocida para la creación de documentos escritos, fue nuestra primera opción para la redacción de la memoria.
-		\item Latex es una herramienta que permite crear documentos profesionales con resultados profesionales. Esta es la herramienta que se ha decidido utilizar.
-	\end{itemize}
-	\item Lenguaje para insertar datos en la BD:
-	\begin{itemize} 
-		\item Python se ha utilizado para insertar valores enumerados en la base de datos.
-	\end{itemize}
-\end{enumerate}
-
 \chapter{Tecnologías utilizadas}
 A continuación, se hablará sobre las tecnologías utilizadas explicando brevemente que son y los motivos por los que han sido seleccionadas.
 
 \section{Node.js} 
 Node.js es un entorno de ejecución asíncrono dirigido por eventos. Funciona a base de promesas, es decir, funciones que devolverán un resultado en algún momento del futuro. Las promesas se pueden encadenar una tras otra, recibiendo cada una el resultado de la anterior.\\\\
-Esta forma de conseguir concurrencia es distinta a la manera más común que es utilizando cierres de exclusión mutua o candados. Los candados funcionan de la siguiente manera: si durante la ejecución de un programa concurrente un elemento es compartido por varios hilos, el resultado dependerá de las operaciones y el orden en que se lleven a cabo las mismas en dicho elemento. Para asegurar que este orden es el deseado, hay que "bloquear" ese elemento utilizando candados, pero cuando hay varios procesos concurrentes puede darse la situación de que el proceso A esté esperando el resultado obtenido del proceso B, y al mismo tiempo B espera el resultado de A. Esta situación se conoce como \emph{deadlock} y es un bloqueo infinito.\\\\
-Node.js no utiliza cierres de exclusión mutua o candados, por lo que es imposible que el programa alcance el estado de \emph{deadlock}, lo que lo hace bastante adecuado para desarrollar sistemas escalables. Además, Daniela ya tenía conocimiento previo de este entorno y es una tecnología que venía impuesta por el proyecto.
+Esta forma de conseguir concurrencia es distinta a la manera más común que es utilizando cierres de exclusión mutua o candados. Los candados funcionan de la siguiente manera: si durante la ejecución de un programa concurrente un elemento es compartido por varios hilos, el resultado dependerá de las operaciones y el orden en que se lleven a cabo las mismas en dicho elemento. Para evitar que dos hilos accedan de manera simultánea a un mismo recurso, hay que ``bloquear'' ese recurso utilizando candados, llegando a la situación conocida como exclusion mutua ,pero cuando hay varios procesos concurrentes puede darse la situación de que el proceso A esté esperando a que el proceso B libere un recurso, y al mismo tiempo B espera que A libere un recurso. Esta situación se conoce como \emph{deadlock} o interbloqueo y es un bloqueo infinito.\\\\
+Node.js no utiliza cierres de exclusión mutua o candados, por lo que es imposible que el programa alcance el estado de \emph{deadlock}, lo que lo hace bastante adecuado para desarrollar sistemas escalables.\\
+Otro motivo para continuar con esta tecnología es que Daniela ya tenía conocimiento previo de este entorno y es una tecnología que venía impuesta por el proyecto.
 
 \section{Angular}
 Angular es un \emph{framework} para la construcción de aplicaciones de página única (SPA a partir de ahora) que utiliza HTML y Typescript. Angular sigue el patrón modelo-vista-controlador, el cual consiste en separar la aplicación en tres partes:
 \begin{itemize}
 	\item Modelo: Es la piedra angular del patrón, se encarga de manejar los datos y la lógica de la aplicación.
 	\item Vista: Es la parte que se le muestra al usuario.
-	\item Controlador: Es la parte que se encarga de comunicar a la vista y al modelo. El controlador recibe los eventos de interacción del usuario a través de la vista y se lo pasa al controlador, el cual hace las operaciones necesarias y devuelve los resultados al controlador, quien se lo pasa a la vista para mostrárselo al usuario.
+	\item Controlador: Es la parte que se encarga de comunicar a la vista y al modelo. El controlador recibe los eventos de interacción del usuario a través de la vista y se los pasa al modelo, el cual hace las operaciones necesarias y devuelve los resultados al controlador, quien se los pasa a la vista para mostrárselos al usuario.
 \end{itemize}
 
 
 El uso de Angular venía impuesto por el trabajo realizado con anterioridad y, aunque es una tecnología con la que ningún miembro del equipo estaba familiarizado, es cierto que el diseño de aplicación de página única hace mucho más liviana la ejecución de la aplicación por parte del usuario, al no tener unos tiempos de espera tan grandes como los que tendría al cargar de nuevo cada página. Esto hace de Angular una buena elección para un trabajo de esta índole.
 
 \section{GitKraken}
-Gitkraken es un cliente de Git con interfaz de usuario la cual se puede conectar a distintas plataformas de Git, haciendo de intermediario entre el usuario y el repositorio de Git, el cual en este caso está alojado en Github. Hemos escogido esta interfaz para nuestro control de versiones porque permite trabajar desde Windows sin necesidad de conocer los comandos de Git. A diferencia de otros clientes de Git, tiene una representación gráfica muy intuitiva que permite ver la distribución de las ramas, los \emph{commits} y su evolución como se puede observar en la figura \ref{Figura 1}, y además permite resolver los conflictos generados al mezclar las distintas ramas de desarrollo dentro de la propia aplicación de una manera bastante sencilla. Esto sumado a la experiencia previa de Victoria con la aplicación ha hecho que sea seleccionada como herramienta de control de versiones.
+Gitkraken es un cliente de Git con interfaz de usuario la cual se puede conectar a distintas plataformas de Git, haciendo de intermediario entre el usuario y el repositorio de Git, el cual en este caso está alojado en Github. Hemos escogido esta interfaz para nuestro control de versiones porque permite trabajar desde Windows sin necesidad de conocer los comandos de Git. A diferencia de otros clientes de Git, tiene una representación gráfica muy intuitiva que permite ver la distribución de las ramas, los \emph{commits} y su evolución, como se puede observar en la Figura \ref{Figura 1}, y además permite resolver los conflictos generados al mezclar las distintas ramas de desarrollo dentro de la propia aplicación de una manera bastante sencilla. Esto, sumado a la experiencia previa de Victoria con la aplicación, ha hecho que sea seleccionada como herramienta de control de versiones.
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.4]{gitkraken}
@@ -271,7 +73,7 @@ Gitkraken es un cliente de Git con interfaz de usuario la cual se puede conectar
 
 \section{Pivotal tracker}
 Pivotal tracker es una herramienta de \emph{product planning} y administración de tareas diseñada para equipos de desarrollo que siguen metodologías de diseño ágiles.
-Esta herramienta permite crear historias de usuario y asignarles una puntuación del 1 al 5 indicando su dificultad y/o tiempo invertido en dichas tareas. Además, permite cambiar el estado de las tareas (empezado, finalizado, en revisión, etc) y cualquier cambio en el estado de dichas tareas se informa por correo de manera automática a quien esté involucrado en ella.
+Esta herramienta permite crear historias de usuario y asignarles una puntuación del 1 al 5 indicando su dificultad y/o tiempo invertido en dichas tareas. Además, permite cambiar el estado de las tareas (empezado, finalizado, en revisión, etc.) y cualquier cambio en el estado de dichas tareas se informa por correo de manera automática a quien esté involucrado en ella.
 También permite ver las tareas completadas y rechazadas y generar gráficos indicando el esfuerzo realizado, como el que podemos ver en la figura \ref{Figura 2}. Esta tecnología fue sugerida por Victoria y nos ha facilitado mucho tanto la organización como el seguimiento de nuestros avances.
 
 \begin{figure}
@@ -281,8 +83,8 @@ También permite ver las tareas completadas y rechazadas y generar gráficos ind
 	\label{Figura 2}
 \end{figure}
 
-\section{LaTeX}
-LaTeX es un lenguaje de creación de documentos escritos utilizado comúnmente en el mundo académico, que es una de las principales razones por la que lo hemos escogido para redactar nuestra memoria, a pesar de que ningún integrante del grupo tuviera experiencia previa con ello. A diferencia de otros procesadores de texto, como Microsoft Word o LibreOffice Writer, se escribe el texto plano y se formatea dicho texto con etiquetas. 
+\section{\LaTeX}
+\LaTeX es un lenguaje de creación de documentos escritos utilizado comúnmente en el mundo académico, que es una de las principales razones por la que lo hemos escogido para redactar nuestra memoria, a pesar de que ningún integrante del grupo tuviera experiencia previa con ello. A diferencia de otros procesadores de texto, como Microsoft Word o LibreOffice Writer, se escribe el texto plano y se formatea dicho texto con etiquetas. 
 
 \section{MySQL}
 Aunque nuestro proyecto continúa el trabajo realizado por David Jiménez del Rey, el cual ya contaba con un sistema gestor de bases de datos, dicho sistema era MongoDB. Como los datos que se iban a manejar en la aplicación eran en su mayoría relacionales se tomó la decisión de utilizar MySQL para la base de datos. Dado que todos los componentes del grupo tenían experiencia previa en bases de datos SQL fue un cambio bien recibido.
@@ -291,156 +93,18 @@ Aunque nuestro proyecto continúa el trabajo realizado por David Jiménez del Re
 Modelio es un entorno de modelado \emph{open-source} el cual permite trabajar con un amplio rango de modelos y diagramas. Dado que ya se contaba con experiencia previa en esta herramienta por parte de todos los miembros del equipo, se ha escogido para realizar los modelos de datos necesarios para la aplicación.
 
 \section{MySQL Workbench}
-MySQL Workbench: Es una herramienta para diseño, desarrollo y administración de bases de datos relacionales. 
-Cuenta con funcionalidades de validación de esquemas y modelos y promueve las mejores prácticas de los estándares de modelado de datos. También promueve los estándares de diseño específicos de MySQL para evitar errores al generar esquemas relacionales o creando bases de datos MySQL. Por estos motivos, junto con su relativa simplicidad es por lo que se ha elegido esta herramienta para hacer los diagramas de entidad-relación.
-
-\chapter{Modelos de dominio, de datos y de relación}\label{cap:modelos}
-
-\section{Introducción}
-Al empezar con el proyecto, junto con nuestros tutores, nos hemos dado cuenta de que la aplicación necesitaba ser definida de una forma más detallada. En TFGs anteriores se entendía que los profesores y las entidades definían los proyectos de la misma forma, pero esto no es así. Las entidades no conocen todos los detalles del problema en cuestión que quieren resolver, dentro del marco de los proyectos ApS.\\\\
-Los profesores, por su parte, tienen una idea muy vaga del problema que quieren resolver. Normalmente tienen ciertos conocimientos académicos los cuales quieren aplicar para mejorar el mundo, pero la necesidad social en cuestión no suele estar muy clara.\\\\
-En el TFG precedente se creó un elemento llamado \emph{Iniciativa} que almacenaba algunas de las características generales que comparten las propuestas del profesor y el socio comunitario.La \emph{Iniciativa} derivaba en un formulario que se les ofrecía a las entidades y a los profesores, pero las entidades y los profesores no plantean los problemas de la misma manera. Las entidades tienen una idea de proyecto clara pero no saben como orientarlo al mundo académico y los profesores tienen una idea de proyecto abstracta y lo plantean con el objetivo de encajar en un plan académico, es por esto que no es apropiado utilizar el mismo formulario para ambos.\\\\
-Para definir con precisión el funcionamiento correcto y completo de la aplicación, se ha creado un modelo de dominio y un modelo de datos.
-Estos modelos nos permitirán entender acertadamente el funcionamiento de la aplicación, pero lo que es más importante, permitirán transmitir dicho funcionamiento e idea general a otras personas que trabajarán en este proyecto después de nosotros.\\\\
-Gracias al modelo de dominio podemos entender qué elementos intervienen y cómo interactúan entre sí, además de las restricciones que se presentan en sus interacciones.\\\\
-Con el modelo de datos podemos conocer información detallada de cada elemento que interviene en la resolución del problema, como los atributos que posee.\\\\
-Como se ha rediseñado la base de datos, no solo porque ha cambiado su tipo, que ahora es relacional, sino también porque los conceptos no estaban claros en el anterior TFG, se ha decidido crear un modelo relacional que muestra todas las tablas de la nueva base de datos y sus relaciones. De esta manera, podemos representar sus especificaciones técnicas para comprender su estructura y funcionamiento. 
-
-\section{Modelo de dominio}
-El modelo de dominio es un mapa conceptual de la aplicación que permite a cualquier individuo entender su funcionamiento. El modelo de dominio de esta aplicación se puede observar en la Figura ~\ref{fig:dominio}.\\\\
-Si empezamos mirando nuestro modelo desde arriba podemos observar que hay una clase madre, llamada Usuario y de ella se ramifican otras cinco clases que representan los cinco grupos de usuarios que tiene la aplicación.\\
-\begin{itemize} 
-	\item Los estudiantes se dividen en internos y externos. Los internos representan a aquellos estudiantes que pertenecen a la universidad donde está instalada la aplicación y los externos pertenecen a otras universidades.\\
-	\item El grupo de usuarios promotor se divide en externos e internos por el mismo motivo que los estudiantes. \\
-	En promotor externo representaríamos al profesor externo, que es aquel profesor que no forma parte de la universidad donde está la aplicación pero, puede participar en un proyecto o partenariado evaluando y guiando a un estudiante externo.El colaborador, por otra parte, es un experto en algún tema en concreto que puede participar en un proyecto o partenariado ofreciendo sus conocimientos o habilidades.\\
-	\item El promotor interno puede ser un profesor o un tutor de la universidad donde se aloja la aplicación. Este profesor es el que más cargos de responsabilidad tiene. Él es el que puede crear las ofertas de servicio y es el responsable de crear los partenariados y los proyectos.\\\\
-	\item El socio comunitario es aquella entidad que hace de socio para la creación del proyecto.
-	\item El admin es el usuarios administrador de la aplicación.
-	\item La Oficina APS es un usuario responsable de todos los tramites relacionados con la gestión de los proyectos ApS. 
-\end{itemize}
-Todo proyecto tiene que definirse en el contexto de un partenariado y este partenariado se origina en la unión de una oferta creada por un profesor, y una demanda creada por un socio comunitario. La creación de la oferta y la demanda se realiza mediante unos formularios en la web.\\
-La aplicación también contempla la
-creación de partenariados ``monoparentales'', es decir, partenariados
-creados cuando un socio comunitario acepta una oferta creada por un
-profesor sin haber creado previamente una demanda, o cuando un profesor
-respalda una demanda creada por un socio comunitario sin haber creado
-previamente una oferta. En estos casos, la correspondiente oferta (resp.
-demanda) se creará en el momento de aceptar (resp. respaldar) la oferta
-(resp. la demanda) y se utilizará un atributo de la oferta y de la
-demanda para almacenar la naturaleza ``monoparental'' del partenariado.\\
-En general una demanda de servicio es creada por una socio comunitario, pero puede llegar a crearse gracias a un estudiante, el cual previamente ha tenido que crear una iniciativa. Una iniciativa es una propuesta de proyecto de un estudiante, la cual es acogida posteriormente por un socio comunitario. Cuando el socio comunitario acoge dicha iniciativa, esta se convierte en una demanda de servicio.\\
-Debido a que los proyectos definidos por los profesores y los definidos por las entidades comparten ciertas características, podemos ver en el diagrama que ambos cuelgan de un elemento padre llamado Anuncio de servicio que posee las características comunes de ambos.
-Lo mismo ocurre con partenariado y proyecto que cuelgan de Colaboración Uni-Ent.\\
-Queremos destacar, que los atributos de Necesidad social y Area de implementación, tan importantes para caza de ofertas y demandas, han sido obtenidos de la página web \url{www.eoslhe.eu/resources/}
-Los partenariados y los proyectos presentan ciertas restricciones relacionadas con la participación de alumnos y promotores externos.\\\\
-En los proyectos solo pueden participar estudiantes externos si el responsable del proyecto acepta estudiantes externos. 
-Los profesores externos solo pueden participar en aquellos partenariados y proyectos que los acepten. Además, en el caso de un proyecto, un participante solo puede tener el
-perfil de profesor externo si también participan alumnos externos de su
-universidad, cuya participación tendrá que evaluar; en otro caso, tendrá
-el perfil de Colaborador, independientemente del tipo de puesto que
-ocupa en su universidad.\\\\
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.23]{mdominio}
-	\caption{Modelo de dominio}
-	\label{fig:dominio}
-\end{figure}
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.23]{mdatos}
-	\caption{Modelo de datos}
-	\label{fig:datos}
-\end{figure}
-\section{Modelo de datos}
-El modelo de datos describe con más precisión el dominio de la aplicación.
-Además de algunos atributos importantes como el interuniversitario, que indica si el partenariado o el proyecto está abierto a externos, podemos observar los estados que pueden tener el partenariado y el proyecto, representados por dos enumerados. En particular podemos ver que el partenariado puede encontrarse en estados \texttt{EN\_CREACION}, \texttt{EN\_NEGOCIACION}, \texttt{ACORDADO} y \texttt{SUSPENDIDO}. El modelo de datos se puede observar en la Figura ~\ref{fig:datos}.\\
-\begin{itemize} 
-	\item El partenariado toma el estado de \texttt{EN\_CREACIÓN} cuando el profesor se pone en contacto con el socio comunitario o el socio comunitario se pone en contacto con el profesor. Si el receptor de la propuesta contesta y acepta colaborar con el otro, el estado del partenariado pasará a \texttt{EN\_NEGOCIACION}. Cuando el profesor y el socio comunitario terminan de establecer los términos y condiciones del partenariado y ambos están de acuerdo con dichos terminos, el partenariado pasá a estar \texttt{ACORDADO}. Si ocurre cualquier discrepancia durante la fase de \texttt{EN\_CREACION}, \texttt{EN\_NEGOCIACION} o \texttt{ACORDADO} el partenariado puede pasar al estado de \texttt{SUSPENDIDO}.\\\\
-	\item El proyecto toma los estados \texttt{EN\_CREACION}, \texttt{ABIERTO\_PROFESORES}, \texttt{ABIERTO\_ESTUDIANTES}, \texttt{EN\_CURSO}, \texttt{FINALIZADO} y \texttt{CERRADO}.
-	El profesor interno responsable de un partenariado en estado \texttt{ACORDADO}  puede pedir que se cree un proyecto derivado de este partenariado. El
-	estado inicial de un proyecto es \texttt{EN\_CREACIÓN}. Cuando el socio
-	comunitario da su asentimiento a la creación del proyecto, su estado
-	pasa a ser \texttt{ABIERTO\_PROFESORES}. Una vez terminada la definición del proyecto se abre a los alumnos y es allí cuando el proyecto pasa al estado de \texttt{ABIERTO\_ESTUDIANTES}. Si el proyecto finaliza correctamente, pasará al estado de FINALIZADO. Si sucede cualquier imprevisto durante las 4 fases anteriores el proyecto puede pasar al estado \texttt{CERRADO}.
-\end{itemize} 
-\section{Modelo relacional}
-
- Debido a la complejidad de la nueva base de datos compuesta por 46 tablas relacionales, se ha decidido crear un diagrama que sirva como mapa en la gestión de la base de datos. Este modelo relacional se divide en 4 secciones claramente diferenciadas.
- \begin{itemize} 
- 	\item La sección de los usuarios que contiene tablas relacionadas con información de los usuarios. La sección del Anuncio de servicio que contiene todas las tablas que representan información de las ofertas de servicio, las demandas de servicio y las iniciativas.
-	\item La sección de Colaboración contiene la información relacionada con los partenariados y los proyectos.
-	\item La sección de Comunicación que contiene las tablas de \textit{mail}, mensaje, \textit{upload} y \textit{newsletter}, estas fueron creadas por David Jiménez en los documentos de MongoDB cuya estructura se ha mantenido intacta.
-	En la Figura ~\ref{fig:relacional} se puede observar el modelo relacional y sus 4 secciones separadas por colores.
-\end{itemize}
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.15]{er}
-	\caption{Diagrama de entidad-relación}
-	\label{fig:relacional}
-\end{figure}
-\subsection{Separación de datos}
-Una cosa importante a destacar es que en un entorno real la aplicación cogería parte de los datos de los usuarios, de la base de datos de la universidad en la que se despliegue la aplicación. Es por esto que los datos de los usuarios se han separado en dos grupos, internos y externos. Los usuarios internos son aquellos que pertenecen a la universidad en la que se ha desplegado la aplicación y por ello utilizan SSO(Single Sign-On) para acceder a la aplicación. Esta separación de datos se ha hecho con el propósito de facilitar la transición entre la base de datos del prototipo y la base de datos de la aplicación real.\\
-En concreto, los datos que son afectados por esta separación son el correo electrónico, el nombre, los apellidos y la contraseña que deberían alojarse en la base de datos de la universidad.
-\subsection{Usuarios}
-Esta sección es la más compleja debido a la separación que hay que realizar de los usuarios externos e internos. Ver Figura ~\ref{fig:usuarios}.\\
-Un usuario interno es aquel profesor, tutor, estudiante, administrador o representante de la oficina ApS que forma parte de la universidad en la que se despliega la plataforma y por tanto tiene sus datos personales dentro de ella. Debido a que en un despliegue real, tendrían parte de los datos que necesitamos para la aplicación en el sistema interno de la universidad, hay que tratarlos de manera diferente a los usuarios externos, que son aquellos que no pertenecen a la universidad. Los colaboradores y tutores que aquí mencionamos se pueden ver representados en el modelo de datos y de dominio, pero no se observan aquí porque no nos dio tiempo a integrarlos en la base de datos.\\\\
-Debido a esta separación, todos los usuarios comparten una tabla común, llamada usuario, que contiene datos exclusivos de la cuenta de la plataforma. Después tenemos tablas que contienen datos particulares de cada tipo de usuario. Estas son las tablas de entidad (renombrado posteriormente a \textit{socio comunitario}), estudiante interno, estudiante externo, \textit{admin}, profesor interno, profesor externo y oficina ApS.\\
-Cada uno de estos usuarios poseen una tabla que almacena sus datos personales, haciendo diferenciación entre internos y externos. La tabla de datos\_personales\_internos es una tabla creada para la simulación de la aplicación. Una vez la aplicación sea desplegada en un entorno real esta tabla será eliminada y los datos personales se obtendrán haciendo consultas a la base de datos de la universidad.\\
-Por otra parte podemos observar tablas secundarias que representan características de los usuarios como por ejemplo, la universidad del profesor y estudiante interno, las áreas de conocimiento UNESCO de los profesores y las titulaciones que imparten los profesores o cursan los alumnos.
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.4]{usuarios}
-	\caption{Diagrama de entidad-relación - Usuarios}
-	\label{fig:usuarios}
-\end{figure}
-\subsection{Anuncios de servicio}
-En este conjunto de tablas podemos encontrar las pertenecientes a la demanda de servicio, la oferta de servicio y la iniciativa. Ver figura ~\ref{fig:anuncios}.
-\begin{itemize} 
-	\item La iniciativa es una propuesta de proyecto realizada por un estudiante. Esta propuesta debe ser validada por la oficina ApS que estudiara si la propuesta es viable para ser adoptada por un socio comunitario. Una vez validada la iniciativa, puede ser adoptada por un socio comunitario que desee realizar el proyecto.
-	\item La demanda de servicio es creada por un socio comunitario y define una necesidad especifica que quiere cubrir. Esta necesidad social es representada por los elementos de un enumerado alojado en la tabla de necesidad\_social.
-	\item La oferta de servicio es creada por un profesor interno y suele tener menos detalles que la demanda porque suele ser una propuesta más genérica.\\
-	Cuando una oferta y una demanda son procesadas por el sistema de \textit{matching} se crea una entrada en la tabla \textit{matching} almacenando los \textit{ids} de ambos elementos y el porcentaje de emparejamiento que tienen.\\
-	Tanto demanda de servicio como oferta de servicio están conectadas a mensajes y \textit{uploads} porque estos permiten la comunicación con las personas interesadas en las propuestas.
-\end{itemize}
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.35]{anuncios}
-	\caption{Diagrama de entidad-relación - Anuncios de servicio}
-	\label{fig:anuncios}
-\end{figure}
-
-\subsection{Colaboración}
-El partenariado es el segundo paso en la creación de un proyecto. Esta tabla contiene las \textit{ids} de la demanda y la oferta que la componen.\\
-Un proyecto ApS no puede existir sin un partenariado previo y es por eso por lo que tiene un identificador del partenariado a partir del cual se creó. El proyecto posee estudiantes y por ello tiene una conexión con los mismos.\\
-Tanto proyecto como partenariado necesitan un sistema de comunicación y es por eso por lo que tienen tablas intermedias que los conectan a mensaje y \textit{uploads}. Ver Figura ~\ref{fig:colaboracion}.
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.4]{colaboracion}
-	\caption{Diagrama de entidad-relación - Colaboración}
-	\label{fig:colaboracion}
-\end{figure}
-\subsection{Comunicación}
-Las funcionalidades de estas tablas no han sido del todo definidas ya que, en un principio se pensó que podrían comunicar al equipo docente con los socios comunitarios en los partenariados y los proyectos, pero también se podrían usar para la comunicación con los creadores de las ofertas y las demandas. Debido a que el funcionamiento no ha sido estudiado aun y que no hemos trabajado con estas tablas en nuestro TFG, se ha mantenido la misma estructura que había definido David Jiménez en sus colecciones de MongoDB adaptándola al modelo relacional. Ver Figura ~\ref{fig:comunicacion}. 
-\begin{itemize} 
-	\item La tabla de mensajes conecta con las ofertas de servicio, las demandas de servicio, los partenariados y los proyectos porque todos estos necesitan de los mensajes para poder comunicarse.
-	\item La tabla \textit{upload} almacena la información de los ficheros e imágenes subidos tanto en ofertas de servicio, como demandas de servicio, como partenariados y proyectos.
-	\item La tabla \textit{mail} y \textit{newsletter} no han sido conectadas con nada porque no se han tenido en cuenta para el desarrollo de este TFG pero representan los correos electrónicos internos de la aplicación y las noticias periódicas enviadas a los usuarios.
-\end{itemize}
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.4]{comunicacion}
-	\caption{Diagrama de entidad-relación - Comunicación}
-	\label{fig:comunicacion}
-\end{figure}
+MySQL Workbench es una herramienta para diseño, desarrollo y administración de bases de datos relacionales. 
+Cuenta con funcionalidades de validación de esquemas y modelos y promueve las mejores prácticas de los estándares de modelado de datos. También promueve los estándares de diseño específicos de MySQL para evitar errores al generar esquemas relacionales o creando bases de datos MySQL. Por estos motivos, junto con su relativa simplicidad, es por lo que se ha elegido esta herramienta para hacer los diagramas de entidad-relación.
 
 \chapter{DAO}\label{cap:daos}
 
-Tras cambiar la base de datos de MongoDB por una relacional, también era necesario hacer la lógica de accesos a la base de datos, por lo que se crearon cuatro \emph{Data Access Object} (DAO a partir de ahora) que se encargarían de las operaciones de cada una de las cuatro áreas definidas en el modelo de entidad-relación.
+Tras cambiar la base de datos de MongoDB por una relacional, también era necesario reimplementar la lógica de accesos a la base de datos, por lo que se crearon cuatro \emph{Data Access Object} (DAO a partir de ahora) que se encargarían de las operaciones de cada una de las cuatro áreas definidas en el modelo de entidad-relación.
 
 El DAO es un patrón de diseño el trata de proporcionar una interfaz para la comunicación con una base de datos u otro sistema de persistencia de datos. Esta interfaz se encarga de llevar a cabo las operaciones CRUD, es decir creación, lectura, actualización y eliminación de datos y además asegura la independencia entre la lógica de la aplicación y la capa de negocio.
 
 Aunque no eran estrictamente necesarios dado que en javascript no hace falta declarar el tipo de los objetos, se decidió crear objetos \emph{transfer} para así tener más documentados los campos de cada tipo de objeto.
 Un \emph{transfer} o \emph{Data Transfer Object} es un objeto cuya única función es guardar la información de cierto objeto y permitir su acceso y manipulación.
-De esta forma si hay algún problema, este se detectará cuanto antes y evitará que la aplicación falle repentinamente más avanzada su ejecución.
+De esta forma, si hay algún problema, este se detectará cuanto antes y evitará que la aplicación falle repentinamente en fases más avanzadas de la ejecución.
 
 Los objetos \emph{transfer} contienen simplemente los atributos deseados de cada tipo de objeto además de las funciones \emph{get} y \emph{set} para poder acceder y actualizar la información de dichos atributos.
 En conjunto con los DAO, los \emph{transfer} ayudan aún más a la separación de capas de negocio y lógica.
@@ -456,181 +120,13 @@ Los cuatro DAO que se crearon a partir del diagrama entidad-relación son:
 	\item \texttt{DAOTentativa}: Se encarga de manejar toda la información relacionada con ofertas y demandas y sus relaciones con la titulación local ofrecida por la universidad, las áreas de servicio y las necesidades sociales que pudiera tener la demanda. 
 	Al igual que antes, se creó una clase padre llamada \texttt{Anuncio} para evitar la repetición de atributos en las clases \texttt{Oferta} y \texttt{Demanda} y en sus derivadas. Este DAO también se encarga de las iniciativas, que son propuestas de proyecto realizadas por un alumno a la espera de que se le dé el visto bueno, y de los mensajes y \emph{uploads} que pudieran tener tanto la oferta como la demanda. Para poder llevar a cabo esta función, este DAO utiliza los \emph{transfer} \texttt{TIniciativa}, \texttt{TOfertaServicio}, \texttt{TAnuncioServicio} y \texttt{TDemandaServicio}.
 
-	\item \texttt{DAOUsuario}: Se encarga de manejar los datos pertenecientes a las distintas clases de usuario, que son: profesor interno, profesor externo, estudiante interno, estudiante externo, \emph{admin}, socio comunitario y oficina APS.
-	Además de estas clases también interactúa con los respectivos padres de cada una de ellas y con las titulaciones locales, áreas de conocimiento y universidades que son necesarias para completar los atributos de los profesores.
+	\item \texttt{DAOUsuario}: Se encarga de manejar los datos pertenecientes a las distintas clases de usuario, que son: profesor interno, profesor externo, estudiante interno, estudiante externo, \emph{admin}, socio comunitario y oficina ApS.
+	Además de estas clases, también interactúa con los respectivos padres de cada una de ellas y con las titulaciones locales, áreas de conocimiento y universidades que son necesarias para completar los atributos de los profesores.
 	Para ello utiliza los \emph{transfer} \texttt{TAdmin}, \texttt{TEntidad} (que deberá cambiarse en un futuro por \texttt{TSocioComunitario}), \texttt{TUsuario}, \texttt{TProfesor}, \texttt{TOficinaAPS}, \texttt{TEstudiante}, \texttt{TProfesorExterno}, \texttt{TProfesorInterno}, \texttt{TEstudianteInterno} y \texttt{TEstudianteExterno}.
 
 	
 	\end{itemize}
-	Se ha intentado que los DAO tengan todas las funcionalidades necesarias para que la aplicación pudiera seguir funcionando tras sufrir cambios sin necesidad de actualizar los DAO con frecuencia, pero resulta imposible saber qué nuevas funcionalidades puede adquirir la aplicación o que cambios podría sufrir el modelo de datos así que, aunque cuenta con bastantes funcionalidades, será necesario actualizarlo sobre la marcha si en un futuro la aplicación sufre cambios.
-
-\chapter{Creación de formularios}\label{cap:formularios}
-Una vez adaptada la base de datos de no relacional a relacional y creados los correspondientes operaciones CRUD de las tablas, hemos pasado a la creación o a la adaptación de los formularios con los nuevos datos que les corresponde a cada uno de ellos. Para ello, tuvimos que aprender y experimentar con Angular JS, framework de javascript, que requiere un vasto conocimiento para el desarrollo de los formularios y de los archivos para el correcto funcionamiento de estos. 
-\section{Formulario de registro de usuarios}
-El primer formulario que tuvimos que tratar fue el registro de usuarios, siendo este el punto de inicio para los posteriores formularios a crear.\\\\
-En el TFG de David Jiménez ya venía un registro implementado con sus correspondientes campos, pero al probar la aplicación habíamos encontrado algunos errores que tuvimos que corregir. Uno de los errores que encontramos era que permitía introducir una contraseña no robusta de cualquier longitud y sin ninguna restricción. De manera que la hemos hecho más robusta con una longitud mínima de 8 caracteres, mínimo una mayúscula, mínimo una minúscula y mínimo un carácter especial. También el campo email no verificaba si era uno  correcto, de modo que tuvimos que crear las validaciones correspondientes por si no contenía el “@” o el “.” .\\\\
-En el formulario de David Jiménez existían dos campos para la contraseña: contraseña y repetir contraseña, donde ambos campos deben contener el mismo contenido para que se pueda permitir la validación del formulario y la creación del usuario, en cambio al pedir la contraseña repetida si se introducía una contraseña distinta al campo de “contraseña “ lo aceptaba y se procedía al proceso de registro. Por eso tuvimos que añadir la validación y los mensajes de error correspondientes para que no se permita el registro si los dos campos no son iguales.\\\\
-Una vez arreglados los errores, añadido las mejoras y las nuevas validaciones del registro tuvimos que añadir los campos nuevos correspondientes a cada tipo de usuario de la base de datos. \\\\
-En el formulario de registro se permite la elección de tres tipos de usuarios externos: profesor externo, estudiante externo y entidad.\\\\
-Para la socio comunitario aparte de los campos ya existentes en el formulario se añadió un nuevo campo “nombre socio comunitario” que representa el nombre de la socio comunitario principal que creará el formulario.\\\\
-En el caso del estudiante externo no se han añadido nuevos campos en el formulario, pero si el cambio de funcionalidad del campo universidad. Antes en el campo universidad se permitía introducir un texto, pero como eso podía llegar a causar incoherencias en la base de datos puesto que cualquier usuario podría introducir una universidad que no existiese o con algún carácter incorrecto por lo cual se decidió cambiar. De modo que el campo universidad se convirtió en una lista desplegable que permite una única selección por el estudiante de entre ochenta y tres universidades a elegir.  No se permite la validación del registro si no se selecciona alguna universidad de la lista. \\\\
-Para el profesor externo se añadió un campo nuevo y se cambiaron las funcionalidades de algunos otros campos. El campo “universidad” tenía el mismo problema que en el caso anterior por lo que se produjo el mismo cambio. Además, tuvimos que introducir un nuevo campo "Área/s de conocimiento" que representa las áreas de conocimiento que tiene el profesor externo a registrar. Este campo es un desplegable que permite la selección múltiple de entre las ciento noventa áreas disponibles que guardamos en la base de datos en la tabla "area conocimiento". Se puede seleccionar entre una o varias áreas de conocimiento y en el caso de que se haya cometido un error al seleccionar un área se permite desmarcar la elección, pero no se permite la validación del registro en el caso de que no se haya seleccionado ningún área de conocimiento de la lista.\\\\
-
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.7]{registro}
-	\caption{Formulario de registro}
-\end{figure}
-
-\section{Formulario para editar los datos de un usuario}
-En el TFG de David Jiménez ya existía un formulario para la edición de los datos de un usuario con sus correspondientes campos, pero al cambiar el tipo de base de datos y al introducir nuevos datos en algunos de los tipos de usuarios tuvimos que adaptarlo. \\\\
-También añadimos validaciones para los campos como email, contraseña y repetir contraseña. Para el campo email se permitía emails incorrectos sin el “@” o sin el “.” , la contraseña se permitía no robusta y al introducir la contraseña repetida permitía que no fuera igual a lo introducido en el campo contraseña. Una vez añadidas las validaciones se introdujeron los campos necesarios para el formulario en función del tipo de usuario.
-Para la socio comunitario a parte de los campos ya existentes en el formulario se añadió el campo “nombre socio comunitario” que representa el nombre de la socio comunitario principal que creará el formulario. Dicho campo viene con el valor ya rellenado, teniendo la posibilidad de cambiar su valor.\\\\
-Para el estudiante externo no se han añadido nuevos campos en el formulario, pero si el cambio de funcionalidad del campo universidad, que se convirtió en un desplegable que permite una única selección por el estudiante de una lista de ochenta y tres universidades a elegir.  No se permite la validación de registro si no se selecciona alguna universidad de la lista. El campo  viene con el valor ya relleno, teniendo la posibilidad de cambiar su valor.\\\\
-En el caso del profesor externo se añadió un campo nuevo y cambiaron la funcionalidad de algunos otros campos más. El campo universidad cambió de ser un texto introducido por el usuario a ser una lista con las universidades para así no llegar a causar incoherencias en la base de datos. El campo ya viene relleno y se puede cambiar su valor por cualquiera de la lista disponible. Además tuvimos que introducir un nuevo campo “Área/s de conocimiento” que representa las áreas de conocimiento de un profesor. Se puede seleccionar al menos una área de servicio y el valor viene ya relleno con los valores del usuario ya creado.
-
-
-\section{Formulario creación demanda de servicio}
-Para poder crear una demanda de servicio en la base de datos que nos permita ejecutar el algoritmo de matching tuvimos que crear el formulario desde cero con sus correspondientes archivos puesto que en el anterior TFG no existía.\\\\
-Para ello se tuvo que crear su correspondiente modelo con los campos necesarios para la creación de la demanda:id, titulo, descripcion, imagen, ciudad, objetivo, área de servicio, inicio del periodo de definición, final del periodo de definición, inicio del periodo de ejecución, final del periodo de ejecución, fecha fin, observaciones temporales, necesidad social, titulación local, creador, comunidad beneficiaria, createdAt y updatedAt.\\\\
-El creador es la socio comunitario que está conectada en la aplicación y la cual accede a la creación de la demanda de servicio.
-Para el formulario de la creación de la demanda de servicio se han creado las validaciones correspondientes para los campos a completar de manera que no se pueda permitir la creación de la demanda si alguno de ellos no es correcto y los mensajes correspondientes a los errores.\\\\
-En función del campo se permiten distintos valores acorde a los campos que les corresponden de la base de datos: \\
-\begin{itemize} 
-	\item Los campos título, descripción, imagen,ciudad,objetivo, necesidad social, comunidad beneficiaria, observaciones temporales permiten introducir texto. 
-	\item  Los campos periodoDefinicionIni, periodoDefinicionFin, periodoEjecucionIni, periodoEjecucionFin, fechaFin permiten un valor de tipo fecha.
-	\item El campo Área/s de servicio es un desplegable que permite selección múltiple entre un total de setenta y ocho áreas de servicios disponibles en la base de datos en la tabla "area servicio" En el caso de que se haya seleccionado algún área de servicio por error se puede descartar la selección. Hay que seleccionar por lo menos una opción para que se pueda validar el campo correctamente.
-\end{itemize}
-Una vez completados o seleccionados los campos a completar se comprueba el formulario, y en el caso de que estén todos los campos correctos se valida el formulario y se crea la oferta de servicio insertándose en la base de datos. En caso contrario, se avisa al usuario que los campos no están completados adecuadamente para que este proceda a su corrección.\\\\
-
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.9]{demanda}
-	\caption{Formulario de creación de demanda}
-\end{figure}
-
-\section{Formulario creación oferta de servicio}
-Para poder crear una oferta de servicio que sirva para el proceso de matching tuvimos que crear el formulario de creación de una oferta de servicio.En el anterior TFG no existía el formulario, así que tuvimos que crearlo desde cero con sus correspondientes archivos para el correcto funcionamiento en angular js.\\\\
-Para ello se tuvo que crear su correspondiente modelo con los campos necesarios para la creación de la oferta: id, titulo, descripcion, imagen, created at, updated at, cuatrimestre, año académico, fecha límite, observaciones, creador, área servicio, asignatura objetivo y profesores. El creador es el profesor interno que está conectado en la aplicación y el cual accede a la creación de la oferta de servicio.\\\\
-Para el formulario de la creación de la oferta de servicio se han creado las validaciones correspondientes para los campos a completar de manera que no se pueda permitir la creación de la oferta si alguno de ellos no está correcto y los mensajes correspondientes a los errores. \\\\
-En función del campo se permiten distintos valores acorde a los campos que les corresponden de la base de datos: \\
-\begin{itemize} 
-	\item En los campos título, descripción, asignatura, observaciones temporales se permite introducir texto.
-	\item En los campos año académico se permite un valor de tipo numérico que represente un año válido.
-	\item El campo fecha límite permite un valor de tipo fecha. 
-	\item  El campo cuatrimestre es un desplegable que permite una sola elección entre: Primer cuatrimestre, segundo cuatrimestre y anual. Hay que seleccionar una opción para que se pueda validar el campo correctamente.
-	\item El campo Área/s de servicio es un desplegable que permite selección múltiple entre un total de setenta y ocho áreas de servicios disponibles en la base de datos en la tabla “area servicio” En el caso de que se haya seleccionado algún área de servicio por error se puede descartar la selección. Hay que seleccionar por lo menos una opción para que se pueda validar el campo correctamente.
-\end{itemize}
-Una vez rellenos todos los campos del formulario se procede a su validación, en el caso de estar correcto se almacena la oferta de servicio en la base de datos, en caso contrario se notificará al usuario para que complete de manera correcta los campos erróneos.
-
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.9]{oferta}
-	\caption{Formulario de creación de ofertas}
-\end{figure}
-\section{Formulario creación de partenariado profesor}
-Una vez creados los formularios de oferta de servicio y demanda de servicio hemos procedido al desarrollo del formulario para la creación del partenariado de un profesor.
-El formulario para la creación del partenariado del profesor no existía en el anterior TFG, así que se procedió a su creación desde cero. Para ello, tuvimos que crear los archivos y el modelo necesarios para el formulario. El formulario aparece con unos campos ya rellenos, algunos de los cuales son editables. Se necesitan los datos de la oferta y la demanda en cuestión para poder realizar la creación del formulario.\\\\
-En la creación del formulario de partenariado del profesor los datos de la demanda de servicio de la socio comunitario beneficiaria vienen ya completados y sin posibilidad de editarlos En cambio, los datos de la oferta hechos por el profesor responsable que procede a la creación del formulario si tiene la posibilidad de cambiar los datos. Estos datos vienen rellenados con los datos de la demanda de servicio.\\\\
-El formulario está dividido en tres partes para la distinción entre los datos generales del partenariado que serán la combinación de los datos en común o los datos más relevantes del formulario, los datos de la oferta y los datos de la demanda. También hemos creado validaciones para todos los campos del formulario, para que no se permitan campos vacíos.\\\\
-En el formulario el título y la descripción son una  combinación de los títulos y descripciones de la oferta y la demanda, estos campos son editables. Los datos de la demanda de servicio vienen rellenadas, pero no son editables:  las áreas de servicio,la socio comunitario de la demanda, la localización de desarrollo del partenariado, la finalidad, la comunidad beneficiaria, las fechas, asignatura objetivo, titulaciones locales, cuatrimestre y año académico. Aparece como profesor responsable, el de la oferta, siendo un campo editable que se da a elegir entre una lista de todos los profesores internos de la base de datos.\\\\
-El campo equipo de profesores es una lista que da la posibilidad de selección múltiple y viene ya rellenada con los valores de la oferta de servicio ya creada. El profesor que procede a la creación del formulario elige si se aceptan personas externas. El área de servicio de la oferta no es un campo editable. Para que se pueda validar el formulario no deben existir campos vacíos o mal completados, y se mostrarán los mensajes para que informe al usuario de los campos a cambiar o completar. Una vez completado correctamente, al aceptarlo se pasa del estado EN\_NEGOCIACION a EN\_CREACION. Si se rechaza pasa al estado SUSPENDIDO.
-\\\\
-
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.9]{partenariado1}
-	\caption{Formulario de creación de partenariado: parte 1}
-\end{figure}
-
-
-\begin{figure}[t]
-	\centering
-	\includegraphics[scale=0.9]{partenariado2}
-	\caption{Formulario de creación de partenariado: parte 2}
-\end{figure}
-
-\chapter{Matching entre oferta de servicio y demanda de servicio}\label{cap:matching}
-
-\section{Definición del matching }
-
-Para nuestro TFG hemos implementado un algoritmo de matching para las ofertas y las demandas, de manera que cogiendo una oferta y una demanda de la base de datos verificamos si se puede realizar una negociación entre ellas a partir de la información que contiene cada una. Partiendo de unas especificaciones del algoritmo que se estableció entre nosotros y los tutores del TFG, las hemos aplicado para poder obtener la información relacionada representada por un porcentaje, con el cual se decidirá el resultado final.  Cuantos más datos haya relacionados entre una oferta y una demanda, más porcentaje sacará nuestro algoritmo. El objetivo del algoritmo de matching es ayudar a los profesores a encontrar más fácilmente demandas relacionadas a sus propuestas y a las entidades a obtener ofertas acordes a sus solicitudes. \\\\
-
-Definimos el matching según nuestro algoritmo, como el proceso que consiste en identificar los datos que se ajustan a unos criterios de coincidencia los cuales se van a enumerar a continuación en los siguientes párrafos. De modo que si se encuentran suficientes puntos de similitud entre los datos recopilados, estos son considerados para sacar un porcentaje de coincidencia, donde si este es menor que el valor mínimo establecido no se considerará matching. El valor mínimo que hemos establecido para nuestro algoritmo para considerar la existencia de un matching es 50\%.
-\\\\
-
-\section{Criterios de matching y anti matching}
-\subsection{Criterios de matching }
-
-Hemos definido unos criterios en base a los datos proporcionados por los usuarios en las ofertas y demandas de servicio según los cuales se resolverá el matching:
-
-\begin{itemize} 	
-	\item Hacer coincidir las descripciones tanto de la oferta como de la demanda de servicio mediante Procesamiento del Lenguaje Natural (NLP).
-	Para ello hemos tenido que buscar las palabras comunes del idioma español y almacenarlas en un fichero, para así poder procesarlas para obtener el resultado deseado. El procedimiento consiste en dadas las dos descripciones, las guardamos en dos estructuras simples de datos, quitamos las palabras comunes (aquellas que sean iguales a las del fichero) y nos quedamos con las que puedan coincidir en las dos descripciones, cada una de estas se guarda en una estructura simple de datos. Al tenerlas, empezamos a procesar las palabras resultantes de las dos descripciones, distinguiendo las mayúsculas, minúsculas, tildes y caracteres especiales, donde obtenemos el número de palabras que coinciden de las descripciones. Para poder obtener el porcentaje de coincidencias, dividimos el número de palabras coincidentes con la descripción que tiene el menor número de palabras. Dicho porcentaje se tendrá en cuenta para poder calcular el matching final.
-	
-	\item Encontrar la similitud entre las áreas de servicio tanto de la oferta como de la demanda. Se dispone de setenta y ocho áreas de servicio en la base de datos para poder realizar esta comprobación. Para ello se comparan todas las áreas de servicio de ambas, y se devuelve el número de coincidencias. Cuanto mayor dicho número, mayor probabilidad de que se produzca el matching.
-	
-	\item Obtener las coincidencias entre las titulaciones elegidas por el socio comunitario a la hora de introducir la demanda (si es que ha introducido algunas) con las titulaciones en las que imparten docencia los profesores asociados a la oferta. 
-	Se dispone de ciento nueve titulaciones locales en la base de datos para poder realizar esta comprobación. Tanto la oferta como la demanda pueden tener una o varias titulaciones, y en función de la cantidad de titulaciones de la demanda se calcula el resultado el cual será un porcentaje obtenido a partir de la división del número total de titulaciones que producen coincidencias entre el número total de las titulaciones de la demanda.
-	
-	\item Obtener las coincidencias en las observaciones temporales de la oferta de servicio y de la demanda de servicio que hemos aplicado mediante Procesamiento del Lenguaje Natural (NLP). Una vez obtenidas las dos observaciones temporales tanto de la oferta como de la demanda, procedemos a aplicar el algoritmo para emparejar las palabras que coinciden de los dos lados y obtener un porcentaje. Para ello una vez más se quitan las palabras comunes de las descripciones y se guardan las palabras no comunes para cada una de las observaciones en una estructura de datos. Tras esto, se procesan cada una de las estructuras, resultando el número de observaciones temporales que coinciden. El porcentaje de coincidencias se obtiene mediante la división del número de palabras coincidentes entre el valor (observaciones temporales) que tiene el menor número de palabras.
-	
-	\item Relacionar el área de servicio de la demanda y las titulaciones en las que imparte docencia los profesores que participan en la oferta. Para ello tenemos asignamos al menos una titulación a cada área de servicio, estas relaciones están almacenadas en la tabla “matching\_areaservicio\_titulacion” de la base de datos. De esta manera se podrá sacar la relación directa o indirecta entre estos dos valores para así poder calcular un porcentaje válido para el resultado final de nuestro algoritmo de matching. Por ejemplo, el área de servicio "Computer\_science" se relacionaría con las titulaciones "Ingeniería de Computadores", "Ingeniería Informática", “Ingeniería del Software”, "Telecomunicación", etc. Para el cálculo del porcentaje se usa el mismo procedimiento que en los demás criterios, contamos el número de coincidencias y lo dividimos entre la cantidad total de las áreas de servicio.
-	
-	\item Encontrar la similitud entre el área de servicio de la demanda y las áreas de conocimiento UNESCO de los profesores que participan en la oferta. Para ello tenemos asignamos al menos un área de conocimiento a cada área de servicio, estas relaciones están almacenadas en la tabla “matching\_areas” de la base de datos. Se dispone de ciento noventa áreas de conocimiento en la base de datos para poder realizar esta comprobación. Para ello tenemos en cuenta las áreas de conocimiento con las cuales están relacionadas las áreas de servicio de la demanda y de la oferta como el principal valor en el cálculo del porcentaje. Para encontrar las posibles coincidencias contamos el número de ellas y lo dividimos entre las áreas de servicio de la demanda.
-
-\end{itemize}
-
-\subsection{Criterios de anti matching }
-
-También hemos definido unos criterios de anti matching para encontrar posibles incompatibilidades entre los datos proporcionados.\\\\
-Para poder realizar el anti matching nos hemos centrado en los valores temporales tanto de la demanda como de la oferta. Para lo cual hemos partido de si el periodo de definición inicial de la demanda no está fuera de la fecha de finalización de la oferta. En el caso de que esté fuera del plazo se considera anti matching y se descartará la posibilidad de una negociación entre dicha demanda y oferta. \\\\
-
-En el caso de que los plazos estén en el periodo aceptado, se procede a verificar si el año académico establecido para empezar dicha colaboración en la oferta coincide con el año de ejecución establecido de la demanda. Si no coinciden, se considera anti matching y en caso contrario se continúa con la comprobación de los siguientes valores temporales.\\\\
-
-Otro criterio de anti matching es mirar si el periodo de ejecución de la demanda encaja en el periodo de duración del cuatrimestre o los cuatrimestres elegidos y el año académico. De tal manera que, si no se corresponden correctamente, se considera incompatibilidad y se descarta la negociación. Hemos considerado que en los meses de verano no se puedan realizar negociaciones entre la oferta y la demanda y cualquier comprobación de matching será descartada si los valores temporales coinciden con este periodo.\\\\
-
-
-\section{Matching definitivo}
-
-Una vez obtenidos todos los porcentajes de los criterios de matching y los resultados del anti matching procedemos a averiguar si se produce el match definitivo, para ello multiplicamos cada uno de los porcentajes anteriormente mencionados por los valores que le corresponden a cada uno definidos en el fichero configuracion.txt y son sumados para obtener el valor de compatibilidad entre la oferta y la demanda. El fichero configuracion.txt almacena en cada línea datos como “pesoFechas = 0.3”, “pesoTitulaciones = 0.3”, “pesoAreaServicio = 0.2”...  \\\\
-
-Si el valor obtenido es mayor que 0.5 se considerará un match definitivo y se almacenará en la base de datos en una tabla que contendrá el porcentaje final, el id de la oferta, el id de la demanda y un atributo booleano, “procesado”, que se pone a true indicando si paso por el proceso de verificación del match. La tabla de matching de la base de datos contendrá la información sobre los posibles match y no match de entre las demandas y ofertas procesadas, de esta manera la aplicación del algoritmo de matching se ejecuta una única vez por cada pareja oferta-demanda. \\\\
-
-A partir de un matching de una oferta de servicio y una demanda se crea un partenariado. Para ello primero, el profesor responsable de la oferta acepta el match y rellena el formulario que tiene algunos campos rellenados automáticamente a partir de información contenida en la oferta o en la demanda, lo que conlleva la creación de un partenariado en estado “en creación” y el envío de una notificación al socio comunitario. Después, el socio comunitario podría aceptar el match, rellenando un segundo formulario, teniendo algunos campos rellenados automáticamente a partir de información contenida en la oferta o en la demanda, lo que provocaría que el partenariado pasará al estado “en negociación” \\\\
-
-\section{Ejemplo de matching}
-
-A continuación, se muestra un ejemplo válido de matching con una oferta y una demanda dada, con un porcentaje de matching mayor del 50\%. Se expondrá la aplicación de cada uno de los criterios de matching y anti matching, y cómo se llegó al resultado final del algoritmo, de modo que se irá paso a paso por cada etapa del algoritmo que hemos creado.\\\\
-Dada una oferta con los datos más significativos para el matching:\\
-\begin{itemize} 
-	\item descripción: “Proyecto de investigacion en biologia y tecnologia”
-	\item observaciones temporales: “Me interesa que se empiece en septiembre”
-	\item área servicio: “Biologia, Tecnologia digital, inteligencia artificial”
-	\item  area conocimiento: “Biologia celular”
-	\item titulaciones: “Grado en Ciencias Ambientales”
-	\item cuatrimestre: Primer cuatrimestre
-	\item  fecha límite: 2022/03/04
-	\\
-\end{itemize}
-Y una demanda con los datos:\\
-\begin{itemize} 
-	\item titulaciones: “Grado en Ciencias Ambientales”
-	\item descripción: “ Proyecto de investigacion en biologia”
-	\item observaciones temporales : “En septiembre 2022”
-	\item área servicio: “Biologia”
-	\item inicio de periodo de definición: 2021/09/04
-	\item final de periodo de definición : 2021/09/07
-	\item inicio de periodo de ejecución 2021/09/14
-	\item final de periodo de ejecución: 2022/03/03
-	\item fecha fin: 2022/03/04
-\end{itemize}
-
-Empezamos a buscar las coincidencias mediante NLP entre las dos descripciones, quitamos las palabras comunes de ambas y nos quedamos con las no comunes. La descripción de la oferta se queda en “Proyecto,investigacion,biologia,tecnologia” y la de la demanda se queda en “proyecto,investigacion,biologia”. Sacamos el porcentaje resultante entre el número de coincidencias que es tres y la longitud total de la descripción con menos valores que es tres, por lo que se consigue el máximo de coincidencias entre las dos descripciones. El mismo procedimiento se aplica también para las observaciones temporales, donde el número de coincidencias resultante es uno y el total de valores de la menor de las observaciones es dos, por lo que el resultado tras ello es 50\% de coincidencias. Se buscan las coincidencias entre ambas áreas de servicios, entre ambas titulaciones y entre las áreas de servicio y las áreas de conocimiento donde tras ello resulta un porcentaje alto para el matching, dado que comparten áreas de servicio, titulaciones y hay un número elevado de coincidencias entre las áreas de servicio y las áreas de conocimiento.\\\\
-Tras ello se comprueban las observaciones temporales para saber si se produce un anti matching.\\\\
-Primero se verifica si la fecha de inicio de definición del periodo es mayor que la fecha límite definida en la oferta, en este caso se pasa a la siguiente comprobación ya que la fecha límite de la oferta es superior. También se verifican si las otras fechas cuadran entre ellas, para así poder verificar si se podrán ejecutar ambas en el primer cuatrimestre. \\\\
-Tras ello, una vez obtenidos todos los resultados, cada una se multiplica por su correspondiente peso para ver si se produce el matching. Como se puede observar, tras el número elevado de coincidencias, se produce el matching entre la oferta y la demanda y por lo consecuente se inserta la relación en la tabla “matching”.\\\\
-
+	Se ha intentado que los DAO tengan todas las funcionalidades necesarias para que la aplicación pudiera seguir funcionando tras sufrir cambios sin necesidad de actualizar los DAO con frecuencia, pero resulta imposible saber qué nuevas funcionalidades puede adquirir la aplicación o qué cambios podría sufrir el modelo de datos así que, aunque cuenta con bastantes funcionalidades, será necesario actualizarlo sobre la marcha si en un futuro la aplicación sufre cambios.
 
 \chapter{Conclusiones y trabajo futuro}
 \section{Introducción}
@@ -647,118 +143,39 @@ Dado que nuestro TFG es una continuación del proyecto de David Jiménez del Rey
 \section{Objetivos cumplidos}
 A continuación repasaremos los objetivos de nuestro trabajo y su completitud:
 \begin{itemize}
-	\item Construir unas bases sólidas del proyecto, creando un modelo de dominio que aclara los conceptos implicados en la aplicación y un modelo de datos que enriquece el modelo de dominio y plasma como la aplicación gestiona la información.\\
+	\item \emph{Construir unas bases sólidas del proyecto, creando un modelo de dominio que aclara los conceptos implicados en la aplicación y un modelo de datos que enriquece el modelo de dominio y plasma como la aplicación gestiona la información.}\\
 	Este objetivo ha sido cumplido y los diagramas de dominio y de datos se pueden ver en las figuras \ref{fig:dominio} y \ref{fig:datos}, respectivamente.
-	\item Crear un modelo relacional que muestre la estructura de la base de datos, facilitando su entendimiento y manejo a los futuros desarrolladores del proyecto.\\
+	\item \emph{Crear un modelo relacional que muestre la estructura de la base de datos, facilitando su entendimiento y manejo a los futuros desarrolladores del proyecto.}\\
 	Este objetivo también ha sido cumplido y el diagrama resultante se puede observar en la figura \ref{fig:relacional}
-	\item Crear una base de datos relacional compleja y rica en detalles. \\
+	\item \emph{Crear una base de datos relacional compleja y rica en detalles.} \\
 	Este objetivo ha sido completado en su mayoría, aunque debido a la terminología empleada es posible que haya que renombrar alguna tabla. Esto se explicará con más detalle en la sección Trabajo Futuro.
-	\item Implementar cuatro DAO que realicen la lógica de acceso y gestión de datos, encapsulando el acceso a la base de datos. Crear \emph{transfers} que permitan estructurar y manejar de forma sencilla los datos de la BD. \\
+	\item \emph{Implementar cuatro DAO que realicen la lógica de acceso y gestión de datos, encapsulando el acceso a la base de datos. Crear }\emph{transfers} \emph{que permitan estructurar y manejar de forma sencilla los datos de la BD.} \\
 	Este objetivo también ha sido completado, aunque, como ya se ha dicho con anterioridad, es prácticamente imposible crear un DAO ``perfecto'' y es posible que se deban modificar en un futuro si se agregan funcionalidades nuevas a la aplicación.
-	\item Implementar un sistema de \emph{matching} de los proyectos planteados por un profesor y los planteados por un socio comunitario que determina que porcentaje de encaje tienen. \\
+	\item \emph{Implementar un sistema de} \emph{matching} \emph{de los proyectos planteados por un profesor y los planteados por un socio comunitario que determina que porcentaje de encaje tienen.} \\
 	Este objetivo también ha sido completado y el sistema de \emph{matching} queda explicado en la sección 7.
-	\item Adaptar las páginas de registro y perfil del usuario al nuevo sistema, e implementar formularios para la creación de ofertas, demandas y partenariados. \\
+	\item \emph{Adaptar las páginas de registro y perfil del usuario al nuevo sistema, e implementar formularios para la creación de ofertas, demandas y partenariados.} \\
 	Este objetivo no ha sido totalmente completado. Aunque las páginas de registro y perfil de usuario han sido actualizadas, y se han creado formularios para la creación de demandas y ofertas, en el caso de los partenariados, se plantean tres formas para poder crear un partenariado: \emph{match} entre una oferta y una demanda ya creadas, un profesor decide respaldar una demanda, y un socio comunitario decide respaldar una oferta. Cada una de estas formas requeriría dos formularios, uno para el profesor y otro para el socio comunitario. Se ha hecho el formulario de \emph{match} para el profesor y se ha empezado el desarrollo de la parte de \emph{back-end} para el formulario de la parte del socio comunitario. Esto se debe a la complejidad de trabajar con Angular para un equipo sin experiencia previa y a la falta de tiempo.
-	\item Corregir bugs encontrados en el proyecto precedente.\\
-	Este objetivo se da como completado dado que la gran mayoría de bugs encontrados fueron arreglados al principio del proyecto, y aunque quedaban algunos, al modificar los formularios y tener que hacer cambios en las interfaces, los bugs pasan a carecer de importancia (aquí quiero decir que como hay que cambiar la interfaz, el bug ya da igual porque probablemente me lo cargue con el código nuevo).
+	\item \emph{Corregir bugs encontrados en el proyecto precedente.}\\
+	Este objetivo se da como completado dado que la gran mayoría de bugs encontrados fueron arreglados al principio del proyecto, y aunque quedaban algunos, al modificar los formularios y tener que hacer cambios en las interfaces, los bugs ya serán corregidos en la reimplementación de estos formularios.
 
 \end{itemize}
 
 \section{Problemas Encontrados}
 A continuación, describiremos las dificultades y problemas encontrados durante la realización de este proyecto. \\\\
 La principal dificultad ha residido en la complejidad de trabajar con Node.js y con Angular, y la relativa poca experiencia previa del equipo con estas tecnologías. El equipo comenzó a familiarizarse con las tecnologías antes de comenzar el curso, pero aun así eran tecnologías complejas para quien no había trabajado con ellas previamente. Además, al dedicarse la mayoría del tiempo a la especificación y diseño de la base de datos y al diseño e implementación de las funcionalidades de \emph{back-end}, cuando se cambió a trabajar en el \emph{front-end}, en el cual es donde se usa Angular, hubo que volver a ``aprender'' a trabajar con Angular.\\
-A pesar de las dificultades aqui comentadas, hemos aprendido que Angular y Node.js son tecnologías muy acertadas para el diseño de aplicaciones web, tanto por el formato SPA que ofrece angular como por la concurrencia alcanzada con Node.js.
+A pesar de las dificultades aqui comentadas, hemos aprendido que Angular y Node.js son tecnologías muy acertadas para el diseño de aplicaciones web, tanto por el formato SPA que ofrece Angular como por la concurrencia alcanzada con Node.js.
 
 \section{Trabajo Futuro}
 Aunque se hayan completado la mayoría de los objetivos que tenía este proyecto, la aplicación aún no está lista para su despliegue y uso público, pero creemos que con otro año más de trabajo estaría lista. A continuación, se enumeran algunas mejoras para el proyecto con este fin:
 \begin{itemize}
 	\item Adaptar la interfaz y terminar los formularios: Como se ha explicado anteriormente al repasar los objetivos, todavía quedan formularios por hacer para cubrir todos los casos en los que se puede crear un partenariado, los cuales serían: el formulario de \emph{match} del socio comunitario, el formulario para que un profesor pueda respaldar una demanda, el formulario para que el socio comunitario aceptara la propuesta de dicho profesor, el formulario para que un socio comunitario pudiera respaldar una oferta y el formulario para que el profesor aceptara esta oferta.\\
-	Debido a los cambios que ha sufrido la base de datos y a la implementación de los DAO, algunas vistas de la aplicación han dejado de ser funcionales, será necesario cambiar los controladores para que en lugar de utilizar la lógica de acceso a base de datos de MongoDB utilicen la lógica proporcionada por el nuevo \emph{back-end}.
-	\item Implementar un sistema de mensajería: Dado que la aplicación la van a poder usar tanto profesores como alumnos y socios comunitarios y la comunicación será bastante importante, tanto en los periodos de definición del proyecto como cuando se empiece a trabajar en él consideramos necesario que se implemente un sistema de mensajería o chat para hacer lo más eficiente posible la comunicación entre los usuarios. Incluso se podría implementar un sistema de foros para que los usuarios compartieran temas relacionados con el APS o incluso para que los estudiantes pudieran ayudarse unos a otros en cuanto a temas algo más generales.
-	\item Agregar parámetros opcionales en los formularios: Actualmente, algunos de los parámetros que ha de introducir el usuario en los formularios para crear ofertas y demandas podrían dejarse como opcionales. Esto podría interferir con el sistema de \emph{matching}, pero dado que se permite cambiar el peso que tendrá cada atributo a la hora de calcular el porcentaje de \emph{match} una solución sencilla sería poner el peso de un atributo a cero si se detecta que dicho atributo está vacío.\\
+	Debido a los cambios que ha sufrido la base de datos y a la implementación de los DAO, algunas vistas de la aplicación han dejado de ser funcionales. Será necesario cambiar los controladores para que en lugar de utilizar la lógica de acceso a base de datos de MongoDB utilicen la lógica proporcionada por el nuevo \emph{back-end}.
+	\item Implementar un sistema de mensajería: Dado que la aplicación la van a poder usar tanto profesores como estudiantes y socios comunitarios y la comunicación será bastante importante, tanto en los periodos de definición del proyecto como cuando se empiece a trabajar en él, consideramos necesario que se implemente un sistema de mensajería o chat para hacer lo más eficiente posible la comunicación entre los usuarios. Incluso se podría implementar un sistema de foros para que los usuarios compartieran temas relacionados con el ApS o incluso para que los estudiantes pudieran ayudarse unos a otros en cuanto a temas algo más generales.
+	\item Agregar parámetros opcionales en los formularios: Actualmente, algunos de los parámetros que ha de introducir el usuario en los formularios para crear ofertas y demandas podrían dejarse como opcionales. Esto podría interferir con el sistema de \emph{matching}, pero dado que se permite cambiar el peso que tendrá cada atributo a la hora de calcular el porcentaje de \emph{match}, una solución sencilla sería poner el peso de un atributo a cero si se detecta que dicho atributo está vacío.\\
 	Otra mejora sería hacer que el año de las fechas de la oferta fuera opcional. En caso de que el profesor no introdujera año, eso significaría que la demanda es vigente de manera cíclica todos los años en los periodos de tiempo que tenga establecidos.
 
 \end{itemize}
 
-
-\bibliography{referencias}
-\section{Definición del matching }
-
-Para nuestro TFG hemos implementado un algoritmo de matching para las ofertas y las demandas, de manera que cogiendo una oferta y una demanda de la base de datos verificamos si se puede realizar una negociación entre ellas a partir de la información que contiene cada una. Partiendo de unas especificaciones del algoritmo que se estableció entre nosotros y los tutores del TFG, las hemos aplicado para poder obtener la información relacionada representada por un porcentaje, con el cual  se decidirá el resultado final.  Cuantos más datos haya relacionados entre una oferta y una demanda, más porcentaje sacará nuestro algoritmo. El objetivo del algoritmo de matching es ayudar a los profesores a encontrar más fácilmente demandas relacionadas a sus propuestas y a las entidades a obtener ofertas acorde a sus solicitudes. \\\\
-
-Definimos el matching según nuestro algoritmo, como el proceso que consiste en identificar los datos que se ajustan a unos criterios de coincidencia los cuales se van a enumerar a continuación en los siguientes párrafos. De modo que si se encuentran suficientes puntos de similitud entre los datos recopilados, estos son considerados para sacar un porcentaje de coincidencia, donde si este es menor que el valor mínimo establecido no se considerará matching. El valor mínimo que hemos establecido para nuestro algoritmo para considerar la existencia de un matching es 50\%.
-\\\\
-
-\section{Criterios de matching y anti matching}
-\subsection{Criterios de matching }
-
-Hemos definido unos criterios en base a los datos proporcionados por los usuarios en las ofertas y demandas de servicio según los cuales se resolverá el matching:
-
-\begin{itemize} 	
-	\item Hacer coincidir las descripciones tanto de la oferta como de la demanda de servicio mediante Procesamiento del Lenguaje Natural (NLP).
-	Para ello hemos tenido que buscar las palabras comunes del idioma español y almacenarlas en un fichero, para así poder  procesarlas para obtener el resultado deseado. El procedimiento consiste en dadas las dos descripciones, las guardamos en dos estructuras simples de datos, quitamos las palabras comunes (aquellas que sean iguales a las del fichero) y nos quedamos con las que puedan coincidir en las dos descripciones, cada una de estas se guarda en una estructura simple de datos. Al tenerlas, empezamos a procesar las palabras resultantes de las dos descripciones, distinguiendo las mayúsculas, minúsculas, tildes y caracteres especiales, donde obtenemos el número de palabras que coinciden de las descripciones. Para poder obtener el porcentaje de coincidencias, dividimos el número de palabras coincidentes con la descripción que tiene el menor número de palabras. Dicho porcentaje se tendrá en cuenta para poder calcular el matching final.
-	
-	\item Encontrar la similitud entre las áreas de servicio tanto de la oferta como de la demanda. Se dispone de setenta y ocho áreas de servicio en la base de datos para poder realizar esta comprobación. Para ello se comparan todas las áreas de servicio de ambas, y se devuelve el número de coincidencias. Cuanto mayor dicho número, mayor probabilidad de que se produzca el matching.
-	
-	\item Obtener las coincidencias entre las titulaciones elegidas por la socio comunitario a la hora de introducir la demanda (si es que ha introducido algunas) con las titulaciones en las que imparten docencia los profesores asociados a la oferta. 
-	Se dispone de ciento nueve titulaciones locales en la base de datos para poder realizar esta comprobación. Tanto la oferta como la demanda pueden tener una o varias titulaciones, y en función de la cantidad de titulaciones de la demanda se calcula el resultado el cual será un porcentaje obtenido a partir de la división del número total de titulaciones que producen coincidencias entre el  número total de las titulaciones de la demanda.
-	
-	\item Obtener las coincidencias en las observaciones temporales de la oferta de servicio y de la demanda de servicio que hemos aplicado mediante Procesamiento del Lenguaje Natural (NLP). Una vez obtenidas las dos observaciones temporales tanto de la oferta como de la demanda, procedemos a aplicar el algoritmo para emparejar las palabras que coinciden de los dos lados y obtener un porcentaje. Para ello una vez más se quitan las palabras comunes de las descripciones y se guardan las palabras no comunes para cada una de las observaciones en una estructura de datos. Tras esto, se procesan cada una de las estructuras, resultando el número de observaciones temporales que coinciden. El porcentaje de coincidencias se obtiene mediante la división del número de palabras coincidentes entre el valor (observaciones temporales) que tiene el menor número de palabras.
-	
-	\item Relacionar el área de servicio de la demanda y las titulaciones en las que imparte docencia los profesores que participan en la oferta. Para ello tenemos asignamos al menos una titulación a cada área de servicio, estas relaciones están almacenadas en la tabla “matching\_areaservicio\_titulacion” de la base de datos. De esta manera se podrá sacar la relación directa o indirecta entre estos dos valores para así poder calcular un porcentaje válido para el resultado final de nuestro algoritmo de matching. Por ejemplo el área de servicio "Computer\_science" se relacionaría con las titulaciones "Ingeniería de Computadores", "Ingeniería Informática", “Ingeniería del Software”, "Telecomunicación", etc. Para el cálculo del porcentaje se usa el mismo procedimiento que en los demás criterios, contamos el número de coincidencias y lo dividimos entre la cantidad total de las áreas de servicio.
-	
-	\item Encontrar la similitud entre el área de servicio de la demanda y las áreas de conocimiento UNESCO de los profesores que participan en la oferta. Para ello tenemos asignamos al menos un área de conocimiento a cada área de servicio, estas relaciones están almacenadas en la tabla “matching\_areas” de la base de datos. Se dispone de ciento noventa áreas de conocimiento en la base de datos para poder realizar esta comprobación. Para ello tenemos en cuenta las áreas de conocimiento con las cuales están relacionadas las áreas de servicio de la demanda y de la oferta como el principal valor en el cálculo del porcentaje. Para encontrar las posibles coincidencias contamos el número de ellas y lo dividimos entre las áreas de servicio de las demanda.
-\end{itemize}
-
-\subsection{Criterios de anti matching }
-
-También hemos definido unos criterios de anti matching para encontrar posibles incompatibilidades entre los datos proporcionados.\\\\
-Para poder realizar el anti matching nos hemos centrado en los valores temporales tanto de la demanda como de la oferta. Para lo cual hemos partido de si el periodo de definición inicial de la demanda no está fuera de la fecha de finalización de la oferta. En el caso de que esté fuera del plazo se considera anti matching y se descartará la posibilidad de una negociación entre dicha demanda y oferta. \\\\
-
-En el caso de que los plazos estén en el periodo aceptado, se procede a verificar si el año académico establecido para empezar dicha colaboración en la oferta coincide con el año de ejecución establecido de la demanda. Si no coinciden, se considera anti matching y en caso contrario se continúa con la comprobación de los siguientes valores temporales.\\\\
-
-Otro criterio de anti matching es mirar si el periodo de ejecución de la demanda encaja en el periodo de duración del cuatrimestre o los cuatrimestres elegidos y el año académico. De tal manera que si no se corresponden correctamente, se considera incompatibilidad y se descarta la negociación. Hemos considerado que en los meses de verano no se puedan realizar negociaciones entre la oferta y la demanda y cualquier comprobación de matching será descartada si los valores temporales coinciden con este periodo.\\\\
-
-
-\section{Matching definitivo}
-
-Una vez obtenidos todos los porcentajes de los criterios de matching y los resultados del anti matching procedemos a averiguar si se produce el match definitivo, para ello multiplicamos cada uno de los porcentajes anteriormente mencionados por los valores que les corresponden a cada uno definidos en el fichero configuracion.txt y son sumados para obtener el valor de compatibilidad entre la oferta y la demanda. El fichero configuracion.txt almacena en cada línea datos como “pesoFechas = 0.3”, “pesoTitulaciones = 0.3”, “pesoAreaServicio = 0.2”...  \\\\
-
-Si el valor obtenido es mayor que 0.5 se considerará un match definitivo y se almacenará en la base de datos en un tabla que contendrá el porcentaje final, el id de la oferta, el id de la demanda y un atributo booleano, “procesado”, que se pone a true indicando si paso por el proceso de verificación del match. La tabla de matching de la base de datos contendrá la información sobre los posibles match y no match de entre las demandas y ofertas procesadas, de esta manera la aplicación del algoritmo de matching se ejecuta una única vez por cada pareja oferta-demanda. \\\\
-
-A partir de un matching de una oferta de servicio y una demanda se crea un partenariado. Para ello primero, el profesor responsable de la oferta acepta el match y rellena el formulario que tiene  algunos campos rellenados automáticamente a partir de información contenida en la oferta o en la demanda, lo que conlleva la creación de un partenariado en estado “en creación” y el envío de una notificación a la socio comunitario. Después, la socio comunitario podría aceptar el match, rellenando un segundo formulario, teniendo algunos campos rellenados automáticamente a partir de información contenida en la oferta o en la demanda, lo que provocaría que el partenariado pasará al estado “en negociación” \\\\
-
-\section{Ejemplo de matching}
-
-A continuación se muestra un ejemplo válido de matching con una oferta y una demanda dada, con un porcentaje de matching mayor del 50\%. Se expondrá la aplicación de cada uno de los criterios de matching y anti matching, y cómo se llegó al resultado final del algoritmo, de modo que se irá paso a paso por cada etapa del algoritmo que hemos creado.\\\\
-Dada una oferta con los datos más significativos para el matching:\\
-\begin{itemize} 
-	\item descripción: “Proyecto de investigacion en biologia y tecnologia”
-	\item observaciones temporales : “Me interesa que se empiece en septiembre”
-	\item área servicio: “Biologia, Tecnologia digital, inteligencia artificial”
-	\item  area conocimiento: “Biologia celular”
-	\item titulaciones: “Grado en Ciencias Ambientales”
-	\item cuatrimestre : Primer cuatrimestre
-	\item  fecha límite: 2022/03/04
-	\\
-\end{itemize}
-Y una demanda con los datos:\\
-\begin{itemize} 
-	\item titulaciones: “Grado en Ciencias Ambientales”
-	\item descripción: “ Proyecto de investigacion en biologia”
-	\item observaciones temporales : “En septiembre 2022”
-	\item área servicio: “Biologia”
-	\item inicio de periodo de definición: 2021/09/04
-	\item final de periodo de definición : 2021/09/07
-	\item inicio de periodo de ejecución 2021/09/14
-	\item final de periodo de ejecución: 2022/03/03
-	\item fecha fin: 2022/03/04
-\end{itemize}
-
-Empezamos a buscar las coincidencias mediante NLP entre las dos descripciones, quitamos las palabras comunes de ambas y nos quedamos con las no comunes. La descripción de la oferta se queda en “Proyecto,investigacion,biologia,tecnologia” y la de la demanda se queda en “proyecto,investigacion,biologia”. Sacamos el porcentaje resultante entre el número de coincidencias que es tres y la longitud total de la descripción con menos valores que es tres, por lo que se consigue el máximo de coincidencias entre las dos descripciones. El mismo procedimiento se aplica también para las observaciones temporales, donde el número de coincidencias resultante es uno y el total de valores de la menor de las observaciones es dos, por lo que el resultado tras ello es 50\% de coincidencias. Se buscan las coincidencias entre ambas áreas de servicios, entre ambas  titulaciones y entre las áreas de servicio y las áreas de conocimiento donde tras ello resulta un porcentaje alto para el matching, dado que comparten áreas de servicio, titulaciones y hay un número elevado de coincidencias entre las áreas de servicio y las áreas de conocimiento.\\\\
-Tras ello se comprueban las observaciones temporales para saber si se produce un anti matching.\\\\
-Primero se verifica si la fecha de inicio de definición del periodo es mayor que la fecha límite definida en la oferta, en este caso se pasa a la siguiente comprobación ya que la fecha límite de la oferta es superior. También se verifican si las otras fechas cuadran entre ellas, para así poder verificar si se podrán ejecutar ambas en el primer cuatrimestre. \\\\
-Tras ello, una vez obtenidos todos los resultados, cada una se multiplica por su correspondiente peso para ver si se produce el matching. Como se puede observar, tras el número elevado de coincidencias, se produce el matching entre la oferta y la demanda y por lo consecuente se inserta la relación en la tabla “matching”.\\\\
 
 \bibliography{referencias}
 \end{document}
