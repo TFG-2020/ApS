@@ -130,23 +130,23 @@ Los cuatro DAO que se crearon a partir del diagrama entidad-relación son:
 
 \chapter{Conclusiones y trabajo futuro}
 \section{Introducción}
-En esta última sección hablaremos sobre el estado actual del proyecto y sus objetivos, así como de las mejoras que se podría realizar sobre el mismo en un futuro.\\\\
+En esta última sección se hablará sobre el estado actual del proyecto y sus objetivos, así como de las mejoras que se podrían realizar sobre el mismo en un futuro.\\\\
 
-Dado que nuestro TFG es una continuación del proyecto de David Jiménez del Rey, comenzaremos exponiendo las principales diferencias de nuestro proyecto con este último.
+Dado que este TFG es una continuación del proyecto de David Jiménez del Rey, se comenzará exponiendo las principales diferencias del proyecto actual con este último.
 \begin{itemize}
 	\item La base de datos: Además de haber cambiado la base de datos de MongoDB a una base relacional, se han realizado varios cambios en el modelo 		como queda explicado en la sección 5.
 	\item La capa de acceso a datos: Siguiendo el cambio en la base de datos, se han creado DTO y DAO para llevar a cabo la lógica de accesos a la BD 			como queda explicado en la sección 6.
 	\item Implantación de un sistema de \emph{matching}: El proyecto del año pasado trataba las ofertas y las demandas como simétricas, es decir, teniendo los mismos atributos, pero esto no 	es así, por lo que se ha diseñado un sistema de matching como queda explicado en la sección 7.
-	\item Cambios en los formularios: Debido a los cambios registrados en el modelo de datos, ha sido necesario crear algunos formularios o adoptar otros ya existentes. Esto queda mejor explicado en la sección 8.
+	\item Cambios en los formularios: Debido a los cambios registrados en el modelo de datos, ha sido necesario crear algunos formularios o adaptar otros ya existentes. Esto queda mejor explicado en la sección 8.
 \end{itemize}
 
 \section{Objetivos cumplidos}
-A continuación repasaremos los objetivos de nuestro trabajo y su completitud:
+A continuación se repasarán los objetivos de este trabajo y su completitud:
 \begin{itemize}
 	\item \emph{Construir unas bases sólidas del proyecto, creando un modelo de dominio que aclara los conceptos implicados en la aplicación y un modelo de datos que enriquece el modelo de dominio y plasma como la aplicación gestiona la información.}\\
-	Este objetivo ha sido cumplido y los diagramas de dominio y de datos se pueden ver en las figuras \ref{fig:dominio} y \ref{fig:datos}, respectivamente.
+	Este objetivo ha sido cumplido y los diagramas de dominio y de datos se pueden ver en las Figuras \ref{fig:dominio} y \ref{fig:datos}, respectivamente.
 	\item \emph{Crear un modelo relacional que muestre la estructura de la base de datos, facilitando su entendimiento y manejo a los futuros desarrolladores del proyecto.}\\
-	Este objetivo también ha sido cumplido y el diagrama resultante se puede observar en la figura \ref{fig:relacional}
+	Este objetivo también ha sido cumplido y el diagrama resultante se puede observar en la Figura \ref{fig:relacional}
 	\item \emph{Crear una base de datos relacional compleja y rica en detalles.} \\
 	Este objetivo ha sido completado en su mayoría, aunque debido a la terminología empleada es posible que haya que renombrar alguna tabla. Esto se explicará con más detalle en la sección Trabajo Futuro.
 	\item \emph{Implementar cuatro DAO que realicen la lógica de acceso y gestión de datos, encapsulando el acceso a la base de datos. Crear }\emph{transfers} \emph{que permitan estructurar y manejar de forma sencilla los datos de la BD.} \\
@@ -161,21 +161,65 @@ A continuación repasaremos los objetivos de nuestro trabajo y su completitud:
 \end{itemize}
 
 \section{Problemas Encontrados}
-A continuación, describiremos las dificultades y problemas encontrados durante la realización de este proyecto. \\\\
+A continuación, se describirán las dificultades y problemas encontrados durante la realización de este proyecto. \\\\
 La principal dificultad ha residido en la complejidad de trabajar con Node.js y con Angular, y la relativa poca experiencia previa del equipo con estas tecnologías. El equipo comenzó a familiarizarse con las tecnologías antes de comenzar el curso, pero aun así eran tecnologías complejas para quien no había trabajado con ellas previamente. Además, al dedicarse la mayoría del tiempo a la especificación y diseño de la base de datos y al diseño e implementación de las funcionalidades de \emph{back-end}, cuando se cambió a trabajar en el \emph{front-end}, en el cual es donde se usa Angular, hubo que volver a ``aprender'' a trabajar con Angular.\\
-A pesar de las dificultades aqui comentadas, hemos aprendido que Angular y Node.js son tecnologías muy acertadas para el diseño de aplicaciones web, tanto por el formato SPA que ofrece Angular como por la concurrencia alcanzada con Node.js.
+A pesar de las dificultades aqui comentadas, se ha aprendido que Angular y Node.js son tecnologías muy acertadas para el diseño de aplicaciones web, tanto por el formato SPA que ofrece Angular como por la concurrencia alcanzada con Node.js.
 
 \section{Trabajo Futuro}
-Aunque se hayan completado la mayoría de los objetivos que tenía este proyecto, la aplicación aún no está lista para su despliegue y uso público, pero creemos que con otro año más de trabajo estaría lista. A continuación, se enumeran algunas mejoras para el proyecto con este fin:
+Aunque se hayan completado la mayoría de los objetivos que tenía este proyecto, la aplicación aún no está lista para su despliegue y uso público, pero con otro año más de trabajo debería estar lista. A continuación, se enumeran algunas mejoras para el proyecto con este fin:
 \begin{itemize}
 	\item Adaptar la interfaz y terminar los formularios: Como se ha explicado anteriormente al repasar los objetivos, todavía quedan formularios por hacer para cubrir todos los casos en los que se puede crear un partenariado, los cuales serían: el formulario de \emph{match} del socio comunitario, el formulario para que un profesor pueda respaldar una demanda, el formulario para que el socio comunitario aceptara la propuesta de dicho profesor, el formulario para que un socio comunitario pudiera respaldar una oferta y el formulario para que el profesor aceptara esta oferta.\\
 	Debido a los cambios que ha sufrido la base de datos y a la implementación de los DAO, algunas vistas de la aplicación han dejado de ser funcionales. Será necesario cambiar los controladores para que en lugar de utilizar la lógica de acceso a base de datos de MongoDB utilicen la lógica proporcionada por el nuevo \emph{back-end}.
 	\item Implementar un sistema de mensajería: Dado que la aplicación la van a poder usar tanto profesores como estudiantes y socios comunitarios y la comunicación será bastante importante, tanto en los periodos de definición del proyecto como cuando se empiece a trabajar en él, consideramos necesario que se implemente un sistema de mensajería o chat para hacer lo más eficiente posible la comunicación entre los usuarios. Incluso se podría implementar un sistema de foros para que los usuarios compartieran temas relacionados con el ApS o incluso para que los estudiantes pudieran ayudarse unos a otros en cuanto a temas algo más generales.
 	\item Agregar parámetros opcionales en los formularios: Actualmente, algunos de los parámetros que ha de introducir el usuario en los formularios para crear ofertas y demandas podrían dejarse como opcionales. Esto podría interferir con el sistema de \emph{matching}, pero dado que se permite cambiar el peso que tendrá cada atributo a la hora de calcular el porcentaje de \emph{match}, una solución sencilla sería poner el peso de un atributo a cero si se detecta que dicho atributo está vacío.\\
-	Otra mejora sería hacer que el año de las fechas de la oferta fuera opcional. En caso de que el profesor no introdujera año, eso significaría que la demanda es vigente de manera cíclica todos los años en los periodos de tiempo que tenga establecidos.
-
+	Otra mejora sería hacer que el año de las fechas de la oferta fuera opcional. En caso de que el profesor no introdujera año, eso significaría que la oferta es vigente de manera cíclica todos los años en los periodos de tiempo que tenga establecidos.
 \end{itemize}
 
 
+\chapter{Conclusions and future work}
+\section{Introduction}
+This last section will be about the actual state of the project and its objectives, as well as the improvements that could be made in this project in the future.\\\\
+Since this project is a continuation of David Jimenez del Rey's project the main differences between the two projects are going to be explained.
+\begin{itemize}
+	\item The database: Besides changing the database from MongoDB to a relational database, various changes have been made in the model as explained in section 5.
+	\item The data access layer: Following the changes made in the database, DTO and DAO have been created to handle the database access logic as explained on section 6.
+	\item Implementation of a matching system: Last year's project treated offers and demands as if they were symmetrical, that is, as if they had the same attributes, which wasn't the case, so a matching sistem was designed as explained in section 7.
+	\item Changes in the forms: Because of the changes that the data model underwent, new forms have been needed and old ones have been modified. This is better explained in section 8.
+\end{itemize}
+
+\section{Objectives completed}
+Next, the objectives of this project and its completion will be reviewed:
+
+\begin{itemize}
+	\item \emph{Build a solid foundation for the project, creating a domain model that clarifies the concepts involved in the application and a data model that enriches the domain model and reflects how the application manages information.}\\
+This objective has been met and the data and domain diagrams can be seen on Figures  \ref{fig:dominio} and \ref{fig:datos}, respectively.
+	\item \emph{Create a relational model that shows the structure of the database, facilitating its understanding and management by future project developers.}\\
+This objective has also been met and the resulting diagram can be seen on Figure \ref{fig:relacional}
+	\item \emph{Create a complex and detailed relational database.}\\
+This objective has been mostly completed, but, due to the terminology used some tables on the database may need to be renamed. This will be explained in more detail in the future work section.
+	\item \emph{Implement four DAOs (Data Access Objects) that perform the logic of access and data management, encapsulating the access to the database. Create transfers that allow the database data to be structured and managed in a simple way.}\\
+This objective has also been met, even though, as it has been said before, it's impossible to create a ``perfect'' DAO and they may be modified in the future if new functionalities are added to the application.
+	\item \emph{Implement a system of matching of the projects proposed by a teacher and those proposed by a community partner that determines what percentage of fit they have.}\\
+This objective has also been met and the matching system is explained in section 7.
+	\item \emph{ Adapt the registration and user profile pages to the new system, and implement forms for the creation of offers, demands and partnerships.}\\
+This objective hasn't been totally completed. Even though registration and user profile pages have been actualized, and new forms have been made for the creation odf demands and offers, in the partnership case, three ways of creating a partnership exist: match between an offer and a demand created beforehand, a teacher decides to support a demand, and a community partner decides to support an offer. Each of these ways needed two forms, one for the  teacher and another for the community partner. The form for the teacher in the match way has been made and the development of the back-end for the community partner form has begun. This is due to the complexity of working with Angular for a team without previous experience in said technology and also due to the lack of time.
+	\item \emph{Correct bugs found in the previous project.}
+This objective is given as completed on account of most of the bugs being fixed in the early stage of the project and, even though some of them remained, since the interfaces and forms will be modified, the rest of the bugs will be fixed in the reimplementation of said parts.
+\end{itemize}
+
+\section{Problems Found}
+Next, the difficulties and problems found during this project will be described.\\\\
+The main difficulty has been the complexity of working with Node.js and Angular, and the team's relative lack of previous experience with these technologies. The team started working with these technologies before the scholar year started, but even then the technologies were very complex. Furthermore, since most of the time was spent on the design and development of the database and the back-end functionalities, when the team started working in front-end, which is where Angular is used, they had to ``relearn'' Angular.\\
+Despite the difficulties, it has been learned that Angular and Node.js are very successful technologies for the design of web applications, both by the SPA pattern offered by Angular as the concurrency achieved with Node.js.
+
+\section{Future work}
+Even though most of the objectives of this project have been completed, the application isn't ready yet for its deployment and public use, but with another year of work, it should be. Next, some improvements for the project are enumerated:
+\begin{itemize}
+	\item Adapting the interface and finishing the forms: As it has been explained before while reviewing the objectives, there are still forms to do to cover all the cases in which a partnership can be created: the match form for the community partner, the form needed for a teacher to support a demand, the form needed for a community partner to accept the proposal of said teacher, the form needed for a community partner to support an offer and the form needed for te teacher to acceptthe proposal of said community partner.\\
+Due to the changes in the database and the DAO implementation, some pages are no longer functional. It will be necessary to change the controlers in order to use the new database access logic instead of the old one, which was prepared for MongoDB.
+	\item Implement a messaging system: Since the application is going to be used by teachers, students and community partners and communication will be key, both in the definition of a project and in the realization, we deem necessary the implementation of a messaging or chatting system in order to make the communication between users as efficient as possible. A forum system could even be implementedso the users could share information related to ApS or even for students to be able to help each other in more general topics
+	\item Add optional parameters in the forms: Now, some of the parameters that the user needs to introduce in the forms so he can create demands or offers could be optional. This might interfere with the matching system, but since the weight of the attributes can be changed, one simple solution could be setting the weight of an empty attribute to 0. \\
+Another improvement would be letting the year set in the offer's dates be optional. In case that the year was left empty, this would mean that the offer is available every year in the periods of time set.
+\end{itemize}
 \bibliography{referencias}
 \end{document}
