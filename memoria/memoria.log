@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.10)  6 JUN 2021 23:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.10)  6 JUN 2021 23:52
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -887,7 +887,7 @@ Here is how much of TeX's memory you used:
  23885 multiletter control sequences out of 15000+200000
  410107 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,7n,72p,1196b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,7n,72p,1207b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Daniela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 rm1095.pk><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/type
@@ -896,7 +896,7 @@ sfonts/cm/cmbx10.pfb><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/type
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Daniela/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Danie
 la/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on memoria.pdf (29 pages, 505078 bytes).
+Output written on memoria.pdf (29 pages, 505060 bytes).
 PDF statistics:
  271 PDF objects out of 1000 (max. 8388607)
  54 named destinations out of 1000 (max. 500000)
