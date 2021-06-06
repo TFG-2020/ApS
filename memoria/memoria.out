@@ -1,36 +1,17 @@
 \BOOKMARK [0][-]{chapter*.3}{Resumen}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 2
-\BOOKMARK [1][-]{section.1.1}{Antecedentes}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.2}{Objetivos}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.3}{Plan de trabajo}{chapter.1}% 5
-\BOOKMARK [0][-]{chapter.2}{Contexto de la propuesta}{}% 6
-\BOOKMARK [1][-]{section.2.1}{Introducci\363n}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.2}{Elementos que intervienen en un proyecto ApS}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Motivaci\363n}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.4}{TFG de partida}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.5}{Estudio tecnol\363gico}{chapter.2}% 11
-\BOOKMARK [0][-]{chapter.3}{Tecnolog\355as utilizadas}{}% 12
-\BOOKMARK [0][-]{chapter.4}{Modelos de dominio, de datos y de relaci\363n}{}% 13
-\BOOKMARK [1][-]{section.4.1}{Introducci\363n}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.2}{Modelo de dominio}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.3}{Modelo de datos}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.4}{Modelo relacional}{chapter.4}% 17
-\BOOKMARK [2][-]{subsection.4.4.1}{Separaci\363n de datos}{section.4.4}% 18
-\BOOKMARK [2][-]{subsection.4.4.2}{Usuarios}{section.4.4}% 19
-\BOOKMARK [2][-]{subsection.4.4.3}{Anuncios de servicio}{section.4.4}% 20
-\BOOKMARK [2][-]{subsection.4.4.4}{Colaboraci\363n}{section.4.4}% 21
-\BOOKMARK [2][-]{subsection.4.4.5}{Comunicaci\363n}{section.4.4}% 22
-\BOOKMARK [0][-]{chapter.5}{DAO}{}% 23
-\BOOKMARK [0][-]{chapter.6}{Creaci\363n de formularios}{}% 24
-\BOOKMARK [1][-]{section.6.1}{Formulario de registro de usuarios}{chapter.6}% 25
-\BOOKMARK [1][-]{section.6.2}{Formulario para editar los datos de un usuario}{chapter.6}% 26
-\BOOKMARK [1][-]{section.6.3}{Formulario creaci\363n demanda de servicio}{chapter.6}% 27
-\BOOKMARK [1][-]{section.6.4}{Formulario creaci\363n oferta de servicio}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.5}{Formulario creaci\363n de partenariado profesor}{chapter.6}% 29
-\BOOKMARK [0][-]{chapter.7}{Matching entre oferta de servicio y demanda de servicio}{}% 30
-\BOOKMARK [1][-]{section.7.1}{Definici\363n del matching }{chapter.7}% 31
-\BOOKMARK [1][-]{section.7.2}{Criterios de matching y anti matching}{chapter.7}% 32
-\BOOKMARK [2][-]{subsection.7.2.1}{Criterios de matching }{section.7.2}% 33
-\BOOKMARK [2][-]{subsection.7.2.2}{Criterios de anti matching }{section.7.2}% 34
-\BOOKMARK [1][-]{section.7.3}{Matching definitivo}{chapter.7}% 35
-\BOOKMARK [1][-]{section.7.4}{Ejemplo de matching}{chapter.7}% 36
+\BOOKMARK [0][-]{chapter*.4}{Abstract}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Creaci\363n de formularios}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Formulario de registro de usuarios}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Formulario para editar los datos de un usuario}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Formulario creaci\363n demanda de servicio}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.4}{Formulario creaci\363n oferta de servicio}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.5}{Formulario creaci\363n de partenariado profesor}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{Matching entre oferta de servicio y demanda de servicio}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Definici\363n del matching }{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Criterios de matching y anti matching}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{Criterios de matching }{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{Criterios de anti matching }{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Obtenci\363n del porcentaje final de matching}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.4}{Ejemplo de matching}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{Contribuci\363n}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Daniela-Nicoleta Boldureanu}{chapter.3}% 17
