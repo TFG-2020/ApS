@@ -180,23 +180,23 @@ El campo \emph{equipo de profesores} es una lista que da la posibilidad de selec
 
 \section{Definición del matching }
 
-Para nuestro TFG hemos implementado un algoritmo de matching para las ofertas y las demandas, de manera que cogiendo una oferta y una demanda de la base de datos, verificamos si tienen suficientes similitudes como para poder establecer un partenariado a partir de ellas. Partiendo de unas especificaciones del algoritmo que se estableció entre nosotros y los directores del TFG, las hemos aplicado para poder obtener la información relacionada representada por un porcentaje, con el cual se decidirá el resultado final.  Cuantos más datos haya relacionados entre una oferta y una demanda, mayor porcentaje sacará nuestro algoritmo. El objetivo del algoritmo de matching es ayudar a los profesores a encontrar más fácilmente demandas relacionadas a sus propuestas y a las entidades a obtener ofertas acordes a sus solicitudes. \\\\
-Nuestro matching no es tan sencillo como buscar un piso. Por ejemplo, cuando se busca un piso en función de lo que quieres, (tres habitaciones, un baño y una zona en concreto) te dan todos los pisos que cumplen esas características, en cambio nuestro matching no es asi, porque las ofertas son muy genéricas, las demandas son especificas y los campos no son simétricos.\\\\
-Definimos el matching según nuestro algoritmo, como el proceso que consiste en identificar los datos que se ajustan a unos criterios de coincidencia los cuales se van a enumerar a continuación en los siguientes párrafos. De este modo, si se encuentran suficientes puntos de similitud entre los datos recopilados, estos son considerados para sacar un porcentaje de coincidencia, donde si este es menor que el valor mínimo establecido no se considerará matching. En el prototipo que hemos construido, el valor mínimo que hemos
-establecido para considerar la existencia de un matching es \texttt{50\%} pero, al
+Para nuestro TFG hemos implementado un algoritmo de \emph{matching} para las ofertas y las demandas, de manera que cogiendo una oferta y una demanda de la base de datos, verificamos si tienen suficientes similitudes como para poder establecer un partenariado a partir de ellas. Partiendo de unas especificaciones del algoritmo que se estableció entre nosotros y los directores del TFG, las hemos aplicado para poder obtener la información relacionada representada por un porcentaje, con el cual se decidirá el resultado final.  Cuantos más datos haya relacionados entre una oferta y una demanda, mayor porcentaje sacará nuestro algoritmo. El objetivo del algoritmo de \emph{matching} es ayudar a los profesores a encontrar más fácilmente demandas relacionadas a sus propuestas y a las entidades a obtener ofertas acordes a sus solicitudes. \\\\
+Nuestro \emph{matching} no es tan sencillo como buscar un piso. Por ejemplo, cuando se busca un piso en función de lo que quieres, (tres habitaciones, un baño y una zona en concreto) te dan todos los pisos que cumplen esas características, en cambio nuestro \emph{matching} no es asi, porque las ofertas son muy genéricas, las demandas son especificas y los campos no son simétricos.\\\\
+Definimos el \emph{matching} según nuestro algoritmo, como el proceso que consiste en identificar los datos que se ajustan a unos criterios de coincidencia los cuales se van a enumerar a continuación en los siguientes párrafos. De este modo, si se encuentran suficientes puntos de similitud entre los datos recopilados, estos son considerados para sacar un porcentaje de coincidencia, donde si este es menor que el valor mínimo establecido no se considerará \emph{matching}. En el prototipo que hemos construido, el valor mínimo que hemos
+establecido para considerar la existencia de un \emph{matching} es \texttt{50\%} pero, al
 igual que los pesos de cada factor, es configurable.
 \\\\
 
 \section{Criterios de matching y anti matching}
 \subsection{Criterios de matching }
 
-Hemos definido unos criterios en base a los datos proporcionados por los usuarios en las ofertas y demandas de servicio según los cuales se resolverá el matching:
+Hemos definido unos criterios en base a los datos proporcionados por los usuarios en las ofertas y demandas de servicio según los cuales se resolverá el \emph{matching}:
 
 \begin{itemize} 	
 	\item Hacer coincidir las descripciones tanto de la oferta como de la demanda de servicio mediante Procesamiento del Lenguaje Natural (NLP).
-	Para ello hemos tenido que buscar las palabras vacías del idioma español y almacenarlas en un fichero, para así poder  procesarlas para obtener el resultado deseado. El procedimiento consiste en lo siguiente: dadas las dos descripciones, las guardamos en dos estructuras simples de datos, quitamos las palabras comunes (aquellas que sean iguales a las del fichero) y nos quedamos con las que puedan coincidir en las dos descripciones. Cada una de estas se guarda en una estructura simple de datos. Al tenerlas, empezamos a procesar las palabras resultantes de las dos descripciones, distinguiendo las mayúsculas, minúsculas, tildes y caracteres especiales, donde obtenemos el número de palabras que coinciden de las descripciones. Para poder obtener el porcentaje de coincidencias, dividimos el número de palabras coincidentes con el número de palabras de la descripción mas breve. Dicho porcentaje se tendrá en cuenta para poder calcular el valor final de matching.
+	Para ello hemos tenido que buscar las palabras vacías del idioma español y almacenarlas en un fichero, para así poder  procesarlas para obtener el resultado deseado. El procedimiento consiste en lo siguiente: dadas las dos descripciones, las guardamos en dos estructuras simples de datos, quitamos las palabras comunes (aquellas que sean iguales a las del fichero) y nos quedamos con las que puedan coincidir en las dos descripciones. Cada una de estas se guarda en una estructura simple de datos. Al tenerlas, empezamos a procesar las palabras resultantes de las dos descripciones, distinguiendo las mayúsculas, minúsculas, tildes y caracteres especiales, donde obtenemos el número de palabras que coinciden de las descripciones. Para poder obtener el porcentaje de coincidencias, dividimos el número de palabras coincidentes con el número de palabras de la descripción mas breve. Dicho porcentaje se tendrá en cuenta para poder calcular el valor final de \emph{matching}.
 	
-	\item Encontrar la similitud entre las áreas de servicio tanto de la oferta como de la demanda. Se dispone de setenta y ocho áreas de servicio en la base de datos para poder realizar esta comprobación. Para ello se comparan todas las áreas de servicio de ambas, y se devuelve el número de coincidencias. Cuanto mayor dicho número, mayor probabilidad de que se produzca el matching.
+	\item Encontrar la similitud entre las áreas de servicio tanto de la oferta como de la demanda. Se dispone de setenta y ocho áreas de servicio en la base de datos para poder realizar esta comprobación. Para ello se comparan todas las áreas de servicio de ambas, y se devuelve el número de coincidencias. Cuanto mayor dicho número, mayor probabilidad de que se produzca el \emph{matching}.
 	
 	\item Obtener las coincidencias entre las titulaciones que el socio
 	comunitario ha propuesto como candidatos en los que cuadrar un proyecto
@@ -205,7 +205,7 @@ Hemos definido unos criterios en base a los datos proporcionados por los usuario
 	
 	\item Obtener las coincidencias en las restricciones temporales de la oferta de servicio y de la demanda de servicio para las que hemos aplicado Procesamiento del Lenguaje Natural (NLP). Una vez obtenidas las dos restricciones temporales, tanto de la oferta como de la demanda, procedemos a aplicar el algoritmo para emparejar las palabras que coinciden en ambos lados y obtener un porcentaje. Para ello una vez más se quitan las palabras comunes de las descripciones y se guardan las palabras no comunes para cada una de las restricciones temporales en una estructura de datos. Tras esto, se procesan cada una de las estructuras, resultando el número de restricciones temporales que coinciden. El porcentaje de coincidencias se obtiene mediante la división del número de palabras coincidentes entre el valor (restricciones temporales) que tiene el menor número de palabras.
 	
-	\item Relacionar el área de implementación de la demanda y las titulaciones en las que imparten docencia los profesores que participan en la oferta. Para ello tenemos asignamos al menos una titulación a cada área de implementación. Estas relaciones están almacenadas en una tabla de la base de datos. De esta manera se podrá sacar la relación directa o indirecta entre estos dos valores para así poder calcular un porcentaje válido para el resultado final de nuestro algoritmo de matching. Por ejemplo el área de implementación \texttt{Computer\_science} se relacionaría con las titulaciones \emph{ingeniería de Computadores}, \emph{ingeniería Informática}", \emph{ingeniería del Software} , \emph{Telecomunicación}, etc. Para el cálculo del porcentaje se usa el mismo procedimiento que en los demás criterios: contamos el número de coincidencias y lo dividimos entre la cantidad total de las áreas de servicio.
+	\item Relacionar el área de implementación de la demanda y las titulaciones en las que imparten docencia los profesores que participan en la oferta. Para ello tenemos asignamos al menos una titulación a cada área de implementación. Estas relaciones están almacenadas en una tabla de la base de datos. De esta manera se podrá sacar la relación directa o indirecta entre estos dos valores para así poder calcular un porcentaje válido para el resultado final de nuestro algoritmo de \emph{matching}. Por ejemplo el área de implementación \texttt{Computer\_science} se relacionaría con las titulaciones \emph{ingeniería de Computadores}, \emph{ingeniería Informática}", \emph{ingeniería del Software} , \emph{Telecomunicación}, etc. Para el cálculo del porcentaje se usa el mismo procedimiento que en los demás criterios: contamos el número de coincidencias y lo dividimos entre la cantidad total de las áreas de servicio.
 	
 	\item Encontrar la similitud entre el área de implementación de la demanda y las áreas de conocimiento UNESCO de los profesores que participan en la oferta. Para ello tenemos asignamos al menos un área de conocimiento a cada área de implementación, estas relaciones están almacenadas en la tabla \texttt{matching\_areas} de la base de datos. Se dispone de ciento noventa áreas de conocimiento en la base de datos para poder realizar esta comprobación. Para ello tenemos en cuenta las áreas de conocimiento con las cuales están relacionadas las áreas de servicio de la demanda y de la oferta como el principal valor en el cálculo del porcentaje. Para encontrar las posibles coincidencias contamos el número de ellas y lo dividimos entre las áreas de servicio de las demanda.
 \end{itemize}
@@ -217,9 +217,9 @@ Hemos definido unos criterios en base a los datos proporcionados por los usuario
 
 \subsection{Criterios de anti matching }
 
-También hemos definido unos criterios de anti matching para encontrar posibles incompatibilidades entre los datos proporcionados.\\\\
-Para poder realizar el anti matching nos hemos centrado en los valores temporales, en el caso de que tengan valor puesto, tanto de la demanda como de la oferta. Para ello hemos partido de si el comienzo del periodo de disponibilidad para trabajar en la definición
-de un proyecto ApS definido por la demanda no es posterior a la fecha límite para el fin de la realización del proyecto definida por la oferta. En el caso de que esté fuera del plazo se considera anti matching y se descartará la posibilidad de una negociación entre dicha demanda y oferta. \\\\
+También hemos definido unos criterios de \emph{anti matching} para encontrar posibles incompatibilidades entre los datos proporcionados.\\\\
+Para poder realizar el \emph{anti matching} nos hemos centrado en los valores temporales, en el caso de que tengan valor puesto, tanto de la demanda como de la oferta. Para ello hemos partido de si el comienzo del periodo de disponibilidad para trabajar en la definición
+de un proyecto ApS definido por la demanda no es posterior a la fecha límite para el fin de la realización del proyecto definida por la oferta. En el caso de que esté fuera del plazo se considera \emph{anti matching} y se descartará la posibilidad de una negociación entre dicha demanda y oferta. \\\\
 
 En el caso de que los plazos estén en el periodo aceptado, se procede a verificar si alguno de los siguientes se cumple:
 \begin{itemize}
@@ -231,51 +231,52 @@ En el caso de que los plazos estén en el periodo aceptado, se procede a verific
 	\item Si el inicio del periodo de disponibilidad para trabajar en la realización del
 	proyecto ApS es mayor que la fecha de finalización del cuatrimestre del año académico definida por la  oferta.\\
 \end{itemize}
- Si ninguno no coincide, se considera anti matching y en caso contrario se continúa con la comprobación de los siguientes valores temporales.\\\\
+ Si ninguno no coincide, se considera \emph{anti matching} y en caso contrario se continúa con la comprobación de los siguientes valores temporales.\\\\
 
-Otro criterio de anti matching es mirar si la fecha límite para el fin de la realización del proyecto ApS definido por la demanda es menor que la fecha de inicio del cuatrimestre en el año académico elegido de la oferta. De modo, si no se corresponden correctamente, se considera incompatibilidad y se descarta la negociación. \\\\
+Otro criterio de \emph{anti matching} es mirar si la fecha límite para el fin de la realización del proyecto ApS definido por la demanda es menor que la fecha de inicio del cuatrimestre en el año académico elegido de la oferta. De modo, si no se corresponden correctamente, se considera incompatibilidad y se descarta la negociación. \\\\
 
 
 
 \section{Obtención del porcentaje final de matching}
 
-Una vez obtenidos todos los porcentajes de los criterios de matching y los resultados del anti matching procedemos a combinar todos los criterios en un único porcentaje. Para ello multiplicamos cada uno de los porcentajes anteriormente mencionados por los pesos que les corresponden a cada uno definidos en el fichero \texttt{configuracion.txt} y son sumados para obtener el valor de compatibilidad entre la oferta y la demanda. El fichero \texttt{configuracion.txt} almacena en cada línea datos como \texttt{pesoFechas = 0.3}, \texttt{pesoTitulaciones = 0.3}, \texttt{pesoAreaServicio = 0.2}...  \\\\
+Una vez obtenidos todos los porcentajes de los criterios de \emph{matching} y los resultados del \emph{anti matching} procedemos a combinar todos los criterios en un único porcentaje. Para ello multiplicamos cada uno de los porcentajes anteriormente mencionados por los pesos que les corresponden a cada uno definidos en el fichero \texttt{configuracion.txt} y son sumados para obtener el valor de compatibilidad entre la oferta y la demanda. El fichero \texttt{configuracion.txt} almacena en cada línea datos como \texttt{pesoFechas = 0.3}, \texttt{pesoTitulaciones = 0.3}, \texttt{pesoAreaServicio = 0.2}...  \\\\
 
-Si el valor obtenido es mayor que 0.5, valor que es configurable, se considerará un match definitivo y se almacenará en la base de datos en un tabla que contendrá el porcentaje final, el identificador de la oferta, el identificador de la demanda y un atributo booleano, \emph{procesado}, que se pone a true indicando si paso por el proceso de verificación del match. En el caso de que una demanda y una oferta no pasaron por el algoritmo de matching, este atributo \emph{procesado} tendrá el valor a falso. Si una oferta y una demanda pasaron por el proceso de verificación de matching tendrán guardado en la tabla el porcentaje de matching, que puede ser superior, inferior o igual a 0.5. En este último caso el atributo \emph{procesado} se pone a true. La tabla de matching de la base de datos contendrá la información sobre los posibles match y no match de entre las demandas y ofertas procesadas, de esta manera la aplicación del algoritmo de matching se ejecuta una única vez por cada pareja oferta-demanda. \\\\
+Si el valor obtenido es mayor que 0.5, valor que es configurable, se considerará un match definitivo y se almacenará en la base de datos en un tabla que contendrá el porcentaje final, el identificador de la oferta, el identificador de la demanda y un atributo booleano, \emph{procesado}, que se pone a true indicando si paso por el proceso de verificación del match. En el caso de que una demanda y una oferta no pasaron por el algoritmo de \emph{matching}, este atributo \emph{procesado} tendrá el valor a falso. Si una oferta y una demanda pasaron por el proceso de verificación de \emph{matching} tendrán guardado en la tabla el porcentaje de \emph{matching}, que puede ser superior, inferior o igual a 0.5. En este último caso el atributo \emph{procesado} se pone a true. La tabla de \texttt{matching} de la base de datos contendrá la información sobre los posibles match y no match de entre las demandas y ofertas procesadas, de esta manera la aplicación del algoritmo de \emph{matching} se ejecuta una única vez por cada pareja oferta-demanda. \\\\
 
-A partir de un matching de una oferta de servicio y una demanda se crea un partenariado en el caso de si el profesor quiere. Para ello primero, el profesor responsable de la oferta acepta el match y rellena el formulario que tiene  algunos campos rellenados automáticamente a partir de información contenida en la oferta o en la demanda, lo que conlleva la creación de un partenariado en estado \texttt{EN\_CREACION} y el envío de una notificación a la socio comunitario. Después, el socio comunitario podría aceptar el match, rellenando un segundo formulario, teniendo algunos campos rellenados automáticamente a partir de información contenida en la oferta o en la demanda, lo que provocaría que el partenariado pasará al estado \texttt{EN\_NEGOCIACION}.\\\\
+A partir de un \emph{matching} de una oferta de servicio y una demanda se crea un partenariado en el caso de si el profesor quiere. Para ello primero, el profesor responsable de la oferta acepta el match y rellena el formulario que tiene  algunos campos rellenados automáticamente a partir de información contenida en la oferta o en la demanda, lo que conlleva la creación de un partenariado en estado \texttt{EN\_CREACION} y el envío de una notificación a la socio comunitario. Después, el socio comunitario podría aceptar el match, rellenando un segundo formulario, teniendo algunos campos rellenados automáticamente a partir de información contenida en la oferta o en la demanda, lo que provocaría que el partenariado pasará al estado \texttt{EN\_NEGOCIACION}.\\\\
 
 \section{Ejemplo de matching}
 
-A continuación se muestra un ejemplo válido de matching con una oferta y una demanda dada, con un porcentaje de matching mayor del 50\%. Se expondrá la aplicación de cada uno de los criterios de matching y anti matching, y cómo se llegó al resultado final del algoritmo, de modo que se irá paso a paso por cada etapa del algoritmo que hemos creado.\\\\
-Dada una oferta con los datos más significativos para el matching:\\
+A continuación se muestra un ejemplo válido de \emph{matching} con una oferta y una demanda dada, con un porcentaje de \emph{matching} mayor del 50\%. Se expondrá la aplicación de cada uno de los criterios de \emph{matching} y \emph{anti matching}, y cómo se llegó al resultado final del algoritmo, de modo que se irá paso a paso por cada etapa del algoritmo que hemos creado.\\\\
+Dada una oferta con los datos más significativos para el \emph{matching}:\\
 \begin{itemize} 
-	\item descripción: “Proyecto de investigacion en biologia y tecnologia”
-	\item restricciones temporales : “Me interesa que se empiece en septiembre”
-	\item área servicio: “Biologia, Tecnologia digital, inteligencia artificial”
-	\item  area conocimiento: “Biologia celular”
-	\item titulaciones: “Grado en Ciencias Ambientales”
-	\item cuatrimestre : Primer cuatrimestre
-	\item  fecha límite: 2022/03/04
+	\item Descripción: Proyecto de investigación en biología y tecnología
+	\item Restricciones temporales: Me interesa que se empiece en septiembre
+	\item Área de implementación: Biología, Tecnología digital
+	\item Área conocimiento: Biología celular
+	\item Titulaciones: Grado en Ciencias Ambientales
+	\item cuatrimestre objetivo: Primer cuatrimestre
+	\item Fecha límite para terminar la definición del proyecto: 2021/12/22
 	\\
 \end{itemize}
 Y una demanda con los datos:\\
 \begin{itemize} 
-	\item titulaciones: “Grado en Ciencias Ambientales”
-	\item descripción: “ Proyecto de investigacion en biologia”
-	\item restricciones temporales : “En septiembre 2022”
-	\item área servicio: “Biologia”
-	\item inicio de periodo de definición: 2021/09/04
-	\item final de periodo de definición : 2021/09/07
-	\item inicio de periodo de ejecución 2021/09/14
-	\item final de periodo de ejecución: 2022/03/03
-	\item fecha fin: 2022/03/04
+	\item Titulaciones: Grado en Ciencias Ambientales
+	\item Descripción: Proyecto de investigación en biología
+	\item Restricciones temporales : En septiembre 2021
+	\item Área servicio: Biología
+	\item Comienzo del periodo de disponibilidad para trabajar en la definición del
+	proyecto : 2021/09/04
+	\item Fin del periodo de disponibilidad para trabajar en la definición del
+	proyecto: 2021/09/07
+	\item Inicio del periodo de disponibilidad para trabajar en la realización del
+	proyecto: 2021/09/14
+	\item Fin del periodo de disponibilidad para trabajar en la realización del
+	proyecto : 2021/12/01
+	\item Fecha límite para el fin de la realización del proyecto: 2021/12/04
 \end{itemize}
-
-Empezamos a buscar las coincidencias mediante NLP entre las dos descripciones, quitamos las palabras comunes de ambas y nos quedamos con las no comunes. La descripción de la oferta se queda en “Proyecto,investigacion,biologia,tecnologia” y la de la demanda se queda en “proyecto,investigacion,biologia”. Sacamos el porcentaje resultante entre el número de coincidencias que es tres y la longitud total de la descripción con menos valores que es tres, por lo que se consigue el máximo de coincidencias entre las dos descripciones. El mismo procedimiento se aplica también para las restricciones temporales, donde el número de coincidencias resultante es uno y el total de valores de la menor de las restricciones temporales es dos, por lo que el resultado tras ello es 50\% de coincidencias. Se buscan las coincidencias entre ambas áreas de servicios, entre ambas  titulaciones y entre las áreas de servicio y las áreas de conocimiento donde tras ello resulta un porcentaje alto para el matching, dado que comparten áreas de servicio, titulaciones y hay un número elevado de coincidencias entre las áreas de servicio y las áreas de conocimiento.\\\\
-Tras ello se comprueban las restricciones temporales para saber si se produce un anti matching.\\\\
-Primero se verifica si la fecha de inicio de definición del periodo es mayor que la fecha límite definida en la oferta, en este caso se pasa a la siguiente comprobación ya que la fecha límite de la oferta es superior. También se verifican si las otras fechas cuadran entre ellas, para así poder verificar si se podrán ejecutar ambas en el primer cuatrimestre. \\\\
-Tras ello, una vez obtenidos todos los resultados, cada una se multiplica por su correspondiente peso para ver si se produce el matching. Como se puede observar, tras el número elevado de coincidencias, se produce el matching entre la oferta y la demanda y por lo consecuente se inserta la relación en la tabla “matching”.\\\\
+Se empieza comparando las fechas para detectar un posible \emph{anti matching}. En el ejemplo las fechas cuadran, así que multiplicamos el peso de este atributo que es 0.3. Después de esto se comprueban las titulaciones del profesor que hace la oferta, con las que podría tener la demanda. Como coinciden totalmente se multiplica el peso de este atributo por 0.3 y de momento hay un 0.6 de compatibilidad entre la oferta y la demanda. Tras esto se comprueban las áreas de implementación junto con las áreas de conocimiento de los profesores y se multiplica el porcentaje de coincidencias por el peso de este atributo, que es 0.2. Y actualmente hay una compatibilidad de 0.66. Tras esto empezamos a buscar las coincidencias mediante NLP entre las dos descripciones, quitamos las palabras comunes de ambas y nos quedamos con las no comunes. La descripción de la oferta se queda en “Proyecto,investigacion,biologia,tecnologia” y la de la demanda se queda en “proyecto,investigacion,biologia”. Sacamos el porcentaje resultante entre el número de coincidencias que es tres y la longitud total de la descripción con menos valores que es tres, por lo que se consigue el máximo de coincidencias entre las dos descripciones. Se saca el porcentaje de similitud entre 0 y 100,  en este caso es 0.60 y esto lo multiplicamos por 0.1 con lo que la compatibilidad actual seria 0.73. El mismo procedimiento se aplica también para las restricciones temporales, donde el número de coincidencias resultante es uno y el total de valores de la menor de las restricciones temporales es dos, por lo que el resultado tras ello es 0.33 de coincidencias, que se multiplica por 0.1 con lo que la compatibilidad actual seria 0.7366. La compatibilidad actual es de 0.74 y dado que es mayor que 0.5, se hace el \emph{matching}\\\\
+ Como se puede observar, tras el número elevado de coincidencias, se produce el \emph{matching} entre la oferta y la demanda y por lo consecuente se inserta la relación en la tabla \texttt{matching}.\\\\
 
 \chapter{Contribución}
 A continuación, se detallan las contribuciones de cada uno de los componentes del grupo ordenados por orden alfabético.
@@ -303,7 +304,7 @@ Después de finalizar la implementación del DAO \textit{Usuario} Daniela desarr
 	\item Recoger las áreas de servicio de un Excel, procesar los valores y añadirlos en la tabla \texttt{área\_servicio} de la base de datos.\\\\
 \end{itemize}
 En la quinta fase Daniela se ha encargado de adaptar el código de obtener los datos de la página home y de crear los correspondientes métodos en el DAO Colaboración: obtener el número de proyectos, el número de partenariados y el número de iniciativas existentes en la base de datos.\\ 
-También se ha encargado de crear los métodos del matching para obtener las coincidencias en las restricciones temporales de la oferta de servicio y de la demanda de servicio y de obtener las coincidencias de las descripciones tanto de la oferta como de la demanda de servicio mediante Procesamiento del Lenguaje Natural (NLP). Para realizar este procesamiento adecuadamente fue necesario investigar. Para ello tuvo que buscar la lista de todas las palabras vacías del idioma español. Una vez acabada la investigación y encontradas las palabras vacías, desarrollo el algoritmo.\\\\
+También se ha encargado de crear los métodos del \emph{matching} para obtener las coincidencias en las restricciones temporales de la oferta de servicio y de la demanda de servicio y de obtener las coincidencias de las descripciones tanto de la oferta como de la demanda de servicio mediante Procesamiento del Lenguaje Natural (NLP). Para realizar este procesamiento adecuadamente fue necesario investigar. Para ello tuvo que buscar la lista de todas las palabras vacías del idioma español. Una vez acabada la investigación y encontradas las palabras vacías, desarrollo el algoritmo.\\\\
 En la quinta fase Daniela se ha encargado de adaptar, añadir nuevos campos y crear los mensajes correspondientes para los formularios de registro y editar usuarios. Adapto la aplicación tanto de \textit{front-end} como de \textit{back-end} en la parte de usuarios y home. Este proceso fue complejo dado que requería mucho conocimiento tanto en Angular como en NodeJS y fue un paso importante para la creación de los formularios de la oferta, de la demanda y del partenariado por parte del profesor. También ha desarrollado la parte de \textit{front-end} del formulario para crear el partenariado por parte del profesor.
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.10)  7 JUN 2021 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.10)  7 JUN 2021 16:53
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -792,35 +792,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 262--263
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--279
+Overfull \hbox (11.54237pt too wide) in paragraph at lines 270--272
+[]\OT1/cmr/m/n/10.95 Fin del pe-rio-do de dis-po-ni-bi-li-dad pa-ra tra-ba-jar 
+en la de-fi-ni-cion del pro-yec-to: 2021/09/07 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--279
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--279
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--279
-
- []
-
-LaTeX Info: Redefining \. on input line 279.
-LaTeX Info: Redefining \% on input line 279.
-[25]
 LaTeX Info: Redefining \. on input line 280.
 LaTeX Info: Redefining \% on input line 280.
+[25]
+LaTeX Info: Redefining \. on input line 281.
+LaTeX Info: Redefining \% on input line 281.
 
 Overfull \hbox (28.7332pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/10.95 26 \OT1/cmr/m/sl/10.95 CAP[]ITULO 2.  MATCHING ENTRE OFERTA 
@@ -830,40 +826,40 @@ DE SERVICIO Y DEMANDA DE SERVICIO
 [26]
 Cap\'{\i }tulo 3.
 
-LaTeX Warning: Reference `fig:usuarios' on page 27 undefined on input line 295.
+LaTeX Warning: Reference `fig:usuarios' on page 27 undefined on input line 296.
 
 
 
 LaTeX Warning: Reference `fig:colaboracion' on page 27 undefined on input line 
-296.
+297.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--299
+Underfull \hbox (badness 10000) in paragraph at lines 295--300
 
  []
 
 [27
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--308
+Underfull \hbox (badness 10000) in paragraph at lines 306--309
 
  []
 
-LaTeX Info: Redefining \. on input line 308.
-LaTeX Info: Redefining \% on input line 308.
-[28]
 LaTeX Info: Redefining \. on input line 309.
 LaTeX Info: Redefining \% on input line 309.
+[28]
+LaTeX Info: Redefining \. on input line 310.
+LaTeX Info: Redefining \% on input line 310.
  [29] (memoria.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
@@ -882,7 +878,7 @@ Here is how much of TeX's memory you used:
  23885 multiletter control sequences out of 15000+200000
  410107 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,7n,72p,1207b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,7n,72p,1858b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Daniela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 rm1095.pk><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/type
@@ -891,7 +887,7 @@ sfonts/cm/cmbx10.pfb><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/type
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Daniela/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Danie
 la/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on memoria.pdf (29 pages, 505183 bytes).
+Output written on memoria.pdf (29 pages, 505952 bytes).
 PDF statistics:
  271 PDF objects out of 1000 (max. 8388607)
  54 named destinations out of 1000 (max. 500000)
