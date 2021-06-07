@@ -12,17 +12,37 @@
 \BOOKMARK [1][-]{section.3.3}{Motivaci\363n}{chapter.3}% 12
 \BOOKMARK [1][-]{section.3.4}{TFG de partida}{chapter.3}% 13
 \BOOKMARK [1][-]{section.3.5}{Estudio tecnol\363gico}{chapter.3}% 14
-\BOOKMARK [0][-]{chapter.4}{Modelos de dominio, de datos y de relaci\363n}{}% 15
-\BOOKMARK [1][-]{section.4.1}{Introducci\363n}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.2}{Modelo de dominio}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.3}{Modelo de datos}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.4}{Modelo relacional}{chapter.4}% 19
-\BOOKMARK [2][-]{subsection.4.4.1}{Separaci\363n de datos}{section.4.4}% 20
-\BOOKMARK [2][-]{subsection.4.4.2}{Usuarios}{section.4.4}% 21
-\BOOKMARK [2][-]{subsection.4.4.3}{Anuncios de servicio}{section.4.4}% 22
-\BOOKMARK [2][-]{subsection.4.4.4}{Colaboraci\363n}{section.4.4}% 23
-\BOOKMARK [2][-]{subsection.4.4.5}{Comunicaci\363n}{section.4.4}% 24
-\BOOKMARK [0][-]{chapter.5}{Contribuci\363n}{}% 25
-\BOOKMARK [1][-]{section.5.1}{Daniela-Nicoleta Boldureanu}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.2}{Victoria Gnatiuk Romaniuk}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.3}{Jes\372s S\341nchez Granado}{chapter.5}% 28
+\BOOKMARK [0][-]{chapter.4}{Tecnolog\355as utilizadas}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Node.js}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{Angular}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.3}{GitKraken}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.4}{Pivotal tracker}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.5}{LaTeX}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.6}{MySQL}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.7}{Modelio}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.8}{MySQL Workbench}{chapter.4}% 23
+\BOOKMARK [0][-]{chapter.5}{Modelos de dominio, de datos y de relaci\363n}{}% 24
+\BOOKMARK [1][-]{section.5.1}{Introducci\363n}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.2}{Modelo de dominio}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.3}{Modelo de datos}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.4}{Modelo relacional}{chapter.5}% 28
+\BOOKMARK [2][-]{subsection.5.4.1}{Separaci\363n de datos}{section.5.4}% 29
+\BOOKMARK [2][-]{subsection.5.4.2}{Usuarios}{section.5.4}% 30
+\BOOKMARK [2][-]{subsection.5.4.3}{Anuncios de servicio}{section.5.4}% 31
+\BOOKMARK [2][-]{subsection.5.4.4}{Colaboraci\363n}{section.5.4}% 32
+\BOOKMARK [2][-]{subsection.5.4.5}{Comunicaci\363n}{section.5.4}% 33
+\BOOKMARK [0][-]{chapter.6}{DAO}{}% 34
+\BOOKMARK [0][-]{chapter.7}{Conclusiones y trabajo futuro}{}% 35
+\BOOKMARK [1][-]{section.7.1}{Introducci\363n}{chapter.7}% 36
+\BOOKMARK [1][-]{section.7.2}{Objetivos cumplidos}{chapter.7}% 37
+\BOOKMARK [1][-]{section.7.3}{Problemas Encontrados}{chapter.7}% 38
+\BOOKMARK [1][-]{section.7.4}{Trabajo Futuro}{chapter.7}% 39
+\BOOKMARK [0][-]{chapter.8}{Conclusions and future work}{}% 40
+\BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}% 41
+\BOOKMARK [1][-]{section.8.2}{Objectives completed}{chapter.8}% 42
+\BOOKMARK [1][-]{section.8.3}{Problems Found}{chapter.8}% 43
+\BOOKMARK [1][-]{section.8.4}{Future work}{chapter.8}% 44
+\BOOKMARK [0][-]{chapter.9}{Contribuci\363n}{}% 45
+\BOOKMARK [1][-]{section.9.1}{Daniela-Nicoleta Boldureanu}{chapter.9}% 46
+\BOOKMARK [1][-]{section.9.2}{Victoria Gnatiuk Romaniuk}{chapter.9}% 47
+\BOOKMARK [1][-]{section.9.3}{Jes\372s S\341nchez Granado}{chapter.9}% 48

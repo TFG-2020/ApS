@@ -13,17 +13,37 @@
 \contentsline {section}{\numberline {3.3}Motivación}{16}{section.3.3}%
 \contentsline {section}{\numberline {3.4}TFG de partida}{17}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Estudio tecnológico}{18}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Modelos de dominio, de datos y de relación}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introducción}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Modelo de dominio}{22}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Modelo de datos}{26}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Modelo relacional}{26}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Separación de datos}{28}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Usuarios}{28}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Anuncios de servicio}{30}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Colaboración}{32}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Comunicación}{34}{subsection.4.4.5}%
-\contentsline {chapter}{\numberline {5}Contribución}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Daniela-Nicoleta Boldureanu}{37}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Victoria Gnatiuk Romaniuk}{37}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Jesús Sánchez Granado}{38}{section.5.3}%
+\contentsline {chapter}{\numberline {4}Tecnologías utilizadas}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Node.js}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Angular}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}GitKraken}{22}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Pivotal tracker}{23}{section.4.4}%
+\contentsline {section}{\numberline {4.5}\LaTeX }{23}{section.4.5}%
+\contentsline {section}{\numberline {4.6}MySQL}{23}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Modelio}{24}{section.4.7}%
+\contentsline {section}{\numberline {4.8}MySQL Workbench}{24}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Modelos de dominio, de datos y de relación}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introducción}{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Modelo de dominio}{26}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Modelo de datos}{30}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Modelo relacional}{30}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Separación de datos}{32}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Usuarios}{32}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Anuncios de servicio}{34}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Colaboración}{36}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Comunicación}{38}{subsection.5.4.5}%
+\contentsline {chapter}{\numberline {6}DAO}{41}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusiones y trabajo futuro}{43}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introducción}{43}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Objetivos cumplidos}{43}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Problemas Encontrados}{44}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Trabajo Futuro}{45}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Conclusions and future work}{47}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introduction}{47}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Objectives completed}{47}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Problems Found}{48}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Future work}{49}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Contribución}{51}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Daniela-Nicoleta Boldureanu}{51}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Victoria Gnatiuk Romaniuk}{51}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Jesús Sánchez Granado}{53}{section.9.3}%

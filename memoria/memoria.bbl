@@ -15,6 +15,17 @@ David~Jiménez del Rey.
 \newblock {\em Directores: Ángeles Manjarrés Riesco UNED, Simon Pickin UCM.
   Titulación: Grado en Ingeniería Informática de la UNED. Octubre 2020}.
 
+\bibitem{node}
+David Herron.
+\newblock {\em Node.js Web Development: Server-side development with Node 10
+  made easy, 4th Edition}.
+\newblock Packt Publishing Ltd, 2018.
+
+\bibitem{angular}
+Greg Lim.
+\newblock {\em Beginning Angular 2 with Typescript}.
+\newblock CreateSpace Independent Publishing Platform, 2017.
+
 \bibitem{ref4}
 Héctor~Alonso Meana.
 \newblock Aplicación de soporte a una comunidad educativa interesada en el aps
