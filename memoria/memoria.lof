@@ -1,8 +1,17 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
+<<<<<<< HEAD
+=======
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Formulario de registro}}{11}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Formulario de creación de demanda}}{16}{figure.1.2}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Formulario de creación de ofertas}}{17}{figure.1.3}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Formulario de creación de partenariado: parte 1}}{18}{figure.1.4}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Formulario de creación de partenariado: parte 2}}{19}{figure.1.5}%
+>>>>>>> documentacion_Daniela_total
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces PivotalTracker: tareas}}{13}{figure.2.1}%
 \addvspace {10\p@ }
+<<<<<<< HEAD
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces GitKraken: Información de una rama de desarrollo}}{22}{figure.4.1}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Pivotal tracker: Estadísticas de historias}}{23}{figure.4.2}%
@@ -18,3 +27,5 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+=======
+>>>>>>> documentacion_Daniela_total

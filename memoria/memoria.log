@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  7 JUN 2021 19:08
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.10)  7 JUN 2021 16:53
+>>>>>>> documentacion_Daniela_total
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -329,6 +333,7 @@ LaTeX Info: Redefining \nameref on input line 22.
 \@outlinefile=\write3
 \openout3 = `memoria.out'.
 
+<<<<<<< HEAD
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -393,12 +398,39 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
  [4] (memoria.lof
+=======
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+ (memoria.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+)
+\tf@toc=\write4
+\openout4 = `memoria.toc'.
+
+ [1
+
+
+{C:/Users/Daniela/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+ [2
+
+] (memoria.lof
+>>>>>>> documentacion_Daniela_total
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write5
 \openout5 = `memoria.lof'.
 
+<<<<<<< HEAD
  [5
 
 ]
@@ -410,6 +442,30 @@ LaTeX Info: Redefining \% on input line 50.
 Cap\'{\i }tulo 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 54--57
+=======
+ [3]
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+ [4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 25--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--32
+>>>>>>> documentacion_Daniela_total
 
  []
 
@@ -418,6 +474,7 @@ LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
  [8]
 
+<<<<<<< HEAD
 LaTeX Warning: Reference `cap:matching' on page 9 undefined on input line 76.
 
 
@@ -435,6 +492,19 @@ LaTeX Info: Redefining \% on input line 79.
 Cap\'{\i }tulo 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 83--86
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 25--32
+
+ []
+
+[5]
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
+ [6
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
+>>>>>>> documentacion_Daniela_total
 
  []
 
@@ -443,10 +513,15 @@ LaTeX Info: Redefining \. on input line 106.
 LaTeX Info: Redefining \% on input line 106.
  [12]
 
+<<<<<<< HEAD
 LaTeX Warning: Reference `cap:matching' on page 13 undefined on input line 107.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
+>>>>>>> documentacion_Daniela_total
 
 
 
+<<<<<<< HEAD
 LaTeX Warning: Reference `cap:formularios' on page 13 undefined on input line 1
 08.
 
@@ -471,30 +546,112 @@ LaTeX Info: Redefining \% on input line 119.
 Cap\'{\i }tulo 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 121--124
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
+
+ []
+
+[7]
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+ [8
+
+]
+Cap\'{\i }tulo 1.
+
+LaTeX Warning: Reference `fig:registro' on page 9 undefined on input line 53.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--54
+>>>>>>> documentacion_Daniela_total
+
+ []
+
+
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 121--124
 
  []
 
 [15]
 Underfull \hbox (badness 10000) in paragraph at lines 138--158
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 43--54
+>>>>>>> documentacion_Daniela_total
 
  []
 
+[9]
+<registro.jpg, id=143, 426.84468pt x 484.81125pt>
+File: registro.jpg Graphic file (type jpg)
+<use registro.jpg>
+Package pdftex.def Info: registro.jpg  used on input line 58.
+(pdftex.def)             Requested size: 298.78925pt x 339.36555pt.
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 138--158
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 63--68
+>>>>>>> documentacion_Daniela_total
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 159--170
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 63--68
+>>>>>>> documentacion_Daniela_total
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 159--170
 
  []
@@ -503,20 +660,42 @@ LaTeX Info: Redefining \. on input line 170.
 LaTeX Info: Redefining \% on input line 170.
 [16]
 Underfull \hbox (badness 10000) in paragraph at lines 171--209
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 63--68
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 63--68
+>>>>>>> documentacion_Daniela_total
+
+ []
+
+
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 212--216
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 212--216
+=======
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+ [10]
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+
+[11 <./registro.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+>>>>>>> documentacion_Daniela_total
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 212--216
 
  []
@@ -543,6 +722,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--281
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 277--281
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+
+ []
+
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+>>>>>>> documentacion_Daniela_total
 
  []
 
@@ -553,11 +747,22 @@ File: gitkraken.png Graphic file (type png)
 Package pdftex.def Info: gitkraken.png  used on input line 297.
 (pdftex.def)             Requested size: 462.5198pt x 240.89572pt.
 
+<<<<<<< HEAD
 Overfull \hbox (35.72845pt too wide) in paragraph at lines 297--298
  [][] 
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+>>>>>>> documentacion_Daniela_total
  []
 
+<demanda.jpg, id=158, 365.11406pt x 563.10374pt>
+File: demanda.jpg Graphic file (type jpg)
+<use demanda.jpg>
+Package pdftex.def Info: demanda.jpg  used on input line 112.
+(pdftex.def)             Requested size: 328.59961pt x 506.7887pt.
 
+<<<<<<< HEAD
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 306.
@@ -591,20 +796,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--338
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 331--338
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
+
+ []
+
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+>>>>>>> documentacion_Daniela_total
+
+ []
+
+
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 331--338
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+>>>>>>> documentacion_Daniela_total
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 331--338
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+>>>>>>> documentacion_Daniela_total
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 331--338
 
  []
@@ -618,25 +852,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--342
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 340--342
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
+
+ []
+
+<oferta.jpg, id=164, 426.84468pt x 516.42938pt>
+File: oferta.jpg Graphic file (type jpg)
+<use oferta.jpg>
+Package pdftex.def Info: oferta.jpg  used on input line 139.
+(pdftex.def)             Requested size: 384.15666pt x 464.78215pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--147
+
+ []
+
+LaTeX Info: Redefining \. on input line 147.
+LaTeX Info: Redefining \% on input line 147.
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
+>>>>>>> documentacion_Daniela_total
+
+ []
+
+
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 353--374
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 353--374
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 160--164
+>>>>>>> documentacion_Daniela_total
+
+ []
+
+
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 353--374
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 160--164
+>>>>>>> documentacion_Daniela_total
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 353--374
 
  []
@@ -652,12 +935,16 @@ File: mdominio.png Graphic file (type png)
 <use mdominio.png>
 Package pdftex.def Info: mdominio.png  used on input line 376.
 (pdftex.def)             Requested size: 728.7096pt x 450.07353pt.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 160--164
+>>>>>>> documentacion_Daniela_total
 
 Overfull \hbox (54.37927pt too wide) in paragraph at lines 376--377
 [][] 
  []
 
 
+<<<<<<< HEAD
 LaTeX Warning: Float too large for page by 49.01135pt on input line 379.
 
 LaTeX Info: Redefining \. on input line 380.
@@ -676,48 +963,117 @@ LaTeX Info: Redefining \. on input line 387.
 LaTeX Info: Redefining \% on input line 387.
 [29 <./mdatos.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 390--392
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 160--164
+
+ []
+
+<partenariado1.jpg, id=169, 426.84468pt x 642.90187pt>
+File: partenariado1.jpg Graphic file (type jpg)
+<use partenariado1.jpg>
+Package pdftex.def Info: partenariado1.jpg  used on input line 168.
+(pdftex.def)             Requested size: 384.15666pt x 578.60634pt.
+<partenariado2.jpg, id=170, 431.81325pt x 564.30824pt>
+File: partenariado2.jpg Graphic file (type jpg)
+<use partenariado2.jpg>
+Package pdftex.def Info: partenariado2.jpg  used on input line 175.
+(pdftex.def)             Requested size: 388.62831pt x 507.87271pt.
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+[15]
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+ [16 <./demanda.jpg>]
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+ [17 <./oferta.jpg>]
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+ [18 <./partenariado1.jpg>]
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+
+[19 <./partenariado2.jpg>]
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+ [20
+
+]
+Cap\'{\i }tulo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--189
+>>>>>>> documentacion_Daniela_total
 
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (20.79448pt too wide) in paragraph at lines 398--403
 []\OT1/cmr/m/n/10.95 El pro-yec-to to-ma los es-ta-dos \OT1/cmtt/m/n/10.95 EN[]
 CREACION\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 ABIERTO[]PROFESORES\OT1/cmr/m/
 n/10.95 , \OT1/cmtt/m/n/10.95 ABIERTO[]ESTUDIANTES\OT1/cmr/m/n/10.95 ,
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 183--189
+
+>>>>>>> documentacion_Daniela_total
  []
 
 LaTeX Info: Redefining \. on input line 413.
 LaTeX Info: Redefining \% on input line 413.
 [30
 
+<<<<<<< HEAD
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 183--189
+>>>>>>> documentacion_Daniela_total
 
 
 
+<<<<<<< HEAD
 ]
 <er.png, id=464, 2818.53pt x 1855.93375pt>
 File: er.png Graphic file (type png)
 <use er.png>
 Package pdftex.def Info: er.png  used on input line 416.
 (pdftex.def)             Requested size: 704.63078pt x 463.9823pt.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 183--189
+>>>>>>> documentacion_Daniela_total
 
 Overfull \hbox (30.30046pt too wide) in paragraph at lines 416--417
  [][] 
  []
 
 
+<<<<<<< HEAD
 LaTeX Warning: Float too large for page by 62.92012pt on input line 419.
 
 LaTeX Info: Redefining \. on input line 420.
 LaTeX Info: Redefining \% on input line 420.
 [31 <./er.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 426--431
+=======
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [21]
+LaTeX Info: Redefining \. on input line 209.
+LaTeX Info: Redefining \% on input line 209.
+>>>>>>> documentacion_Daniela_total
+
+Overfull \hbox (28.7332pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 22 \OT1/cmr/m/sl/10.95 CAP[]ITULO 2.  MATCHING ENTRE OFERTA 
+DE SERVICIO Y DEMANDA DE SERVICIO
  []
 
+<<<<<<< HEAD
 LaTeX Info: Redefining \. on input line 431.
 LaTeX Info: Redefining \% on input line 431.
 [32
 
+=======
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 220--223
+>>>>>>> documentacion_Daniela_total
 
 ]
 <usuarios.jpg, id=475, 1084.05pt x 761.84625pt>
@@ -727,7 +1083,11 @@ Package pdftex.def Info: usuarios.jpg  used on input line 434.
 (pdftex.def)             Requested size: 650.43503pt x 457.11128pt.
 
 
+<<<<<<< HEAD
 LaTeX Warning: Float too large for page by 56.0491pt on input line 437.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 220--223
+>>>>>>> documentacion_Daniela_total
 
 LaTeX Info: Redefining \. on input line 438.
 LaTeX Info: Redefining \% on input line 438.
@@ -737,6 +1097,7 @@ LaTeX Info: Redefining \% on input line 449.
  [34
 
 
+<<<<<<< HEAD
 ]
 <anuncios.jpg, id=485, 1264.725pt x 632.3625pt>
 File: anuncios.jpg Graphic file (type jpg)
@@ -770,6 +1131,16 @@ File: comunicacion.jpg Graphic file (type jpg)
 <use comunicacion.jpg>
 Package pdftex.def Info: comunicacion.jpg  used on input line 477.
 (pdftex.def)             Requested size: 440.85039pt x 285.46869pt.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 220--223
+
+ []
+
+LaTeX Info: Redefining \. on input line 231.
+LaTeX Info: Redefining \% on input line 231.
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
+>>>>>>> documentacion_Daniela_total
 
 Overfull \hbox (14.05904pt too wide) in paragraph at lines 477--478
  [][] 
@@ -779,6 +1150,10 @@ LaTeX Info: Redefining \. on input line 482.
 LaTeX Info: Redefining \% on input line 482.
 [38
 
+<<<<<<< HEAD
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+>>>>>>> documentacion_Daniela_total
 
 ]
 LaTeX Info: Redefining \. on input line 482.
@@ -796,11 +1171,16 @@ LaTeX Info: Redefining \% on input line 515.
  [42]
 Cap\'{\i }tulo 7.
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 517--518
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+>>>>>>> documentacion_Daniela_total
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 517--518
 
  []
@@ -818,6 +1198,20 @@ LaTeX Info: Redefining \% on input line 551.
 Overfull \hbox (8.74542pt too wide) in paragraph at lines 558--560
 []\OT1/cmr/m/n/10.95 Agregar parame-tros op-cio-na-les en los for-mu-la-rios: 
 Ac-tual-men-te, al-gu-nos de los parame-
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+>>>>>>> documentacion_Daniela_total
  []
 
 LaTeX Info: Redefining \. on input line 563.
@@ -827,6 +1221,7 @@ LaTeX Info: Redefining \. on input line 563.
 LaTeX Info: Redefining \% on input line 563.
  [46
 
+<<<<<<< HEAD
 ]
 Cap\'{\i }tulo 8.
 
@@ -836,11 +1231,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 565--567
 
 [47]
 Underfull \hbox (badness 10000) in paragraph at lines 595--598
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+>>>>>>> documentacion_Daniela_total
+
+ []
+
+
+<<<<<<< HEAD
 Underfull \vbox (badness 1033) has occurred while \output is active []
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+>>>>>>> documentacion_Daniela_total
 
 LaTeX Info: Redefining \. on input line 601.
 LaTeX Info: Redefining \% on input line 601.
@@ -848,6 +1262,7 @@ LaTeX Info: Redefining \% on input line 601.
 LaTeX Info: Redefining \. on input line 609.
 LaTeX Info: Redefining \% on input line 609.
 
+<<<<<<< HEAD
 [49]
 LaTeX Info: Redefining \. on input line 609.
 LaTeX Info: Redefining \% on input line 609.
@@ -862,15 +1277,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 613--624
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 613--624
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+LaTeX Info: Redefining \. on input line 247.
+LaTeX Info: Redefining \% on input line 247.
+
+Overfull \hbox (28.7332pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 24 \OT1/cmr/m/sl/10.95 CAP[]ITULO 2.  MATCHING ENTRE OFERTA 
+DE SERVICIO Y DEMANDA DE SERVICIO
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+>>>>>>> documentacion_Daniela_total
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 613--624
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+>>>>>>> documentacion_Daniela_total
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 613--624
 
  []
@@ -890,10 +1326,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 626--639
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 626--639
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 259--261
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+
+Overfull \hbox (11.54237pt too wide) in paragraph at lines 270--272
+[]\OT1/cmr/m/n/10.95 Fin del pe-rio-do de dis-po-ni-bi-li-dad pa-ra tra-ba-jar 
+en la de-fi-ni-cion del pro-yec-to: 2021/09/07 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
+>>>>>>> documentacion_Daniela_total
+
+ []
+
+
+<<<<<<< HEAD
 Overfull \hbox (38.77065pt too wide) in paragraph at lines 626--639
 \OT1/cmr/bx/n/10.95 upload-anuncioservicio, mail, uploads-colaboracion, men-sa-
 je, mensaje-anuncioservicio
@@ -906,15 +1362,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 626--639
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 626--639
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
+
+ []
+
+LaTeX Info: Redefining \. on input line 280.
+LaTeX Info: Redefining \% on input line 280.
+[25]
+LaTeX Info: Redefining \. on input line 281.
+LaTeX Info: Redefining \% on input line 281.
+
+Overfull \hbox (28.7332pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 26 \OT1/cmr/m/sl/10.95 CAP[]ITULO 2.  MATCHING ENTRE OFERTA 
+DE SERVICIO Y DEMANDA DE SERVICIO
+ []
+
+[26]
+Cap\'{\i }tulo 3.
+
+LaTeX Warning: Reference `fig:usuarios' on page 27 undefined on input line 296.
+
+
+>>>>>>> documentacion_Daniela_total
+
+LaTeX Warning: Reference `fig:colaboracion' on page 27 undefined on input line 
+297.
+
+
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 626--639
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 295--300
+>>>>>>> documentacion_Daniela_total
 
  []
 
+[27
 
+<<<<<<< HEAD
 Overfull \hbox (14.22527pt too wide) in paragraph at lines 626--639
 \OT1/cmr/m/n/10.95 de-man-da de ser-vi-cio. Es-to, ademas de la crea-cion de 
 un fi-che-ro \OT1/cmr/m/it/10.95 crear-demanda.component.html
@@ -932,17 +1423,45 @@ LaTeX Info: Redefining \% on input line 1.
  [54]) [55
 
 ] (memoria.aux
+=======
+]
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--309
+
+ []
+
+LaTeX Info: Redefining \. on input line 309.
+LaTeX Info: Redefining \% on input line 309.
+[28]
+LaTeX Info: Redefining \. on input line 310.
+LaTeX Info: Redefining \% on input line 310.
+ [29] (memoria.aux
+>>>>>>> documentacion_Daniela_total
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
 Package rerunfilecheck Info: File `memoria.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: 7FBF1EE97D3EF35A1E59209F42FE1A81;2969.
+=======
+(rerunfilecheck)             Checksum: C34B8F9663F839F0BCCE2FE3434E6F3C;1276.
+>>>>>>> documentacion_Daniela_total
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  7544 strings out of 480235
  114840 string characters out of 2880541
  442835 words of memory out of 3000000
@@ -967,4 +1486,26 @@ PDF statistics:
  654 PDF objects out of 1000 (max. 8388607)
  137 named destinations out of 1000 (max. 500000)
  440 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 6961 strings out of 479697
+ 106745 string characters out of 2866182
+ 431851 words of memory out of 3000000
+ 23885 multiletter control sequences out of 15000+200000
+ 410107 words of font info for 49 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,7n,72p,1858b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Daniela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+rm1095.pk><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Daniela/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniela/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Daniela/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Danie
+la/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on memoria.pdf (29 pages, 505952 bytes).
+PDF statistics:
+ 271 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> documentacion_Daniela_total
 
