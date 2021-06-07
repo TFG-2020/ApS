@@ -1,68 +1,65 @@
-<<<<<<< HEAD
-\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Antecedentes}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Objetivos}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Plan de trabajo}{chapter.1}% 4
-\BOOKMARK [0][-]{chapter.2}{Introduction}{}% 5
-\BOOKMARK [1][-]{section.2.1}{Background}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.2}{Objectives}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.3}{Workplan}{chapter.2}% 8
-\BOOKMARK [0][-]{chapter.3}{Contexto de la propuesta}{}% 9
-\BOOKMARK [1][-]{section.3.1}{Introducci\363n}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.2}{Elementos que intervienen en un proyecto ApS}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.3}{Motivaci\363n}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.4}{TFG de partida}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.5}{Estudio tecnol\363gico}{chapter.3}% 14
-\BOOKMARK [0][-]{chapter.4}{Tecnolog\355as utilizadas}{}% 15
-\BOOKMARK [1][-]{section.4.1}{Node.js}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.2}{Angular}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.3}{GitKraken}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.4}{Pivotal tracker}{chapter.4}% 19
-\BOOKMARK [1][-]{section.4.5}{LaTeX}{chapter.4}% 20
-\BOOKMARK [1][-]{section.4.6}{MySQL}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.7}{Modelio}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.8}{MySQL Workbench}{chapter.4}% 23
-\BOOKMARK [0][-]{chapter.5}{Modelos de dominio, de datos y de relaci\363n}{}% 24
-\BOOKMARK [1][-]{section.5.1}{Introducci\363n}{chapter.5}% 25
-\BOOKMARK [1][-]{section.5.2}{Modelo de dominio}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.3}{Modelo de datos}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.4}{Modelo relacional}{chapter.5}% 28
-\BOOKMARK [2][-]{subsection.5.4.1}{Separaci\363n de datos}{section.5.4}% 29
-\BOOKMARK [2][-]{subsection.5.4.2}{Usuarios}{section.5.4}% 30
-\BOOKMARK [2][-]{subsection.5.4.3}{Anuncios de servicio}{section.5.4}% 31
-\BOOKMARK [2][-]{subsection.5.4.4}{Colaboraci\363n}{section.5.4}% 32
-\BOOKMARK [2][-]{subsection.5.4.5}{Comunicaci\363n}{section.5.4}% 33
-\BOOKMARK [0][-]{chapter.6}{DAO}{}% 34
-\BOOKMARK [0][-]{chapter.7}{Conclusiones y trabajo futuro}{}% 35
-\BOOKMARK [1][-]{section.7.1}{Introducci\363n}{chapter.7}% 36
-\BOOKMARK [1][-]{section.7.2}{Objetivos cumplidos}{chapter.7}% 37
-\BOOKMARK [1][-]{section.7.3}{Problemas Encontrados}{chapter.7}% 38
-\BOOKMARK [1][-]{section.7.4}{Trabajo Futuro}{chapter.7}% 39
-\BOOKMARK [0][-]{chapter.8}{Conclusions and future work}{}% 40
-\BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}% 41
-\BOOKMARK [1][-]{section.8.2}{Objectives completed}{chapter.8}% 42
-\BOOKMARK [1][-]{section.8.3}{Problems Found}{chapter.8}% 43
-\BOOKMARK [1][-]{section.8.4}{Future work}{chapter.8}% 44
-\BOOKMARK [0][-]{chapter.9}{Contribuci\363n}{}% 45
-\BOOKMARK [1][-]{section.9.1}{Daniela-Nicoleta Boldureanu}{chapter.9}% 46
-\BOOKMARK [1][-]{section.9.2}{Victoria Gnatiuk Romaniuk}{chapter.9}% 47
-\BOOKMARK [1][-]{section.9.3}{Jes\372s S\341nchez Granado}{chapter.9}% 48
-=======
 \BOOKMARK [0][-]{chapter*.3}{Resumen}{}% 1
-\BOOKMARK [0][-]{chapter*.4}{Abstract}{}% 2
-\BOOKMARK [0][-]{chapter.1}{Creaci\363n de formularios}{}% 3
-\BOOKMARK [1][-]{section.1.1}{Formulario de registro de usuarios}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.2}{Formulario para editar los datos de un usuario}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.3}{Formulario creaci\363n demanda de servicio}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.4}{Formulario creaci\363n oferta de servicio}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.5}{Formulario creaci\363n de partenariado profesor}{chapter.1}% 8
-\BOOKMARK [0][-]{chapter.2}{Matching entre oferta de servicio y demanda de servicio}{}% 9
-\BOOKMARK [1][-]{section.2.1}{Definici\363n del matching }{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.2}{Criterios de matching y anti matching}{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.1}{Criterios de matching }{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.2}{Criterios de anti matching }{section.2.2}% 13
-\BOOKMARK [1][-]{section.2.3}{Obtenci\363n del porcentaje final de matching}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.4}{Ejemplo de matching}{chapter.2}% 15
-\BOOKMARK [0][-]{chapter.3}{Contribuci\363n}{}% 16
-\BOOKMARK [1][-]{section.3.1}{Daniela-Nicoleta Boldureanu}{chapter.3}% 17
->>>>>>> documentacion_Daniela_total
+\BOOKMARK [0][-]{chapter*.4}{Palabras clave}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{Abstract}{}% 3
+\BOOKMARK [0][-]{chapter*.6}{Keywords}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Antecedentes}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Objetivos}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{Plan de trabajo}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{Introduction}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Background}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Objectives}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Workplan}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Contexto de la propuesta}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Introducci\363n}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Elementos que intervienen en un proyecto ApS}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{Motivaci\363n}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.4}{TFG de partida}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.5}{Estudio tecnol\363gico}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Tecnolog\355as utilizadas}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Node.js}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{Angular}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.3}{GitKraken}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.4}{Pivotal tracker}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.5}{LaTeX}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.6}{MySQL}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.7}{Modelio}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.8}{MySQL Workbench}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Modelos de dominio, de datos y de relaci\363n}{}% 28
+\BOOKMARK [1][-]{section.5.1}{Introducci\363n}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{Modelo de dominio}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.3}{Modelo de datos}{chapter.5}% 31
+\BOOKMARK [1][-]{section.5.4}{Modelo relacional}{chapter.5}% 32
+\BOOKMARK [2][-]{subsection.5.4.1}{Separaci\363n de datos}{section.5.4}% 33
+\BOOKMARK [2][-]{subsection.5.4.2}{Usuarios}{section.5.4}% 34
+\BOOKMARK [2][-]{subsection.5.4.3}{Anuncios de servicio}{section.5.4}% 35
+\BOOKMARK [2][-]{subsection.5.4.4}{Colaboraci\363n}{section.5.4}% 36
+\BOOKMARK [2][-]{subsection.5.4.5}{Comunicaci\363n}{section.5.4}% 37
+\BOOKMARK [0][-]{chapter.6}{DAO}{}% 38
+\BOOKMARK [0][-]{chapter.7}{Matching entre oferta de servicio y demanda de servicio}{}% 39
+\BOOKMARK [1][-]{section.7.1}{Definici\363n del matching }{chapter.7}% 40
+\BOOKMARK [1][-]{section.7.2}{Criterios de matching y antimatching}{chapter.7}% 41
+\BOOKMARK [2][-]{subsection.7.2.1}{Criterios de matching }{section.7.2}% 42
+\BOOKMARK [2][-]{subsection.7.2.2}{Criterios de antimatching }{section.7.2}% 43
+\BOOKMARK [1][-]{section.7.3}{Obtenci\363n del porcentaje final de matching}{chapter.7}% 44
+\BOOKMARK [1][-]{section.7.4}{Ejemplo de matching}{chapter.7}% 45
+\BOOKMARK [0][-]{chapter.8}{Creaci\363n de formularios}{}% 46
+\BOOKMARK [1][-]{section.8.1}{Formulario de registro de usuarios}{chapter.8}% 47
+\BOOKMARK [1][-]{section.8.2}{Formulario para editar los datos de un usuario}{chapter.8}% 48
+\BOOKMARK [1][-]{section.8.3}{Formulario creaci\363n demanda de servicio}{chapter.8}% 49
+\BOOKMARK [1][-]{section.8.4}{Formulario creaci\363n oferta de servicio}{chapter.8}% 50
+\BOOKMARK [1][-]{section.8.5}{Formulario creaci\363n de partenariado profesor}{chapter.8}% 51
+\BOOKMARK [0][-]{chapter.9}{Conclusiones y trabajo futuro}{}% 52
+\BOOKMARK [1][-]{section.9.1}{Introducci\363n}{chapter.9}% 53
+\BOOKMARK [1][-]{section.9.2}{Objetivos cumplidos}{chapter.9}% 54
+\BOOKMARK [1][-]{section.9.3}{Problemas Encontrados}{chapter.9}% 55
+\BOOKMARK [1][-]{section.9.4}{Trabajo Futuro}{chapter.9}% 56
+\BOOKMARK [0][-]{chapter.10}{Conclusions and future work}{}% 57
+\BOOKMARK [1][-]{section.10.1}{Introduction}{chapter.10}% 58
+\BOOKMARK [1][-]{section.10.2}{Objectives completed}{chapter.10}% 59
+\BOOKMARK [1][-]{section.10.3}{Problems Found}{chapter.10}% 60
+\BOOKMARK [1][-]{section.10.4}{Future work}{chapter.10}% 61
+\BOOKMARK [0][-]{chapter.11}{Contribuci\363n}{}% 62
+\BOOKMARK [1][-]{section.11.1}{Daniela-Nicoleta Boldureanu}{chapter.11}% 63
+\BOOKMARK [1][-]{section.11.2}{Victoria Gnatiuk Romaniuk}{chapter.11}% 64
+\BOOKMARK [1][-]{section.11.3}{Jes\372s S\341nchez Granado}{chapter.11}% 65
