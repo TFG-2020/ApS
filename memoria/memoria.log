@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.10)  13 JUN 2021 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.10)  13 JUN 2021 21:07
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -434,8 +434,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--51
  []
 
 [9]
-LaTeX Info: Redefining \. on input line 70.
-LaTeX Info: Redefining \% on input line 70.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
 
 Overfull \hbox (28.7332pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/10.95 10 \OT1/cmr/m/sl/10.95 CAP[]ITULO 1.  MATCHING ENTRE OFERTA 
@@ -575,56 +575,56 @@ DE SERVICIO Y DEMANDA DE SERVICIO
 [14]
 Cap\'{\i }tulo 2.
 
-LaTeX Warning: Reference `fig:registro' on page 15 undefined on input line 184.
+LaTeX Warning: Reference `fig:registro' on page 15 undefined on input line 183.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--185
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--185
+Underfull \hbox (badness 10000) in paragraph at lines 172--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--185
+Underfull \hbox (badness 10000) in paragraph at lines 172--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--185
+Underfull \hbox (badness 10000) in paragraph at lines 172--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--185
+Underfull \hbox (badness 10000) in paragraph at lines 172--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--185
+Underfull \hbox (badness 10000) in paragraph at lines 172--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--185
+Underfull \hbox (badness 10000) in paragraph at lines 172--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--185
+Underfull \hbox (badness 10000) in paragraph at lines 172--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--185
+Underfull \hbox (badness 10000) in paragraph at lines 172--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--185
+Underfull \hbox (badness 10000) in paragraph at lines 172--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--184
 
  []
 
@@ -634,53 +634,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--185
 <registro.jpg, id=177, 426.84468pt x 484.81125pt>
 File: registro.jpg Graphic file (type jpg)
 <use registro.jpg>
-Package pdftex.def Info: registro.jpg  used on input line 189.
+Package pdftex.def Info: registro.jpg  used on input line 188.
 (pdftex.def)             Requested size: 298.78925pt x 339.36555pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
+
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 191.
-LaTeX Info: Redefining \% on input line 191.
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
  [16]
-Underfull \hbox (badness 10000) in paragraph at lines 194--199
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--199
-
- []
-
-LaTeX Info: Redefining \. on input line 199.
-LaTeX Info: Redefining \% on input line 199.
 [17 <./registro.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 203--207
+
+LaTeX Warning: Reference `fig:demanda' on page 18 undefined on input line 204.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--207
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--207
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
 
  []
 
-LaTeX Info: Redefining \. on input line 220.
-LaTeX Info: Redefining \% on input line 220.
+LaTeX Info: Redefining \. on input line 223.
+LaTeX Info: Redefining \% on input line 223.
 [18]
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
@@ -696,9 +707,7 @@ File: demanda.jpg Graphic file (type jpg)
 Package pdftex.def Info: demanda.jpg  used on input line 239.
 (pdftex.def)             Requested size: 328.59961pt x 506.7887pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--247
-
- []
+LaTeX Warning: Reference `fig:oferta' on page 19 undefined on input line 245.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 244--247
@@ -710,8 +719,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--247
 
  []
 
-LaTeX Info: Redefining \. on input line 249.
-LaTeX Info: Redefining \% on input line 249.
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--247
+
+ []
+
+LaTeX Info: Redefining \. on input line 248.
+LaTeX Info: Redefining \% on input line 248.
 [19]
 Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
@@ -866,13 +880,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6970 strings out of 479697
- 106839 string characters out of 2866182
- 431851 words of memory out of 3000000
- 23890 multiletter control sequences out of 15000+200000
+ 6972 strings out of 479697
+ 106864 string characters out of 2866182
+ 432851 words of memory out of 3000000
+ 23892 multiletter control sequences out of 15000+200000
  411019 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,8n,72p,1883b,491s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,8n,72p,1883b,438s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Daniela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 rm1095.pk><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/type
@@ -887,7 +901,7 @@ s/Daniela/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb
 amsfonts/cm/cmsy10.pfb><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb><C:/Users/Daniela/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on memoria.pdf (29 pages, 553851 bytes).
+Output written on memoria.pdf (29 pages, 554182 bytes).
 PDF statistics:
  294 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)
