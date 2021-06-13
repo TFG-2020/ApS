@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.10)  13 JUN 2021 19:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.10)  13 JUN 2021 21:14
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -525,96 +525,96 @@ Ac-tual-men-te, al-gu-nos de los parame-
 LaTeX Info: Redefining \. on input line 182.
 LaTeX Info: Redefining \% on input line 182.
 [15]
-LaTeX Info: Redefining \. on input line 193.
-LaTeX Info: Redefining \% on input line 193.
+LaTeX Info: Redefining \. on input line 194.
+LaTeX Info: Redefining \% on input line 194.
  [16]
 Cap\'{\i }tulo 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
 
  []
 
 
 LaTeX Warning: Reference `cap:mod-relacional' on page 17 undefined on input lin
-e 198.
+e 199.
 
 
-LaTeX Warning: Reference `cap:matching' on page 17 undefined on input line 200.
+LaTeX Warning: Reference `cap:matching' on page 17 undefined on input line 201.
 
 
 
 LaTeX Warning: Reference `cap:formularios' on page 17 undefined on input line 2
-01.
+02.
 
 
-LaTeX Warning: Reference `fig:dominio' on page 17 undefined on input line 209.
+LaTeX Warning: Reference `fig:dominio' on page 17 undefined on input line 210.
 
 
-LaTeX Warning: Reference `fig:datos' on page 17 undefined on input line 209.
+LaTeX Warning: Reference `fig:datos' on page 17 undefined on input line 210.
 
 
 LaTeX Warning: Reference `fig:relacional' on page 17 undefined on input line 21
-1.
+2.
 
 [17
 
 ]
 
-LaTeX Warning: Reference `cap:matching' on page 18 undefined on input line 217.
+LaTeX Warning: Reference `cap:matching' on page 18 undefined on input line 218.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--228
+Underfull \hbox (badness 10000) in paragraph at lines 226--229
 
  []
 
-LaTeX Info: Redefining \. on input line 231.
-LaTeX Info: Redefining \% on input line 231.
+LaTeX Info: Redefining \. on input line 232.
+LaTeX Info: Redefining \% on input line 232.
 [18]
-LaTeX Info: Redefining \. on input line 242.
-LaTeX Info: Redefining \% on input line 242.
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
  [19]
-LaTeX Info: Redefining \. on input line 247.
-LaTeX Info: Redefining \% on input line 247.
+LaTeX Info: Redefining \. on input line 248.
+LaTeX Info: Redefining \% on input line 248.
  [20]
 Cap\'{\i }tulo 5.
 
 LaTeX Warning: Reference `fig:comunicacion' on page 21 undefined on input line 
-255.
+256.
 
 (memoria.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 250--1
+Underfull \hbox (badness 10000) in paragraph at lines 251--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--1
+Underfull \hbox (badness 10000) in paragraph at lines 251--1
 
  []
 
 
-Overfull \hbox (38.77065pt too wide) in paragraph at lines 250--1
+Overfull \hbox (38.77065pt too wide) in paragraph at lines 251--1
 \OT1/cmr/bx/n/10.95 upload-anuncioservicio, mail, uploads-colaboracion, men-sa-
 je, mensaje-anuncioservicio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--1
+Underfull \hbox (badness 10000) in paragraph at lines 251--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--1
+Underfull \hbox (badness 10000) in paragraph at lines 251--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--1
+Underfull \hbox (badness 10000) in paragraph at lines 251--1
 
  []
 
 
-Overfull \hbox (14.22527pt too wide) in paragraph at lines 250--1
+Overfull \hbox (14.22527pt too wide) in paragraph at lines 251--1
 \OT1/cmr/m/n/10.95 de-man-da de ser-vi-cio. Es-to, ademas de la crea-cion de 
 un fi-che-ro \OT1/cmr/m/it/10.95 crear-demanda.component.html
  []
@@ -657,7 +657,7 @@ s/Daniela/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.p
 fb><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmti10.pfb><C:/Users/Daniela/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmtt10.pfb>
-Output written on memoria.pdf (23 pages, 495428 bytes).
+Output written on memoria.pdf (23 pages, 495600 bytes).
 PDF statistics:
  287 PDF objects out of 1000 (max. 8388607)
  53 named destinations out of 1000 (max. 500000)
