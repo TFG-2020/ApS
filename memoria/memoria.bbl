@@ -1,19 +1,4 @@
-\begin{thebibliography}{10}
-
-\bibitem{ref6}
-Natalia Rodriguez-Fernández Angeles Manjarrés~Riesco, Simon James Pickin y
-  Héctor Alonso~Meana.
-\newblock Virtu@l-aps: Soporte tecnológico para el aprendizaje-servicio
-  virtual.
-\newblock {\em Revista Iboeroamericana de Educación a Distancia, Vol. 23,
-  Núm. 1, 2020}.
-
-\bibitem{ref5}
-David~Jiménez del Rey.
-\newblock Desarrollo de una comunidad web para el soporte virtual del
-  aprendizaje-servicio 3.
-\newblock {\em Directores: Ángeles Manjarrés Riesco UNED, Simon Pickin UCM.
-  Titulación: Grado en Ingeniería Informática de la UNED. Octubre 2020}.
+\begin{thebibliography}{1}
 
 \bibitem{node}
 David Herron.
@@ -25,44 +10,5 @@ David Herron.
 Greg Lim.
 \newblock {\em Beginning Angular 2 with Typescript}.
 \newblock CreateSpace Independent Publishing Platform, 2017.
-
-\bibitem{marti2002tratamiento}
-M.A. Mart{\'\i}, M.A.M. Anton{\'\i}n, J.L. Boix, and J.~Llisterri.
-\newblock {\em Tratamiento del lenguaje natural: tecnolog{\'\i}a de la lengua
-  oral y escrita}.
-\newblock Colecci{\'o}n UB. Universitat de Barcelona, 2002.
-
-\bibitem{ref4}
-Héctor~Alonso Meana.
-\newblock Aplicación de soporte a una comunidad educativa interesada en el aps
-  virtual.
-\newblock {\em Directores: Ángeles Manjarrés Riesco UNED, Simon Pickin UCM.
-  Titulación: Grado en Ingeniería Informática de la UNED. Junio 2018}.
-
-\bibitem{ref1}
-Emmanuel Parmentier.
-\newblock Diseño e implementación de un servicio de conexión de la oferta y
-  la demanda de proyectos de fin de carrera de cooperación.
-\newblock {\em Director: Carlos Mataix UPM Titulación: Ingeniería Industrial
-  de la UPM. 2004}.
-
-\bibitem{rego2015aprendizaje}
-M.{\'A}.S. Rego, A.S. Losada, and M.L. Moledo.
-\newblock {\em Aprendizaje-servicio y misi{\'o}n c{\'\i}vica de la universidad:
-  Una propuesta de desarrollo}.
-\newblock Ediciones Octaedro, 2015.
-
-\bibitem{ref3}
-Natalia Rodriguez.
-\newblock Virtu@l-aps.
-\newblock {\em Director: Juan García Gutierrez, UNED. Titulación: Grado en
-  Educación Social. 2017}.
-
-\bibitem{ref2}
-Sol~Lozano Serrano.
-\newblock Desarrollo de una comunidad virtual de profesores en el Ámbito de la
-  educación para el desarrollo humano y sostenible.
-\newblock {\em Directores: Ángeles Manjarrés Riesco UNED, Simon Pickin UCM.
-  Titulación: Ingeniería Informática de la UNED. Sept. 2015}.
 
 \end{thebibliography}
