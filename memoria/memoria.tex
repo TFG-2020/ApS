@@ -186,7 +186,7 @@ A continuación, se hablará sobre las tecnologías utilizadas explicando brevem
 			\item tutor CA: Este usuario corresponde a los tutores de los centros asociados a la UNED y por ello tendrá los mismos permisos que un profesor interno.
 		\end{itemize}
 Con estos dos nuevos usuarios, cambia también la jerarquía de clases en lo que a profesores respecta. Ahora colaborador y profesor externo heredan de la clase Promotor externo, y profesor interno y tutor CA heredan de la clase promotor interno. Tanto promotor interno como promotor externo heredan de promotor, y aunque estos cambios se pueden ver en el modelo de datos, todavía no han sido realizados en la base de datos, por lo que deberán realizarse estos cambios.
-	    \item Añadir a la izquierda de los campos de los formularios una opción para obtener más información sobre cada uno de ellos.
+	    \item Añadir a la izquierda de los campos de los formularios una opción para obtener más información sobre cada uno de ellos: De esta forma si un usuario no termina de entender que se le está pidiendo en cada caso, tendrá una explicación más concreta de que debería poner en ese campo.
 	    \item Implementar la obtención de las coincidencias entre las titulaciones que el socio comunitario ha propuesto como posibles y las titulaciones a las que pertenecen la/s asignatura/s identificadas en la oferta como asignatura/s objetivo.
 	\end{itemize}
 	
@@ -243,6 +243,8 @@ Con estos dos nuevos usuarios, cambia también la jerarquía de clases en lo que
 			\item CA tutor: this user corresponds to the tutors of the centers associated with UNED and will have the same permissions as an internal teacher.
 		\end{itemize}
 The arrival of these new users also changes the class hierarchy for the teachers. Now colaborator and external teacher inherit from the class external promoter, and internal teacher and CA tutor inherit from the class internal promoter. Both promoters inherit from the class promoter, and even though these changes can already be seen in the data model, have yet to be implemented on the database. 
+			\item Add a ``more information'' option at the left of the form's fields: This way, if the user is not entirely sure about what to write in a field, he will have an explanation available.
+			\item Implement the obtention of the coincidences between the degrees the community partner has selected as posibles and the degrees to which the offer's target subjects belong.
 	\end{itemize}
 	
 	\chapter{Contribución}
