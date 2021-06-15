@@ -12,7 +12,8 @@
 \contentsline {section}{\numberline {2.1}Formulario de registro de usuarios}{15}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Formulario para editar los datos de un usuario}{17}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Formulario creación demanda de servicio}{18}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Formulario creación oferta de servicio}{19}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Formulario creación de partenariado profesor}{20}{section.2.5}%
+\contentsline {section}{\numberline {2.4}Formulario creación oferta de servicio}{20}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Formulario creación de partenariado profesor}{21}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Formulario creación de partenariado socio comunitario}{22}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Contribución}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Daniela-Nicoleta Boldureanu}{27}{section.3.1}%
