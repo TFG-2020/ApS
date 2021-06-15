@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  15 JUN 2021 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  15 JUN 2021 18:36
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -951,6 +951,12 @@ en la de-fi-ni-cion del pro-yec-to: 2021/09/07
  []
 
 
+Overfull \hbox (17.07964pt too wide) in paragraph at lines 671--673
+[]\OT1/cmr/m/n/10.95 Fin del pe-rio-do de dis-po-ni-bi-li-dad pa-ra tra-ba-jar 
+en la rea-li-za-cion del pro-yec-to: 2021/12/01 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 675--677
 
  []
@@ -1402,11 +1408,11 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  7672 strings out of 480235
  116375 string characters out of 2880541
- 450249 words of memory out of 3000000
+ 450245 words of memory out of 3000000
  23911 multiletter control sequences out of 15000+200000
  544448 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,66p,1918b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,8n,66p,1916b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\vikto\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1095.pk><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -1426,9 +1432,9 @@ blic/amsfonts/cm/cmti10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts
 eX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/vikto/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/vikto/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on memoria.pdf (83 pages, 2508911 bytes).
+Output written on memoria.pdf (83 pages, 2509061 bytes).
 PDF statistics:
- 933 PDF objects out of 1000 (max. 8388607)
+ 934 PDF objects out of 1000 (max. 8388607)
  190 named destinations out of 1000 (max. 500000)
  609 words of extra memory for PDF output out of 10000 (max. 10000000)
 
