@@ -103,7 +103,7 @@
 	\section{Antecedentes}
 	Este trabajo parte del TFG de David Jiménez del Rey, que se desarrolló en la UNED (\emph{Universidad Nacional de Educación a Distancia}) bajo la tutela de Ángeles Manjarrés Riesco y Simon Pickin. Todos los requisitos del TFG nos han sido dados por nuestros directores que actuaban como clientes del proyecto. Esto implica que el funcionamiento de todos los elementos que intervienen en el TFG han sido definidos por nuestros directos junto a colaboradores entendidos en la materia. El proyecto ha sido desarrollado con tecnologías como Node.js, Angular, Express y MySQL.\\
 	La plataforma web desarrollada en este proyecto tiene como objetivo ayudar a crear, gestionar y evaluar proyectos ApS. Un proyecto ApS es una práctica académica en la que el alumno aplica las habilidades teóricas aprendidas en las clases en el mundo real, ayudando a su comunidad con todo tipo de tareas. La actividad es planteada y gestionada por uno o varios profesores y un socio comunitario, que es una empresa que está interesada en desarrollar estos proyectos. Al acabar la actividad, el alumno es evaluado por los profesores y es motivado a reflexionar sobre los servicios prestados, con el objetivo de fortalecer la solidaridad y la ética del alumno. \\
-	El principal problema de los ApS es acordar los proyectos entre el socio comunitario y los profesores, ya que cada uno tiene una idea muy diferente del proyecto. Aunque el socio comunitario y el profesor quisieran desarrollar el mismo proyecto, lo plantean de formas muy diferentes y es por esto por lo que es difícil emparejarlos. Esta fue la principal motivación de los profesores que empezaron el planteamiento de este proyecto en el 2004. En el capítulo \ref{cap:contexto} se explica con más detalle que es un proyecto ApS.\\
+	El principal problema de los ApS es acordar los proyectos entre el socio comunitario y los profesores, ya que cada uno tiene una idea muy diferente del proyecto. Aunque el socio comunitario y el profesor quisieran desarrollar el mismo proyecto, lo plantean de formas muy diferentes y es por esto por lo que es difícil emparejarlos. Esta fue la principal motivación de los profesores que empezaron el planteamiento de un proyecto similar en el año 2004. En el capítulo \ref{cap:contexto} se explica con más detalle que es un proyecto ApS.\\
 	\section{Objetivos}
 	Partiendo del trabajo anterior, nuestros objetivos principales en este TFG fueron continuar el proyecto remodelando la base de datos, rediseñando la aplicación y creando un sistema de emparejamiento de los proyectos planteados por un profesor y los planteados por un socio comunitario.
 	A continuación, se listan los objetivos de este TFG.
@@ -216,8 +216,7 @@
 	siempre en el contexto de PFC/TFG. El desarrollo de una tal aplicación
 	requiere una alta dedicación y no tiene valor de investigación
 	tecnológica, de modo que los profesores técnicamente cualificados no
-	tienen disponibilidad para abordarlo.\\\\
-	
+	tienen disponibilidad para abordarlo.\\\\	
 	El PFC de Ingeniería Industrial de la
 	UPM (\emph{Universidad Politécnica de Madrid}) \cite{ref1} fue el primer intento, según
 	nuestro conocimiento, de desarrollar una aplicación para el soporte de
@@ -235,8 +234,7 @@
 	avance hacia el objetivo. Aunque el propósito del PFC \cite{ref1} y del TFG \cite{ref2}
 	fue el soporte de la definición de PFC/TFG de cooperación, este objetivo
 	puede verse como un caso particular del soporte de proyectos ApS y la
-	plataforma informática necesaria es prácticamente idéntica en los dos casos.
-	\\\\
+	plataforma informática necesaria es prácticamente idéntica en los dos casos.\\\\
 	Se retomó la iniciativa de \cite{ref2} en el contexto de una colaboración entre
 	la UCM y el grupo de investigación en innovación docente COETIC (“Grupo
 	de Innovación Docente de la UNED para el Desarrollo de la Competencia
@@ -255,9 +253,7 @@
 	MySQL por MongoDB no se debía a razones técnicas sino a razones de
 	conveniencia y familiaridad del desarrollador. Aunque los títulos de \cite{ref4}
 	y \cite{ref5} hacen referencia al ApS Virtual, la aplicación desarrollada está
-	pensada para dar servicio a toda la comunidad de ApS.
-	
-	
+	pensada para dar servicio a toda la comunidad de ApS.	
 	\section{TFG de partida}
 	El TFG de David Jiménez presentaba una base a partir de la cual hemos partido para desarrollar nuestra parte de este proyecto. Partiendo del TFG anterior que estaba desarrollado en Angular y Node.js, David Jiménez siguió desarrollando la aplicación hasta conseguir un prototipo de la futura aplicación.\\\\
 	David Jiménez implementó las páginas de registro, \textit{login}, perfil, iniciativa y partenariado. También incluyó diferentes perfiles como el \textit{admin}, el socio comunitario, el profesor y el alumno.\\\\
@@ -292,6 +288,10 @@
 		\begin{itemize} 
 			\item GitHub es un repositorio gratuito que permite almacenar todos los archivos relacionados con un proyecto y mantenerlos de forma colaborativa con otros usuarios. Se ha decidido utilizar GitHub por su integración con Git.
 			\item Google Drive es un contenedor gratuito que permite almacenar cualquier fichero y compartirlo con los demás. En un principio se estudió utilizar para guardar los \textit{Backups} pero se acabó descartando. Al final se ha utilizado para almacenar todo tipo de documentos relacionados con el TFG, excepto el código fuente de la aplicación.
+		\end{itemize}
+		\item Herramientas para : 
+		\begin{itemize} 
+			\item GitKraken es un cliente de Git con interfaz de usuario gráfica que ayuda a tener una imagen del código del proyecto, a usar todos los comandos de Git a través de botones y a resolver conflictos al mezclar los códigos de dos ramas. 
 		\end{itemize}
 		\item Herramientas de organización: 
 		\begin{itemize} 
@@ -330,7 +330,7 @@
 	Otro motivo para continuar con esta tecnología es que Daniela ya tenía conocimiento previo de este entorno y es una tecnología que venía impuesta por el proyecto.
 	
 	\section{Angular}
-	Angular \cite{angular} es un \emph{framework} para la construcción de SPA (\textit{Singl Page Application}) o aplicaciones de página única que utiliza HTML y Typescript. Angular sigue el patrón modelo-vista-controlador, el cual consiste en separar la aplicación en tres partes:
+	Angular \cite{angular} es un \emph{framework} para la construcción de SPA (\textit{Single Page Application}) o aplicaciones de página única que utiliza HTML y Typescript. Angular sigue el patrón modelo-vista-controlador, el cual consiste en separar la aplicación en tres partes:
 	\begin{itemize}
 		\item Modelo: Es la piedra angular del patrón, se encarga de manejar los datos y la lógica de la aplicación.
 		\item Vista: Es la parte que se le muestra al usuario.
@@ -378,8 +378,8 @@
 	\chapter{Modelos de dominio, de datos y de relación}\label{cap:modelos}
 	
 	\section{Introducción}
-	Al empezar con el proyecto, junto con nuestros directores, nos hemos dado cuenta de que la aplicación necesitaba ser definida de una forma más detallada. En TFGs anteriores se entendía que los profesores y las entidades definían los proyectos de la misma forma, pero esto no es así. Las entidades tienen un problema en mente que quieren resolver, pero no saben cómo adaptarlo a un proyecto estudiantil. Los profesores, por su parte, tienen una idea abstracta del problema que quieren resolver. Normalmente tienen ciertos conocimientos académicos los cuales quieren aplicar para mejorar el mundo, pero la necesidad social en cuestión no suele estar muy clara.\\\\
-	En el TFG precedente se creó un elemento llamado \emph{Iniciativa} que almacenaba algunas de las características generales que comparten las propuestas del profesor y el socio comunitario. La \emph{Iniciativa} derivaba en un formulario que se les ofrecía a las entidades y a los profesores, pero las entidades y los profesores no plantean los problemas de la misma manera. Las entidades tienen una idea de proyecto clara pero no saben cómo orientarlo al mundo académico y los profesores tienen una idea de proyecto abstracta y lo plantean con el objetivo de encajar en un plan académico, es por esto por lo que no es apropiado utilizar el mismo formulario para ambos.\\\\
+	Al empezar con el proyecto, junto con nuestros directores, nos hemos dado cuenta de que la aplicación necesitaba ser definida de una forma más detallada. En TFGs anteriores se entendía que los profesores y los socios comunitarios definían los proyectos de la misma forma, pero esto no es así. Los socios comunitarios tienen un problema en mente que quieren resolver, pero no saben cómo adaptarlo a un proyecto estudiantil. Los profesores, por su parte, tienen una idea abstracta del problema que quieren resolver. Normalmente tienen ciertos conocimientos académicos los cuales quieren aplicar para mejorar el mundo, pero la necesidad social en cuestión no suele estar muy clara.\\\\
+	En el TFG precedente se creó un elemento llamado \emph{Iniciativa} que almacenaba algunas de las características generales que comparten las propuestas del profesor y el socio comunitario. La \emph{Iniciativa} derivaba en un formulario que se les ofrecía a los socios comunitarios y a los profesores, pero los socios comunitarios y los profesores no plantean los problemas de la misma manera. Los socios comunitarios tienen una idea de proyecto clara pero no saben cómo orientarlo al mundo académico y los profesores tienen una idea de proyecto abstracta y lo plantean con el objetivo de encajar en un plan académico, es por esto por lo que no es apropiado utilizar el mismo formulario para ambos.\\\\
 	Para definir con precisión el funcionamiento correcto y completo de la aplicación, se ha creado un modelo de dominio y un modelo de datos.
 	Estos modelos nos permitirán entender acertadamente el funcionamiento de la aplicación, pero lo que es más importante, permitirán transmitir dicho funcionamiento e idea general a otras personas que trabajarán en este proyecto después de nosotros.\\\\
 	Gracias al modelo de dominio podemos entender qué elementos intervienen y cómo interactúan entre sí, además de las restricciones que se presentan en sus interacciones.\\\\
@@ -401,7 +401,7 @@
 		\item La Oficina APS es un usuario responsable de todos los trámites relacionados con la gestión de los proyectos ApS. 
 	\end{itemize}
 	Todo proyecto tiene que definirse en el contexto de un partenariado y este partenariado se puede originar de varias maneras. \\
-	Una de ellas es a partir de una oferta de servicio y una demanda de servicio. En este caso el partenariado puede surgir porque una de las dos partes decida aliarse con la otra buscándolo manualmente en la plataforma o porque el sistema de \textit{matching} sugiera la unión de ambas partes.
+	Una de ellas es a partir de una oferta de servicio y una demanda de servicio creadas previamente. En este caso el partenariado puede surgir porque una de las dos partes decida aliarse con la otra buscándolo manualmente en la plataforma o porque el sistema de \textit{matching} sugiera la unión de ambas partes.
 	Otra forma es mediante la creación de lo que llamamos partenariados ``monoparentales'', es decir, partenariados
 	creados cuando un socio comunitario acepta una oferta creada por un
 	profesor sin haber creado previamente una demanda, o cuando un profesor
@@ -411,11 +411,11 @@
 	(resp. la demanda) y se utilizará un atributo de la oferta y de la
 	demanda para almacenar la naturaleza ``monoparental'' del partenariado.\\\\
 	En general una demanda de servicio es creada por un socio comunitario, pero puede llegar a crearse gracias a un estudiante, el cual previamente ha tenido que crear una iniciativa. Una iniciativa es una propuesta de proyecto de un estudiante, la cual es acogida por un socio comunitario después de haber sido aprobada por la oficina ApS. Cuando el socio comunitario acoge dicha iniciativa, esta se convierte en una demanda de servicio.\\
-	Debido a que los proyectos definidos por los profesores y los definidos por las entidades comparten ciertas características, podemos ver en el diagrama que ambos cuelgan de un elemento padre llamado \textbf{Anuncio de servicio} que posee las características comunes de ambos.
+	Debido a que los proyectos definidos por los profesores y los definidos por los socios comunitarios comparten ciertas características, podemos ver en el diagrama que ambos cuelgan de un elemento padre llamado \textbf{Anuncio de servicio} que posee las características comunes de ambos.
 	Lo mismo ocurre con \textbf{partenariado} y \textbf{proyecto} que cuelgan de \textbf{Colaboración Uni-Soc}.\\
 	Queremos destacar que los atributos de \textbf{Necesidad social} y \textbf{Area de implementación}, tan importantes para emparejar ofertas y demandas, han sido obtenidos de la página web \url{www.eoslhe.eu/resources/}
 	Los partenariados y los proyectos presentan ciertas restricciones relacionadas con la participación de alumnos y promotores externos.\\\\
-	En los proyectos solo pueden participar estudiantes externos si el responsable del proyecto acepta estudiantes externos. 
+	En los proyectos solo pueden participar estudiantes externos si el responsable del proyecto comunica a la aplicación que se aceptan estudiantes externos. 
 	Los profesores externos solo pueden participar en aquellos partenariados y proyectos que los acepten. Además, en el caso de un proyecto, un participante solo puede tener el
 	perfil de profesor externo si también participan alumnos externos de su
 	universidad, cuya participación tendrá que evaluar; en otro caso, tendrá

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  7 JUN 2021 21:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  12 JUN 2021 14:48
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -550,42 +550,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--208
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--220
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--220
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
 
  []
 
-LaTeX Info: Redefining \. on input line 220.
-LaTeX Info: Redefining \% on input line 220.
+LaTeX Info: Redefining \. on input line 257.
+LaTeX Info: Redefining \% on input line 257.
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 221--259
+Underfull \hbox (badness 10000) in paragraph at lines 258--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--266
+Underfull \hbox (badness 10000) in paragraph at lines 258--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--266
+Underfull \hbox (badness 10000) in paragraph at lines 258--262
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--266
-
- []
-
-LaTeX Info: Redefining \. on input line 266.
-LaTeX Info: Redefining \% on input line 266.
+LaTeX Info: Redefining \. on input line 262.
+LaTeX Info: Redefining \% on input line 262.
 [25]
-LaTeX Info: Redefining \. on input line 295.
-LaTeX Info: Redefining \% on input line 295.
+LaTeX Info: Redefining \. on input line 291.
+LaTeX Info: Redefining \% on input line 291.
  [26]
 LaTeX Info: Redefining \. on input line 323.
 LaTeX Info: Redefining \% on input line 323.
@@ -607,7 +602,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--331
  []
 
 [29]
-<gitkraken.png, id=546, 1156.32pt x 602.25pt>
+<gitkraken.png, id=547, 1156.32pt x 602.25pt>
 File: gitkraken.png Graphic file (type png)
 <use gitkraken.png>
 Package pdftex.def Info: gitkraken.png  used on input line 347.
@@ -623,7 +618,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 356.
 LaTeX Info: Redefining \% on input line 356.
  [30 <./gitkraken.png>]
-<pivotal.png, id=554, 766.062pt x 417.9615pt>
+<pivotal.png, id=555, 766.062pt x 417.9615pt>
 File: pivotal.png Graphic file (type png)
 <use pivotal.png>
 Package pdftex.def Info: pivotal.png  used on input line 359.
@@ -707,7 +702,7 @@ LaTeX Info: Redefining \% on input line 424.
 LaTeX Info: Redefining \. on input line 424.
 LaTeX Info: Redefining \% on input line 424.
  [35]
-<mdominio.png, id=580, 1821.80624pt x 1125.20375pt>
+<mdominio.png, id=581, 1821.80624pt x 1125.20375pt>
 File: mdominio.png Graphic file (type png)
 <use mdominio.png>
 Package pdftex.def Info: mdominio.png  used on input line 426.
@@ -723,7 +718,7 @@ LaTeX Warning: Float too large for page by 49.01135pt on input line 429.
 LaTeX Info: Redefining \. on input line 430.
 LaTeX Info: Redefining \% on input line 430.
 [36 <./mdominio.png (PNG copy)>]
-<mdatos.png, id=585, 1821.80624pt x 1391.1975pt>
+<mdatos.png, id=586, 1821.80624pt x 1391.1975pt>
 File: mdatos.png Graphic file (type png)
 <use mdatos.png>
 Package pdftex.def Info: mdatos.png  used on input line 433.
@@ -754,7 +749,7 @@ LaTeX Info: Redefining \% on input line 463.
 
 
 ]
-<er.png, id=597, 2818.53pt x 1855.93375pt>
+<er.png, id=598, 2818.53pt x 1855.93375pt>
 File: er.png Graphic file (type png)
 <use er.png>
 Package pdftex.def Info: er.png  used on input line 466.
@@ -780,7 +775,7 @@ LaTeX Info: Redefining \% on input line 481.
 
 
 ]
-<usuarios.jpg, id=607, 1084.05pt x 761.84625pt>
+<usuarios.jpg, id=608, 1084.05pt x 761.84625pt>
 File: usuarios.jpg Graphic file (type jpg)
 <use usuarios.jpg>
 Package pdftex.def Info: usuarios.jpg  used on input line 484.
@@ -798,7 +793,7 @@ LaTeX Info: Redefining \% on input line 499.
 
 
 ]
-<anuncios.jpg, id=617, 1264.725pt x 632.3625pt>
+<anuncios.jpg, id=618, 1264.725pt x 632.3625pt>
 File: anuncios.jpg Graphic file (type jpg)
 <use anuncios.jpg>
 Package pdftex.def Info: anuncios.jpg  used on input line 501.
@@ -817,7 +812,7 @@ LaTeX Info: Redefining \% on input line 511.
 
 
 ]
-<colaboracion.jpg, id=628, 918.43124pt x 572.1375pt>
+<colaboracion.jpg, id=629, 918.43124pt x 572.1375pt>
 File: colaboracion.jpg Graphic file (type jpg)
 <use colaboracion.jpg>
 Package pdftex.def Info: colaboracion.jpg  used on input line 513.
@@ -825,7 +820,7 @@ Package pdftex.def Info: colaboracion.jpg  used on input line 513.
 LaTeX Info: Redefining \. on input line 517.
 LaTeX Info: Redefining \% on input line 517.
  [45 <./colaboracion.jpg>]
-<comunicacion.jpg, id=634, 734.745pt x 475.7775pt>
+<comunicacion.jpg, id=635, 734.745pt x 475.7775pt>
 File: comunicacion.jpg Graphic file (type jpg)
 <use comunicacion.jpg>
 Package pdftex.def Info: comunicacion.jpg  used on input line 527.
@@ -1082,7 +1077,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 670--681
 [57
 
 ]
-<registro.jpg, id=689, 426.84468pt x 484.81125pt>
+<registro.jpg, id=690, 426.84468pt x 484.81125pt>
 File: registro.jpg Graphic file (type jpg)
 <use registro.jpg>
 Package pdftex.def Info: registro.jpg  used on input line 686.
@@ -1143,7 +1138,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 735--736
 
  []
 
-<demanda.jpg, id=702, 365.11406pt x 563.10374pt>
+<demanda.jpg, id=703, 365.11406pt x 563.10374pt>
 File: demanda.jpg Graphic file (type jpg)
 <use demanda.jpg>
 Package pdftex.def Info: demanda.jpg  used on input line 740.
@@ -1203,7 +1198,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 761--763
 
  []
 
-<oferta.jpg, id=708, 426.84468pt x 516.42938pt>
+<oferta.jpg, id=709, 426.84468pt x 516.42938pt>
 File: oferta.jpg Graphic file (type jpg)
 <use oferta.jpg>
 Package pdftex.def Info: oferta.jpg  used on input line 767.
@@ -1258,7 +1253,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 788--792
 LaTeX Info: Redefining \. on input line 792.
 LaTeX Info: Redefining \% on input line 792.
 [63]
-<partenariado1.jpg, id=717, 373.395pt x 642.90187pt>
+<partenariado1.jpg, id=718, 373.395pt x 642.90187pt>
 File: partenariado1.jpg Graphic file (type jpg)
 <use partenariado1.jpg>
 Package pdftex.def Info: partenariado1.jpg  used on input line 796.
@@ -1267,7 +1262,7 @@ Package pdftex.def Info: partenariado1.jpg  used on input line 796.
 
 LaTeX Warning: Float too large for page by 58.5931pt on input line 798.
 
-<partenariado2.jpg, id=718, 431.81325pt x 564.30824pt>
+<partenariado2.jpg, id=719, 431.81325pt x 564.30824pt>
 File: partenariado2.jpg Graphic file (type jpg)
 <use partenariado2.jpg>
 Package pdftex.def Info: partenariado2.jpg  used on input line 803.
@@ -1461,8 +1456,8 @@ Package rerunfilecheck Info: File `memoria.out' has not changed.
 (rerunfilecheck)             Checksum: 0E795129481B85199627F7C39B9E2E9C;4239.
  ) 
 Here is how much of TeX's memory you used:
- 7654 strings out of 480235
- 116258 string characters out of 2880541
+ 7655 strings out of 480235
+ 116265 string characters out of 2880541
  448939 words of memory out of 3000000
  23900 multiletter control sequences out of 15000+200000
  543765 words of font info for 57 fonts, out of 3000000 for 9000
@@ -1481,9 +1476,9 @@ ikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C
 :/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
 10.pfb><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmtt10.pfb>
-Output written on memoria.pdf (83 pages, 2463662 bytes).
+Output written on memoria.pdf (83 pages, 2463984 bytes).
 PDF statistics:
- 904 PDF objects out of 1000 (max. 8388607)
- 188 named destinations out of 1000 (max. 500000)
+ 905 PDF objects out of 1000 (max. 8388607)
+ 189 named destinations out of 1000 (max. 500000)
  601 words of extra memory for PDF output out of 10000 (max. 10000000)
 
