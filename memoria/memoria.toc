@@ -38,12 +38,12 @@
 \contentsline {subsection}{\numberline {5.4.5}Comunicación}{46}{subsection.5.4.5}%
 \contentsline {chapter}{\numberline {6}DAO}{49}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Matching entre oferta de servicio y demanda de servicio}{51}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Definición del matching }{51}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Criterios de matching y anti matching}{52}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Criterios de matching }{52}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Criterios de anti matching }{53}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Obtención del porcentaje final de matching}{54}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Ejemplo de matching}{55}{section.7.4}%
+\contentsline {section}{\numberline {7.1}Definición del \textit {matching} }{51}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Criterios de \textit {matching} y \textit {antimatching}}{52}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Criterios de \textit { matching} }{52}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Criterios de \textit { antimatching} }{53}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}Obtención del porcentaje final de \textit { matching}}{54}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Ejemplo de \textit { matching}}{55}{section.7.4}%
 \contentsline {chapter}{\numberline {8}Creación de formularios}{57}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Formulario de registro de usuarios}{57}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Formulario para editar los datos de un usuario}{59}{section.8.2}%
